@@ -1,0 +1,42 @@
+$button-animation-speed: 2 * $transition-duration;
+
+.button {
+  @include buttonColor(default);
+
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  display: inline-block;
+  font-family: $font-family-menu;
+  font-size: pxToEm($h6-size);
+  line-height: 1.2em;
+  margin: 1rem;
+  outline: none;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all $transition-duration ease-in-out;
+
+  &.filled {
+    border: 0;
+  }
+
+  &.rounded {
+    border-radius: 5em;
+  }
+
+  // add in other state-colors
+  @each $state,
+  $stateColors in $button-colors {
+    &.#{$state} {
+      @include buttonColor($state);
+    }
+  }
+
+  &:disabled {
+    @include buttonColor(disabled);
+    box-shadow: none !important;
+    cursor: not-allowed;
+  }
+}

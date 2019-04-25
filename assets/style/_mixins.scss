@@ -1,0 +1,405 @@
+//
+// Clearfix
+// --------
+// Generates CSS that will clear both left
+// and right floats.
+//
+
+@mixin clearfix() {
+  & {
+
+    &:before,
+    &:after {
+      content: '';
+      display: table;
+    }
+
+    &:after {
+      clear: both;
+    }
+  }
+}
+
+//
+// Hide
+// --------
+// removes an element from view
+//
+
+@mixin hide() {
+  display: none !important;
+  text-indent: -9999px !important;
+  visibility: hidden !important;
+}
+
+//
+// Center
+// --------
+// Center an object with CSS3
+//
+
+@mixin center($width, $height: 0) {
+  position: absolute;
+
+  @if $height !=0 {
+    left: calc(50% - (#{$width} / 2));
+    top: calc(50% - (#{$height} / 2));
+  }
+
+  @else {
+    left: calc(50% - (#{$width} / 2));
+    top: calc(50% - (#{$width} / 2));
+  }
+}
+
+//
+// Unstyled
+// --------
+//
+// Remove basic styling for list items
+//
+
+@mixin unstyled() {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none !important;
+  }
+}
+
+//
+// Media Queries
+// --------
+//
+// Easy to use media queries for predefined breakpoints
+//
+// @include from( $breakpoint ) { $styles }
+// @include until( $breakpoint ) { $styles }
+// @include mobile/tablet/tablet-only... { $styles }
+
+@mixin from($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@mixin until($device) {
+  @media screen and (max-width: $device - 1px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: map-get($breakpoints, tablet) - 1px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: map-get($breakpoints, tablet)), print {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media screen and (min-width: map-get($breakpoints, tablet)) and (max-width: map-get($breakpoints, desktop) - 1px) {
+    @content;
+  }
+}
+
+@mixin touch {
+  @media screen and (max-width: map-get($breakpoints, desktop) - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: map-get($breakpoints, desktop)) {
+    @content;
+  }
+}
+
+@mixin desktop-only {
+  @if $widescreen-enabled {
+    @media screen and (min-width: map-get($breakpoints, desktop)) and (max-width: map-get($breakpoints, widescreen) - 1px) {
+      @content;
+    }
+  }
+}
+
+@mixin until-widescreen {
+  @media screen and (max-width: map-get($breakpoints, widescreen) - 1px) {
+    @content;
+  }
+}
+
+@mixin widescreen {
+  @media screen and (min-width: map-get($breakpoints, widescreen)) {
+    @content;
+  }
+}
+
+@mixin widescreen-only {
+  @media screen and (min-width: map-get($breakpoints, widescreen)) and (max-width: map-get($breakpoints, fullhd) - 1px) {
+    @content;
+  }
+}
+
+@mixin until-fullhd {
+  @media screen and (max-width: map-get($breakpoints, fullhd) - 1px) {
+    @content;
+  }
+}
+
+@mixin fullhd {
+  @media screen and (min-width: map-get($breakpoints, fullhd)) {
+    @content;
+  }
+}
+
+//
+// Loader
+// --------
+// animate loader icons.
+//
+//
+
+@mixin loader {
+  animation: spinAround 500ms infinite linear;
+  border: 2px solid $grey-lighter;
+  border-radius: $radius-rounded;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: '';
+  display: block;
+  height: 1em;
+  position: relative;
+  width: 1em;
+}
+
+// paragraphs
+@mixin font-paragraph {
+  font-family: $font-family;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1.75;
+  text-align: center;
+}
+
+// headings
+@mixin font-headings {
+  font-family: $font-family-headings;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.75;
+  text-align: center;
+}
+
+// menu, ui, callouts
+@mixin font-accent {
+  font-family: $font-family-menu;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+//
+// getColor
+// --------
+// Easily retrieve colors for use.
+//
+// @access public
+//
+// @param {String} $color - Name of the color
+// @param {Color}  $value - The color value to grab (default is "base")
+//
+// @return {Color} Value of the color
+//
+@function getColor($color, $value: 'base', $set: $colors) {
+  @return map-get(map-get($set, $color), $value);
+}
+
+//
+// unitSize
+// --------
+// Use this function to set sizes with proportions.
+//
+// @access public
+//
+// @param {String} $multiplier - times the base unit ($base-unit by default)
+// @param {Number} $offset - A value in pixels which will be added to the
+//                  result, can be positive for addition or negative for
+//                  subtraction
+//
+// @return {Number} Value in px, equal to the number of times the base unit
+//                  plus the offset
+//
+
+@function unitSize($multiplier, $offset: 0) {
+  @return ($base-unit * $multiplier + $offset)+px;
+}
+
+//
+// pxToEm
+// ------
+// Converts a Px value into a Em value
+//
+// @access public
+//
+// @param {Number} $px - value in pixels
+// @param {Number} $base - Base font size
+//
+// @return {Number} Value in Ems
+//
+
+@function pxToEm($px, $base: $font-base-size) {
+  @return ($px / $base)+em;
+}
+
+// set default color for all content contained in parent
+@mixin contentColor($color: getColor(text, primary), $linkColor: getColor(text, link), $linkColorHover: getColor(text, linkHover)) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li {
+    color: $color;
+  }
+
+  ul,
+  ol,
+  li,
+  a {
+    text-decoration-color: $color;
+  }
+
+  a {
+    color: $linkColor;
+
+    &:hover,
+    &:active {
+      color: $linkColorHover;
+    }
+  }
+
+  hr {
+    border-color: $color;
+  }
+}
+
+// style placeholders with all the necessary prefixes
+@mixin placeholder {
+  $placeholders: ":-moz"":-webkit-input""-moz""-ms-input";
+
+  @each $placeholder in $placeholders {
+    &:#{$placeholder}-placeholder {
+      @content;
+    }
+  }
+}
+
+@mixin buttonColor($state: default) {
+  $stateColors: map-get($button-colors, $state);
+
+  background-color: transparent;
+  color: map-get($stateColors, color);
+
+  &.bordered {
+    border: 2px solid map-get($stateColors, color);
+  }
+
+  &.filled {
+    background-color: map-get($stateColors, background);
+
+    &:hover,
+    &:focus,
+    &.is-active {
+      box-shadow: 0 20px 20px -10px map-get($stateColors, hoverBackground);
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &.is-active {
+    background-color: map-get($stateColors, hoverBackground);
+    border-color: map-get($stateColors, hoverBackground);
+    color: map-get($stateColors, hoverColor);
+  }
+}
+
+// buttons with icons
+@mixin button-icon() {
+  padding-left: 2.5rem; // for icon
+  padding-right: 2.5rem;
+
+  &::after {
+    font-family: FontAwesome;
+    opacity: 1;
+    // position: absolute;
+    right: 1rem;
+    width: auto;
+  }
+}
+
+// buttons with icons only when hovered
+@mixin button-hover-icon() {
+  padding-left: 2.5rem; // for icon
+  padding-right: 2.5rem;
+
+  &::after {
+    font-family: FontAwesome;
+    opacity: 0;
+    position: absolute;
+    right: 1.4rem;
+    transition: all, 200ms, ease-in-out;
+  }
+
+  &:not(.disabled):hover::after {
+    opacity: 0.9;
+    right: 1rem;
+    width: auto;
+  }
+}
+
+@mixin line-after() {
+  position: relative;
+
+  &::after {
+    background: linear-gradient(90deg,
+      rgba(125, 125, 125, 0) 0%,
+      rgba(125, 125, 125, 1) 50%,
+      rgba(125, 125, 125, 0) 100%);
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@import '~/assets/style/_math.scss';
+
+@mixin flagBackground($angle, $color, $stop) {
+  $amount: 150%;
+
+  .link .title {
+    background: linear-gradient($angle, rgba(0, 0, 0, 0) $stop, #ffffff $stop);
+    top: -$amount * cos($angle);
+    right: -$amount * sin($angle);
+
+    &::before {
+      background: linear-gradient($angle, $color $stop, rgba(0, 0, 0, 0) $stop);
+      top: 2 * $amount * cos($angle);
+      right: 2 * $amount * sin($angle);
+    }
+  }
+}

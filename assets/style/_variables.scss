@@ -1,0 +1,105 @@
+$breakpoints: (tablet: 769px,
+desktop: 1088px,
+widescreen: 1280px,
+fullhd: 1472px);
+
+// Navigation
+$navbar-height: 60px;
+
+// Font families
+$font-family: 'PT Serif',
+serif;
+$font-family-headings: 'PT Serif',
+serif;
+$font-family-menu: 'Overpass',
+'Helvetica',
+sans-serif;
+$font-family-mono: "Consolas",
+monospace;
+$font-base-size: 16;
+
+// Base Unit Size - used for px to em calculations
+$base-unit: 12;
+
+// Font sizes
+$h1-size: 66;
+$h2-size: 48;
+$h3-size: 36;
+$h4-size: 28;
+$h5-size: 18;
+$h6-size: 16;
+
+// Transition duration
+$transition-duration: 200ms;
+
+// Colors
+$colors: (base: (primary: #053042, // navy
+selection: #35A987, // mint
+lines: #e0e0e0),
+
+text: (primary: #053042, // navy
+secondary: #35A987, // mint
+contrast: #fff,
+heading: #053042, // navy
+accent: #F27052, // coral
+ui: #000,
+link: #053042, // navy
+linkHover: #35A987), // mint
+
+background: (body: #F1F2F3, // sail white
+dark: #D2EADC, // light mint
+light: #FFFFFF,
+accent: #fcdbd4, // light coral
+accent2: #D2EADC, // aqua
+accent3: #c9dee8, // light blue
+accent4: #e6cbac // tan
+),
+
+state: (muted: #888, // dark grey
+primary: #F27052, // light coral
+success: #D2EADC, // light mint
+warning: #053042, // navy
+error: red, // red
+disabled: #aaaaaa // light grey
+));
+
+$button-colors: (default: (background: #f27052,
+hoverBackground: #fcdbd4,
+color: #ffffff,
+hoverColor: #ffffff),
+
+primary: (background: #053042, // navy
+hoverBackground: #053042, // navy
+color: #053042, // navy,
+hoverColor: #ffffff),
+
+contrast: (background: #ffffff,
+hoverBackground: #ffffff,
+color: #ffffff,
+hoverColor: #053042),
+
+success: (background: #35a987, // mint
+hoverBackground: lighten(#35a987, 10%),
+color: #fff,
+hoverColor: #fff),
+
+warning: (background: #35a987, // mint
+hoverBackground: lighten(#35a987, 10%),
+color: #fff,
+hoverColor: #fff),
+
+error: (background: #35a987, // mint
+hoverBackground: lighten(#35a987, 10%),
+color: #fff,
+hoverColor: #fff),
+
+disabled: (background: #dddddd,
+hoverBackground: #dddddd,
+color: #666666,
+hoverColor: #666666));
+
+$drawer-width-small: 100%;
+$drawer-width-medium: 300px;
+$drawer-width-large: 500px;
+
+$menu-animation-duration: 2 * $transition-duration;

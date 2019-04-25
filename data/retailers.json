@@ -1,0 +1,4615 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.956011, 41.679151]
+      },
+      "properties": {
+        "name": "The Artful Hand",
+        "address1": "459 Main Street",
+        "address2": "",
+        "city": "Chatham",
+        "state": "MA",
+        "zip": "02633"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.88346, 42.173731]
+      },
+      "properties": {
+        "name": "SAHAGIAN JEWELERS",
+        "address1": "22 WASHINGTON ST",
+        "address2": "ROUTE 53",
+        "city": "NORWELL",
+        "state": "MA",
+        "zip": "02061"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.059387, 42.357084]
+      },
+      "properties": {
+        "name": "BARMAKIAN BROTHERS",
+        "address1": "333 WASHINGTON STREET",
+        "address2": "7TH FLOOR",
+        "city": "BOSTON",
+        "state": "MA",
+        "zip": "02108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.20164, 42.154908]
+      },
+      "properties": {
+        "name": "KEYSTONE JEWELERS",
+        "address1": "90 PROVIDENCE HIGHWAY",
+        "address2": "WALPOLE MALL",
+        "city": "EAST WALPOLE",
+        "state": "MA",
+        "zip": "02032"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.809139, 42.105124]
+      },
+      "properties": {
+        "name": "RAY JEWELERS",
+        "address1": "1100 CLEMENS CENTER PRKY",
+        "address2": "WEGEMANS PLAZA",
+        "city": "ELMIRA",
+        "state": "NY",
+        "zip": "14901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.110857, 41.295128]
+      },
+      "properties": {
+        "name": "MARKS OF DESIGN",
+        "address1": "389 BRIDGEPORT AVENUE",
+        "address2": "SUITE 103",
+        "city": "SHELTON",
+        "state": "CT",
+        "zip": "06484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.216542, 41.31455]
+      },
+      "properties": {
+        "name": "GACH JEWELERS",
+        "address1": "470 MUNROE TURNPIKE",
+        "address2": "ROUTE 111",
+        "city": "MONROE",
+        "state": "CT",
+        "zip": "06468"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.974578, 43.319276]
+      },
+      "properties": {
+        "name": "BEA'S JEWELERS",
+        "address1": "5 MILTON ROAD",
+        "address2": "BOX 11   LILAC MALL",
+        "city": "ROCHESTER",
+        "state": "NH",
+        "zip": "03867"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.502716, 44.198096]
+      },
+      "properties": {
+        "name": "RICHARD J WOBBY JEWELERS",
+        "address1": "124 NORTH MAIN STREET",
+        "address2": "SUITE 1",
+        "city": "BARRE",
+        "state": "VT",
+        "zip": "05641"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.479255, 42.016725]
+      },
+      "properties": {
+        "name": "PIETTE JEWELERS",
+        "address1": "1500 DIAMOND HILL ROAD",
+        "address2": "WALNUT HILL PLAZA",
+        "city": "WOONSOCKET",
+        "state": "RI",
+        "zip": "02895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.544808, 42.805535]
+      },
+      "properties": {
+        "name": "A & E DIAMONDS & GOLD",
+        "address1": "707 OLD MILFORD ROAD",
+        "address2": "PENNICHUCK SQUARE",
+        "city": "MERRIMACK",
+        "state": "NH",
+        "zip": "03054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.740957, 41.760614]
+      },
+      "properties": {
+        "name": "BECKER'S JEWELRY",
+        "address1": "SUITE 203",
+        "address2": "65 LA SALLE ROAD",
+        "city": "WEST HARTFORD",
+        "state": "CT",
+        "zip": "06107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.767569, 44.799427]
+      },
+      "properties": {
+        "name": "QUALITY JEWELERS",
+        "address1": "25 WASHINGTON STREET",
+        "address2": "PENOBSCOT PLAZA",
+        "city": "BANGOR",
+        "state": "ME",
+        "zip": "04401"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.059387, 42.357084]
+      },
+      "properties": {
+        "name": "DOLABANY JEWELERS",
+        "address1": "333 WASHINGTON ST. STE 333",
+        "address2": "C/O DOLABANY CO.",
+        "city": "BOSTON",
+        "state": "MA",
+        "zip": "02108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.575865, 42.174339]
+      },
+      "properties": {
+        "name": "SAYEGH JEWELERS",
+        "address1": "601 MEMORIAL DRIVE",
+        "address2": "UNIT F",
+        "city": "CHICOPEE",
+        "state": "MA",
+        "zip": "01020"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.616826, 41.930049]
+      },
+      "properties": {
+        "name": "SWEDE'S JEWELERS",
+        "address1": "98 BRIDGE STREET",
+        "address2": "P.O. BOX 598",
+        "city": "EAST WINDSOR",
+        "state": "CT",
+        "zip": "06088"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.489984, 41.617176]
+      },
+      "properties": {
+        "name": "SACHS JEWELERS",
+        "address1": "3 CENTRAL SQUARE",
+        "address2": "MASHPEE COMMONS",
+        "city": "MASHPEE",
+        "state": "MA",
+        "zip": "02649"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.621131, 41.720796]
+      },
+      "properties": {
+        "name": "LUX BOND & GREEN",
+        "address1": "140 Glastonbury Blvd",
+        "address2": "Somerset Sq",
+        "city": "Glastonbury",
+        "state": "CT",
+        "zip": "06033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.5459, 41.80687]
+      },
+      "properties": {
+        "name": "HANNOUSH JEWELERS",
+        "address1": "194 BUCKLAND HILLS DRIVE",
+        "address2": "",
+        "city": "MANCHESTER",
+        "state": "CT",
+        "zip": "06042"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.2047, 42.469346]
+      },
+      "properties": {
+        "name": "CROWN JEWELERS",
+        "address1": "ALLENDALE CENTER",
+        "address2": "5 CHESHIRE RD. STE 21",
+        "city": "PITTSFIELD",
+        "state": "MA",
+        "zip": "01201"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.979653, 43.939038]
+      },
+      "properties": {
+        "name": "DAYS JEWELERS",
+        "address1": "49 TOPSHAM FAIR MALL ROAD",
+        "address2": "TOPSHAM FAIR MALL",
+        "city": "TOPSHAM",
+        "state": "ME",
+        "zip": "04086"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.196053, 44.079863]
+      },
+      "properties": {
+        "name": "DAYS JEWELERS",
+        "address1": "SHAW'S PLAZA",
+        "address2": "600 CENTER ST.",
+        "city": "AUBURN",
+        "state": "ME",
+        "zip": "04210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.787456, 44.342927]
+      },
+      "properties": {
+        "name": "DAYS JEWELERS",
+        "address1": "4 STEPHEN KING DRIVE",
+        "address2": "SUITE 2",
+        "city": "AUGUSTA",
+        "state": "ME",
+        "zip": "04330"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.441862, 42.961367]
+      },
+      "properties": {
+        "name": "DAYS JEWELERS",
+        "address1": "66 MARCH AVE.",
+        "address2": "T.J. MAX PLAZA",
+        "city": "MANCHESTER",
+        "state": "NH",
+        "zip": "03103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.536959, 41.052996]
+      },
+      "properties": {
+        "name": "SIDNEY THOMAS JEWELERS",
+        "address1": "100 GRAYROCK PLACE #G204",
+        "address2": "STAMFORD TOWN CENTER",
+        "city": "STAMFORD",
+        "state": "CT",
+        "zip": "06901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.18027, 42.31886]
+      },
+      "properties": {
+        "name": "SIDNEY THOMAS JEWELERS",
+        "address1": "ATRIUM MALL",
+        "address2": "300 BOYLSTON ST.",
+        "city": "CHESTNUT HILL",
+        "state": "MA",
+        "zip": "02167"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.420508, 41.828209]
+      },
+      "properties": {
+        "name": "SIDNEY THOMAS JEWELERS",
+        "address1": "PROVIDENCE PLACE MALL",
+        "address2": "87 PROVIDENCE PLACE",
+        "city": "PROVIDENCE",
+        "state": "RI",
+        "zip": "02903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.054838, 42.360612]
+      },
+      "properties": {
+        "name": "BOSTON PEWTER CO.",
+        "address1": "1 SOUTH MARKET",
+        "address2": "FANEUIL HALL",
+        "city": "BOSTON",
+        "state": "MA",
+        "zip": "02109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.884428, 42.587516]
+      },
+      "properties": {
+        "name": "DESJARDINS JEWELERS",
+        "address1": "47 ENON ST",
+        "address2": "COMMODORE PLAZA",
+        "city": "BEVERLY",
+        "state": "MA",
+        "zip": "01915"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.179388, 42.555692]
+      },
+      "properties": {
+        "name": "FLAHERTY ROBERT",
+        "address1": "248 MAIN ST",
+        "address2": "WILMINGTON PLAZA",
+        "city": "WILMINGTON",
+        "state": "MA",
+        "zip": "01887"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.746571, 42.274735]
+      },
+      "properties": {
+        "name": "SACHS JEWELERS",
+        "address1": "180 BOSTON TURNPIKE",
+        "address2": "RT 9 EAST",
+        "city": "SHREWSBURY",
+        "state": "MA",
+        "zip": "01545"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.804191, 43.098097]
+      },
+      "properties": {
+        "name": "THE JEWELERS WORKBENCH",
+        "address1": "50 FOX RUN RD",
+        "address2": "FOX RUN MALL",
+        "city": "NEWINGTON",
+        "state": "NH",
+        "zip": "03801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.324379, 42.892174]
+      },
+      "properties": {
+        "name": "Princess Jewelers",
+        "address1": "55 Crystal Ave.",
+        "address2": "Suite 5",
+        "city": "Derry",
+        "state": "NH",
+        "zip": "03038"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.956158, 41.372941]
+      },
+      "properties": {
+        "name": "R A Georgetti",
+        "address1": "27 Coogan Blvd.",
+        "address2": "Bldg 7-A",
+        "city": "Mystic",
+        "state": "CT",
+        "zip": "06355"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.314331, 41.970873]
+      },
+      "properties": {
+        "name": "Tower Square Jewelers",
+        "address1": "93 Commonwealth Ave.",
+        "address2": "#1",
+        "city": "North Attleboro",
+        "state": "MA",
+        "zip": "02760"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.940841, 42.541204]
+      },
+      "properties": {
+        "name": "Blue River Diamond",
+        "address1": "210 Andover St.",
+        "address2": "Suite 200",
+        "city": "Peabody",
+        "state": "MA",
+        "zip": "01960"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.152154, 41.693492]
+      },
+      "properties": {
+        "name": "L.A.M. GOLDSMITHS",
+        "address1": "516 ROUTE 134",
+        "address2": "PATRIOT SQUARE PLAZA",
+        "city": "S DENNIS",
+        "state": "MA",
+        "zip": "02660"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.212911, 41.75453]
+      },
+      "properties": {
+        "name": "Plante Jewelers",
+        "address1": "207 Swansea Mall Dr.",
+        "address2": "#160",
+        "city": "Swansea",
+        "state": "MA",
+        "zip": "02777"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.408721, 41.703081]
+      },
+      "properties": {
+        "name": "Kucinski Jewelers",
+        "address1": "2362 West Shore Rd.",
+        "address2": "Suite. F",
+        "city": "Warwick",
+        "state": "RI",
+        "zip": "02889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.594207, 41.282359]
+      },
+      "properties": {
+        "name": "Paul Lirot Jewelry",
+        "address1": "73 Wall St.",
+        "address2": "",
+        "city": "Madison",
+        "state": "CT",
+        "zip": "06443"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.059815, 42.356227]
+      },
+      "properties": {
+        "name": "HEFEZ & SONS",
+        "address1": "387 WASHINGTON ST",
+        "address2": "#701",
+        "city": "BOSTON",
+        "state": "MA",
+        "zip": "02108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.215586, 42.764799]
+      },
+      "properties": {
+        "name": "NAZARIAN JEWELERS",
+        "address1": "203 SOUTH BROADWAY",
+        "address2": "STE 2",
+        "city": "SALEM",
+        "state": "NH",
+        "zip": "03079"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.103015, 42.524307]
+      },
+      "properties": {
+        "name": "SIMMS JEWELERS",
+        "address1": "648 MAIN ST",
+        "address2": "",
+        "city": "READING",
+        "state": "MA",
+        "zip": "01867"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.130713, 41.264395]
+      },
+      "properties": {
+        "name": "A.J. KLEIN JEWELERS",
+        "address1": "866 BRIDGEPORT AVE.",
+        "address2": "",
+        "city": "SHELTON",
+        "state": "CT",
+        "zip": "06484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.642717, 41.771511]
+      },
+      "properties": {
+        "name": "J H ANDERSON JEWELERS",
+        "address1": "1015 MAIN STREEY",
+        "address2": "",
+        "city": "E HARTFORD",
+        "state": "CT",
+        "zip": "06128"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.523491, 42.228029]
+      },
+      "properties": {
+        "name": "HOPKINTON JEWELERS",
+        "address1": "1 CLAFLIN COMMONS",
+        "address2": "",
+        "city": "HOPKINTON",
+        "state": "MA",
+        "zip": "01748"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.964547, 43.914884]
+      },
+      "properties": {
+        "name": "KEITH FIELD GOLDSMITH",
+        "address1": "147 MAINE STREET",
+        "address2": "",
+        "city": "BRUNSWICK",
+        "state": "ME",
+        "zip": "04011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.05103, 39.911299]
+      },
+      "properties": {
+        "name": "MARGARET CEDRONE ARTISAN JEWELERS",
+        "address1": "121 HADDON AVENUE",
+        "address2": "",
+        "city": "WESTMONT",
+        "state": "NJ",
+        "zip": "08108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.558247, 42.853147]
+      },
+      "properties": {
+        "name": "RENAISSANCE JEWELERS",
+        "address1": "151 MAIN STREET",
+        "address2": "",
+        "city": "BRATTLEBORO",
+        "state": "VT",
+        "zip": "05301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.949824, 41.272674]
+      },
+      "properties": {
+        "name": "LESLIE'S",
+        "address1": "523 CAMPBELL AVE.",
+        "address2": "",
+        "city": "WEST HAVEN",
+        "state": "CT",
+        "zip": "06516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.523895, 42.227356]
+      },
+      "properties": {
+        "name": "STEPHANIE G",
+        "address1": "77 MAIN STREET",
+        "address2": "",
+        "city": "HOPKINTON",
+        "state": "MA",
+        "zip": "01748"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.852509, 42.277421]
+      },
+      "properties": {
+        "name": "TATNUCK JEWELERS",
+        "address1": "617 MILL STREET",
+        "address2": "",
+        "city": "WORCESTER",
+        "state": "MA",
+        "zip": "01602"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.66082, 42.649184]
+      },
+      "properties": {
+        "name": "TOWNSEND FINE JEWELRY",
+        "address1": "18 MAIN STREET",
+        "address2": "",
+        "city": "TOWNSEND",
+        "state": "MA",
+        "zip": "01469"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.802144, 41.871373]
+      },
+      "properties": {
+        "name": "BILL SELIG JEWELERS",
+        "address1": "712 HOPMEADOW STREET",
+        "address2": "",
+        "city": "SIMSBURY",
+        "state": "CT",
+        "zip": "06070"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.801636, 42.104495]
+      },
+      "properties": {
+        "name": "DJS GOLDMINE FINE JEWELRY",
+        "address1": "24 SCHOOSETT STREET #A",
+        "address2": "",
+        "city": "PEMBROKE",
+        "state": "MA",
+        "zip": "02359"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.478279, 44.697573]
+      },
+      "properties": {
+        "name": "LIGHTS JEWELERS",
+        "address1": "9 PLATTSBURGH PLZ",
+        "address2": "",
+        "city": "PLATTSBURGH",
+        "state": "NY",
+        "zip": "12901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.971156, 41.354729]
+      },
+      "properties": {
+        "name": "N L SHAW & CO",
+        "address1": "50 W MAIN ST",
+        "address2": "",
+        "city": "MYSTIC",
+        "state": "CT",
+        "zip": "06355"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.176932, 42.23161]
+      },
+      "properties": {
+        "name": "DIAMOND GUILD",
+        "address1": "234 LEGACY PLACE",
+        "address2": "",
+        "city": "DEDHAM",
+        "state": "MA",
+        "zip": "02026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.684753, 42.416146]
+      },
+      "properties": {
+        "name": "DUVARNEY JEWELERS",
+        "address1": "7 HIGH STREET",
+        "address2": "",
+        "city": "CLINTON",
+        "state": "MA",
+        "zip": "01510"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.040783, 42.258367]
+      },
+      "properties": {
+        "name": "GRONO & CHRISTIE INC.",
+        "address1": "536 ADAMS ST.",
+        "address2": "",
+        "city": "EAST MILTON",
+        "state": "MA",
+        "zip": "02186"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.535451, 43.204602]
+      },
+      "properties": {
+        "name": "A JEWELERS WORKSHOP",
+        "address1": "10 SOUTH MAIN STREET",
+        "address2": "",
+        "city": "CONCORD",
+        "state": "NH",
+        "zip": "03301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.544636, 42.088408]
+      },
+      "properties": {
+        "name": "SPRINGFIELD JEWELRY & DIAMOND EXCHANGE",
+        "address1": "883 SUMNER AVENUE",
+        "address2": "",
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "zip": "01108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.830008, 41.378456]
+      },
+      "properties": {
+        "name": "NIGRELLI'S JEWELRY",
+        "address1": "27 HIGH STREET",
+        "address2": "",
+        "city": "WESTERLY",
+        "state": "RI",
+        "zip": "02891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.950704, 42.464178]
+      },
+      "properties": {
+        "name": "LINDA'S JEWELERS",
+        "address1": "2 MARKET STREET",
+        "address2": "",
+        "city": "LYNN",
+        "state": "MA",
+        "zip": "01901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.03684, 42.076167]
+      },
+      "properties": {
+        "name": "MORIN JEWELERS",
+        "address1": "409 MAIN STREET",
+        "address2": "",
+        "city": "SOUTHBRIDGE",
+        "state": "MA",
+        "zip": "01550"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.214147, 41.753962]
+      },
+      "properties": {
+        "name": "MULLENS BROS. JEWELERS",
+        "address1": "167 SWANSEA MALL DR.",
+        "address2": "",
+        "city": "SWANSEA",
+        "state": "MA",
+        "zip": "02777"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.612052, 43.174951]
+      },
+      "properties": {
+        "name": "BILL & BOBS",
+        "address1": "4 RAILROAD AVENUE",
+        "address2": "",
+        "city": "YORK BEACH",
+        "state": "ME",
+        "zip": "03909"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.550729, 41.998827]
+      },
+      "properties": {
+        "name": "CLASSIC VILLAGE JEWELERS",
+        "address1": "638 GREAT ROAD",
+        "address2": "",
+        "city": "N SMITHFIELD",
+        "state": "RI",
+        "zip": "02896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.730699, 43.632958]
+      },
+      "properties": {
+        "name": "GYSBER'S  JEWELRY",
+        "address1": "305 EAST MAIN STREET",
+        "address2": "",
+        "city": "WAUPUN",
+        "state": "WI",
+        "zip": "53963"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.777565, 43.440405]
+      },
+      "properties": {
+        "name": "TAPESTRY",
+        "address1": "879 MAIN STREET",
+        "address2": "",
+        "city": "SANFORD",
+        "state": "ME",
+        "zip": "04073"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.395101, 42.306058]
+      },
+      "properties": {
+        "name": "BARMAKIAN JEWELERS",
+        "address1": "496 COCHIYUATE ROAD",
+        "address2": "",
+        "city": "FRAMINGHAM",
+        "state": "MA",
+        "zip": "01701"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.059387, 42.357084]
+      },
+      "properties": {
+        "name": "FRANK DE PRISCO JEWELERS",
+        "address1": "333 WASHINGTON ST. RM #40",
+        "address2": "",
+        "city": "BOSTON",
+        "state": "MA",
+        "zip": "02108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.384147, 41.627501]
+      },
+      "properties": {
+        "name": "FRANK DE PRISCO JEWELERS",
+        "address1": "32 WIANNO AVENUE",
+        "address2": "",
+        "city": "OSTERVILLE",
+        "state": "MA",
+        "zip": "02655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.166, 43.036064]
+      },
+      "properties": {
+        "name": "JAMBS JEWELRY",
+        "address1": "17 FREETOWN ROAD",
+        "address2": "",
+        "city": "RAYMOND",
+        "state": "NH",
+        "zip": "03077"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.429383, 42.946264]
+      },
+      "properties": {
+        "name": "SKANEATELES JEWELRY",
+        "address1": "15 JORDAN ST.",
+        "address2": "",
+        "city": "SKANEATELES",
+        "state": "NY",
+        "zip": "13152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.011877, 43.030076]
+      },
+      "properties": {
+        "name": "SKANEATELES JEWELRY",
+        "address1": "106 BROOKLEA DR.",
+        "address2": "",
+        "city": "FAYETTEVILLE",
+        "state": "NY",
+        "zip": "13066"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.212017, 44.481446]
+      },
+      "properties": {
+        "name": "SKANEATELES JEWELRY",
+        "address1": "28 CLARKE ST.",
+        "address2": "",
+        "city": "BURLINGTON",
+        "state": "VT",
+        "zip": "05401"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.601962, 42.58826]
+      },
+      "properties": {
+        "name": "CLEARY JEWELERS",
+        "address1": "248 MAIN ST.",
+        "address2": "",
+        "city": "GREENFIELD",
+        "state": "MA",
+        "zip": "01301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.888035, 42.17573]
+      },
+      "properties": {
+        "name": "HINGHAM JEWELERS",
+        "address1": "35 WHITING ST.",
+        "address2": "",
+        "city": "HINGHAM",
+        "state": "MA",
+        "zip": "02043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.472706, 42.150393]
+      },
+      "properties": {
+        "name": "QUINN'S FINE JEWELRY",
+        "address1": "2040 BOSTON ROAD",
+        "address2": "",
+        "city": "WILBRAHAM",
+        "state": "MA",
+        "zip": "01095"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.666798, 42.26466]
+      },
+      "properties": {
+        "name": "DEGRANDPRE JEWELERS",
+        "address1": "54 COTTAGE ST.",
+        "address2": "",
+        "city": "EASTHAMPTON",
+        "state": "MA",
+        "zip": "01027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.743133, 42.283503]
+      },
+      "properties": {
+        "name": "PURL-LEEZ",
+        "address1": "120 OLD MILL ROAD",
+        "address2": "",
+        "city": "SHREWSBURY",
+        "state": "MA",
+        "zip": "01545"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.874263, 43.197897]
+      },
+      "properties": {
+        "name": "A E ALIE & SON",
+        "address1": "460 CENTRAL AVE",
+        "address2": "",
+        "city": "DOVER",
+        "state": "NH",
+        "zip": "03820"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.485452, 41.719542]
+      },
+      "properties": {
+        "name": "HANNOUSH JEWELERS",
+        "address1": "685 BALD HILL ROAD",
+        "address2": "",
+        "city": "WARWICK",
+        "state": "RI",
+        "zip": "02886"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.909744, 41.442652]
+      },
+      "properties": {
+        "name": "RUMANOFF'S",
+        "address1": "4133 WHITNEY AVE.",
+        "address2": "",
+        "city": "HAMDEN",
+        "state": "CT",
+        "zip": "06518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.658348, 41.696463]
+      },
+      "properties": {
+        "name": "STERLING JEWELERS",
+        "address1": "965 SILAS DEANE HWY",
+        "address2": "",
+        "city": "WETHERSFIELD",
+        "state": "CT",
+        "zip": "06109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.445438, 41.865368]
+      },
+      "properties": {
+        "name": "ANTHONY'S JEWELERS",
+        "address1": "1525 MINERAL SPRING AVENUE",
+        "address2": "",
+        "city": "NORTH PROVIDENCE",
+        "state": "RI",
+        "zip": "02904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.52001, 42.141281]
+      },
+      "properties": {
+        "name": "NATHANS JEWELRY & GIFTS STORE",
+        "address1": "157 MAIN STREET",
+        "address2": "",
+        "city": "MILFORD",
+        "state": "MA",
+        "zip": "01757"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.156301, 42.416373]
+      },
+      "properties": {
+        "name": "SWANSON JEWELRY",
+        "address1": "717 MASS AVE.",
+        "address2": "",
+        "city": "ARLINGTON",
+        "state": "MA",
+        "zip": "02474"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.06615, 43.056585]
+      },
+      "properties": {
+        "name": "EGON EHRLINSPIEL",
+        "address1": "5914 BRIDGE STREET",
+        "address2": "",
+        "city": "EAST SYRACUSE",
+        "state": "NY",
+        "zip": "13057"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.864148, 41.663872]
+      },
+      "properties": {
+        "name": "DBK FAMILY JEWELERS",
+        "address1": "165 EAST STREET / RT 10",
+        "address2": "",
+        "city": "PLAINVILLE",
+        "state": "CT",
+        "zip": "06062"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.213675, 42.482354]
+      },
+      "properties": {
+        "name": "ASA JEWELERS",
+        "address1": "75 MIDDLESEX TURNPIKE",
+        "address2": "",
+        "city": "BURLINGTON",
+        "state": "MA",
+        "zip": "01803"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.882911, 42.360071]
+      },
+      "properties": {
+        "name": "JEFFERSON SQUARE JEWELERS",
+        "address1": "1655 MAIN STREET",
+        "address2": "",
+        "city": "JEFFERSON",
+        "state": "MA",
+        "zip": "01522"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.225701, 44.1102]
+      },
+      "properties": {
+        "name": "REPUBLIC JEWELRY & COIN",
+        "address1": "212 CENTER STREET",
+        "address2": "",
+        "city": "AUBURN",
+        "state": "ME",
+        "zip": "04210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.631041, 42.280703]
+      },
+      "properties": {
+        "name": "TOWNE & COUNTRY JEWELERS",
+        "address1": "164 MILK ST. #5",
+        "address2": "",
+        "city": "WESTBOROUGH",
+        "state": "MA",
+        "zip": "01581"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.838172, 42.679504]
+      },
+      "properties": {
+        "name": "TETREAULT JEWELERS",
+        "address1": "24 MARKET STREET",
+        "address2": "",
+        "city": "IPSWICH",
+        "state": "MA",
+        "zip": "01938"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.464339, 41.870925]
+      },
+      "properties": {
+        "name": "THE GOLD & DIAMOND EXCHANGE",
+        "address1": "8 WEST ROAD",
+        "address2": "",
+        "city": "ELLINGTON",
+        "state": "CT",
+        "zip": "06029"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.627012, 42.123982]
+      },
+      "properties": {
+        "name": "STEVENS JEWELERS",
+        "address1": "1501 ELM STREET",
+        "address2": "",
+        "city": "W SPRINGFIELD",
+        "state": "MA",
+        "zip": "01089"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.33879, 43.37253]
+      },
+      "properties": {
+        "name": "JOZACH JEWELERS",
+        "address1": "1 PLEASANT STREET",
+        "address2": "",
+        "city": "CLAREMONT",
+        "state": "NH",
+        "zip": "03743"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99909, 41.966994]
+      },
+      "properties": {
+        "name": "KINGSTON JEWELRY",
+        "address1": "207 BOICES LANE",
+        "address2": "",
+        "city": "KINGSTON",
+        "state": "NY",
+        "zip": "12401"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.321629, 42.664043]
+      },
+      "properties": {
+        "name": "ROBERTS JEWELERS",
+        "address1": "1086 LAKEVIEW AVE",
+        "address2": "",
+        "city": "DRACUT",
+        "state": "MA",
+        "zip": "01826"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.388148, 40.044317]
+      },
+      "properties": {
+        "name": "WAYNE JEWELERS",
+        "address1": "101 WEST LANCASTER AVE.",
+        "address2": "",
+        "city": "WAYNE",
+        "state": "PA",
+        "zip": "19087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.110203, 42.698302]
+      },
+      "properties": {
+        "name": "DI LEGO JEWELRY",
+        "address1": "16 ASHLAND ST.",
+        "address2": "",
+        "city": "NORTH ADAMS",
+        "state": "MA",
+        "zip": "01247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.050055, 42.093805]
+      },
+      "properties": {
+        "name": "WARREN JEWELERS",
+        "address1": "165 WESTGATE DRIVE",
+        "address2": "",
+        "city": "BROCKTON",
+        "state": "MA",
+        "zip": "02301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.535569, 43.205037]
+      },
+      "properties": {
+        "name": "SPEER'S",
+        "address1": "24 NO. MAIN ST.",
+        "address2": "",
+        "city": "CONCORD",
+        "state": "NH",
+        "zip": "03301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.550488, 42.346766]
+      },
+      "properties": {
+        "name": "JOY-DEN JEWELERS",
+        "address1": "209 MAIN ST.",
+        "address2": "",
+        "city": "MARLBOROUGH",
+        "state": "MA",
+        "zip": "01752"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.324702, 42.004559]
+      },
+      "properties": {
+        "name": "LE DOR JEWELRY",
+        "address1": "44 WASHINGTON STREET",
+        "address2": "",
+        "city": "PLAINVILLE",
+        "state": "MA",
+        "zip": "02762"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.201636, 42.192494]
+      },
+      "properties": {
+        "name": "CHELALA JEWELRY & GIFTS",
+        "address1": "696 WASHINGTON STREET",
+        "address2": "",
+        "city": "NORWOOD",
+        "state": "MA",
+        "zip": "02062"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.758981, 42.524534]
+      },
+      "properties": {
+        "name": "JOSEPH JEWELERS",
+        "address1": "28 CENTRAL STREET RT 12",
+        "address2": "",
+        "city": "LEOMINSTER",
+        "state": "MA",
+        "zip": "01453"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.952056, 42.173626]
+      },
+      "properties": {
+        "name": "SNYDER JEWELERS",
+        "address1": "89 PLEASANT STREET",
+        "address2": "",
+        "city": "WEYMOUTH",
+        "state": "MA",
+        "zip": "02190"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.87449, 43.196172]
+      },
+      "properties": {
+        "name": "JEWELRY CREATIONS",
+        "address1": "388 CENTRAL AVENUE",
+        "address2": "",
+        "city": "DOVER",
+        "state": "NH",
+        "zip": "03820"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.956158, 41.372941]
+      },
+      "properties": {
+        "name": "ANGEL HAVEN",
+        "address1": "27 COOGAN BLVD.  #2A",
+        "address2": "",
+        "city": "MYSTIC",
+        "state": "CT",
+        "zip": "06355"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.423508, 42.088009]
+      },
+      "properties": {
+        "name": "TERRAZZA",
+        "address1": "210 FRANKLIN VILLAGE DRIVE",
+        "address2": "",
+        "city": "FRANKLIN",
+        "state": "MA",
+        "zip": "02038"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.520402, 41.768779]
+      },
+      "properties": {
+        "name": "BRAY JEWELERS",
+        "address1": "971 MAIN ST.",
+        "address2": "",
+        "city": "MANCHESTER",
+        "state": "CT",
+        "zip": "06040"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.616312, 42.659418]
+      },
+      "properties": {
+        "name": "THE PEWTER SHOP",
+        "address1": "16 BEARSKIN NECK",
+        "address2": "",
+        "city": "ROCKPORT",
+        "state": "MA",
+        "zip": "01966"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.411798, 42.087658]
+      },
+      "properties": {
+        "name": "EDWIN'S GIFTS",
+        "address1": "341 W. CENTRAL STREET",
+        "address2": "",
+        "city": "FRANKLIN",
+        "state": "MA",
+        "zip": "02038"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.996893, 42.575356]
+      },
+      "properties": {
+        "name": "TANGUAY JEWELERS",
+        "address1": "19 CONNORS STREET",
+        "address2": "",
+        "city": "GARDNER",
+        "state": "MA",
+        "zip": "01440"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.181427, 44.469566]
+      },
+      "properties": {
+        "name": "HALL OF GREETINGS",
+        "address1": "107 MAIN STREET",
+        "address2": "",
+        "city": "BERLIN",
+        "state": "NH",
+        "zip": "03570"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.100237, 41.571392]
+      },
+      "properties": {
+        "name": "DAVID JEWELERS",
+        "address1": "750 STRAITS TURNPIKE  STE 4",
+        "address2": "",
+        "city": "WATERTOWN",
+        "state": "CT",
+        "zip": "06795"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.744251, 41.760053]
+      },
+      "properties": {
+        "name": "DEROBERTIS JEWELERS",
+        "address1": "52 LASALLE RD",
+        "address2": "",
+        "city": "W HARTFORD",
+        "state": "CT",
+        "zip": "06107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.156674, 41.666617]
+      },
+      "properties": {
+        "name": "A TOUCH OF GLASS",
+        "address1": "711 MAIN STREET",
+        "address2": "",
+        "city": "WEST DENNIS",
+        "state": "MA",
+        "zip": "02670"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.650111, 41.561926]
+      },
+      "properties": {
+        "name": "MALLOVES",
+        "address1": "404 MAIN ST.",
+        "address2": "",
+        "city": "MIDDLETOWN",
+        "state": "CT",
+        "zip": "06457"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.830599, 41.377891]
+      },
+      "properties": {
+        "name": "WESTERLY JEWELRY CO.",
+        "address1": "8 HIGH STREET",
+        "address2": "",
+        "city": "WESTERLY",
+        "state": "RI",
+        "zip": "02891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.077652, 41.66753]
+      },
+      "properties": {
+        "name": "SATIVA",
+        "address1": "517 ROUTE 28",
+        "address2": "",
+        "city": "HARWICH PORT",
+        "state": "MA",
+        "zip": "02646"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.857376, 41.310541]
+      },
+      "properties": {
+        "name": "PERFECT PINEAPPLE",
+        "address1": "60 BAY STREET",
+        "address2": "",
+        "city": "WATCH HILL",
+        "state": "RI",
+        "zip": "02891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.554481, 42.055501]
+      },
+      "properties": {
+        "name": "MICHAEL SZWED JEWELERS",
+        "address1": "807 WILLIAMS ST.",
+        "address2": "",
+        "city": "LONGMEADOW",
+        "state": "MA",
+        "zip": "01106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.203363, 42.465224]
+      },
+      "properties": {
+        "name": "M. EDWARD JEWELERS",
+        "address1": "660 MERRILL ROAD",
+        "address2": "",
+        "city": "PITTSFIELD",
+        "state": "MA",
+        "zip": "01201"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.249095, 42.304623]
+      },
+      "properties": {
+        "name": "ZABIAN JEWELERS",
+        "address1": "15 MAIN STREET",
+        "address2": "",
+        "city": "LEE",
+        "state": "MA",
+        "zip": "01238"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.535564, 43.204967]
+      },
+      "properties": {
+        "name": "CAPITOL CRAFTSMAN",
+        "address1": "16 NORTH MAIN ST.",
+        "address2": "",
+        "city": "CONCORD",
+        "state": "NH",
+        "zip": "03301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.79602, 41.968967]
+      },
+      "properties": {
+        "name": "OLD MILL POND VILLAGE",
+        "address1": "383 SALMON BROOK ST",
+        "address2": "",
+        "city": "GRANBY",
+        "state": "CT",
+        "zip": "06035"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.593724, 43.238285]
+      },
+      "properties": {
+        "name": "THE WHISTLING OYSTER",
+        "address1": "116-2 PERKINS COVE ROAD",
+        "address2": "",
+        "city": "OGUNQUIT",
+        "state": "ME",
+        "zip": "03907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.248972, 42.063565]
+      },
+      "properties": {
+        "name": "CINDI'S DIAMOND & JEWELRY",
+        "address1": "40 CENTRAL ST.",
+        "address2": "",
+        "city": "FOXBORO",
+        "state": "MA",
+        "zip": "02035"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.241764, 42.260645]
+      },
+      "properties": {
+        "name": "DIOGUARDI JEWELERS",
+        "address1": "95 MAIN STREET",
+        "address2": "",
+        "city": "WARE",
+        "state": "MA",
+        "zip": "01082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.152403, 42.207097]
+      },
+      "properties": {
+        "name": "DOLABANY JEWELERS",
+        "address1": "145 UNIVERSITY AVENUE",
+        "address2": "",
+        "city": "WESTWOOD",
+        "state": "MA",
+        "zip": "02090"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.092851, 41.902642]
+      },
+      "properties": {
+        "name": "PACHECOS GOLD & GEMS",
+        "address1": "22 TAUNTON GREEN",
+        "address2": "",
+        "city": "TAUNTON",
+        "state": "MA",
+        "zip": "02780"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.440233, 42.70385]
+      },
+      "properties": {
+        "name": "BARMAKIAN FILS",
+        "address1": "300 DANIEL WEBSTER HWY",
+        "address2": "",
+        "city": "NASHUA",
+        "state": "NH",
+        "zip": "03060"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.806266, 42.28526]
+      },
+      "properties": {
+        "name": "SHARFMANS",
+        "address1": "19 GLENNIE ST. SUITE B",
+        "address2": "",
+        "city": "WORCESTER",
+        "state": "MA",
+        "zip": "01605"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.018476, 42.118725]
+      },
+      "properties": {
+        "name": "CONTI JEWELERS",
+        "address1": "532 HOOPER ROAD",
+        "address2": "",
+        "city": "ENDWELL",
+        "state": "NY",
+        "zip": "13760"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.577024, 42.19034]
+      },
+      "properties": {
+        "name": "FURNARI JEWELERS",
+        "address1": "1189 MEMORIAL DRIVE",
+        "address2": "",
+        "city": "CHICOPEE",
+        "state": "MA",
+        "zip": "01020"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.773517, 42.885177]
+      },
+      "properties": {
+        "name": "WIT'S END GIFTIQUE",
+        "address1": "PARKWOOD PLAZA  RTE 9",
+        "address2": "",
+        "city": "CLIFTON PARK",
+        "state": "NY",
+        "zip": "12065"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.437734, 41.741905]
+      },
+      "properties": {
+        "name": "BAXTER'S FINE JEWELRY",
+        "address1": "200 JEFFERSON BLVD.",
+        "address2": "",
+        "city": "WARWICK",
+        "state": "RI",
+        "zip": "02888"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.132783, 42.50576]
+      },
+      "properties": {
+        "name": "COOPER JEWELERS INC.",
+        "address1": "300 MISHAWUM ROAD",
+        "address2": "",
+        "city": "WOBURN",
+        "state": "MA",
+        "zip": "01801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.066955, 42.058333]
+      },
+      "properties": {
+        "name": "ROMM & CO",
+        "address1": "1280 BELMONT STREET",
+        "address2": "",
+        "city": "BROCKTON",
+        "state": "MA",
+        "zip": "02301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.20429, 42.711127]
+      },
+      "properties": {
+        "name": "AMYS COTTAGE OF WILLIAMSTOWN",
+        "address1": "39 SPRING STREET",
+        "address2": "",
+        "city": "WILLIAMSTOWN",
+        "state": "MA",
+        "zip": "01267"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.513517, 42.062847]
+      },
+      "properties": {
+        "name": "SAYEGH JEWELERS",
+        "address1": "60 SHAKER ROAD",
+        "address2": "",
+        "city": "EAST LONGMEADOW",
+        "state": "MA",
+        "zip": "01028"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.253776, 42.450616]
+      },
+      "properties": {
+        "name": "R J STOHR DIAMOND & FINE JEWELRY",
+        "address1": "137 NORTH STREET",
+        "address2": "",
+        "city": "PITTSFIELD",
+        "state": "MA",
+        "zip": "01201"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.000819, 41.541329]
+      },
+      "properties": {
+        "name": "MARIES JEWELRY",
+        "address1": "2444 E MAIN STREET",
+        "address2": "",
+        "city": "WATERBURY",
+        "state": "CT",
+        "zip": "06705"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.641357, 42.16763]
+      },
+      "properties": {
+        "name": "SHIRIN JEWELERS",
+        "address1": "50 HOLYOKE STREET #G304",
+        "address2": "",
+        "city": "HOLYOKE",
+        "state": "MA",
+        "zip": "01040"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.250618, 41.598275]
+      },
+      "properties": {
+        "name": "THE PORTSMOUTH SHOP",
+        "address1": "2511 EAST MAIN ROAD",
+        "address2": "",
+        "city": "PORTSMOUTH",
+        "state": "RI",
+        "zip": "02871"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.712735, 41.987688]
+      },
+      "properties": {
+        "name": "ECO CHIC BOUTIQUE",
+        "address1": "117 MAIN STREET",
+        "address2": "",
+        "city": "KINGSTON",
+        "state": "MA",
+        "zip": "02364"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.669219, 41.962431]
+      },
+      "properties": {
+        "name": "ECO CHIC BOUTIQUE",
+        "address1": "170 WATER STREET",
+        "address2": "",
+        "city": "PLYMOUTH",
+        "state": "MA",
+        "zip": "02360"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.376444, 41.819022]
+      },
+      "properties": {
+        "name": "GOLD AND CARAT EXCHANGE",
+        "address1": "17 GROVE AVENUE  #14137",
+        "address2": "",
+        "city": "EAST PROVIDENCE",
+        "state": "RI",
+        "zip": "02914"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.290615, 41.649571]
+      },
+      "properties": {
+        "name": "BUMBALINA",
+        "address1": "606 MAIN STREET",
+        "address2": "",
+        "city": "HYANNIS",
+        "state": "MA",
+        "zip": "02601"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.869624, 42.81088]
+      },
+      "properties": {
+        "name": "KEEPSAKES",
+        "address1": "1 STATE STREET",
+        "address2": "",
+        "city": "NEWBURYPORT",
+        "state": "MA",
+        "zip": "01950"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.74412, 41.760177]
+      },
+      "properties": {
+        "name": "LUX BOND & GREEN",
+        "address1": "46 Lasalle Rd",
+        "address2": "",
+        "city": "WEST HARTFORD",
+        "state": "CT",
+        "zip": "06107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.361358, 41.143216]
+      },
+      "properties": {
+        "name": "LUX BOND & GREEN",
+        "address1": "136 MAIN STREET",
+        "address2": "",
+        "city": "WESTPORT",
+        "state": "CT",
+        "zip": "06880"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.072467, 42.351262]
+      },
+      "properties": {
+        "name": "LUX BOND & GREEN",
+        "address1": "416 BOYLESTON STREET",
+        "address2": "",
+        "city": "BOSTON",
+        "state": "MA",
+        "zip": "02116"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.296191, 42.295982]
+      },
+      "properties": {
+        "name": "LUX BOND & GREEN",
+        "address1": "60 CENTRAL STREET",
+        "address2": "",
+        "city": "WELLESLEY",
+        "state": "MA",
+        "zip": "02482"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.206163, 42.178135]
+      },
+      "properties": {
+        "name": "KEEGAN'S JEWELERS",
+        "address1": "1135 WASHINGTON STREET",
+        "address2": "",
+        "city": "NORWOOD",
+        "state": "MA",
+        "zip": "02062"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.597048, 41.559381]
+      },
+      "properties": {
+        "name": "KEEGAN'S JEWELERS",
+        "address1": "205 WORCESTER CT.",
+        "address2": "",
+        "city": "FALMOUTH",
+        "state": "MA",
+        "zip": "02540"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.579462, 41.997692]
+      },
+      "properties": {
+        "name": "HANNOUSH JEWELERS",
+        "address1": "118 ELM STREET",
+        "address2": "",
+        "city": "ENFIELD",
+        "state": "CT",
+        "zip": "06082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.513775, 41.389834]
+      },
+      "properties": {
+        "name": "CLAUDIA",
+        "address1": "51 MAIN STREET",
+        "address2": "",
+        "city": "EDGARTOWN",
+        "state": "MA",
+        "zip": "02539"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.875339, 41.753561]
+      },
+      "properties": {
+        "name": "FARMINGTON JEWELERS",
+        "address1": "1680 FARMINGTON AVE.",
+        "address2": "",
+        "city": "UNIONVILLE",
+        "state": "CT",
+        "zip": "06085"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.72323, 42.112002]
+      },
+      "properties": {
+        "name": "RICHARD'S JEWELERS",
+        "address1": "461 EAST MAIN ST.",
+        "address2": "",
+        "city": "WESTFIELD",
+        "state": "MA",
+        "zip": "01085"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.834246, 42.965705]
+      },
+      "properties": {
+        "name": "QUICKSILVER FINE JEWELRY",
+        "address1": "29 LAFAYETTE ROAD",
+        "address2": "",
+        "city": "NORTH HAMPTON",
+        "state": "NH",
+        "zip": "03862"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.059815, 42.356227]
+      },
+      "properties": {
+        "name": "ALFRED F. DESCENZA & SON",
+        "address1": "387 WASHINGTON STREET",
+        "address2": "",
+        "city": "BOSTON",
+        "state": "MA",
+        "zip": "02108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.396973, 42.297502]
+      },
+      "properties": {
+        "name": "ALFRED F. DESCENZA & SON",
+        "address1": "92 WORCESTER ROAD",
+        "address2": "",
+        "city": "FRAMINGHAM",
+        "state": "MA",
+        "zip": "01702"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.910607, 42.179619]
+      },
+      "properties": {
+        "name": "ALFRED F. DESCENZA & SON",
+        "address1": "114 DERBY ST.",
+        "address2": "",
+        "city": "HINGHAM",
+        "state": "MA",
+        "zip": "02043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.940702, 42.542548]
+      },
+      "properties": {
+        "name": "ALFRED F. DESCENZA & SON",
+        "address1": "161 ANDOVER STREET",
+        "address2": "",
+        "city": "PEABODY",
+        "state": "MA",
+        "zip": "01960"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.957895, 41.680633]
+      },
+      "properties": {
+        "name": "CHATHAM JEWELERS",
+        "address1": "532 MAIN ST",
+        "address2": "",
+        "city": "CHATHAM",
+        "state": "MA",
+        "zip": "02633"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.278616, 42.931903]
+      },
+      "properties": {
+        "name": "MON AMIE FINE JEWELRY",
+        "address1": "87 MAIN STREET",
+        "address2": "",
+        "city": "KEENE",
+        "state": "NH",
+        "zip": "03431"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.602617, 41.455236]
+      },
+      "properties": {
+        "name": "C.B. STARK JEWELERS",
+        "address1": "53A MAIN ST.",
+        "address2": "",
+        "city": "VINEYARD HAVEN",
+        "state": "MA",
+        "zip": "02568"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.630145, 44.549844]
+      },
+      "properties": {
+        "name": "DAYS JEWELERS",
+        "address1": "88 MAIN STREET. STE. 101",
+        "address2": "",
+        "city": "WATERVILLE",
+        "state": "ME",
+        "zip": "04901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.746569, 44.840122]
+      },
+      "properties": {
+        "name": "DAYS JEWELERS",
+        "address1": "930 STILLWATER",
+        "address2": "",
+        "city": "BANGOR",
+        "state": "ME",
+        "zip": "04401"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.329526, 43.634363]
+      },
+      "properties": {
+        "name": "DAYS JEWELERS",
+        "address1": "415 PHILBROOK",
+        "address2": "",
+        "city": "SOUTH PORTLAND",
+        "state": "ME",
+        "zip": "04106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.991652, 41.788301]
+      },
+      "properties": {
+        "name": "STEPHEN GALLANT",
+        "address1": "34 MAIN STREET",
+        "address2": "",
+        "city": "ORLEANS",
+        "state": "MA",
+        "zip": "02653"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.219948, 42.483597]
+      },
+      "properties": {
+        "name": "LONG'S FINE JEWELERS",
+        "address1": "60-A SOUTH AVENUE",
+        "address2": "",
+        "city": "BURLINGTON",
+        "state": "MA",
+        "zip": "01803"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.762714, 41.722099]
+      },
+      "properties": {
+        "name": "SIDNEY THOMAS JEWELERS",
+        "address1": "64 WESTFARMS MALL",
+        "address2": "",
+        "city": "FARMINGTON",
+        "state": "CT",
+        "zip": "06032"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.076522, 40.917757]
+      },
+      "properties": {
+        "name": "SIDNEY THOMAS JEWELERS",
+        "address1": "2105 GARDEN STATE PLAZA",
+        "address2": "",
+        "city": "PARAMUS",
+        "state": "NJ",
+        "zip": "07652"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.364246, 40.740874]
+      },
+      "properties": {
+        "name": "SIDNEY THOMAS JEWELERS",
+        "address1": "1200 MORRIS TURNPIKE",
+        "address2": "",
+        "city": "SHORT HILLS",
+        "state": "NJ",
+        "zip": "07078"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.475668, 41.727498]
+      },
+      "properties": {
+        "name": "ROSS-SIMONS",
+        "address1": "136 ROUTE 5",
+        "address2": "",
+        "city": "WARWICK",
+        "state": "RI",
+        "zip": "02886"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.968108, 41.686057]
+      },
+      "properties": {
+        "name": "EAST WIND SILVER COMPANY",
+        "address1": "878 MAIN STREET",
+        "address2": "",
+        "city": "CHATHAM",
+        "state": "MA",
+        "zip": "02633"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.628139, 41.749684]
+      },
+      "properties": {
+        "name": "A.J. MARKS JEWELERS",
+        "address1": "3203 CRANBERRY HGWY",
+        "address2": "",
+        "city": "E WAREHAM",
+        "state": "MA",
+        "zip": "02538"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.292875, 42.295996]
+      },
+      "properties": {
+        "name": "ANDERSONS JEWELERS",
+        "address1": "21 GROVE ST",
+        "address2": "",
+        "city": "WELLESLEY",
+        "state": "MA",
+        "zip": "02482"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.868062, 42.881306]
+      },
+      "properties": {
+        "name": "ARAM ZEMANIAN",
+        "address1": "255 LAFAYETTE RD",
+        "address2": "",
+        "city": "SEABROOK",
+        "state": "NH",
+        "zip": "03874"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.688194, 41.87399]
+      },
+      "properties": {
+        "name": "ASHLEY'S JEWELERS",
+        "address1": "555 DAY HILL RD",
+        "address2": "",
+        "city": "WINDSOR",
+        "state": "CT",
+        "zip": "06095"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.922529, 41.635136]
+      },
+      "properties": {
+        "name": "BEJEWELED",
+        "address1": "26 CENTRE ST",
+        "address2": "",
+        "city": "NEW BEDFORD",
+        "state": "MA",
+        "zip": "02740"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.464861, 43.001697]
+      },
+      "properties": {
+        "name": "BELLMAN JEWELERS",
+        "address1": "1650 ELM ST",
+        "address2": "",
+        "city": "MANCHESTER",
+        "state": "NH",
+        "zip": "03104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.844763, 41.406726]
+      },
+      "properties": {
+        "name": "CAROL'S CREATIONS",
+        "address1": "344 WASHINGTON AVE",
+        "address2": "",
+        "city": "NORTH HAVEN",
+        "state": "CT",
+        "zip": "06473"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.235866, 42.280666]
+      },
+      "properties": {
+        "name": "CROSBY JEWELERS",
+        "address1": "1496 HIGHLAND AVE",
+        "address2": "",
+        "city": "NEEDHAM",
+        "state": "MA",
+        "zip": "02492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.217674, 42.368786]
+      },
+      "properties": {
+        "name": "DESCAR JEWELRY DESIGN",
+        "address1": "49 RIVER ST",
+        "address2": "",
+        "city": "WALTHAM",
+        "state": "MA",
+        "zip": "02453"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.959778, 41.682342]
+      },
+      "properties": {
+        "name": "DOLLI LLAMA",
+        "address1": "612 MAIN ST",
+        "address2": "",
+        "city": "CHATHAM",
+        "state": "MA",
+        "zip": "02633"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.069708, 42.093893]
+      },
+      "properties": {
+        "name": "GARIERI JEWELERS",
+        "address1": "139 MAIN ST",
+        "address2": "",
+        "city": "STURBRIDGE",
+        "state": "MA",
+        "zip": "01566"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.920825, 42.194211]
+      },
+      "properties": {
+        "name": "HARTS INC.",
+        "address1": "1356 WASHINGTON ST",
+        "address2": "",
+        "city": "WEYMOUTH",
+        "state": "MA",
+        "zip": "02189"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.384061, 42.081592]
+      },
+      "properties": {
+        "name": "JOSEPH'S FINE JEWELRY",
+        "address1": "287 EAST CENTRAL ST",
+        "address2": "",
+        "city": "FRANKLIN",
+        "state": "MA",
+        "zip": "02038"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.02491, 42.273914]
+      },
+      "properties": {
+        "name": "JOYCE & GENDREAU",
+        "address1": "52 BILLINGS RD",
+        "address2": "",
+        "city": "QUINCY",
+        "state": "MA",
+        "zip": "02171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.86544, 41.815672]
+      },
+      "properties": {
+        "name": "KEVIN EDWARDS JEWELERS",
+        "address1": "395 W MAIN ST",
+        "address2": "",
+        "city": "AVON",
+        "state": "CT",
+        "zip": "06001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.799386, 42.219839]
+      },
+      "properties": {
+        "name": "KING JEWELERS",
+        "address1": "812 RT 3A",
+        "address2": "",
+        "city": "COHASSET",
+        "state": "MA",
+        "zip": "02025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.869624, 42.81088]
+      },
+      "properties": {
+        "name": "M.K. BENATTI JEWELERS",
+        "address1": "1 STATE STREET",
+        "address2": "",
+        "city": "NEWBURYPORT",
+        "state": "MA",
+        "zip": "01950"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.06271, 42.459098]
+      },
+      "properties": {
+        "name": "MORGAN JEWELERS",
+        "address1": "695 MAIN ST",
+        "address2": "",
+        "city": "MELROSE",
+        "state": "MA",
+        "zip": "02176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.04334, 42.337303]
+      },
+      "properties": {
+        "name": "MURPHY'S JEWELRY",
+        "address1": "430 WEST 1ST STREET",
+        "address2": "",
+        "city": "S BOSTON",
+        "state": "MA",
+        "zip": "02127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.889056, 42.176055]
+      },
+      "properties": {
+        "name": "N.E. JEWELRY",
+        "address1": "43 WHITING ST",
+        "address2": "",
+        "city": "HINGHAM",
+        "state": "MA",
+        "zip": "02043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.103909, 42.822764]
+      },
+      "properties": {
+        "name": "NASER JEWELERS",
+        "address1": "37 PLAISTOW ROAD",
+        "address2": "",
+        "city": "PLAISTOW",
+        "state": "NH",
+        "zip": "03865"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.960791, 41.779457]
+      },
+      "properties": {
+        "name": "OCEANA",
+        "address1": "P.O.BOX 1550",
+        "address2": "",
+        "city": "ORLEANS",
+        "state": "MA",
+        "zip": "02653"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.386006, 41.628631]
+      },
+      "properties": {
+        "name": "OYSTER ISLAND EMPORIUM",
+        "address1": "846 MAIN ST",
+        "address2": "",
+        "city": "OSTERVILLE",
+        "state": "MA",
+        "zip": "02655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.069253, 42.459055]
+      },
+      "properties": {
+        "name": "PERELLA JEWELERS",
+        "address1": "136 W EMERSON ST",
+        "address2": "",
+        "city": "MELROSE",
+        "state": "MA",
+        "zip": "02176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.629762, 42.319834]
+      },
+      "properties": {
+        "name": "SILVERSCAPE DESIGNS",
+        "address1": "1 KING ST",
+        "address2": "",
+        "city": "NORTHAMPTON",
+        "state": "MA",
+        "zip": "01060"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.888736, 42.241465]
+      },
+      "properties": {
+        "name": "THE WHITNEY GORDON'S",
+        "address1": "39 MAIN ST",
+        "address2": "",
+        "city": "HINGHAM",
+        "state": "MA",
+        "zip": "02043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.615623, 41.55224]
+      },
+      "properties": {
+        "name": "TOUCHE",
+        "address1": "234 MAIN ST",
+        "address2": "",
+        "city": "FALMOUTH",
+        "state": "MA",
+        "zip": "02540"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.398696, 42.084099]
+      },
+      "properties": {
+        "name": "VALLEE'S",
+        "address1": "68 MAIN ST",
+        "address2": "",
+        "city": "FRANKLIN",
+        "state": "MA",
+        "zip": "02038"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.617377, 42.658584]
+      },
+      "properties": {
+        "name": "VILLAGE SILVERSMITH",
+        "address1": "27 DOCK SQ",
+        "address2": "",
+        "city": "ROCKPORT",
+        "state": "MA",
+        "zip": "01966"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.958081, 41.680293]
+      },
+      "properties": {
+        "name": "YANKEE INGENUITY",
+        "address1": "525 MAIN ST",
+        "address2": "",
+        "city": "CHATHAM",
+        "state": "MA",
+        "zip": "02633"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.620892, 42.086657]
+      },
+      "properties": {
+        "name": "Coopers Gifts",
+        "address1": "161 Main St.",
+        "address2": "",
+        "city": "Agawam",
+        "state": "MA",
+        "zip": "01001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.931111, 42.856321]
+      },
+      "properties": {
+        "name": "Starbird Jewelers",
+        "address1": "80 Main St.",
+        "address2": "",
+        "city": "Amesbury",
+        "state": "MA",
+        "zip": "01913"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.285495, 41.943692]
+      },
+      "properties": {
+        "name": "Attleboro Jewelers",
+        "address1": "35 County St.",
+        "address2": "",
+        "city": "Attleboro",
+        "state": "MA",
+        "zip": "02703"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.261582, 42.486164]
+      },
+      "properties": {
+        "name": "Bedford Jewelers",
+        "address1": "323 Great Rd.",
+        "address2": "",
+        "city": "Bedford",
+        "state": "MA",
+        "zip": "01730"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.81769, 41.277856]
+      },
+      "properties": {
+        "name": "Branford Jewelers",
+        "address1": "567 Main St.",
+        "address2": "",
+        "city": "Branford",
+        "state": "CT",
+        "zip": "06405"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.974838, 41.9913]
+      },
+      "properties": {
+        "name": "Chateau Jewelers",
+        "address1": "51 Broad St.",
+        "address2": "",
+        "city": "Bridgewater",
+        "state": "MA",
+        "zip": "02324"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.276496, 41.669934]
+      },
+      "properties": {
+        "name": "Carons Jewelers",
+        "address1": "437 Hope St.",
+        "address2": "",
+        "city": "Bristol",
+        "state": "RI",
+        "zip": "02890"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.149723, 42.13933]
+      },
+      "properties": {
+        "name": "Roberts Jewelry",
+        "address1": "10B Washington St.",
+        "address2": "",
+        "city": "Canton",
+        "state": "MA",
+        "zip": "02021"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.804795, 41.921356]
+      },
+      "properties": {
+        "name": "Carver Jewelers",
+        "address1": "96 North Main St.",
+        "address2": "",
+        "city": "Carver",
+        "state": "MA",
+        "zip": "02330"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.3474, 42.602537]
+      },
+      "properties": {
+        "name": "Charles Frederick Jewelers",
+        "address1": "18 Alpine Lane",
+        "address2": "",
+        "city": "Chelmsford",
+        "state": "MA",
+        "zip": "01824"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.506046, 41.273233]
+      },
+      "properties": {
+        "name": "Christo Jewelers",
+        "address1": "215 East Main St.",
+        "address2": "",
+        "city": "Clinton",
+        "state": "CT",
+        "zip": "06413"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.800466, 42.220916]
+      },
+      "properties": {
+        "name": "Cohasset Jewelers",
+        "address1": "790A Cushing Hwy",
+        "address2": "",
+        "city": "Cohasset",
+        "state": "MA",
+        "zip": "02025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.511537, 43.232964]
+      },
+      "properties": {
+        "name": "Jewelers Workbench",
+        "address1": "12 Dominique Rd.",
+        "address2": "",
+        "city": "Concord",
+        "state": "NH",
+        "zip": "03101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.561116, 41.687837]
+      },
+      "properties": {
+        "name": "The Bead Sting",
+        "address1": "57 Sandy Bottom Rd.",
+        "address2": "",
+        "city": "Coventry",
+        "state": "RI",
+        "zip": "02816"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.46769, 41.983574]
+      },
+      "properties": {
+        "name": "With Heart and Soul",
+        "address1": "3751 Mendon Rd.",
+        "address2": "",
+        "city": "Cumberland",
+        "state": "RI",
+        "zip": "02864"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.640965, 41.755746]
+      },
+      "properties": {
+        "name": "Gold World",
+        "address1": "3112 Cranberry Highway",
+        "address2": "",
+        "city": "E. Wareham",
+        "state": "MA",
+        "zip": "02538"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.449994, 41.663386]
+      },
+      "properties": {
+        "name": "Stencel Jewelers",
+        "address1": "40 Main St.",
+        "address2": "",
+        "city": "East Greenwich",
+        "state": "RI",
+        "zip": "02818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.346531, 41.807376]
+      },
+      "properties": {
+        "name": "MRT Jewelers",
+        "address1": "927 Warren Ave.",
+        "address2": "",
+        "city": "East Providence",
+        "state": "RI",
+        "zip": "02914"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.871037, 41.643728]
+      },
+      "properties": {
+        "name": "Periwinkles",
+        "address1": "270 Huttleston Ave.",
+        "address2": "",
+        "city": "Fairhaven",
+        "state": "MA",
+        "zip": "02719"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.154098, 41.698655]
+      },
+      "properties": {
+        "name": "J&J Jewelers",
+        "address1": "167 Borden St.",
+        "address2": "",
+        "city": "Fall River",
+        "state": "MA",
+        "zip": "02721"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.615944, 41.551908]
+      },
+      "properties": {
+        "name": "Falmouth Jewelry Shop",
+        "address1": "225 Main St.",
+        "address2": "",
+        "city": "Falmouth",
+        "state": "MA",
+        "zip": "02541"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.395554, 42.298711]
+      },
+      "properties": {
+        "name": "Stardust Jewelers",
+        "address1": "60 Worcester Rd.",
+        "address2": "",
+        "city": "Framingham",
+        "state": "MA",
+        "zip": "01702"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.60742, 41.711571]
+      },
+      "properties": {
+        "name": "Baribault Jewelers",
+        "address1": "81 Rankin Rd.",
+        "address2": "",
+        "city": "Glastonbury",
+        "state": "CT",
+        "zip": "06033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.607207, 41.713209]
+      },
+      "properties": {
+        "name": "Silver Dahlia",
+        "address1": "63 Hebron Ave.",
+        "address2": "",
+        "city": "Glastonbury",
+        "state": "CT",
+        "zip": "06033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.531685, 41.868146]
+      },
+      "properties": {
+        "name": "Ephriam Doumato",
+        "address1": "19 Saunderston Rd.",
+        "address2": "",
+        "city": "Greenville",
+        "state": "RI",
+        "zip": "02828"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.837906, 42.941587]
+      },
+      "properties": {
+        "name": "Cohen Jewelers",
+        "address1": "1 High St",
+        "address2": "",
+        "city": "Hampton",
+        "state": "NH",
+        "zip": "03842"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.840574, 42.146553]
+      },
+      "properties": {
+        "name": "NASR Jewelers",
+        "address1": "1775 Washington St.",
+        "address2": "",
+        "city": "Hanover",
+        "state": "MA",
+        "zip": "02339"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.085337, 41.669631]
+      },
+      "properties": {
+        "name": "Cape Life Gifts",
+        "address1": "337 Route 28",
+        "address2": "",
+        "city": "Harwichport",
+        "state": "MA",
+        "zip": "02646"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.074383, 41.667989]
+      },
+      "properties": {
+        "name": "Cranberry Jewelers",
+        "address1": "554 Main St. Rte. 28",
+        "address2": "",
+        "city": "Harwichport",
+        "state": "MA",
+        "zip": "02646"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.641725, 42.222398]
+      },
+      "properties": {
+        "name": "Brad Matthews",
+        "address1": "2225 N Hampton St.",
+        "address2": "",
+        "city": "Holyoke",
+        "state": "MA",
+        "zip": "01040"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.277968, 42.936519]
+      },
+      "properties": {
+        "name": "Stoneman",
+        "address1": "82 Washington St.",
+        "address2": "",
+        "city": "Keene",
+        "state": "NH",
+        "zip": "03431"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.477673, 43.361282]
+      },
+      "properties": {
+        "name": "Coastal Jewelers",
+        "address1": "28 Dock Square",
+        "address2": "",
+        "city": "Kennebunkport",
+        "state": "ME",
+        "zip": "04046"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.730135, 42.011966]
+      },
+      "properties": {
+        "name": "Premier Jewelers",
+        "address1": "187 Summer St.",
+        "address2": "",
+        "city": "Kingston",
+        "state": "MA",
+        "zip": "02364"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.407531, 41.904386]
+      },
+      "properties": {
+        "name": "Christian Jewelers",
+        "address1": "184 Front St.",
+        "address2": "",
+        "city": "Lincoln",
+        "state": "MA",
+        "zip": "02865"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.346902, 42.870649]
+      },
+      "properties": {
+        "name": "Baldoria",
+        "address1": "5 Garden Lane",
+        "address2": "",
+        "city": "Londonderry",
+        "state": "NH",
+        "zip": "03053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.595055, 41.279699]
+      },
+      "properties": {
+        "name": "Silver Moon",
+        "address1": "769 Boston Post Rd.",
+        "address2": "",
+        "city": "Madison",
+        "state": "CT",
+        "zip": "06443"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.443507, 42.961805]
+      },
+      "properties": {
+        "name": "John’s Hallmark",
+        "address1": "62 March Ave.",
+        "address2": "",
+        "city": "Manchester",
+        "state": "NH",
+        "zip": "03103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.199573, 41.736367]
+      },
+      "properties": {
+        "name": "Roy Jewelers",
+        "address1": "119 Storr Rd.",
+        "address2": "",
+        "city": "Mansfiled Center",
+        "state": "CT",
+        "zip": "06250"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.490596, 41.616797]
+      },
+      "properties": {
+        "name": "Elfstone Silver and Gold",
+        "address1": "19 Central Sq.",
+        "address2": "",
+        "city": "Mashpee",
+        "state": "MA",
+        "zip": "02649"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.813807, 41.663838]
+      },
+      "properties": {
+        "name": "Isabelle’s",
+        "address1": "33 County Rd",
+        "address2": "",
+        "city": "Mattapoisett",
+        "state": "MA",
+        "zip": "02738"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.111741, 42.418582]
+      },
+      "properties": {
+        "name": "Rolands",
+        "address1": "70 High St.",
+        "address2": "",
+        "city": "Medford",
+        "state": "MA",
+        "zip": "02155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.412643, 42.151796]
+      },
+      "properties": {
+        "name": "Medway Jewelers",
+        "address1": "74 Main St.",
+        "address2": "",
+        "city": "Medway",
+        "state": "MA",
+        "zip": "02053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.564003, 42.102844]
+      },
+      "properties": {
+        "name": "Stardust Jewelers Mendon",
+        "address1": "12 Uxbridge Rd.",
+        "address2": "",
+        "city": "Mendon",
+        "state": "MA",
+        "zip": "01756"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.668586, 42.838055]
+      },
+      "properties": {
+        "name": "John’s Hallmark",
+        "address1": "198 Elm St.",
+        "address2": "",
+        "city": "Milford",
+        "state": "NH",
+        "zip": "03055"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.709491, 45.656922]
+      },
+      "properties": {
+        "name": "Melvin Ferland",
+        "address1": "234 Penobscot Ave.",
+        "address2": "",
+        "city": "Millinocket",
+        "state": "ME",
+        "zip": "04462"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.315157, 42.098374]
+      },
+      "properties": {
+        "name": "Belanger’s",
+        "address1": "125 Main St.",
+        "address2": "",
+        "city": "Monson",
+        "state": "MA",
+        "zip": "01057"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.957251, 41.373554]
+      },
+      "properties": {
+        "name": "Mystic Silver",
+        "address1": "27A Olde Mystic Village",
+        "address2": "",
+        "city": "Mystic",
+        "state": "CT",
+        "zip": "06355"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.110203, 42.698302]
+      },
+      "properties": {
+        "name": "Dilego Jewelers",
+        "address1": "16 Ashland St.",
+        "address2": "",
+        "city": "N. Adams",
+        "state": "MA",
+        "zip": "01247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.278549, 42.574004]
+      },
+      "properties": {
+        "name": "Billerica Jewelers",
+        "address1": "306 Boston Neck Rd.",
+        "address2": "",
+        "city": "N. Billerica",
+        "state": "MA",
+        "zip": "01862"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.928897, 41.666536]
+      },
+      "properties": {
+        "name": "Folco Jewelers",
+        "address1": "1697 Acushnet Ave.",
+        "address2": "",
+        "city": "New Bedford",
+        "state": "MA",
+        "zip": "02746"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.314885, 41.488382]
+      },
+      "properties": {
+        "name": "Jason and Co.",
+        "address1": "182 Thames St.",
+        "address2": "",
+        "city": "Newport",
+        "state": "RI",
+        "zip": "02840"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.333401, 41.9696]
+      },
+      "properties": {
+        "name": "Facet Jewelers",
+        "address1": "153 East Washington St.",
+        "address2": "",
+        "city": "North Attleboro",
+        "state": "MA",
+        "zip": "02760"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.59015, 41.832323]
+      },
+      "properties": {
+        "name": "Charming Treasures",
+        "address1": "178 Danielson Pike.",
+        "address2": "",
+        "city": "North Scituate",
+        "state": "RI",
+        "zip": "02857"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.985223, 41.797452]
+      },
+      "properties": {
+        "name": "Cape Tradewinds",
+        "address1": "8 Canal Rd.",
+        "address2": "",
+        "city": "Orleans",
+        "state": "MA",
+        "zip": "02653"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.671846, 44.883289]
+      },
+      "properties": {
+        "name": "Degrasse Jewelers",
+        "address1": "5 Mill St.",
+        "address2": "",
+        "city": "Orono",
+        "state": "MA",
+        "zip": "04473"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.38954, 41.63526]
+      },
+      "properties": {
+        "name": "Silva Jewelers",
+        "address1": "1112 Main St.",
+        "address2": "",
+        "city": "Osterville",
+        "state": "MA",
+        "zip": "02655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.354093, 41.871933]
+      },
+      "properties": {
+        "name": "Ricards Jewelry",
+        "address1": "555 Newport Ave.",
+        "address2": "",
+        "city": "Pawtucket",
+        "state": "RI",
+        "zip": "02861"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.202925, 42.468424]
+      },
+      "properties": {
+        "name": "Charland Jewelers",
+        "address1": "875 Dalton Ave.",
+        "address2": "",
+        "city": "Pittsfield",
+        "state": "MA",
+        "zip": "01201"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.710807, 41.954553]
+      },
+      "properties": {
+        "name": "NASR Jewelers",
+        "address1": "61 Commerce Way",
+        "address2": "",
+        "city": "Plymouth",
+        "state": "MA",
+        "zip": "02360"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.665223, 41.957254]
+      },
+      "properties": {
+        "name": "Stellor Jewelers",
+        "address1": "1 Court St.",
+        "address2": "",
+        "city": "Plymouth",
+        "state": "MA",
+        "zip": "02360"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.665003, 41.959714]
+      },
+      "properties": {
+        "name": "3 Daughters Jewelry",
+        "address1": "108 Water St.",
+        "address2": "",
+        "city": "Plymouth",
+        "state": "MA",
+        "zip": "02360"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.187963, 42.050232]
+      },
+      "properties": {
+        "name": "RC Hancrafted",
+        "address1": "241 Commercial St.",
+        "address2": "",
+        "city": "Provincetown",
+        "state": "MA",
+        "zip": "02657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.103015, 42.524307]
+      },
+      "properties": {
+        "name": "C. Simms Jewelers",
+        "address1": "648 Main St.",
+        "address2": "",
+        "city": "Reading",
+        "state": "MA",
+        "zip": "01867"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.945322, 42.688383]
+      },
+      "properties": {
+        "name": "Gold Rush",
+        "address1": "174 Newbury Tpke.",
+        "address2": "",
+        "city": "Rowley",
+        "state": "MA",
+        "zip": "01969"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.006271, 42.201706]
+      },
+      "properties": {
+        "name": "Caruso Jewelers",
+        "address1": "1000 Washington St.",
+        "address2": "",
+        "city": "S Braintree",
+        "state": "MA",
+        "zip": "02184"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.215586, 42.764799]
+      },
+      "properties": {
+        "name": "Baldoria",
+        "address1": "203 South Broadway",
+        "address2": "",
+        "city": "Salem",
+        "state": "NH",
+        "zip": "03079"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.786404, 41.903971]
+      },
+      "properties": {
+        "name": "Riches Jewelers",
+        "address1": "1402 Hopmeadow St.",
+        "address2": "",
+        "city": "Simsbury",
+        "state": "CT",
+        "zip": "06070"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.195293, 41.665162]
+      },
+      "properties": {
+        "name": "Adrene Jewelers",
+        "address1": "1198 Route 28",
+        "address2": "",
+        "city": "South Yarmouth",
+        "state": "MA",
+        "zip": "02664"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.203035, 41.657764]
+      },
+      "properties": {
+        "name": "Yarmouth Jewelers",
+        "address1": "1086 Main St. Rte 28",
+        "address2": "",
+        "city": "South Yarmouth",
+        "state": "MA",
+        "zip": "02664"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.204593, 41.713036]
+      },
+      "properties": {
+        "name": "Cape Tradewinds",
+        "address1": "852 Main St./Rte. 28",
+        "address2": "",
+        "city": "South Yarmouth",
+        "state": "MA",
+        "zip": "02664"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.032951, 42.07584]
+      },
+      "properties": {
+        "name": "Cormier Jewelers",
+        "address1": "42 Central St.",
+        "address2": "",
+        "city": "Southbridge",
+        "state": "MA",
+        "zip": "01550"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.994572, 42.243661]
+      },
+      "properties": {
+        "name": "Cormier Jewelers",
+        "address1": "136 Main St.",
+        "address2": "",
+        "city": "Spencer",
+        "state": "MA",
+        "zip": "01562"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.26038, 41.767312]
+      },
+      "properties": {
+        "name": "Tickle’s",
+        "address1": "2219 GAR Highway",
+        "address2": "",
+        "city": "Swansea",
+        "state": "MA",
+        "zip": "02777"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.088102, 41.928614]
+      },
+      "properties": {
+        "name": "Perry Jewelers",
+        "address1": "400 Broadway",
+        "address2": "",
+        "city": "Taunton",
+        "state": "MA",
+        "zip": "02780"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.073219, 41.673842]
+      },
+      "properties": {
+        "name": "Barberet Jewelers",
+        "address1": "79 Main St.",
+        "address2": "",
+        "city": "Thomaston",
+        "state": "CT",
+        "zip": "06787"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.482095, 41.829851]
+      },
+      "properties": {
+        "name": "Dunbar Jewelers",
+        "address1": "435 Hartford Tpke.",
+        "address2": "",
+        "city": "Vernon",
+        "state": "CT",
+        "zip": "06066"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.476041, 41.830512]
+      },
+      "properties": {
+        "name": "Friedrich Jewelers",
+        "address1": "520 Hartford Tpke.",
+        "address2": "",
+        "city": "Vernon",
+        "state": "CT",
+        "zip": "06066"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.785347, 42.34912]
+      },
+      "properties": {
+        "name": "Pucci Jewelers",
+        "address1": "205 West Boylston St.",
+        "address2": "",
+        "city": "W. Boylston",
+        "state": "MA",
+        "zip": "01583"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.489402, 41.440947]
+      },
+      "properties": {
+        "name": "Bartone Jewelers",
+        "address1": "20 East Main St.",
+        "address2": "",
+        "city": "Wakefield",
+        "state": "RI",
+        "zip": "02879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.496035, 41.440944]
+      },
+      "properties": {
+        "name": "The Purple Cow",
+        "address1": "205 Main St.",
+        "address2": "",
+        "city": "Wakefield",
+        "state": "RI",
+        "zip": "02879"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.435108, 41.734378]
+      },
+      "properties": {
+        "name": "Chief’s Jewelers",
+        "address1": "1724 Post Rd.",
+        "address2": "",
+        "city": "Warwick",
+        "state": "RI",
+        "zip": "02888"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.449046, 41.733976]
+      },
+      "properties": {
+        "name": "National Gold",
+        "address1": "55 Access Way",
+        "address2": "",
+        "city": "Warwick",
+        "state": "RI",
+        "zip": "02886"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.882252, 42.049289]
+      },
+      "properties": {
+        "name": "Paradise Jewelers",
+        "address1": "262 Main St.",
+        "address2": "",
+        "city": "Webster",
+        "state": "MA",
+        "zip": "01570"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.164969, 41.665408]
+      },
+      "properties": {
+        "name": "Smith’s Time Service",
+        "address1": "467 Main St.",
+        "address2": "",
+        "city": "West Dennis",
+        "state": "MA",
+        "zip": "02670"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.425066, 42.56484]
+      },
+      "properties": {
+        "name": "Diamond Jewelers",
+        "address1": "190 Littleton Rd.",
+        "address2": "",
+        "city": "Westford",
+        "state": "MA",
+        "zip": "01886"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.703064, 41.704354]
+      },
+      "properties": {
+        "name": "Turgeon Jewelers",
+        "address1": "1841 Berlin Tpke.",
+        "address2": "",
+        "city": "Wethersfield",
+        "state": "CT",
+        "zip": "06109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.935932, 42.080612]
+      },
+      "properties": {
+        "name": "Menards Jewelry",
+        "address1": "31 South Ave.",
+        "address2": "",
+        "city": "Whitman",
+        "state": "MA",
+        "zip": "02382"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.453122, 41.56837]
+      },
+      "properties": {
+        "name": "Gold Lady",
+        "address1": "30 Phillips St.",
+        "address2": "",
+        "city": "Wickford",
+        "state": "RI",
+        "zip": "02852"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.047729, 42.680912]
+      },
+      "properties": {
+        "name": "Patties",
+        "address1": "15 Central St.",
+        "address2": "",
+        "city": "Winchendon",
+        "state": "MA",
+        "zip": "01475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.137077, 42.452381]
+      },
+      "properties": {
+        "name": "Simms II",
+        "address1": "550 Main St.",
+        "address2": "",
+        "city": "Winchester",
+        "state": "MA",
+        "zip": "01890"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.293675, 42.806506]
+      },
+      "properties": {
+        "name": "Clifford Jewelers",
+        "address1": "Clifford Jewelers",
+        "address2": "",
+        "city": "Windham",
+        "state": "NH",
+        "zip": "03087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.17831, 42.468521]
+      },
+      "properties": {
+        "name": "Musto Jewelers",
+        "address1": "186 Cambridge St.",
+        "address2": "",
+        "city": "Woburn",
+        "state": "MA",
+        "zip": "01801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.429786, 42.199397]
+      },
+      "properties": {
+        "name": "HOLLISTON JEWELERS",
+        "address1": "804 washington",
+        "address2": "",
+        "city": "Holliston",
+        "state": "MA",
+        "zip": "01746"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.772990,
+          43.068980
+        ]
+      },
+      "properties": {
+        "name": "Portsmouth Jewelers",
+        "address1": "801 Islington Street",
+        "address2": "",
+        "city": "Portsmouth",
+        "state": "NH",
+        "zip": "03801"
+      }
+    },
+	{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.61746889999999,
+          41.5527868
+        ]
+      },
+      "properties": {
+        "name": "The Gilded Oyster",
+        "address1": "155 Main St",
+        "address2": "",
+        "city": "Falmouth",
+        "state": "MA",
+        "zip": "02540"
+      }
+    }
+  ]
+}

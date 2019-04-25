@@ -1,0 +1,26 @@
+[{
+  "title": "About Us",
+  "to": {
+    "name": "about"
+  }
+}, {
+  "title": "Cape Cod Jewelry",
+  "to": {
+    "name": "products"
+  }
+}, {
+  "title": "Warranty",
+  "to": {
+    "name": "warranty"
+  }
+}, {
+  "title": "Contact",
+  "to": {
+    "name": "contact"
+  }
+}, {
+  "title": "Retailers",
+  "to": {
+    "name": "retailers"
+  }
+}]

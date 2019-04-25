@@ -1,0 +1,254 @@
+@import "mixins";
+
+form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+form p {
+  clear: left;
+  float: left;
+  margin: 1em 0 0;
+  width: 100%;
+  position: relative;
+  vertical-align: top;
+  z-index: 1;
+
+  ::placeholder-shown,
+  ::-webkit-input-placeholder,
+  :-moz-placeholder,
+  :-ms-input-placeholder,
+  ::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  input:not([disabled]):not([type="submit"]),
+  textarea {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    color: getColor(text, contrast);
+    display: block;
+    float: right;
+    opacity: 0;
+    padding: 0.8em;
+    position: relative;
+    transition: opacity 0.3s;
+    width: 100%;
+    z-index: 10;
+    -webkit-appearance: none;
+
+    /* for box shadows to show on iOS */
+    &:focus {
+      outline: none;
+    }
+  }
+
+  label {
+    color: getColor(base, primary);
+    float: right;
+    font-family: $font-family-menu;
+    text-transform: uppercase;
+    padding: 0 1em;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 70.25%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    user-select: none;
+
+    &::before {
+      background: getColor(base, primary);
+      content: '';
+      height: 4em;
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+      transform-origin: 50% 100%;
+      transition: transform 0.3s;
+      width: 100%;
+    }
+
+    &::after {
+      background: getColor(base, primary);
+      content: '';
+      height: 2px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform-origin: 50% 0%;
+      transition: transform 0.3s;
+      width: 100%;
+    }
+  }
+
+  textarea {
+    height: 10em;
+
+    &+label::before {
+      height: 14em;
+    }
+  }
+
+  label span {
+    display: block;
+    padding: 0.75em 0;
+    position: relative;
+    width: 100%;
+  }
+
+  // on focus
+  input:not([disabled]):not([type="submit"]):focus,
+  input:not([disabled]):not([type="submit"]):valid,
+  textarea:focus,
+  textarea:valid {
+    opacity: 1;
+    transition-delay: 0.3s;
+
+    &+label {
+      pointer-events: none;
+    }
+
+    &+label::before {
+      transform: perspective(1000px) rotate3d(1, 0, 0, 0deg);
+    }
+
+    &+label::after {
+      transform: perspective(1000px) rotate3d(1, 0, 0, -90deg);
+    }
+  }
+
+  // valid inputs
+  input:not([disabled]):not([type="submit"]):not(:focus):valid,
+  textarea:not([disabled]):not(:focus):valid {
+    opacity: 1;
+    transition-delay: 0.3s;
+
+    &+label::before,
+    &+label::after {
+      background-color: getColor(state, success);
+      opacity: .5;
+    }
+  }
+
+  // invalid or blank inputs
+  // input:not([disabled]):not([type="submit"]):not(:focus):not(:valid),
+  // textarea:not([disabled]):not(:focus):not(:valid) {
+  // transition-delay: 0.3s;
+  // & + label::before, & + label::after {
+  // background-color: getColor(state, error);
+  // opacity: .5;
+  // }
+  // }
+
+  input[type="submit"] {
+    background: getColor(base, primary);
+    border: 2px solid getColor(base, primary);
+    border-radius: 4px;
+    color: getColor(text, contrast);
+    clear: both;
+    cursor: pointer;
+    outline: none;
+    padding: 1em 2em;
+    transition: color opacity border 0.3s;
+
+    &:hover {
+      background: getColor(base, primary);
+      border-color: getColor(text, contrast);
+    }
+  }
+}
+
+
+//WPSL form
+#wpsl-wrap {
+  #wpsl-gmap {
+    border: 2px solid getColor(base, primary);
+    margin: 1rem;
+  }
+
+  .wpsl-input {
+    display: inline-block;
+    font-family: $font-family-menu;
+
+    label {
+      display: none;
+    }
+
+    input {
+      border: 2px solid getColor(base, primary);
+      border-radius: 5em 0 0 5em;
+      height: 3rem;
+      min-width: 200px;
+      margin: 1rem -4px 1rem 0;
+      padding: 1rem;
+      // TODO: highlight color;
+    }
+  }
+
+  .wpsl-search-btn-wrap {
+    display: inline-block;
+
+    input[type="submit"] {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      height: 3rem;
+      margin: 1rem 0;
+      min-width: auto;
+      width: auto;
+    }
+  }
+
+  #wpsl-result-list {
+    ul {
+      @include unstyled;
+    }
+
+    li {
+      @include clearfix;
+      border-bottom: 1px solid getColor(background, light);
+      padding: 1rem;
+      text-align: left;
+      width: 100%;
+
+      &:hover {
+        background: getColor(background, light);
+      }
+    }
+
+    .wpsl-store-location {
+      float: left;
+
+      p * {
+        float: left;
+        clear: left;
+      }
+    }
+
+    .wpsl-direction-wrap {
+      float: right;
+      padding-top: 1rem;
+      text-align: right;
+
+      a {
+        @include button;
+        margin: -1rem 1rem 0 2rem;
+      }
+    }
+  }
+}
+
+
+// not gonna work while inputs are tucked inside a p tag :(
+// input:invalid ~ input[type="submit"] {
+//   background: transparent;
+//   border: 2px solid getColor(base, primary);
+//   opacity: .5;
+//   &:hover {
+//     background: transparent;
+//   }
+// }

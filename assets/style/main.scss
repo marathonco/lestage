@@ -1,0 +1,70 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'base';
+@import 'fonts';
+@import 'type';
+@import 'buttons';
+
+.hide {
+  display: none;
+}
+
+html,
+body {
+  background-color: getColor(background, body);
+  // overflow-x: hidden;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  >main {
+    flex: 1;
+  }
+}
+
+.content {
+  padding: 1rem 2rem;
+}
+
+.line-after {
+  @include line-after;
+}
+
+.fill {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+
+  @include tablet {
+    padding: 4rem;
+  }
+}
+
+.fill.accent {
+  background: getColor(background, accent);
+}
+
+.fill.accent2 {
+  background: getColor(background, accent2);
+}
+
+.fill.accent3 {
+  background: getColor(background, accent3);
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s ease-out;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
