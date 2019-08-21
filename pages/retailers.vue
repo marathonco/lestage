@@ -73,8 +73,8 @@
 </template>
 
 <script>
-import retailers from '~/data/retailers'
 import { OpenStreetMapProvider } from 'leaflet-geosearch'
+import retailers from '~/data/retailers'
 
 /**
  * calculateDistance
