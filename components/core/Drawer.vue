@@ -25,7 +25,7 @@
         </a>
       </li>
     </ul>
-    <ul class="nav-menu hide">
+    <ul class="nav-menu">
       <li>
         <a href="https://blog.lestage.com">Blog</a>
       </li>
