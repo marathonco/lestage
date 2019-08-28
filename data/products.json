@@ -2,7 +2,7 @@
      {
      "title": "Snake Chain Anklet",
      "slug": "cca5405",
-     "price": "$65-$165",
+     "price": "$65-$180",
      "category": "Cape Cod Anklet",
      "categorySlug": "anklets",
      "description": "Summer=Sandals=Anklets! What could be more fun? A smooth polished ball in all sterling silver or with a gold accent. Available on a trendy snake chain.",
@@ -21,7 +21,7 @@
      {
      "title": "Single Ball Anklet w/ Omega chain",
      "slug": "cca5405o",
-     "price": "$65-$165",
+     "price": "$65-$180",
      "category": "Cape Cod Anklet",
      "categorySlug": "anklets",
      "description": "Summer=Sandals=Anklets! What could be more fun? A smooth polished ball in all sterling silver or with a gold accent. Available on a trendy snake chain.",
@@ -40,7 +40,7 @@
      {
      "title": "Swirl Ball Anklet on Snake Chain",
      "slug": "cca5460",
-     "price": "$65-$160",
+     "price": "$65-$170",
      "category": "Cape Cod Anklet",
      "categorySlug": "anklets",
      "description": "Summer=Sandals=Anklets! What could be more fun? A lovely swirl ball in all sterling silver or with gold accent on a trendy snake chain with lobster claw clasp.",
@@ -59,7 +59,7 @@
      {
      "title": "Swirl Ball Anklet w/ Omega Chain",
      "slug": "cca5460o",
-     "price": "$65-$160",
+     "price": "$65-$170",
      "category": "Cape Cod Anklet",
      "categorySlug": "anklets",
      "description": "Summer=Sandals=Anklets! What could be more fun? A lovely swirl ball in all sterling silver or with gold accent on a trendy snake chain with lobster claw clasp.",
@@ -78,7 +78,7 @@
      {
      "title": "The Classic Single Ball Bracelet",
      "slug": "ccb5405",
-     "price": "$115-$185",
+     "price": "$120-$200",
      "category": "Cape Cod Bracelet",
      "categorySlug": "bracelets",
      "description": "Classic style and sophistication. In all sterling silver or sterling silver with a yellow or rose gold accent. This is the one that started it all.",
@@ -97,7 +97,7 @@
      {
      "title": "14K Yellow Gold Bracelet",
      "slug": "ccb5405g",
-     "price": "$1285-$1660",
+     "price": "$1460-$1885",
      "category": "Cape Cod Bracelet",
      "categorySlug": "bracelets",
      "description": "Classic style and sophistication single ball style crafted in stunning 14k Gold.",
@@ -116,7 +116,7 @@
      {
      "title": "Sterling & 14K Gold Filled Bracelet",
      "slug": "ccb5405gf",
-     "price": "$1285-$1660",
+     "price": "$1460-$1885",
      "category": "Cape Cod Bracelet",
      "categorySlug": "bracelets",
      "description": "Mix it up with style. Classic style and sophistication in 14K Gold filled with a polished sterling silver ball.",
@@ -135,7 +135,7 @@
      {
      "title": "Patterned Single Ball Bracelet",
      "slug": "ccb5407",
-     "price": "$115-$185",
+     "price": "$120-$200",
      "category": "Cape Cod Bracelet",
      "categorySlug": "bracelets",
      "description": "A playful twist on a classic favorite. The high polish ball makes the texture pop. Available in all sterling silver, or sterling silver with a yellow or rose gold accent.",
@@ -154,7 +154,7 @@
      {
      "title": "Double Ball Cuff Bracelet",
      "slug": "ccb5410",
-     "price": "$125-$280",
+     "price": "$130-$305",
      "category": "Cape Cod Bracelet",
      "categorySlug": "bracelets",
      "description": "Streamlined and elegant, A different take on a cuff bracelet. Available in all sterling silver or sterling silver with a yellow or rose gold accent.  ",
@@ -173,7 +173,7 @@
      {
      "title": "Double Bead Bracelet",
      "slug": "ccb5411",
-     "price": "$145-$295",
+     "price": "$145-$315",
      "category": "Cape Cod Bracelet",
      "categorySlug": "bracelets",
      "description": "Classic style with a double ball design. In all sterling silver or sterling silver with a yellow or rose gold accent. A great addition to your collection.",
@@ -192,7 +192,7 @@
      {
      "title": "Single Swirl Ball Bracelet",
      "slug": "ccb5460",
-     "price": "$115-$185",
+     "price": "$120-$200",
      "category": "Cape Cod Bracelet",
      "categorySlug": "bracelets",
      "description": "Same classic style and sophistication with a twist! In all sterling silver or sterling silver with a yellow or rose gold accent.",
@@ -209,9 +209,28 @@
 }
 ,
      {
+     "title": "Single Ball CZ Bracelet",
+     "slug": "ccb5462",
+     "price": "$155-$160",
+     "category": "Cape Cod Bracelet",
+     "categorySlug": "bracelets",
+     "description": "The classic sterling silver bracelet with a CZ ball. Simple, but elegant, the CZ ball glistens like the crashing waves off of Cape Cod.",
+     "properties":{
+        "sizes":{
+           "name":"Available Sizes",
+           "value": "Available in sizes 5 1\/2, 6, 6 1\/2, 7, 7 1\/2, and 8 inch circumference."
+        },
+        "materials":{
+           "name":"Materials",
+           "value": "Available in Sterling Silver with channel-set round cubic zirconia stones."
+        }
+     }
+}
+,
+     {
      "title": "Single Ball Cuff Bracelet",
      "slug": "ccb5463",
-     "price": "$140-$205",
+     "price": "$145-$215",
      "category": "Cape Cod Bracelet",
      "categorySlug": "bracelets",
      "description": "A classic  Bracelet elegantly crafted as a cuff. In all sterling or sterling silver with a yellow or rose gold accent.",
@@ -230,7 +249,7 @@
      {
      "title": "Earrings",
      "slug": "cce5405",
-     "price": "$75-$220",
+     "price": "$75-$245",
      "category": "Cape Cod Earrings",
      "categorySlug": "earrings",
      "description": "Classic Style and sophistication in a 20mm hoop earring. In all sterling or with a gold accent.",
@@ -249,7 +268,7 @@
      {
      "title": "Earrings - Larger Size",
      "slug": "cce5405j",
-     "price": "$75-$220",
+     "price": "$75-$245",
      "category": "Cape Cod Earrings",
      "categorySlug": "earrings",
      "description": "Classic Style and sophistication in a 26mm hoop earring. In all sterling silver or with a gold accent.",
@@ -268,7 +287,7 @@
      {
      "title": "Earrings - Smaller Size",
      "slug": "cce5414",
-     "price": "$60-$230",
+     "price": "$55-$255",
      "category": "Cape Cod Earrings",
      "categorySlug": "earrings",
      "description": "Classic Style and sophistication in a 15mm hoop earring. In all sterling silver or sterling silver with a yellow or rose gold accent.",
@@ -287,7 +306,7 @@
      {
      "title": "Swirl Ball Earring",
      "slug": "cce5460",
-     "price": "$70-$220",
+     "price": "$70-$245",
      "category": "Cape Cod Earrings",
      "categorySlug": "earrings",
      "description": "Classic Style and sophistication with a twist in a 20mm hoop earring. In all sterling silver or with a gold accent.",
@@ -306,7 +325,7 @@
      {
      "title": "Snake Chain Necklace",
      "slug": "ccn5405",
-     "price": "$80-$170",
+     "price": "$80-$185",
      "category": "Cape Cod Necklace",
      "categorySlug": "necklaces",
      "description": "Classic style and sophistication, a single ball suspended from a trendy snake chain with a lobster claw clasp. In all sterling silver or with a gold accent.",
@@ -325,7 +344,7 @@
      {
      "title": "Omega Chain Necklace",
      "slug": "ccn5405o",
-     "price": "$80-$170",
+     "price": "$80-$185",
      "category": "Cape Cod Necklace",
      "categorySlug": "necklaces",
      "description": "Classic style and sophistication, a single ball suspended from an elegant omega chain with a lobster claw clasp. In all sterling silver or with a gold accent.",
@@ -344,7 +363,7 @@
      {
      "title": "Swirl Bead Snake Chain Necklace",
      "slug": "ccn5460",
-     "price": "$80-$160",
+     "price": "$80-$175",
      "category": "Cape Cod Necklace",
      "categorySlug": "necklaces",
      "description": "Classic style and sophistication, a single swirl ball suspended from a trendy snake chain with a lobster claw clasp. In all sterling silver or with a gold accent.",
@@ -363,7 +382,7 @@
      {
      "title": "Swirl Ball Omega Chain Necklace",
      "slug": "ccn5460o",
-     "price": "$80-$160",
+     "price": "$80-$175",
      "category": "Cape Cod Necklace",
      "categorySlug": "necklaces",
      "description": "Classic style and sophistication, a single swirl ball suspended from an elegant Omega chain with a lobster claw clasp. In all sterling silver or with a gold accent.",
@@ -382,7 +401,7 @@
      {
      "title": "Ring",
      "slug": "ccr5405",
-     "price": "$80-$170",
+     "price": "$80-$185",
      "category": "Cape Cod Ring",
      "categorySlug": "rings",
      "description": "Modern yet classic and a stylish addition to your Collection.",
