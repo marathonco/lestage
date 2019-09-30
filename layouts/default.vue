@@ -1,10 +1,17 @@
 <template>
-  <div id="container" :class="menuIsActive">
+  <div
+    id="container"
+    :class="menuIsActive"
+  >
     <Nav />
     <Header />
     <nuxt />
     <Footer />
-    <label :class="menuIsActive" for="menu-toggle" class="nav-overlay" />
+    <label
+      :class="menuIsActive"
+      for="menu-toggle"
+      class="nav-overlay"
+    />
   </div>
 </template>
 
@@ -89,7 +96,7 @@ $header-height: 50vw;
 
   #header {
     height: $header-height;
-    max-height: 90vh;
+    max-height: 80vh;
     width: 100vw;
     // max-height: 80vh;
     position: fixed;

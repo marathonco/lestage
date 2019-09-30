@@ -75,7 +75,7 @@
       </ul>
     </aside>
     <nuxt-link
-      to="/products"
+      to="/cape-cod/products"
       class="button rounded bordered primary back-link"
     >
       View the rest of the collection
@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import products from '~/data/products'
+import products from '~/data/products-convertible-collection'
 import Logo from '~/assets/logo-cape-cod.svg?inline'
 
 export default {

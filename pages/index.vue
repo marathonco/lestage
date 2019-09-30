@@ -1,8 +1,8 @@
 <template>
   <main>
-    <section class="collection">
+    <section class="collection cape-cod">
       <div class="copy">
-        <Logo />
+        <CapeCodLogo />
         <h4>A Legacy in Craftsmanship</h4>
         <p>
           Our authentic Cape Cod Jewelry<sup>®</sup> Collection is part of a
@@ -10,7 +10,10 @@
           using responsibly sourced precious metals backed by a lifetime
           warranty.
         </p>
-        <nuxt-link to="/products" class="button rounded primary bordered">
+        <nuxt-link
+          to="/cape-cod"
+          class="button rounded primary bordered"
+        >
           View Collection
         </nuxt-link>
       </div>
@@ -24,8 +27,47 @@
             :key="key"
             class="swiper-slide"
           >
-            <nuxt-link to="/products">
-              <img :src="getProductImage(productImage)" class="swiper-slide">
+            <nuxt-link to="/cape-cod">
+              <img
+                :src="getProductImage(productImage)"
+                class="swiper-slide"
+              >
+            </nuxt-link>
+          </div>
+          <!-- <div class="swiper-button-prev" />
+          <div class="swiper-button-next" /> -->
+        </div>
+      </div>
+    </section>
+    <section class="collection convertible-collection">
+      <div class="copy">
+        <ConvertibleLogo />
+        <h4>So many options...</h4>
+        <p>
+          The Convertible Collection<sup>®</sup> has something for everyone...
+        </p>
+        <nuxt-link
+          to="/convertible-collection"
+          class="button rounded primary bordered"
+        >
+          View Collection
+        </nuxt-link>
+      </div>
+      <div
+        v-swiper:productSwiper="swiperOption"
+        class="product-image background-1"
+      >
+        <div class="swiper-wrapper">
+          <div
+            v-for="(productImage, key) of productImages"
+            :key="key"
+            class="swiper-slide"
+          >
+            <nuxt-link to="/convertible-collection">
+              <img
+                :src="getProductImage(productImage)"
+                class="swiper-slide"
+              >
             </nuxt-link>
           </div>
           <!-- <div class="swiper-button-prev" />
@@ -49,7 +91,10 @@
         Together, we have long established a reputation for integrity,
         reliability, quality and service.
       </p>
-      <nuxt-link to="/about" class="button rounded primary bordered">
+      <nuxt-link
+        to="/about"
+        class="button rounded primary bordered"
+      >
         See the History
       </nuxt-link>
     </section>
@@ -58,13 +103,15 @@
 </template>
 
 <script>
-import Logo from '~/assets/logo-cape-cod-round.svg?inline'
+import CapeCodLogo from '~/assets/logo-cape-cod-round.svg?inline'
+import ConvertibleLogo from '~/assets/logo-convertible-round.svg?inline'
 import Preservation from '~/components/partials/Preservation'
 
 export default {
   name: 'HomePage',
   components: {
-    Logo,
+    CapeCodLogo,
+    ConvertibleLogo,
     Preservation
   },
   data() {
@@ -160,6 +207,9 @@ export default {
     .product-image {
       width: 50vw;
     }
+  }
+  .collection:nth-child(even) {
+    flex-direction: row-reverse;
   }
 }
 

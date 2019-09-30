@@ -1,0 +1,15 @@
+[{
+    "title": "Convertible Bracelets",
+    "slug": "bracelets",
+    "description": "The classic that started it all. Elegant style and sophistication. In all sterling silver or sterling silver with a yellow or rose gold accent.",
+    "headers": ["header-bracelets"],
+    "thumbnails": ["bracelets1"]
+  },
+  {
+    "title": "Ocean Treasures",
+    "slug": "necklaces",
+    "description": "Classic style with a trendy new twist.",
+    "headers": ["header-necklaces"],
+    "thumbnails": ["necklaces1"]
+  }
+]

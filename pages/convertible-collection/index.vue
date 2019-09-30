@@ -10,7 +10,7 @@
           :key="key"
         >
           <div class="image">
-            <nuxt-link :to="'/products/' + category.slug">
+            <nuxt-link :to="'/convertible-collection/' + category.slug">
               <img
                 :src="getThumbnail(category.thumbnails)"
                 alt="image thumbnail"
@@ -25,7 +25,7 @@
               {{ category.description }}
             </p>
             <nuxt-link
-              :to="'/products/' + category.slug"
+              :to="'/cape-cod/' + category.slug"
               class="button primary rounded bordered"
             >View {{ category.slug }}</nuxt-link>
           </div>
@@ -43,8 +43,8 @@
 </template>
 
 <script>
-import categories from '~/data/categories'
-import Logo from '~/assets/logo-cape-cod.svg?inline'
+import categories from '~/data/categories-convertible-collection'
+import Logo from '~/assets/logo-convertible.svg?inline'
 
 export default {
   name: 'Products',

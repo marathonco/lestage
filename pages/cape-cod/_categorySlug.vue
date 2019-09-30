@@ -16,7 +16,7 @@
         data-aos-once="true"
       >
         <nuxt-link
-          :to="'/product/' + product.slug"
+          :to="'/cape-cod/product/' + product.slug"
           class="link"
         >
           <img
@@ -47,7 +47,7 @@
         data-aos-once="true"
       >
         <nuxt-link
-          :to="'/product/' + product.slug"
+          :to="'/cape-cod/product/' + product.slug"
           class="link"
         >
           <div class="title">
@@ -61,7 +61,7 @@
       </li>
     </ul>
     <nuxt-link
-      to="/products"
+      to="/cape-cod"
       class="button rounded bordered primary back-link"
     >View the rest of the collection</nuxt-link>
     <Warranty />
@@ -69,8 +69,8 @@
 </template>
 
 <script>
-import categories from '~/data/categories'
-import products from '~/data/products'
+import categories from '~/data/categories-cape-cod'
+import products from '~/data/products-cape-cod'
 import Logo from '~/assets/logo-cape-cod.svg?inline'
 import Warranty from '~/components/partials/Warranty'
 
