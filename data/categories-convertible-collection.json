@@ -1,15 +1,39 @@
 [{
     "title": "Convertible Bracelets",
-    "slug": "bracelets",
-    "description": "The classic that started it all. Elegant style and sophistication. In all sterling silver or sterling silver with a yellow or rose gold accent.",
-    "headers": ["header-bracelets"],
-    "thumbnails": ["bracelets1"]
+    "slug": "convertible-bracelets",
+    "description": "The start of your collection"
   },
   {
-    "title": "Ocean Treasures",
-    "slug": "necklaces",
-    "description": "Classic style with a trendy new twist.",
-    "headers": ["header-necklaces"],
-    "thumbnails": ["necklaces1"]
+    "title": "By the Sea",
+    "slug": "by-the-sea",
+    "description": "Collection of Ocean Treasures"
+  }, {
+    "title": "Beauty in Nature",
+    "slug": "beauty-in-nature",
+    "description": "Collection of Organic Beauty"
+  }, {
+    "title": "Personal Touch",
+    "slug": "personal-touch",
+    "description": "Collection of Individuality"
+  }, {
+    "title": "Sparkle & Shine",
+    "slug": "sparkle-and-shine",
+    "description": "Collection of Glamour & Color"
+  }, {
+    "title": "Open & Airy",
+    "slug": "open-and-airy",
+    "description": "Collection of Infinite Style"
+  }, {
+    "title": "Joyful Moments",
+    "slug": "joyful-moments",
+    "description": "Collection of Happiness"
+  }, {
+    "title": "Just For Fun",
+    "slug": "just-for-fun",
+    "description": "Collection of Life Adventures"
+  }, {
+    "title": "Petites",
+    "slug": "petites",
+    "description": "Collection of Smaller Treasures"
   }
 ]

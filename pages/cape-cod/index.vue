@@ -3,7 +3,7 @@
     <header class="brand">
       <Logo />
     </header>
-    <section class="products">
+    <section class="categories">
       <ul>
         <li
           v-for="(category, key) of categories"
@@ -92,7 +92,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.products {
+.categories {
   li {
     display: block;
     width: 100%;
@@ -108,7 +108,7 @@ export default {
   }
 }
 @include tablet {
-  .products {
+  .categories {
     li {
       align-items: center;
       display: flex;
