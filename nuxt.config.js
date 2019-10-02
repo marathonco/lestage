@@ -1,4 +1,19 @@
+import convertibleCollectionProducts from './data/products-convertible-collection'
+import capeCodProducts from './data/products-cape-cod'
+import convertibleCollectionCategories from './data/categories-convertible-collection'
+import capeCodCategories from './data/categories-cape-cod'
+
 const pkg = require('./package')
+
+const dynamicRoutes = () => {
+  return new Promise(resolve => {
+    const ccP = capeCodProducts.map(el => `cape-cod/product/${el.slug}`)
+    const ccC = capeCodCategories.map(el => `cape-cod/${el.slug}`)
+    const coP = convertibleCollectionProducts.map(el => `convertible-collection/product/${el.slug}`)
+    const coC = convertibleCollectionCategories.map(el => `convertible-collection/${el.slug}`)
+    resolve([...ccP, ...ccC, ...coP, ...coC])
+  })
+}
 
 module.exports = {
   mode: 'universal',
@@ -83,6 +98,13 @@ module.exports = {
    */
   styleResources: {
     scss: ['~/assets/style/main.scss']
+  },
+
+  /*
+   ** Generate Dynamic Routes
+   */
+  generate: {
+    routes: dynamicRoutes
   },
 
   /*
