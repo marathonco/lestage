@@ -6,7 +6,7 @@
     <section class="product">
       <div class="info">
         <h3>
-          Cape Cod
+          Convertible Collection
           <br>
           {{ product.title }}
         </h3>
@@ -75,7 +75,7 @@
       </ul>
     </aside>
     <nuxt-link
-      to="/cape-cod/products"
+      to="/convertible-collection/products"
       class="button rounded bordered primary back-link"
     >
       View the rest of the collection
@@ -85,7 +85,7 @@
 
 <script>
 import products from '~/data/products-convertible-collection'
-import Logo from '~/assets/logo-cape-cod.svg?inline'
+import Logo from '~/assets/logo-convertible.svg?inline'
 
 export default {
   name: 'Products',
@@ -114,18 +114,19 @@ export default {
   },
   methods: {
     getThumbnail(thumbnail) {
-      return require('~/assets/images/products/' + thumbnail + '.jpg')
+      return 'http://via.placeholder.com/300x300'
+      // return require('~/assets/images/products/' + thumbnail + '.jpg')
     }
   },
   head() {
     // TODO: can't figure out how to get dynamic titles here
     return {
-      title: 'Cape Cod Jewelry',
+      title: 'The Convertible Collection',
       meta: [
         {
           vmid: 'description',
           name: 'description',
-          content: 'Authentic Cape Cod Jewelry in Sterling Silver and 14K Gold.'
+          content: 'Authentic Jewelry in Sterling Silver and 14K Gold.'
         }
       ]
     }

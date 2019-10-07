@@ -15,8 +15,7 @@
               :src="getThumbnail(category.slug)"
               alt="image thumbnail"
             >
-            <div class="image">
-            </div>
+            <div class="image" />
             <div class="copy">
               <h5 class="cat-title">
                 {{ category.title }}
