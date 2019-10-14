@@ -12,7 +12,9 @@
         "address2": "",
         "city": "Chatham",
         "state": "MA",
-        "zip": "02633"
+        "zip": "02633",
+        "capeCod": false,
+        "convertible": true
       }
     },
     {
@@ -27,7 +29,9 @@
         "address2": "ROUTE 53",
         "city": "NORWELL",
         "state": "MA",
-        "zip": "02061"
+        "zip": "02061",
+        "capeCod": true,
+        "convertible": false
       }
     },
     {
@@ -42,7 +46,9 @@
         "address2": "7TH FLOOR",
         "city": "BOSTON",
         "state": "MA",
-        "zip": "02108"
+        "zip": "02108",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -57,7 +63,9 @@
         "address2": "WALPOLE MALL",
         "city": "EAST WALPOLE",
         "state": "MA",
-        "zip": "02032"
+        "zip": "02032",
+        "capeCod": true,
+        "convertible": false
       }
     },
     {
@@ -72,7 +80,9 @@
         "address2": "WEGEMANS PLAZA",
         "city": "ELMIRA",
         "state": "NY",
-        "zip": "14901"
+        "zip": "14901",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -87,7 +97,9 @@
         "address2": "SUITE 103",
         "city": "SHELTON",
         "state": "CT",
-        "zip": "06484"
+        "zip": "06484",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -102,7 +114,9 @@
         "address2": "ROUTE 111",
         "city": "MONROE",
         "state": "CT",
-        "zip": "06468"
+        "zip": "06468",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -117,7 +131,9 @@
         "address2": "BOX 11   LILAC MALL",
         "city": "ROCHESTER",
         "state": "NH",
-        "zip": "03867"
+        "zip": "03867",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -132,7 +148,9 @@
         "address2": "SUITE 1",
         "city": "BARRE",
         "state": "VT",
-        "zip": "05641"
+        "zip": "05641",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -147,7 +165,9 @@
         "address2": "WALNUT HILL PLAZA",
         "city": "WOONSOCKET",
         "state": "RI",
-        "zip": "02895"
+        "zip": "02895",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -162,7 +182,9 @@
         "address2": "PENNICHUCK SQUARE",
         "city": "MERRIMACK",
         "state": "NH",
-        "zip": "03054"
+        "zip": "03054",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -177,7 +199,9 @@
         "address2": "65 LA SALLE ROAD",
         "city": "WEST HARTFORD",
         "state": "CT",
-        "zip": "06107"
+        "zip": "06107",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -192,7 +216,9 @@
         "address2": "PENOBSCOT PLAZA",
         "city": "BANGOR",
         "state": "ME",
-        "zip": "04401"
+        "zip": "04401",
+        "capeCod": true,
+        "convertible": true
       }
     },
     {
@@ -207,7 +233,9 @@
         "address2": "C/O DOLABANY CO.",
         "city": "BOSTON",
         "state": "MA",
-        "zip": "02108"
+        "zip": "02108",
+        "capeCod": true,
+        "convertible": false
       }
     },
     {
@@ -222,7 +250,9 @@
         "address2": "UNIT F",
         "city": "CHICOPEE",
         "state": "MA",
-        "zip": "01020"
+        "zip": "01020",
+        "capeCod": false,
+        "convertible": true
       }
     },
     {
@@ -237,7 +267,9 @@
         "address2": "P.O. BOX 598",
         "city": "EAST WINDSOR",
         "state": "CT",
-        "zip": "06088"
+        "zip": "06088",
+        "capeCod": false,
+        "convertible": true
       }
     },
     {
@@ -252,7 +284,9 @@
         "address2": "MASHPEE COMMONS",
         "city": "MASHPEE",
         "state": "MA",
-        "zip": "02649"
+        "zip": "02649",
+        "capeCod": true,
+        "convertible": false
       }
     },
     {
@@ -3987,7 +4021,9 @@
         "address2": "",
         "city": "Orleans",
         "state": "MA",
-        "zip": "02653"
+        "zip": "02653",
+        "capeCod": true,
+        "convertible": false
       }
     },
     {
@@ -4593,7 +4629,7 @@
         "zip": "03801"
       }
     },
-	{
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",

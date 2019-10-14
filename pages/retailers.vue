@@ -4,6 +4,24 @@
     <p class="lead-in">
       Enter your zipcode below to find the nearest authorized retailers
     </p>
+    <div class="store-type">
+      <label>
+        <input
+          v-model="filterConvertible"
+          type="checkbox"
+          name="filter-convertible"
+        >
+        Convertible Collection Retailers
+      </label>
+      <label>
+        <input
+          v-model="filterCapeCod"
+          type="checkbox"
+          name="filter-cape-cod"
+        >
+        Cape Cod Retailers
+      </label>
+    </div>
     <div class="search">
       <input
         id="address"
@@ -73,6 +91,9 @@
 </template>
 
 <script>
+// TODO: add icons to filteredList
+// TODO: better branding for markers. add style for "both"
+// TODO: do we need a "both" checkbox
 import { OpenStreetMapProvider } from 'leaflet-geosearch'
 import retailers from '~/data/retailers'
 
@@ -126,6 +147,7 @@ function getFeaturesInView(map, center) {
       }
     }
   })
+
   features.sort(function(a, b) {
     return a.properties.distance - b.properties.distance
   })
@@ -139,8 +161,12 @@ export default {
       inputAddress: '',
       center: [41.839598, -70.22163],
       filteredList: [],
+      filterCapeCod: true,
+      filterConvertible: true,
       map: {},
-      markerLayer: {},
+      allLayer: {},
+      capeCodLayer: {},
+      convertibleLayer: {},
       options: [],
       selectedAddress: ''
     }
@@ -162,6 +188,24 @@ export default {
           })
         }
       }
+    },
+    filterCapeCod(next, prev) {
+      if (next) {
+        this.map.addLayer(this.capeCodLayer)
+        this.map.addLayer(this.allLayer)
+      } else {
+        this.map.removeLayer(this.capeCodLayer)
+      }
+      this.filteredList = getFeaturesInView(this.map, this.center)
+    },
+    filterConvertible(next, prev) {
+      if (next) {
+        this.map.addLayer(this.convertibleLayer)
+        this.map.addLayer(this.allLayer)
+      } else {
+        this.map.removeLayer(this.convertibleLayer)
+      }
+      this.filteredList = getFeaturesInView(this.map, this.center)
     }
   },
   mounted() {
@@ -176,7 +220,13 @@ export default {
         }).addTo(this.map)
 
         // add all markers to the map
-        this.markerLayer = L.geoJSON(retailers, {
+        this.allLayer = L.geoJSON(retailers, {
+          filter: function(feature, layer) {
+            return (
+              feature.properties.capeCod === true &&
+              feature.properties.convertible === true
+            )
+          },
           onEachFeature: (feature, layer) => {
             layer.bindPopup(this.formatAddress(feature))
           },
@@ -184,6 +234,58 @@ export default {
             const markerIcon = L.icon({
               iconUrl: require('~/assets/images/markers/marker-icon.png'),
               iconRetinaUrl: require('~/assets/images/markers/marker-icon-2x.png'),
+              shadowUrl: require('~/assets/images/markers/marker-shadow.png'),
+              iconSize: [25, 41], // size of the icon
+              // shadowSize: [50, 64], // size of the shadow
+              iconAnchor: [12, 41], // point of the icon which will correspond to marker's location
+              // shadowAnchor: [4, 62], // the same for the shadow
+              popupAnchor: [0, -41] // point from which the popup should open relative to the iconAnchor
+            })
+            return L.marker(latlng, { icon: markerIcon })
+          }
+        }).addTo(this.map)
+
+        // TODO: change icons etc.
+        this.capeCodLayer = L.geoJSON(retailers, {
+          filter: function(feature, layer) {
+            return (
+              feature.properties.convertible === false &&
+              feature.properties.capeCod === true
+            )
+          },
+          onEachFeature: (feature, layer) => {
+            layer.bindPopup(this.formatAddress(feature))
+          },
+          pointToLayer: function(feature, latlng) {
+            const markerIcon = L.icon({
+              iconUrl: require('~/assets/images/markers/marker-capeCod.png'),
+              iconRetinaUrl: require('~/assets/images/markers/marker-capeCod-2x.png'),
+              shadowUrl: require('~/assets/images/markers/marker-shadow.png'),
+              iconSize: [25, 41], // size of the icon
+              // shadowSize: [50, 64], // size of the shadow
+              iconAnchor: [12, 41], // point of the icon which will correspond to marker's location
+              // shadowAnchor: [4, 62], // the same for the shadow
+              popupAnchor: [0, -41] // point from which the popup should open relative to the iconAnchor
+            })
+            return L.marker(latlng, { icon: markerIcon })
+          }
+        }).addTo(this.map)
+
+        // TODO: change icons etc.
+        this.convertibleLayer = L.geoJSON(retailers, {
+          filter: function(feature, layer) {
+            return (
+              feature.properties.convertible === true &&
+              feature.properties.capeCod === false
+            )
+          },
+          onEachFeature: (feature, layer) => {
+            layer.bindPopup(this.formatAddress(feature))
+          },
+          pointToLayer: function(feature, latlng) {
+            const markerIcon = L.icon({
+              iconUrl: require('~/assets/images/markers/marker-convertible.png'),
+              iconRetinaUrl: require('~/assets/images/markers/marker-convertible-2x.png'),
               shadowUrl: require('~/assets/images/markers/marker-shadow.png'),
               iconSize: [25, 41], // size of the icon
               // shadowSize: [50, 64], // size of the shadow
