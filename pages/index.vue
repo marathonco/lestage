@@ -188,17 +188,13 @@ export default {
   }
   svg {
     min-width: 150px;
-    max-width: 25%;
-    @include tablet-only {
-      max-height: 100px;
-    }
+    max-width: 100%;
+    max-height: 200px;
   }
 }
 @include tablet {
-  //TODO: there is a window size where the content is greater than 50vw, and it breaks
   .collection {
-    background: getColor(background, accent);
-    align-items: center;
+    align-items: stretch;
     display: flex;
     min-height: 50vw;
     padding: 0;
