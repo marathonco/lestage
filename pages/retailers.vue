@@ -74,8 +74,12 @@
             class="location"
             v-html="formatAddress(retailer)"
           />
-          <td class="distance">
+          <td class="info">
             <p>{{ retailer.properties.distance.toFixed(2) }} miles away</p>
+            <div class="retailer-type">
+              <CapeCodLogo v-if="retailer.properties.capeCod === true" />
+              <ConvertibleLogo v-if="retailer.properties.convertible === true" />
+            </div>
           </td>
         </tr>
       </table>
@@ -91,11 +95,12 @@
 </template>
 
 <script>
-// TODO: add icons to filteredList
 // TODO: better branding for markers. add style for "both"
 // TODO: do we need a "both" checkbox
 import { OpenStreetMapProvider } from 'leaflet-geosearch'
 import retailers from '~/data/retailers'
+import CapeCodLogo from '~/assets/logo-cape-cod-icon.svg?inline'
+import ConvertibleLogo from '~/assets/logo-convertible-icon.svg?inline'
 
 /**
  * calculateDistance
@@ -155,6 +160,10 @@ function getFeaturesInView(map, center) {
 }
 
 export default {
+  components: {
+    CapeCodLogo,
+    ConvertibleLogo
+  },
   data() {
     return {
       // default to Cape Cod Bay - should be saved as lat/lon
@@ -245,7 +254,6 @@ export default {
           }
         }).addTo(this.map)
 
-        // TODO: change icons etc.
         this.capeCodLayer = L.geoJSON(retailers, {
           filter: function(feature, layer) {
             return (
@@ -271,7 +279,6 @@ export default {
           }
         }).addTo(this.map)
 
-        // TODO: change icons etc.
         this.convertibleLayer = L.geoJSON(retailers, {
           filter: function(feature, layer) {
             return (
@@ -524,6 +531,17 @@ div#retailerList {
   margin: 1rem auto;
   text-align: center;
 }
+.retailer-type {
+  display: flex;
+  flex-direction: row;
+  min-height: 60px;
+  svg {
+    display: inline-block;
+    margin: 5px;
+    min-height: 40px;
+    min-width: 40px;
+  }
+}
 @include tablet {
   #results {
     align-items: flex-start;
@@ -589,8 +607,11 @@ table#retailerList {
   p {
     font-size: pxToEm(12);
   }
-  .distance {
-    text-align: right;
+  .info {
+    p {
+      margin-bottom: 0;
+      text-align: right;
+    }
   }
 }
 @keyframes bounce {

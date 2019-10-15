@@ -152,7 +152,6 @@ export default {
       max-height: 80vh;
       min-height: 400px;
     }
-    // TODO: need to work out mobile
     .half {
       align-items: center;
       display: flex;
