@@ -18,12 +18,12 @@
         </nuxt-link>
       </div>
       <div
-        v-swiper:productSwiper="swiperOption"
+        v-swiper:productSwiperCapeCod="swiperOptionCapeCod"
         class="product-image background-1"
       >
         <div class="swiper-wrapper">
           <div
-            v-for="(productImage, key) of productImages"
+            v-for="(productImage, key) of productImagesCapeCod"
             :key="key"
             class="swiper-slide"
           >
@@ -54,12 +54,12 @@
         </nuxt-link>
       </div>
       <div
-        v-swiper:productSwiper="swiperOption"
-        class="product-image background-1"
+        v-swiper:productSwiperConvertible="swiperOptionConvertible"
+        class="product-image convertible"
       >
         <div class="swiper-wrapper">
           <div
-            v-for="(productImage, key) of productImages"
+            v-for="(productImage, key) of productImagesConvertible"
             :key="key"
             class="swiper-slide"
           >
@@ -116,9 +116,9 @@ export default {
   },
   data() {
     return {
-      swiperOption: {
+      swiperOptionCapeCod: {
         autoplay: {
-          delay: 4000,
+          delay: 400000,
           disableOnInteraction: true
         },
         loop: true,
@@ -142,13 +142,23 @@ export default {
           }
         }
       },
-      productImages: [
+      swiperOptionConvertible: {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: true
+        },
+        loop: true,
+        speed: 1000,
+        effect: 'slide'
+      },
+      productImagesCapeCod: [
         'bracelets1',
         'anklets1',
         'earrings1',
         'necklaces1',
         'rings1'
-      ]
+      ],
+      productImagesConvertible: ['convertible-1', 'convertible-2']
     }
   },
   mounted() {
@@ -177,8 +187,18 @@ export default {
 </script>
 <style lang="scss">
 @import 'swiper/dist/css/swiper.css';
+.collection {
+  &.cape-cod,
+  &.cape-cod div.copy {
+    background: getColor(background, accent);
+  }
+  &.convertible-collection,
+  &.convertible-collection div.copy {
+    background: getColor(background, accent3);
+  }
+}
 .collection div.copy {
-  background: getColor(background, accent);
+  align-self: center;
   padding: 1rem;
   h4 {
     margin-top: 0;
@@ -188,15 +208,16 @@ export default {
   }
   svg {
     min-width: 150px;
+    margin: 1rem;
     max-width: 100%;
-    max-height: 200px;
+    max-height: 150px;
   }
 }
 @include tablet {
   .collection {
     align-items: stretch;
     display: flex;
-    min-height: 50vw;
+    min-height: 30vw;
     padding: 0;
     position: relative;
     .copy,
@@ -208,22 +229,43 @@ export default {
     flex-direction: row-reverse;
   }
 }
+.swiper-wrapper,
+.swiper-container {
+  height: auto !important;
+}
 
 .product-image a {
-  background-color: rgba(255, 255, 255, 0);
+  align-items: center;
+  display: flex;
+  max-height: 60vh;
+  position: relative;
+  img {
+    margin: 0 auto;
+    max-height: 60vh;
+    width: auto;
+  }
+}
+.product-image::after {
+  background-color: rgba(255, 255, 255, 1);
+  content: '';
   display: block;
   height: 100%;
-  transition: background-color 1s; // must be less time than the animation speed of the swiper
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 1s linear; // must be less time than the animation speed of the swiper
   width: 100%;
 }
-.product-image.changing a {
-  background-color: rgba(255, 255, 255, 1);
+.product-image.changing::after {
+  opacity: 1;
 }
 
 @mixin product-image-background($angle, $color, $stop) {
   background: linear-gradient($angle, $color $stop, #ffffff $stop);
 }
 .product-image {
+  background: #ffffff;
   &.background-1 {
     @include product-image-background(
       202deg,
