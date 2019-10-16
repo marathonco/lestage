@@ -95,8 +95,6 @@
 </template>
 
 <script>
-// TODO: better branding for markers. add style for "both"
-// TODO: do we need a "both" checkbox
 import { OpenStreetMapProvider } from 'leaflet-geosearch'
 import retailers from '~/data/retailers'
 import CapeCodLogo from '~/assets/logo-cape-cod-icon.svg?inline'
