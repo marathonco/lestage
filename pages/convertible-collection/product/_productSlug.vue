@@ -114,7 +114,7 @@ export default {
   },
   methods: {
     getThumbnail(thumbnail) {
-      return 'http://via.placeholder.com/300x300'
+      return 'https://via.placeholder.com/300x300'
       // return require('~/assets/images/products/' + thumbnail + '.jpg')
     }
   },
