@@ -4023,7 +4023,7 @@
         "state": "MA",
         "zip": "02653",
         "capeCod": true,
-        "convertible": false
+        "convertible": true
       }
     },
     {
