@@ -30,7 +30,7 @@
             <nuxt-link to="/cape-cod">
               <img
                 :src="getProductImage(productImage)"
-                class="swiper-slide"
+                class="swiper-slide-image"
               >
             </nuxt-link>
           </div>
@@ -229,11 +229,11 @@ export default {
     flex-direction: row-reverse;
   }
 }
-.swiper-wrapper,
-.swiper-container {
+.collection .swiper-wrapper,
+.collection .swiper-container {
   height: auto !important;
 }
-
+// TODO: sizing/scaling issue
 .product-image a {
   align-items: center;
   display: flex;

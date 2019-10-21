@@ -48,13 +48,10 @@ export default {
   mounted() {
     const header = [
       {
-        image: 'header-0'
+        image: 'header-2'
       },
       {
-        image: 'header-1'
-      },
-      {
-        image: 'header-4'
+        image: 'header-3'
       }
     ]
     this.$store.dispatch('header/changeHeaders', header)

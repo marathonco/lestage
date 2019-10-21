@@ -6,7 +6,7 @@
   >
     <div
       ref="headerSwiper"
-      v-swiper:headerSwiper="swiperOption"
+      v-swiper:headerSwiper="swiperOptionHeader"
       :style="{ backgroundImage: 'url(' + getBannerImg(headers[0].image) + ')'}"
       class="background"
     >
@@ -45,7 +45,7 @@ import { mapGetters } from 'vuex'
 export default {
   data() {
     return {
-      swiperOption: {
+      swiperOptionHeader: {
         autoplay: {
           delay: 6000,
           disableOnInteraction: true
