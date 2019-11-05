@@ -34,8 +34,6 @@
               >
             </nuxt-link>
           </div>
-          <!-- <div class="swiper-button-prev" />
-          <div class="swiper-button-next" /> -->
         </div>
       </div>
     </section>
