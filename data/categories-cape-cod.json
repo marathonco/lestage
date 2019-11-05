@@ -3,31 +3,31 @@
     "slug": "bracelets",
     "description": "The classic that started it all. Elegant style and sophistication. In all sterling silver or sterling silver with a yellow or rose gold accent.",
     "headers": ["header-bracelets"],
-    "thumbnails": ["bracelets1"]
+    "thumbnails": ["bracelets-1"]
   },
   {
     "title": "Cape Cod Necklaces",
     "slug": "necklaces",
     "description": "Classic style with a trendy new twist.",
     "headers": ["header-necklaces"],
-    "thumbnails": ["necklaces1"]
+    "thumbnails": ["necklaces-1"]
   }, {
     "title": "Cape Cod Earrings",
     "slug": "earrings",
     "description": "Simple and graceful earrings.",
     "headers": ["header-earrings"],
-    "thumbnails": ["earrings1"]
+    "thumbnails": ["earrings-1"]
   }, {
     "title": "Cape Cod Anklets",
     "slug": "anklets",
     "description": "Attractive anklets perfect for any summer",
     "headers": ["header-anklets"],
-    "thumbnails": ["anklets1"]
+    "thumbnails": ["anklets-1"]
   }, {
     "title": "Cape Cod Rings",
     "slug": "rings",
     "description": "Modern but classic accessories for any occasion",
     "headers": ["header-rings"],
-    "thumbnails": ["rings1"]
+    "thumbnails": ["rings-1"]
   }
 ]

@@ -37,7 +37,10 @@
         </nuxt-link>.
       </p>
     </section>
-    <section id="instructions" class="fill">
+    <section
+      id="instructions"
+      class="fill"
+    >
       <header class="brand">
         <Logo />
       </header>
@@ -45,42 +48,66 @@
         <h2>Wearing a Classic</h2>
         <p>Putting on your LeStage Cape Cod Bracelet®</p>
       </div>
-      <div id="step-1" class="panel step">
-        <p data-aos="zoom-in-right" data-aos-once="true">
+      <div
+        id="step-1"
+        class="panel step"
+      >
+        <p
+          data-aos="zoom-in-right"
+          data-aos-once="true"
+        >
           <span class="number">1</span>Hold bracelet so threads next to bead are
           on the left side
         </p>
         <img
-          src="~/assets/images/warranty-instructions-01.png"
+          src="~/assets/images/fillers/warranty-instructions-01.png"
           alt="Cape Cod Bracelet"
           data-aos="zoom-in-left"
           data-aos-once="true"
         >
       </div>
-      <div id="step-2" class="panel step">
-        <p data-aos="zoom-in-right" data-aos-once="true">
+      <div
+        id="step-2"
+        class="panel step"
+      >
+        <p
+          data-aos="zoom-in-right"
+          data-aos-once="true"
+        >
           <span class="number">2</span>Unscrew the bead towards you
         </p>
         <img
-          src="~/assets/images/warranty-instructions-02.png"
+          src="~/assets/images/fillers/warranty-instructions-02.png"
           alt="Cape Cod Bracelet"
           data-aos="zoom-in-left"
           data-aos-once="true"
         >
       </div>
-      <div id="step-3" class="panel step">
-        <p data-aos="zoom-in-right" data-aos-once="true">
+      <div
+        id="step-3"
+        class="panel step"
+      >
+        <p
+          data-aos="zoom-in-right"
+          data-aos-once="true"
+        >
           <span class="number">3</span>Twist open to side
         </p>
         <img
-          src="~/assets/images/warranty-instructions-03.png"
+          src="~/assets/images/fillers/warranty-instructions-03.png"
           alt="Cape Cod Bracelet"
           data-aos="zoom-in-left"
           data-aos-once="true"
         >
       </div>
-      <div id="step-4" class="panel step">
-        <p data-aos="zoom-in-bottom" data-aos-once="true">
+      <div
+        id="step-4"
+        class="panel step"
+      >
+        <p
+          data-aos="zoom-in-bottom"
+          data-aos-once="true"
+        >
           <span class="number">4</span>Slip thinnest part of wrist into opening
           and reverse above process
         </p>
@@ -90,7 +117,7 @@
 </template>
 
 <script>
-import Logo from '~/assets/logo-cape-cod.svg?inline'
+import Logo from '~/assets/images/logos/logo-cape-cod.svg?inline'
 
 export default {
   components: {

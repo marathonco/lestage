@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="convertibles">
     <header class="brand">
       <Logo />
     </header>
@@ -12,7 +12,7 @@
         >
           <nuxt-link :to="'/convertible-collection/' + category.slug">
             <img
-              :src="getThumbnail(category.slug)"
+              :src="getThumbnail('convertibles-' + category.slug, 'convertibles')"
               alt="image thumbnail"
             >
             <div class="image" />
@@ -33,7 +33,7 @@
 
 <script>
 import categories from '~/data/categories-convertible-collection'
-import Logo from '~/assets/logo-convertible.svg?inline'
+import Logo from '~/assets/images/logos/logo-convertible.svg?inline'
 
 export default {
   name: 'Products',
@@ -57,8 +57,12 @@ export default {
     this.$store.dispatch('header/changeHeaders', header)
   },
   methods: {
-    getThumbnail(catSlug) {
-      return require('~/assets/images/products/category/' + catSlug + '.jpg')
+    getThumbnail(image, category) {
+      return require('~/assets/images/products/' +
+        category +
+        '/' +
+        image +
+        '.jpg')
     }
   },
   head() {

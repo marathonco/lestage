@@ -97,8 +97,8 @@
 <script>
 import { OpenStreetMapProvider } from 'leaflet-geosearch'
 import retailers from '~/data/retailers'
-import CapeCodLogo from '~/assets/logo-cape-cod-icon.svg?inline'
-import ConvertibleLogo from '~/assets/logo-convertible-icon.svg?inline'
+import CapeCodLogo from '~/assets/images/logos/logo-cape-cod-icon.svg?inline'
+import ConvertibleLogo from '~/assets/images/logos/logo-convertible-icon.svg?inline'
 
 /**
  * calculateDistance

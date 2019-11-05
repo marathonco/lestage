@@ -29,7 +29,7 @@
           >
             <nuxt-link to="/cape-cod">
               <img
-                :src="getProductImage(productImage)"
+                :src="getProductImage(productImage, 'cape-cod')"
                 class="swiper-slide-image"
               >
             </nuxt-link>
@@ -65,7 +65,7 @@
           >
             <nuxt-link to="/convertible-collection">
               <img
-                :src="getProductImage(productImage)"
+                :src="getProductImage(productImage, 'convertibles')"
                 class="swiper-slide"
               >
             </nuxt-link>
@@ -103,8 +103,8 @@
 </template>
 
 <script>
-import CapeCodLogo from '~/assets/logo-cape-cod-round.svg?inline'
-import ConvertibleLogo from '~/assets/logo-convertible-round.svg?inline'
+import CapeCodLogo from '~/assets/images/logos/logo-cape-cod-round.svg?inline'
+import ConvertibleLogo from '~/assets/images/logos/logo-convertible-round.svg?inline'
 import Preservation from '~/components/partials/Preservation'
 
 export default {
@@ -152,11 +152,11 @@ export default {
         effect: 'slide'
       },
       productImagesCapeCod: [
-        'bracelets1',
-        'anklets1',
-        'earrings1',
-        'necklaces1',
-        'rings1'
+        'cape-cod-bracelets-1',
+        'cape-cod-anklets-1',
+        'cape-cod-earrings-1',
+        'cape-cod-necklaces-1',
+        'cape-cod-rings-1'
       ],
       productImagesConvertible: ['convertible-1', 'convertible-2']
     }
@@ -179,8 +179,12 @@ export default {
     this.$store.dispatch('header/changeHeaders', header)
   },
   methods: {
-    getProductImage(image) {
-      return require('~/assets/images/products/category/' + image + '.png')
+    getProductImage(image, category) {
+      return require('~/assets/images/products/' +
+        category +
+        '/' +
+        image +
+        '.png')
     }
   }
 }

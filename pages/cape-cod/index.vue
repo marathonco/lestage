@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="cape-cod">
     <header class="brand">
       <Logo />
     </header>
@@ -12,7 +12,7 @@
           <div class="image">
             <nuxt-link :to="'/cape-cod/' + category.slug">
               <img
-                :src="getThumbnail(category.thumbnails)"
+                :src="getThumbnail('cape-cod-' + category.thumbnails, 'cape-cod')"
                 alt="image thumbnail"
               >
             </nuxt-link>
@@ -44,7 +44,7 @@
 
 <script>
 import categories from '~/data/categories-cape-cod'
-import Logo from '~/assets/logo-cape-cod.svg?inline'
+import Logo from '~/assets/images/logos/logo-cape-cod.svg?inline'
 
 export default {
   name: 'Products',
@@ -71,9 +71,11 @@ export default {
     this.$store.dispatch('header/changeHeaders', header)
   },
   methods: {
-    getThumbnail(thumbnails) {
-      return require('~/assets/images/products/category/' +
-        thumbnails[0] +
+    getThumbnail(image, category) {
+      return require('~/assets/images/products/' +
+        category +
+        '/' +
+        image +
         '.png')
     }
   },

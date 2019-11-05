@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="cape-cod">
     <header class="brand">
       <Logo />
     </header>
@@ -39,7 +39,7 @@
       </div>
       <div class="images">
         <img
-          :src="getThumbnail(product.slug)"
+          :src="getThumbnail(product.slug, 'cape-cod')"
           alt="main product image"
         >
       </div>
@@ -67,7 +67,7 @@
             </div>
 
             <img
-              :src="getThumbnail(crossProduct.slug)"
+              :src="getThumbnail(crossProduct.slug, 'cape-cod')"
               alt="image thumbnail"
             >
           </nuxt-link>
@@ -85,7 +85,7 @@
 
 <script>
 import products from '~/data/products-cape-cod'
-import Logo from '~/assets/logo-cape-cod.svg?inline'
+import Logo from '~/assets/images/logos/logo-cape-cod.svg?inline'
 
 export default {
   name: 'Products',
@@ -113,8 +113,12 @@ export default {
     return { product, filteredProducts }
   },
   methods: {
-    getThumbnail(thumbnail) {
-      return require('~/assets/images/products/' + thumbnail + '.jpg')
+    getThumbnail(image, category) {
+      return require('~/assets/images/products/' +
+        category +
+        '/' +
+        image +
+        '.jpg')
     }
   },
   head() {

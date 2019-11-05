@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="convertibles">
     <header class="brand">
       <Logo />
     </header>
@@ -39,7 +39,7 @@
       </div>
       <div class="images">
         <img
-          :src="getThumbnail(product.slug)"
+          :src="getThumbnail(product.slug, 'convertibles')"
           alt="main product image"
         >
       </div>
@@ -85,7 +85,7 @@
 
 <script>
 import products from '~/data/products-convertible-collection'
-import Logo from '~/assets/logo-convertible.svg?inline'
+import Logo from '~/assets/images/logos/logo-convertible.svg?inline'
 
 export default {
   name: 'Products',
@@ -113,9 +113,16 @@ export default {
     return { product, filteredProducts }
   },
   methods: {
-    getThumbnail(thumbnail) {
+    // getThumbnail(image, category) {
+    //   return require('~/assets/images/products/' +
+    //     category +
+    //     '/' +
+    //     image +
+    //     '.jpg')
+    // }
+    getThumbnail(image, category) {
       return 'https://via.placeholder.com/300x300'
-      // return require('~/assets/images/products/' + thumbnail + '.jpg')
+      // return require('~/assets/images/products/convertibles/' + thumbnail + '.jpg')
     }
   },
   head() {

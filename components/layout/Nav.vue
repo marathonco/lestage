@@ -26,7 +26,7 @@
 
 <script>
 import Drawer from '~/components/core/Drawer'
-import Logo from '~/assets/logo-lestage.svg?inline'
+import Logo from '~/assets/images/logos/logo-lestage.svg?inline'
 
 // add `.scrolled` to `body` if page has been scrolled
 if (process.browser) {

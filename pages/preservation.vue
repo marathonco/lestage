@@ -4,7 +4,7 @@
       <div class="center">
         <div class="half">
           <img
-            src="~/assets/images/compact-logo.png"
+            src="~/assets/images/logos/logo-compact.png"
             alt="compact-logo"
             class="compact-logo"
           >
@@ -135,7 +135,7 @@ export default {
   }
 }
 .fill.compact {
-  background-image: url('~assets/images/compact.jpg');
+  background-image: url('~assets/images/fillers/compact.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
