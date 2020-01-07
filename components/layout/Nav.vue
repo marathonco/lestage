@@ -46,6 +46,7 @@ export default {
 </script>
 
 <style lang="scss">
+$navbarHeight: 60px;
 $navbarColor: getColor(text, contrast);
 $navbarLinkColor: getColor(text, contrast);
 $navbarLinkColorHover: getColor(text, contrast);
@@ -69,7 +70,7 @@ $menu-transition-duration: 3 * $transition-duration;
   display: flex;
   flex-direction: row;
   font-size: pxToEm(12);
-  height: 60px;
+  height: $navbarHeight;
   position: fixed;
   transition: background $menu-transition-duration linear,
     box-shadow $menu-transition-duration linear;
@@ -84,8 +85,6 @@ $menu-transition-duration: 3 * $transition-duration;
 .navbar-center,
 .navbar-right {
   flex: 1;
-  // height: 100%;
-  // padding: 1rem;
 }
 
 .navbar-left {
@@ -94,7 +93,7 @@ $menu-transition-duration: 3 * $transition-duration;
   text-align: left;
 }
 .navbar-center {
-  padding: 10px 60px 0;
+  padding: 5px 60px;
 }
 .navbar-right {
   display: none;
@@ -110,7 +109,12 @@ $menu-transition-duration: 3 * $transition-duration;
 .logo {
   display: block;
   height: 100%;
-  margin: auto;
+  // margin: auto;
+  // padding: 1rem;
+  svg {
+    max-height: 100%;
+    max-width: 100%;
+  }
   path {
     fill: getColor(background, light);
     transition: fill $menu-transition-duration linear;
