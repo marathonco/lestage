@@ -1,6 +1,9 @@
 <template>
   <div id="productSorting">
-    <form @submit.prevent="searchProducts(searchText)">
+    <form
+      @submit.prevent="searchProducts(searchText)"
+      class="search"
+    >
       <input
         v-model="searchText"
         type="text"
@@ -71,6 +74,7 @@
 </template>
 
 <script>
+// TODO: autocomplete
 import { mapActions, mapGetters } from 'vuex'
 
 export default {
@@ -109,6 +113,13 @@ export default {
   padding: 1rem 0.25rem;
   select {
     margin: 0.25rem 0;
+  }
+}
+.search {
+  display: flex;
+  button {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 }
 </style>

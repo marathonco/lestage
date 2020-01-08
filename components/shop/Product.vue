@@ -17,7 +17,7 @@
       <div class="title">
         {{ product.title }}
       </div>
-      <div class="thumbnail"></div>
+      <div class="thumbnail" />
       <!-- <img
         :src="thumbnail"
         alt="image thumbnail"
@@ -41,7 +41,7 @@ export default {
   },
   computed: {
     routerLink() {
-      return 'test'
+      return this.product.collectionSlug + '/product/' + this.product.slug
     }
     // ,
     // thumbnail() {
@@ -113,9 +113,8 @@ $thumbSize: 140px;
   }
 }
 // TMP styling:
-.thumbnail {
+.product .thumbnail {
   display: block;
-  background: pink;
   height: $thumbSize;
   width: $thumbSize;
 }
