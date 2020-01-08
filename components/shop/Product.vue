@@ -53,78 +53,80 @@ export default {
 
 <style lang="scss">
 $thumbSize: 140px;
-.product {
-  background: #ffffff;
-  height: $thumbSize;
-  margin: 10px;
-  position: relative;
-  width: $thumbSize;
-
-  .link {
-    display: block;
+#productList {
+  .product {
+    background: #ffffff;
     height: $thumbSize;
-    overflow: hidden;
+    margin: 10px;
     position: relative;
     width: $thumbSize;
-  }
 
-  &::after {
-    // box-shadow
-    box-shadow: 0px 15px 15px -15px rgba(0, 0, 0, 0.5);
-    content: '';
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    transition: opacity $transition-duration ease-in-out;
-    width: 100%;
-    z-index: -1;
-  }
+    .link {
+      display: block;
+      height: $thumbSize;
+      overflow: hidden;
+      position: relative;
+      width: $thumbSize;
+    }
 
-  img {
-    background: #ffffff;
-  }
-
-  .title {
-    align-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0);
-    bottom: -100%;
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    position: absolute;
-    transition: bottom $transition-duration ease-in-out,
-      background $transition-duration ease-in-out;
-    width: 100%;
-    z-index: 50px;
-  }
-  &:hover {
     &::after {
       // box-shadow
-      opacity: 1;
+      box-shadow: 0px 15px 15px -15px rgba(0, 0, 0, 0.5);
+      content: '';
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      transition: opacity $transition-duration ease-in-out;
+      width: 100%;
+      z-index: -1;
+    }
+
+    img {
+      background: #ffffff;
     }
 
     .title {
-      background: rgba(0, 0, 0, 0.25);
-      bottom: 0;
+      align-content: center;
+      align-items: center;
+      background: rgba(0, 0, 0, 0);
+      bottom: -100%;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      position: absolute;
+      transition: bottom $transition-duration ease-in-out,
+        background $transition-duration ease-in-out;
+      width: 100%;
+      z-index: 50px;
+    }
+    &:hover {
+      &::after {
+        // box-shadow
+        opacity: 1;
+      }
+
+      .title {
+        background: rgba(0, 0, 0, 0.25);
+        bottom: 0;
+      }
     }
   }
-}
-// TMP styling:
-.product .thumbnail {
-  display: block;
-  height: $thumbSize;
-  width: $thumbSize;
-}
-.cape-cod .thumbnail {
-  background: rgba(155, 0, 0, 0.5);
-}
-.convertible-bracelets .thumbnail {
-  background: rgba(0, 0, 105, 0.5);
-}
-.clasp-ocean-treasures .thumbnail {
-  background: rgba(50, 100, 250, 0.5);
+  // TMP styling:
+  .product .thumbnail {
+    display: block;
+    height: $thumbSize;
+    width: $thumbSize;
+  }
+  .cape-cod .thumbnail {
+    background: rgba(155, 0, 0, 0.5);
+  }
+  .convertible-bracelets .thumbnail {
+    background: rgba(0, 0, 105, 0.5);
+  }
+  .clasp-ocean-treasures .thumbnail {
+    background: rgba(50, 100, 250, 0.5);
+  }
 }
 </style>
