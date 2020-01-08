@@ -6,7 +6,10 @@
     data-aos-anchor="#productList"
     data-aos-once="true"
   > -->
-  <li class="product">
+  <li
+    class="product"
+    :class="product.categorySlug + ' ' + product.collectionSlug"
+  >
     <nuxt-link
       :to="routerLink"
       class="link"
@@ -14,10 +17,11 @@
       <div class="title">
         {{ product.title }}
       </div>
-      <img
+      <div class="thumbnail"></div>
+      <!-- <img
         :src="thumbnail"
         alt="image thumbnail"
-      >
+      > -->
     </nuxt-link>
   </li>
 </template>
@@ -38,10 +42,11 @@ export default {
   computed: {
     routerLink() {
       return 'test'
-    },
-    thumbnail() {
-      return 'https://via.placeholder.com/200x200'
     }
+    // ,
+    // thumbnail() {
+    //   return 'https://via.placeholder.com/200x200'
+    // }
   }
 }
 </script>
@@ -106,5 +111,21 @@ $thumbSize: 140px;
       bottom: 0;
     }
   }
+}
+// TMP styling:
+.thumbnail {
+  display: block;
+  background: pink;
+  height: $thumbSize;
+  width: $thumbSize;
+}
+.cape-cod .thumbnail {
+  background: rgba(155, 0, 0, 0.5);
+}
+.convertible-bracelets .thumbnail {
+  background: rgba(0, 0, 105, 0.5);
+}
+.clasp-ocean-treasures .thumbnail {
+  background: rgba(50, 100, 250, 0.5);
 }
 </style>
