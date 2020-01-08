@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import products from '~/data/products-cape-cod'
+import products from '~/data/products'
 import Logo from '~/assets/images/logos/logo-cape-cod.svg?inline'
 
 export default {
@@ -114,11 +114,12 @@ export default {
   },
   methods: {
     getThumbnail(image, category) {
-      return require('~/assets/images/products/' +
-        category +
-        '/' +
-        image +
-        '.jpg')
+      return 'https://via.placeholder.com/300x300'
+      // return require('~/assets/images/products/' +
+      //   category +
+      //   '/' +
+      //   image +
+      //   '.jpg')
     }
   },
   head() {

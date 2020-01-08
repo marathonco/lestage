@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import products from '~/data/products-convertible-collection'
+import products from '~/data/products'
 import Logo from '~/assets/images/logos/logo-convertible.svg?inline'
 
 export default {
