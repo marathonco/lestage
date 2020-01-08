@@ -21,7 +21,9 @@ const mutations = {
 }
 
 const actions = {
-  changeHeaders({ commit }, payload) {
+  changeHeaders({
+    commit
+  }, payload) {
     commit('changeHeaders', payload)
   }
 }

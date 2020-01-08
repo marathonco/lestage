@@ -1,0 +1,758 @@
+[{
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5429",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Rose Gold"
+      },
+      {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }
+    ]
+  },
+  {
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5430",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  }, {
+    "title": "Starfish Clasp",
+    "slug": "coc5624",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }, {
+        "filterType": "Precious Stones",
+        "filterValue": "Diamond"
+      }
+    ]
+  },
+  {
+    "title": "Some Clasp",
+    "slug": "coc5339",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Gold"
+      }, {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      }
+    ]
+  },
+  {
+    "title": "Clasp with no filters...",
+    "slug": "coc5331",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    }
+  }, {
+    "title": "Cape Copd",
+    "slug": "cc5624",
+    "price": "$70-$125",
+    "category": "Cape Cod Earrings",
+    "categorySlug": "earrings",
+    "collection": "Cape Cod Jewelry",
+    "collectionSlug": "cape-cod",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  },
+  {
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5429",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Rose Gold"
+      },
+      {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }
+    ]
+  }, {
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5430",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  }, {
+    "title": "Starfish Clasp",
+    "slug": "coc5624",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }, {
+        "filterType": "Precious Stones",
+        "filterValue": "Diamond"
+      }
+    ]
+  }, {
+    "title": "Some Clasp",
+    "slug": "coc5339",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Gold"
+      }, {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      }
+    ]
+  }, {
+    "title": "Clasp with no filters...",
+    "slug": "coc5331",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    }
+  }, {
+    "title": "Cape Copd",
+    "slug": "cc5624",
+    "price": "$70-$125",
+    "category": "Cape Cod Earrings",
+    "categorySlug": "earrings",
+    "collection": "Cape Cod Jewelry",
+    "collectionSlug": "cape-cod",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  },
+  {
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5429",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Rose Gold"
+      },
+      {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }
+    ]
+  }, {
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5430",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  }, {
+    "title": "Starfish Clasp",
+    "slug": "coc5624",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }, {
+        "filterType": "Precious Stones",
+        "filterValue": "Diamond"
+      }
+    ]
+  }, {
+    "title": "Some Clasp",
+    "slug": "coc5339",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Gold"
+      }, {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      }
+    ]
+  }, {
+    "title": "Clasp with no filters...",
+    "slug": "coc5331",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    }
+  }, {
+    "title": "Cape Copd",
+    "slug": "cc5624",
+    "price": "$70-$125",
+    "category": "Cape Cod Earrings",
+    "categorySlug": "earrings",
+    "collection": "Cape Cod Jewelry",
+    "collectionSlug": "cape-cod",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  },
+  {
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5429",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Rose Gold"
+      },
+      {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }
+    ]
+  }, {
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5430",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  }, {
+    "title": "Starfish Clasp",
+    "slug": "coc5624",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }, {
+        "filterType": "Precious Stones",
+        "filterValue": "Diamond"
+      }
+    ]
+  }, {
+    "title": "Some Clasp",
+    "slug": "coc5339",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Gold"
+      }, {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      }
+    ]
+  }, {
+    "title": "Clasp with no filters...",
+    "slug": "coc5331",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    }
+  }, {
+    "title": "Cape Copd",
+    "slug": "cc5624",
+    "price": "$70-$125",
+    "category": "Cape Cod Earrings",
+    "categorySlug": "earrings",
+    "collection": "Cape Cod Jewelry",
+    "collectionSlug": "cape-cod",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  },
+  {
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5429",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Rose Gold"
+      },
+      {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }
+    ]
+  }, {
+    "title": "Narrow Bracelet w/Wrap",
+    "date": "2012-04-23T18:25:43.511Z",
+    "slug": "coc5430",
+    "price": "$125-215",
+    "category": "Convertible Bracelets",
+    "categorySlug": "convertible-bracelets",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "This stylish bracelet is amazing...",
+    "properties": {
+      "sizes": {
+        "name": "Available Sizes",
+        "value": "Available in sizes 6, 6 1/2, 7, 7 1/2, and 8 inch circumference."
+      },
+      "materials": {
+        "name": "Materials",
+        "value": "Sterling Silver with Sterling Silver Wrap, Sterling Silver with a 14K Yellow Gold Wrap or Sterling Silver with a 14K Rose Gold Wrap."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  }, {
+    "title": "Starfish Clasp",
+    "slug": "coc5624",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Metal",
+        "filterValue": "14K Rose Gold"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Crystal"
+      }, {
+        "filterType": "Precious Stones",
+        "filterValue": "Diamond"
+      }
+    ]
+  }, {
+    "title": "Some Clasp",
+    "slug": "coc5339",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+        "filterType": "Metal",
+        "filterValue": "14K Gold"
+      }, {
+        "filterType": "Metal",
+        "filterValue": "Sterling Silver"
+      },
+      {
+        "filterType": "Precious Stones",
+        "filterValue": "Sapphire"
+      }
+    ]
+  }, {
+    "title": "Clasp with no filters...",
+    "slug": "coc5331",
+    "price": "$70-$125",
+    "category": "Ocean Treasures",
+    "categorySlug": "clasp-ocean-treasures",
+    "collection": "Convertible Collection",
+    "collectionSlug": "convertible-collection",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    }
+  }, {
+    "title": "Cape Copd",
+    "slug": "cc5624",
+    "price": "$70-$125",
+    "category": "Cape Cod Earrings",
+    "categorySlug": "earrings",
+    "collection": "Cape Cod Jewelry",
+    "collectionSlug": "cape-cod",
+    "description": "An adorable starfish clasp, perfect for wearing to the beach.",
+    "properties": {
+      "materials": {
+        "name": "Materials",
+        "value": "Available with Sterling Silver, Sterling Silver with 14K Gold accent, or Sterling Silver with 14K Rose Gold accent."
+      }
+    },
+    "filters": [{
+      "filterType": "Metal",
+      "filterValue": "Sterling Silver"
+    }]
+  }
+]

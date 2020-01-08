@@ -1,19 +1,20 @@
-import convertibleCollectionProducts from './data/products-convertible-collection'
-import capeCodProducts from './data/products-cape-cod'
-import convertibleCollectionCategories from './data/categories-convertible-collection'
-import capeCodCategories from './data/categories-cape-cod'
+// TODO: clean up imports
+// import convertibleCollectionProducts from './data/products'
+// import capeCodProducts from './data/products'
+// import convertibleCollectionCategories from './data/categories'
+// import capeCodCategories from './data/categories'
 
 const pkg = require('./package')
 
-const dynamicRoutes = () => {
-  return new Promise(resolve => {
-    const ccP = capeCodProducts.map(el => `cape-cod/product/${el.slug}`)
-    const ccC = capeCodCategories.map(el => `cape-cod/${el.slug}`)
-    const coP = convertibleCollectionProducts.map(el => `convertible-collection/product/${el.slug}`)
-    const coC = convertibleCollectionCategories.map(el => `convertible-collection/${el.slug}`)
-    resolve([...ccP, ...ccC, ...coP, ...coC])
-  })
-}
+// const dynamicRoutes = () => {
+//   return new Promise(resolve => {
+//     const ccP = capeCodProducts.map(el => `cape-cod/product/${el.slug}`)
+//     const ccC = capeCodCategories.map(el => `cape-cod/${el.slug}`)
+//     const coP = convertibleCollectionProducts.map(el => `convertible-collection/product/${el.slug}`)
+//     const coC = convertibleCollectionCategories.map(el => `convertible-collection/${el.slug}`)
+//     resolve([...ccP, ...ccC, ...coP, ...coC])
+//   })
+// }
 
 module.exports = {
   mode: 'universal',
@@ -24,21 +25,21 @@ module.exports = {
   head: {
     title: pkg.name,
     meta: [{
-      charset: 'utf-8'
-    },
-    {
-      name: 'viewport',
-      content: 'width=device-width, initial-scale=1'
-    },
-    {
-      'http-equiv': 'X-UA-Compatible',
-      content: 'IE=edge,chrome=1'
-    },
-    {
-      hid: 'description',
-      name: 'description',
-      content: pkg.description
-    }
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        'http-equiv': 'X-UA-Compatible',
+        content: 'IE=edge,chrome=1'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: pkg.description
+      }
     ],
     link: [{
       rel: 'icon',
@@ -63,15 +64,15 @@ module.exports = {
    ** Plugins to load before mounting the App
    */
   plugins: [{
-    src: '~/plugins/aos',
-    mode: 'client'
-  },
-  {
-    src: '~plugins/vee-validate.js'
-  }, {
-    src: '~/plugins/swiper.js',
-    ssr: false
-  }
+      src: '~/plugins/aos',
+      mode: 'client'
+    },
+    {
+      src: '~plugins/vee-validate.js'
+    }, {
+      src: '~/plugins/swiper.js',
+      ssr: false
+    }
   ],
 
   /*
@@ -103,9 +104,9 @@ module.exports = {
   /*
    ** Generate Dynamic Routes
    */
-  generate: {
-    routes: dynamicRoutes
-  },
+  // generate: {
+  //   routes: dynamicRoutes
+  // },
 
   /*
    ** Build configuration

@@ -116,7 +116,7 @@ $header-height: 50vw;
   border-top: 60px solid getColor(text, accent);
 }
 
-body header.brand {
+body .brand {
   display: block;
   margin: 1rem auto;
   max-width: 800px;
