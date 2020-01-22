@@ -11,7 +11,7 @@
           warranty.
         </p>
         <nuxt-link
-          to="/cape-cod"
+          to="products/cape-cod"
           class="button rounded primary bordered"
         >
           View Collection
@@ -27,7 +27,7 @@
             :key="key"
             class="swiper-slide"
           >
-            <nuxt-link to="/cape-cod">
+            <nuxt-link to="products/cape-cod">
               <img
                 :src="getProductImage(productImage, 'cape-cod')"
                 class="swiper-slide-image"
@@ -45,7 +45,7 @@
           The Convertible Collection<sup>®</sup> has something for everyone...
         </p>
         <nuxt-link
-          to="/convertible-collection"
+          to="products/convertible-collection"
           class="button rounded primary bordered"
         >
           View Collection
@@ -61,7 +61,7 @@
             :key="key"
             class="swiper-slide"
           >
-            <nuxt-link to="/convertible-collection">
+            <nuxt-link to="products/convertible-collection">
               <img
                 :src="getProductImage(productImage, 'convertibles')"
                 class="swiper-slide"
@@ -243,7 +243,7 @@ export default {
   position: relative;
   img {
     margin: 0 auto;
-    max-height: 60vh;
+    max-height: 30vh;
     width: auto;
   }
 }

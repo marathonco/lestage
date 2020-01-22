@@ -1,8 +1,8 @@
 <template>
   <div id="productSorting">
     <form
-      @submit.prevent="searchProducts(searchText)"
       class="search"
+      @submit.prevent="searchProducts(searchText)"
     >
       <input
         v-model="searchText"
@@ -10,7 +10,9 @@
         name="search"
         placeholder="Search"
       >
-      <button type="submit">Search</button>
+      <button type="submit">
+        Search
+      </button>
     </form>
     <select
       id="productCollection"
@@ -53,6 +55,27 @@
         {{ option.label }}
       </option>
     </select>
+    <select
+      v-if="subcategoryOptions.length > 0"
+      id="productsubcategory"
+      :value="subcategory"
+      name="subcategory"
+      @change="changeSubcategory($event.target.value)"
+    >
+      <option
+        selected
+        :value="null"
+      >
+        All subcategories
+      </option>
+      <option
+        v-for="(option, subCatKey) of subcategoryOptions"
+        :key="subCatKey"
+        :value="option.slug"
+      >
+        {{ option.label }}
+      </option>
+    </select>
     <label for="sorting">Sort by:</label>
     <select
       id="productSorting"
@@ -85,10 +108,12 @@ export default {
   },
   computed: {
     ...mapGetters({
-      category: 'shop/category',
       collection: 'shop/collection',
-      categoryOptions: 'shop/categoryOptions',
       collectionOptions: 'shop/collectionOptions',
+      category: 'shop/category',
+      categoryOptions: 'shop/categoryOptions',
+      subcategory: 'shop/subcategory',
+      subcategoryOptions: 'shop/subcategoryOptions',
       sorting: 'shop/sorting'
     }),
     search() {
@@ -97,8 +122,9 @@ export default {
   },
   methods: {
     ...mapActions({
-      changeCategory: 'shop/changeCategory',
       changeCollection: 'shop/changeCollection',
+      changeCategory: 'shop/changeCategory',
+      changeSubcategory: 'shop/changeSubcategory',
       changeSorting: 'shop/changeSorting',
       searchProducts: 'shop/searchProducts'
     })

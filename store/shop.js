@@ -13,35 +13,93 @@ function sortProducts(products, sorting) {
   } else if (sorting === 'msrp') {
     prod.sort((a, b) => (a.price < b.price) ? 1 : -1)
   } else if (sorting === 'collection') {
+    // TODO: also sort by subcategory... Tricky...
     prod.sort((a, b) => (a.category > b.category) ? 1 : -1)
   }
   return prod
 }
 
-const categoryOptions = []
 const collectionOptions = []
+const categoryOptions = []
+const subcategoryOptions = []
+
 productData.forEach(product => {
-  let match = categoryOptions.find(option => {
-    return option.slug === product.categorySlug && option.label === product.category
+  let match = collectionOptions.find(option => {
+    return option.slug === product.collectionSlug && option.label === product.collection
   })
   if (!match) {
-    categoryOptions.push({
-      slug: product.categorySlug,
-      label: product.category,
-      parent: product.collectionSlug,
-      parentLabel: product.collection
+    collectionOptions.push({
+      slug: product.collectionSlug,
+      label: product.collection
+
     })
-    match = collectionOptions.find(option => {
-      return option.slug === product.collectionSlug && option.label === product.collection
+  }
+  if (product.category) {
+    match = categoryOptions.find(option => {
+      return option.slug === product.categorySlug && option.label === product.category
     })
     if (!match) {
-      collectionOptions.push({
-        slug: product.collectionSlug,
-        label: product.collection
+      categoryOptions.push({
+        slug: product.categorySlug,
+        label: product.category,
+        collection: product.collectionSlug
+      })
+    }
+  }
+  if (product.subcategory) {
+    match = subcategoryOptions.find(option => {
+      return option.slug === product.subcategorySlug && option.label === product.subcategory
+    })
+    if (!match) {
+      subcategoryOptions.push({
+        slug: product.subcategorySlug,
+        label: product.subcategory,
+        collection: product.collectionSlug,
+        category: product.categorySlug
       })
     }
   }
 })
+
+// const hierarchy = []
+// productData.forEach(product => {
+
+//   let match = collectionOptions.find(option => {
+//     return option.slug === product.collectionSlug && option.label === product.collection
+//   })
+//   if (!match) {
+//     collectionOptions.push({
+//       slug: product.collectionSlug,
+//       label: product.collection
+
+//     })
+//   }
+//   if (product.category) {
+//     match = categoryOptions.find(option => {
+//       return option.slug === product.categorySlug && option.label === product.category
+//     })
+//     if (!match) {
+//       categoryOptions.push({
+//         slug: product.categorySlug,
+//         label: product.category,
+//         collection: product.collectionSlug
+//       })
+//     }
+//   }
+//   if (product.subcategory) {
+//     match = subcategoryOptions.find(option => {
+//       return option.slug === product.subcategorySlug && option.label === product.subcategory
+//     })
+//     if (!match) {
+//       subcategoryOptions.push({
+//         slug: product.subcategorySlug,
+//         label: product.subcategory,
+//         collection: product.collectionSlug,
+//         category: product.categorySlug
+//       })
+//     }
+//   }
+// })
 
 const state = () => ({
   activeFilters: [],
@@ -62,18 +120,29 @@ const getters = {
   collection(state) {
     return state.collection
   },
-  category(state) {
-    return state.category
-  },
   collectionOptions(state) {
     // should be in the form {slug: 'convertibles', label: 'Lestage® Convertibles'}
     return collectionOptions
+  },
+  category(state) {
+    return state.category
   },
   categoryOptions(state) {
     // should be in the form {slug: 'clasp-ocean-treasures', label: 'Ocean Treasures'}
     // filter out categories not in current collection
     const options = categoryOptions.filter(option => {
-      return option.parent === state.collection
+      return option.collection === state.collection
+    })
+    return options
+  },
+  subcategory(state) {
+    return state.subcategory
+  },
+  subcategoryOptions(state) {
+    // should be in the form {slug: 'beach-clasps', label: 'Beach Clasps'}
+    // filter out categories not in current collection
+    const options = subcategoryOptions.filter(option => {
+      return option.category === state.category && option.collection === state.collection
     })
     return options
   },
@@ -120,6 +189,11 @@ const mutations = {
       }
       if (state.category) {
         if (product.categorySlug !== state.category) {
+          include = false
+        }
+      }
+      if (state.subcategory) {
+        if (product.subcategorySlug !== state.subcategory) {
           include = false
         }
       }
@@ -225,8 +299,9 @@ const actions = {
   getProducts({
     commit,
     state
-  }) {
+  }, payload) {
     commit('UPDATE_POSSIBLE_PRODUCTS', {
+      ...payload,
       products: state.allProducts
     })
   },
@@ -257,13 +332,18 @@ const actions = {
       products: products
     })
   },
+  // TODO: should we condense this all into one call? just use getProducts and pass payload.collection or payload.category etc.?
+  // TODO: we can also reduce all hierarchy into one tree and do a search?
+
   changeCollection({
     commit,
     state
   }, payload) {
     const data = {
       products: state.allProducts,
-      collection: payload
+      collection: payload,
+      category: null,
+      subcategory: null
     }
     commit('UPDATE_POSSIBLE_PRODUCTS', data)
   },
@@ -271,9 +351,21 @@ const actions = {
     commit,
     state
   }, payload) {
+    // TODO: update url ?
     const data = {
       products: state.allProducts,
-      category: payload
+      category: payload,
+      subcategory: null
+    }
+    commit('UPDATE_POSSIBLE_PRODUCTS', data)
+  },
+  changeSubcategory({
+    commit,
+    state
+  }, payload) {
+    const data = {
+      products: state.allProducts,
+      subcategory: payload
     }
     commit('UPDATE_POSSIBLE_PRODUCTS', data)
   },

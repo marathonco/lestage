@@ -6,12 +6,12 @@
 }, {
   "title": "Cape Cod Jewelry",
   "to": {
-    "name": "cape-cod"
+    "name": "products/cape-cod"
   }
 }, {
   "title": "The Convertible Collection",
   "to": {
-    "name": "convertible-collection"
+    "name": "products/convertible-collection"
   }
 }, {
   "title": "Warranty",

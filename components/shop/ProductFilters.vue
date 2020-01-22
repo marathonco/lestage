@@ -19,15 +19,15 @@
           class="filter"
         >
           <a
-            @click="addFilter(filter)"
             :class="filter.filterStatus"
+            @click="addFilter(filter)"
           >
             {{ filter.filterValue }} ( {{ filter.productCount }} )
           </a>
           <a
             v-show="filter.filterStatus === 'active'"
-            @click="removeFilter(filter)"
             class="close"
+            @click="removeFilter(filter)"
           >
             ×
           </a>

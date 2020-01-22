@@ -1,9 +1,10 @@
 <template>
   <!-- <li
     class="product"
+    :class="product.categorySlug + ' ' + product.collectionSlug"
     :data-aos-delay="200*index"
     data-aos="flip-left"
-    data-aos-anchor="#productList"
+    data-aos-anchor=".productList"
     data-aos-once="true"
   > -->
   <li
@@ -14,20 +15,22 @@
       :to="routerLink"
       class="link"
     >
-      <div class="title">
+      <h5 class="title">
         {{ product.title }}
-      </div>
-      <div class="thumbnail" />
-      <!-- <img
+      </h5>
+      <img
         :src="thumbnail"
         alt="image thumbnail"
-      > -->
+        class="thumbnail"
+        @error="fallbackImage"
+      >
     </nuxt-link>
   </li>
 </template>
 
 <script>
-// TODO: items not flipping if they start on screen
+// TODO: items not flipping if they start on screen consider using wow.js instead of aos.js
+
 export default {
   props: {
     index: {
@@ -41,19 +44,29 @@ export default {
   },
   computed: {
     routerLink() {
-      return this.product.collectionSlug + '/product/' + this.product.slug
+      return '/product/' + this.product.slug
+    },
+    thumbnail() {
+      return (
+        'https://marathon-co.com/media/lestage/' +
+        this.product.collectionSlug +
+        '/' +
+        this.product.slug +
+        '.jpg'
+      )
     }
-    // ,
-    // thumbnail() {
-    //   return 'https://via.placeholder.com/200x200'
-    // }
+  },
+  methods: {
+    fallbackImage(event) {
+      event.target.src = require('~/assets/images/fallback.svg')
+    }
   }
 }
 </script>
 
 <style lang="scss">
 $thumbSize: 140px;
-#productList {
+.productList {
   .product {
     background: #ffffff;
     height: $thumbSize;
@@ -62,8 +75,10 @@ $thumbSize: 140px;
     width: $thumbSize;
 
     .link {
-      display: block;
+      align-items: center;
+      display: flex;
       height: $thumbSize;
+      justify-content: center;
       overflow: hidden;
       position: relative;
       width: $thumbSize;
@@ -83,22 +98,26 @@ $thumbSize: 140px;
       z-index: -1;
     }
 
-    img {
+    .thumbnail {
       background: #ffffff;
+      max-width: 100%;
+      max-height: 100%;
     }
 
     .title {
       align-content: center;
       align-items: center;
-      background: rgba(0, 0, 0, 0);
+      background: rgba(255, 255, 255, 0);
       bottom: -100%;
       display: flex;
       justify-content: center;
-      padding: 1rem;
+      height: $thumbSize;
+      margin: 0;
+      padding: 0 0.75rem;
       position: absolute;
       transition: bottom $transition-duration ease-in-out,
         background $transition-duration ease-in-out;
-      width: 100%;
+      width: $thumbSize;
       z-index: 50px;
     }
     &:hover {
@@ -108,25 +127,10 @@ $thumbSize: 140px;
       }
 
       .title {
-        background: rgba(0, 0, 0, 0.25);
+        background: rgba(255, 255, 255, 0.5);
         bottom: 0;
       }
     }
-  }
-  // TMP styling:
-  .product .thumbnail {
-    display: block;
-    height: $thumbSize;
-    width: $thumbSize;
-  }
-  .cape-cod .thumbnail {
-    background: rgba(155, 0, 0, 0.5);
-  }
-  .convertible-bracelets .thumbnail {
-    background: rgba(0, 0, 105, 0.5);
-  }
-  .clasp-ocean-treasures .thumbnail {
-    background: rgba(50, 100, 250, 0.5);
   }
 }
 </style>

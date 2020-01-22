@@ -1,12 +1,12 @@
 <template>
-  <main class="cape-cod">
+  <main class="convertibles">
     <header class="brand">
       <Logo />
     </header>
-    <section class="product">
+    <section id="product">
       <div class="info">
         <h3>
-          Cape Cod
+          Convertible Collection
           <br>
           {{ product.title }}
         </h3>
@@ -39,7 +39,7 @@
       </div>
       <div class="images">
         <img
-          :src="getThumbnail(product.slug, 'cape-cod')"
+          :src="getThumbnail(product.slug, 'convertibles')"
           alt="main product image"
         >
       </div>
@@ -67,7 +67,7 @@
             </div>
 
             <img
-              :src="getThumbnail(crossProduct.slug, 'cape-cod')"
+              :src="getThumbnail(crossProduct.slug)"
               alt="image thumbnail"
             >
           </nuxt-link>
@@ -75,7 +75,7 @@
       </ul>
     </aside>
     <nuxt-link
-      to="/cape-cod/products"
+      :to="'products/' + collectionSlug"
       class="button rounded bordered primary back-link"
     >
       View the rest of the collection
@@ -85,7 +85,7 @@
 
 <script>
 import products from '~/data/products'
-import Logo from '~/assets/images/logos/logo-cape-cod.svg?inline'
+import Logo from '~/components/core/Logo'
 
 export default {
   name: 'Products',
@@ -114,23 +114,25 @@ export default {
   },
   methods: {
     getThumbnail(image, category) {
-      return 'https://via.placeholder.com/300x300'
-      // return require('~/assets/images/products/' +
-      //   category +
-      //   '/' +
-      //   image +
-      //   '.jpg')
+      // return 'https://via.placeholder.com/300x300'
+      return (
+        'https://marathon-co.com/media/lestage/' +
+        this.product.collectionSlug +
+        '/' +
+        this.product.slug +
+        '.jpg'
+      )
     }
   },
   head() {
     // TODO: can't figure out how to get dynamic titles here
     return {
-      title: 'Cape Cod Jewelry',
+      title: 'The Convertible Collection',
       meta: [
         {
           vmid: 'description',
           name: 'description',
-          content: 'Authentic Cape Cod Jewelry in Sterling Silver and 14K Gold.'
+          content: 'Authentic Jewelry in Sterling Silver and 14K Gold.'
         }
       ]
     }
@@ -138,8 +140,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.product {
+<style lang="scss" scoped>
+#product {
   background: #ffffff;
   .info,
   .images {
@@ -164,7 +166,7 @@ export default {
   }
 }
 @include tablet {
-  .product {
+  #product {
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
