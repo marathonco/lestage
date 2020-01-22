@@ -1,7 +1,6 @@
 <template>
   <main id="productsPage">
     <div id="products">
-      <Logo />
       <ProductBanner :banner="'ocean-treasures'" />
       <ProductsList :products="filteredProducts" />
     </div>
@@ -13,17 +12,16 @@
 </template>
 
 <script>
+// TODO: change url when changing categories...
+
 import { mapActions, mapGetters } from 'vuex'
-import Logo from '~/components/core/Logo'
 import ProductBanner from '~/components/shop/ProductBanner'
 import ProductFilters from '~/components/shop/ProductFilters'
 import ProductSorting from '~/components/shop/ProductSorting'
 import ProductsList from '~/components/shop/ProductsList'
 
 export default {
-  // TODO: replace logo component with category header...
   components: {
-    Logo,
     ProductBanner,
     ProductFilters,
     ProductSorting,
@@ -53,7 +51,6 @@ export default {
   },
   created() {
     // TODO: setting subcategory will not also set collection. Can we do nested routes?
-    // TODO: PAGINATION....
     const data = {}
     const route = this.$route.params.collectionSlug
     if (
