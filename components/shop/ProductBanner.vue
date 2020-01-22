@@ -1,6 +1,6 @@
 <template>
   <header class="brand">
-    <LogoCapeCod v-if="collection === 'cape-cod' && !category" />
+    <LogoCapeCod v-if="collection === 'cape-cod-collection' && !category" />
     <LogoConvertibles v-if="collection === 'convertible-collection' && !category" />
     <img :src="bannerLink" @error="imgError">
   </header>
