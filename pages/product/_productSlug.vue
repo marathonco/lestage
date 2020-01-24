@@ -1,5 +1,5 @@
 <template>
-  <main class="convertibles">
+  <main>
     <header class="brand">
       <Logo />
     </header>
@@ -39,43 +39,17 @@
       </div>
       <div class="images">
         <img
-          :src="getThumbnail(product.slug, 'convertibles')"
+          :src="thumbnail"
           alt="main product image"
         >
       </div>
     </section>
-    <aside class="other">
+    <aside v-if="similarProducts.length > 0" class="other">
       <h4>Other Styles:</h4>
-      <ul
-        id="products-list"
-        class="products-list"
-      >
-        <li
-          v-for="(crossProduct, key) of filteredProducts"
-          :key="key"
-          :data-aos-delay="200 * key"
-          data-aos="flip-left"
-          data-aos-anchor="#productsList"
-          data-aos-once="true"
-        >
-          <nuxt-link
-            :to="'/product/' + crossProduct.slug"
-            class="link"
-          >
-            <div class="title">
-              {{ crossProduct.title }}
-            </div>
-
-            <img
-              :src="getThumbnail(crossProduct.slug)"
-              alt="image thumbnail"
-            >
-          </nuxt-link>
-        </li>
-      </ul>
+      <ProductsList :products="similarProducts" />
     </aside>
     <nuxt-link
-      :to="'products/' + collectionSlug"
+      :to="'products/' + product.collectionSlug"
       class="button rounded bordered primary back-link"
     >
       View the rest of the collection
@@ -84,37 +58,39 @@
 </template>
 
 <script>
-import products from '~/data/products'
+// TODO: Logo doesn't work for single products because cat/collection not set in vuex... ;)
+import { mapGetters } from 'vuex'
+import ProductsList from '~/components/shop/ProductsList'
 import Logo from '~/components/core/Logo'
 
 export default {
   name: 'Products',
   components: {
-    Logo
+    Logo,
+    ProductsList
   },
-  validate({ params }) {
-    const product = products.filter(function(dat) {
-      return dat.slug === params.productSlug
-    })
-    return product.length !== 0
-  },
-  asyncData({ params }) {
-    const product = products.filter(function(dat) {
-      return dat.slug === params.productSlug
-    })[0]
-    const filteredProducts = products.filter(function(dat) {
-      // skip current product
-      if (dat.slug === params.productSlug) {
-        return false
-      }
-      return dat.categorySlug === product.categorySlug
-    })
-
-    return { product, filteredProducts }
-  },
-  methods: {
-    getThumbnail(image, category) {
-      // return 'https://via.placeholder.com/300x300'
+  computed: {
+    ...mapGetters({
+      collection: 'shop/collection',
+      allProducts: 'shop/allProducts'
+    }),
+    similarProducts() {
+      const similarProducts = this.allProducts.filter(dat => {
+        if (this.product.slug === dat.slug) {
+          return false
+        } else if (this.product.subcategorySlug) {
+          if (this.product.subcategorySlug === dat.subcategorySlug) {
+            return true
+          }
+        } else if (this.product.categorySlug) {
+          if (this.product.categorySlug === dat.categorySlug) {
+            return true
+          }
+        }
+      })
+      return similarProducts
+    },
+    thumbnail() {
       return (
         'https://marathon-co.com/media/lestage/' +
         this.product.collectionSlug +
@@ -123,6 +99,12 @@ export default {
         '.jpg'
       )
     }
+  },
+  asyncData({ params, store }) {
+    const product = store.state.shop.allProducts.filter(dat => {
+      return dat.slug === params.productSlug
+    })[0]
+    return { product }
   },
   head() {
     // TODO: can't figure out how to get dynamic titles here

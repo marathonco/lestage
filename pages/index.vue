@@ -11,7 +11,7 @@
           warranty.
         </p>
         <nuxt-link
-          to="products/cape-cod"
+          to="products/cape-cod-collection"
           class="button rounded primary bordered"
         >
           View Collection
@@ -27,7 +27,7 @@
             :key="key"
             class="swiper-slide"
           >
-            <nuxt-link to="products/cape-cod">
+            <nuxt-link to="products/cape-cod-collection">
               <img
                 :src="getProductImage(productImage, 'cape-cod')"
                 class="swiper-slide-image"
@@ -235,7 +235,6 @@ export default {
 .collection .swiper-container {
   height: auto !important;
 }
-// TODO: sizing/scaling issue
 .product-image a {
   align-items: center;
   display: flex;

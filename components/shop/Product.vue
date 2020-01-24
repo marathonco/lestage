@@ -39,7 +39,8 @@ export default {
     },
     product: {
       type: Object,
-      default: null
+      default: null,
+      required: true
     }
   },
   computed: {

@@ -5,13 +5,24 @@ import productData from '@/data/products'
 Vue.use(Vuex)
 
 // TODO: organize filter options with active options in front of array
+// TODO: should most of this logic with collections and such be moved to the /products/_slug page?
 
+// convert price String from "$85-120" into just 85
+function convertPriceString(price) {
+  // remove everything after hyphen
+  const currency = price.split('-')[0]
+  // Remove all non-digits
+  const priceNum = Number(currency.replace(/[^0-9.-]+/g, ''))
+  return priceNum
+}
+
+// sort products based on certain conditions...
 function sortProducts(products, sorting) {
   const prod = [...products]
   if (sorting === 'sku') {
     prod.sort((a, b) => (a.slug > b.slug) ? 1 : -1)
   } else if (sorting === 'msrp') {
-    prod.sort((a, b) => (a.price < b.price) ? 1 : -1)
+    prod.sort((a, b) => (convertPriceString(a.price) > convertPriceString(b.price)) ? 1 : -1)
   } else if (sorting === 'collection') {
     // TODO: also sort by subcategory... Tricky...
     prod.sort((a, b) => (a.category > b.category) ? 1 : -1)
@@ -156,7 +167,7 @@ const getters = {
     // an array of all activeFilters
     return state.activeFilters
   },
-  products(state) {
+  allProducts(state) {
     // all products
     return state.allProducts
   },
@@ -309,7 +320,6 @@ const actions = {
     commit,
     state
   }, payload) {
-    // TODO: decide if we want to clear filters and collections and categories
     const products = state.allProducts.filter(product => {
       // check product attributes for payload
       const search = new RegExp(payload, 'i')
@@ -329,7 +339,10 @@ const actions = {
       // }
     })
     commit('UPDATE_POSSIBLE_PRODUCTS', {
-      products: products
+      products: products,
+      collection: null,
+      category: null,
+      subcategory: null
     })
   },
   // TODO: should we condense this all into one call? just use getProducts and pass payload.collection or payload.category etc.?
@@ -351,7 +364,6 @@ const actions = {
     commit,
     state
   }, payload) {
-    // TODO: update url ?
     const data = {
       products: state.allProducts,
       category: payload,

@@ -97,7 +97,7 @@
 </template>
 
 <script>
-// TODO: autocomplete
+// TODO: autocomplete for search
 import { mapActions, mapGetters } from 'vuex'
 
 export default {

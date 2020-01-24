@@ -11,6 +11,7 @@
       >
         <nuxt-link
           :to="item.to"
+          :params="item.params"
           exact-active-class="is-active"
         >{{ item.title }}</nuxt-link>
       </li>

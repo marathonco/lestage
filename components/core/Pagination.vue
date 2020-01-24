@@ -15,7 +15,7 @@
     >
       1
     </button>
-    <div v-if="pageRange[0] !== 2">
+    <div v-if="pageRange[0] !== 2 && totalPages > 4">
       ...
     </div>
     <button
@@ -26,7 +26,7 @@
     >
       {{ page }}
     </button>
-    <div v-if="pageRange[pageRange.length] !== totalPages - 1">
+    <div v-if="pageRange[pageRange.length] !== totalPages - 1 && totalPages > 4">
       ...
     </div>
     <button

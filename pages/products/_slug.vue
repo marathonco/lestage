@@ -12,9 +12,9 @@
 </template>
 
 <script>
-// TODO: change url when changing categories...
+// TODO: change url when changing collections...
 
-import { mapActions, mapGetters } from 'vuex'
+import { mapGetters } from 'vuex'
 import ProductBanner from '~/components/shop/ProductBanner'
 import ProductFilters from '~/components/shop/ProductFilters'
 import ProductSorting from '~/components/shop/ProductSorting'
@@ -51,8 +51,11 @@ export default {
   },
   created() {
     // TODO: setting subcategory will not also set collection. Can we do nested routes?
+    // Nah, just get the first product and also set it's collection & category...
+    // TODO: cat and subcat aren't working because those getters filter out based on collection... Need to do a check against all, or do a complete hierarchy mapping...
+
     const data = {}
-    const route = this.$route.params.collectionSlug
+    const route = this.$route.params.slug
     if (
       this.collectionOptions.find(option => {
         return option.slug === route
@@ -73,11 +76,6 @@ export default {
       data.subcategory = route
     }
     this.$store.dispatch('shop/getProducts', data)
-  },
-  methods: {
-    ...mapActions({
-      changeCollection: 'shop/changeCollection'
-    })
   }
 }
 </script>
