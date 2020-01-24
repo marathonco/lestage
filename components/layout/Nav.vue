@@ -6,7 +6,7 @@
     <div id="navbar">
       <div class="navbar-left">
         <nuxt-link
-          to="retailers"
+          to="/retailers"
           class="navbar-item"
         >Find A Retailer</nuxt-link>
       </div>
