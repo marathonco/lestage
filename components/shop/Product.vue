@@ -91,10 +91,10 @@ $thumbSize: 140px;
       content: '';
       height: 100%;
       left: 0;
-      opacity: .5;
+      opacity: 1;
       position: absolute;
       top: 0;
-      transition: opacity $transition-duration ease-in-out;
+      transition: box-shadow $transition-duration ease-in-out;
       width: 100%;
       z-index: -1;
     }
@@ -124,7 +124,7 @@ $thumbSize: 140px;
     &:hover {
       &::after {
         // box-shadow
-        opacity: 1;
+        box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.75);
       }
 
       .title {
