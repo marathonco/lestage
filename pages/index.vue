@@ -238,11 +238,11 @@ export default {
 .product-image a {
   align-items: center;
   display: flex;
-  max-height: 60vh;
+  max-height: 50vh;
   position: relative;
   img {
     margin: 0 auto;
-    max-height: 30vh;
+    max-height: 40vh;
     width: auto;
   }
 }

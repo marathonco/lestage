@@ -62,7 +62,8 @@ export default {
 }
 </script>
 <style lang="scss">
-$header-height: 30vw;
+$header-height: 40vw;
+$header-height-large: 30vw;
 
 #container {
   transition: transform $menu-animation-duration ease-in-out;
@@ -96,10 +97,13 @@ $header-height: 30vw;
 
   #header {
     height: $header-height;
-    max-height: 40vh;
+    // max-height: 40vh;
     width: 100vw;
     position: fixed;
     z-index: 1;
+    @include desktop {
+      height: $header-height-large;
+    }
   }
 
   & > main {
@@ -108,6 +112,9 @@ $header-height: 30vw;
 
   #header + main {
     margin-top: $header-height;
+    @include desktop {
+      margin-top: $header-height-large;
+    }
   }
 }
 
