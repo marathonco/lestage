@@ -17,7 +17,9 @@ function convertPriceString(price) {
 }
 
 // sort products based on certain conditions...
+// TODO: adding filters is changing sorting...
 function sortProducts(products, sorting) {
+  console.log('sorting now, by: ' + sorting)
   const prod = [...products]
   if (sorting === 'sku') {
     prod.sort((a, b) => (a.slug > b.slug) ? 1 : -1)
@@ -330,6 +332,7 @@ const actions = {
       } else if (product.description.match(search)) {
         return true
       }
+      // TODO: why is this not implemented
       // else if (product.properties) {
       //   product.properties.forEach(property => {
       //     if (property.value.match(search)) {

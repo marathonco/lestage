@@ -87,11 +87,11 @@ $thumbSize: 140px;
 
     &::after {
       // box-shadow
-      box-shadow: 0px 15px 15px -15px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 15px 15px -15px rgba(0, 0, 0, 0.75);
       content: '';
       height: 100%;
       left: 0;
-      opacity: 0;
+      opacity: .5;
       position: absolute;
       top: 0;
       transition: opacity $transition-duration ease-in-out;
@@ -128,7 +128,7 @@ $thumbSize: 140px;
       }
 
       .title {
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.75);
         bottom: 0;
       }
     }

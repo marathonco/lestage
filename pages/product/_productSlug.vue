@@ -6,7 +6,6 @@
     <section id="product">
       <div class="info">
         <h3>
-          Convertible Collection
           <br>
           {{ product.title }}
         </h3>
