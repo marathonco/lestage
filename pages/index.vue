@@ -41,9 +41,7 @@
       <div class="copy">
         <ConvertibleLogo />
         <h4>So many options...</h4>
-        <p>
-          The Convertible Collection<sup>®</sup> has something for everyone...
-        </p>
+        <p>The Convertible Collection<sup>®</sup> offers endless style possibilities. Select a bracelet from various designs and then choose from over 300 interchangeable clasps that fit on the bracelet. </p>
         <nuxt-link
           to="products/convertible-collection"
           class="button rounded primary bordered"

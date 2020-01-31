@@ -2,7 +2,7 @@
   <div id="productSorting">
     <form
       class="search"
-      @submit.prevent="searchProducts(searchText)"
+      @submit.prevent="changeSearch(searchText)"
     >
       <input
         v-model="searchText"
@@ -16,9 +16,9 @@
     </form>
     <select
       id="productCollection"
-      :value="collection"
+      v-model="collection"
       name="collection"
-      @change="changeCollection($event.target.value)"
+      @change="changeGroup('collection')"
     >
       <option
         selected
@@ -27,19 +27,19 @@
         All Collections
       </option>
       <option
-        v-for="(option, collKey) of collectionOptions"
+        v-for="(option, collKey) of collections"
         :key="collKey"
-        :value="option.slug"
+        :value="option.value"
       >
         {{ option.label }}
       </option>
     </select>
     <select
-      v-if="categoryOptions.length > 0"
+      v-if="categories.length > 0"
       id="productCategory"
-      :value="category"
+      v-model="category"
       name="category"
-      @change="changeCategory($event.target.value)"
+      @change="changeGroup('category')"
     >
       <option
         selected
@@ -48,19 +48,19 @@
         All Categories
       </option>
       <option
-        v-for="(option, catKey) of categoryOptions"
+        v-for="(option, catKey) of categories"
         :key="catKey"
-        :value="option.slug"
+        :value="option.value"
       >
         {{ option.label }}
       </option>
     </select>
     <select
-      v-if="subcategoryOptions.length > 0"
+      v-if="subcategories.length > 0"
       id="productsubcategory"
-      :value="subcategory"
+      v-model="subcategory"
       name="subcategory"
-      @change="changeSubcategory($event.target.value)"
+      @change="changeGroup('subcategory')"
     >
       <option
         selected
@@ -69,9 +69,9 @@
         All subcategories
       </option>
       <option
-        v-for="(option, subCatKey) of subcategoryOptions"
+        v-for="(option, subCatKey) of subcategories"
         :key="subCatKey"
-        :value="option.slug"
+        :value="option.value"
       >
         {{ option.label }}
       </option>
@@ -79,15 +79,18 @@
     <label for="sorting">Sort by:</label>
     <select
       id="productSorting"
-      :value="sorting"
+      v-model="sortBy"
       name="sorting"
-      @change="changeSorting($event.target.value)"
+      @change="changeSorting"
     >
       <option value="collection">
         Collection(default)
       </option>
-      <option value="msrp">
-        MSRP
+      <option value="msrp-low">
+        MSRP (Lowest)
+      </option>
+      <option value="msrp-high">
+        MSRP (Highest)
       </option>
       <option value="sku">
         SKU
@@ -98,36 +101,73 @@
 
 <script>
 // TODO: autocomplete for search
-import { mapActions, mapGetters } from 'vuex'
-
 export default {
+  props: {
+    hierarchy: {
+      type: Array,
+      default: null,
+      required: true
+    },
+    groups: {
+      type: Object,
+      default: null
+    }
+  },
   data() {
     return {
-      searchText: ''
+      searchText: '',
+      collection: null,
+      category: null,
+      subcategory: null,
+      sortBy: 'collection'
     }
   },
   computed: {
-    ...mapGetters({
-      collection: 'shop/collection',
-      collectionOptions: 'shop/collectionOptions',
-      category: 'shop/category',
-      categoryOptions: 'shop/categoryOptions',
-      subcategory: 'shop/subcategory',
-      subcategoryOptions: 'shop/subcategoryOptions',
-      sorting: 'shop/sorting'
-    }),
-    search() {
-      return ''
+    collections() {
+      return this.hierarchy.filter(group => {
+        return group.type === 'collection'
+      })
+    },
+    categories() {
+      return this.hierarchy.filter(group => {
+        return group.type === 'category' && group.parent === this.collection
+      })
+    },
+    subcategories() {
+      return this.hierarchy.filter(group => {
+        return group.type === 'subcategory' && group.parent === this.category
+      })
+    }
+  },
+  mounted() {
+    if (this.groups) {
+      this.collection = this.groups.collection
+      this.category = this.groups.category
+      this.subcategory = this.groups.subcategory
     }
   },
   methods: {
-    ...mapActions({
-      changeCollection: 'shop/changeCollection',
-      changeCategory: 'shop/changeCategory',
-      changeSubcategory: 'shop/changeSubcategory',
-      changeSorting: 'shop/changeSorting',
-      searchProducts: 'shop/searchProducts'
-    })
+    changeSearch(searchValue) {
+      this.$emit('changeSearch', searchValue)
+    },
+    changeSorting() {
+      this.$emit('changeSorting', this.sortBy)
+    },
+    changeGroup(level) {
+      // TODO: this is where breadcrumbs makes more sense...
+
+      if (level === 'collection') {
+        this.category = null
+        this.subcategory = null
+      } else if (level === 'category') {
+        this.subcategory = null
+      }
+      this.$emit('changeHierarchy', {
+        collection: this.collection,
+        category: this.category,
+        subcategory: this.subcategory
+      })
+    }
   }
 }
 </script>

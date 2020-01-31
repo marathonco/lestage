@@ -20,7 +20,6 @@
 </template>
 
 <script>
-// TODO: reset currentPage if products changes...
 import Pagination from '~/components/core/Pagination'
 import Product from '~/components/shop/Product'
 

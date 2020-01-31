@@ -9,12 +9,12 @@
     <div
       v-for="(group, groupKey) of filterGroups"
       :key="groupKey"
-      :index="groupKey"
     >
       <h4>{{ group.filterGroup }}</h4>
       <ul class="filters">
         <li
           v-for="(filter, filterKey) of group.filters"
+          v-show="filterKey < filterLimit || expanded.includes(groupKey)"
           :key="filterKey"
           class="filter"
         >
@@ -32,20 +32,41 @@
             ×
           </a>
         </li>
+        <button
+          v-if="group.filters.length > filterLimit && !expanded.includes(groupKey)"
+          @click="toggleExpand(groupKey)"
+        >
+          ...More
+        </button>
+        <button
+          v-if="expanded.includes(groupKey)"
+          @click="toggleExpand(groupKey)"
+        >
+          ...Less
+        </button>
       </ul>
     </div>
   </div>
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
-
 export default {
+  // TODO: expand doesn't reset with new filter lists...
+  // TODO: this means that More > Click a Filter > Incorrectly still shows "Less" with only 1 or 2 filters...
+  props: {
+    filters: {
+      type: Array,
+      default: null,
+      required: true
+    }
+  },
+  data() {
+    return {
+      expanded: [],
+      filterLimit: 3
+    }
+  },
   computed: {
-    ...mapGetters({
-      activeFilters: 'shop/activeFilters',
-      filters: 'shop/filters'
-    }),
     filterGroups() {
       const groups = []
       this.filters.forEach(filter => {
@@ -61,15 +82,48 @@ export default {
           })
         }
       })
+      groups.forEach(group => {
+        group.filters.sort((a, b) => {
+          if (a.filterStatus === b.filterStatus) {
+            return a.productCount < b.productCount ? 1 : -1
+          } else {
+            return a.filterStatus === 'inactive' ? 1 : -1
+          }
+        })
+      })
       return groups
+    },
+    activeFilters() {
+      return this.filters.filter(filter => {
+        return filter.filterStatus === 'active'
+      })
     }
   },
   methods: {
-    ...mapActions({
-      addFilter: 'shop/addFilter',
-      removeFilter: 'shop/removeFilter',
-      clearFilters: 'shop/clearFilters'
-    })
+    clearFilters() {
+      this.$emit('changeFilters', [])
+    },
+    addFilter(filter) {
+      this.$emit('changeFilters', [...this.activeFilters, filter])
+    },
+    removeFilter(filter) {
+      this.$emit(
+        'changeFilters',
+        this.activeFilters.filter(activeFilter => {
+          return (
+            activeFilter.filterType !== filter.filterType ||
+            activeFilter.filterValue !== filter.filterValue
+          )
+        })
+      )
+    },
+    toggleExpand(groupKey) {
+      if (this.expanded.includes(groupKey)) {
+        this.expanded = this.expanded.filter(e => e !== groupKey)
+      } else {
+        this.expanded.push(groupKey)
+      }
+    }
   }
 }
 </script>

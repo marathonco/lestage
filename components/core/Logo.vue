@@ -8,17 +8,18 @@
 <script>
 import LogoCapeCod from '~/assets/images/logos/logo-cape-cod.svg?inline'
 import LogoConvertibles from '~/assets/images/logos/logo-convertible.svg?inline'
-import { mapGetters } from 'vuex'
 
 export default {
   components: {
     LogoCapeCod,
     LogoConvertibles
   },
-  computed: {
-    ...mapGetters({
-      collection: 'shop/collection'
-    })
+  props: {
+    collection: {
+      type: String,
+      default: null,
+      required: true
+    }
   }
 }
 </script>

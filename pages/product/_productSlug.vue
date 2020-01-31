@@ -1,7 +1,7 @@
 <template>
   <main>
     <header class="brand">
-      <Logo />
+      <Logo :collection="product.collection" />
     </header>
     <section id="product">
       <div class="info">
@@ -43,7 +43,10 @@
         >
       </div>
     </section>
-    <aside v-if="similarProducts.length > 0" class="other">
+    <aside
+      v-if="similarProducts.length > 0"
+      class="other"
+    >
       <h4>Other Styles:</h4>
       <ProductsList :products="similarProducts" />
     </aside>
@@ -57,7 +60,6 @@
 </template>
 
 <script>
-// TODO: Logo doesn't work for single products because cat/collection not set in vuex... ;)
 import { mapGetters } from 'vuex'
 import ProductsList from '~/components/shop/ProductsList'
 import Logo from '~/components/core/Logo'
@@ -70,8 +72,7 @@ export default {
   },
   computed: {
     ...mapGetters({
-      collection: 'shop/collection',
-      allProducts: 'shop/allProducts'
+      allProducts: 'shop/getProducts'
     }),
     similarProducts() {
       const similarProducts = this.allProducts.filter(dat => {
@@ -100,9 +101,9 @@ export default {
     }
   },
   asyncData({ params, store }) {
-    const product = store.state.shop.allProducts.filter(dat => {
-      return dat.slug === params.productSlug
-    })[0]
+    const product = store.state.shop.allProducts.find(
+      product => product.slug === params.productSlug
+    )
     return { product }
   },
   head() {

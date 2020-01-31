@@ -7,10 +7,7 @@
     data-aos-anchor=".productList"
     data-aos-once="true"
   > -->
-  <li
-    class="product"
-    :class="product.categorySlug + ' ' + product.collectionSlug"
-  >
+  <li class="product">
     <nuxt-link
       :to="routerLink"
       class="link"
