@@ -5,9 +5,10 @@
   >
     <button
       :disabled="currentPage == 1"
+      class="previous"
       @click="pageChange(currentPage - 1)"
     >
-      Previous
+      &lt;
     </button>
     <button
       :disabled="currentPage == 1"
@@ -15,13 +16,18 @@
     >
       1
     </button>
-    <div v-if="pageRange[0] !== 2 && totalPages > 4">
+    <button
+      v-if="pageRange[0] !== 2 && totalPages > 4"
+      disabled
+      class="disabled"
+    >
       ...
-    </div>
+    </button>
     <button
       v-for="(page, key) of pageRange"
       :key="key"
       :disabled="currentPage == page"
+      :class="currentPage == page ? 'is-active': ''"
       @click="pageChange(page)"
     >
       {{ page }}
@@ -37,9 +43,10 @@
     </button>
     <button
       :disabled="currentPage == totalPages"
+      class="next"
       @click="pageChange(currentPage + 1)"
     >
-      Next
+      &gt;
     </button>
   </div>
 </template>
@@ -85,9 +92,25 @@ export default {
 .pagination {
   display: flex;
   justify-content: center;
+  margin: 1rem;
   button,
   div {
-    margin: 0.25rem;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    height: 2.5rem;
+    width: 2.5rem;
+    &:hover {
+      background: #dddddd;
+    }
+    &.is-active {
+      background: getColor(state, success);
+      &:hover {
+        background: getColor(state, success);
+      }
+    }
+    &.is-disabled:hover {
+      background: #ffffff;
+    }
   }
 }
 </style>
