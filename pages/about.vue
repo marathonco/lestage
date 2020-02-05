@@ -89,9 +89,6 @@ export default {
 </script>
 <style lang="scss">
 .fill {
-  img {
-    max-width: 50%;
-  }
   p {
     line-height: 1.4;
     text-align: center;
