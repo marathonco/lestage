@@ -33,16 +33,10 @@
           </a>
         </li>
         <button
-          v-if="group.filters.length > filterLimit && !expanded.includes(groupKey)"
+          v-if="group.filters.length > filterLimit"
           @click="toggleExpand(groupKey)"
         >
-          ...More
-        </button>
-        <button
-          v-if="expanded.includes(groupKey)"
-          @click="toggleExpand(groupKey)"
-        >
-          ...Less
+          {{ !expanded.includes(groupKey) ? '...More' : '...Less' }}
         </button>
       </ul>
     </div>
@@ -51,8 +45,6 @@
 
 <script>
 export default {
-  // TODO: expand doesn't reset with new filter lists...
-  // TODO: this means that More > Click a Filter > Incorrectly still shows "Less" with only 1 or 2 filters...
   props: {
     filters: {
       type: Array,
@@ -98,6 +90,9 @@ export default {
         return filter.filterStatus === 'active'
       })
     }
+  },
+  mounted() {
+    this.expanded = []
   },
   methods: {
     clearFilters() {
