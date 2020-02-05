@@ -1,19 +1,12 @@
 <template>
   <div id="productSorting">
-    <form
-      class="search"
-      @submit.prevent="changeSearch(searchText)"
+    <input
+      v-model="searchText"
+      type="text"
+      name="search"
+      placeholder="Search"
+      @keyup="changeSearch(searchText)"
     >
-      <input
-        v-model="searchText"
-        type="text"
-        name="search"
-        placeholder="Search"
-      >
-      <button type="submit">
-        Search
-      </button>
-    </form>
     <select
       id="productCollection"
       v-model="collection"
@@ -103,6 +96,10 @@
 // TODO: autocomplete for search
 export default {
   props: {
+    searchTerm: {
+      type: String,
+      default: ''
+    },
     hierarchy: {
       type: Array,
       default: null,
@@ -115,7 +112,7 @@ export default {
   },
   data() {
     return {
-      searchText: '',
+      searchText: this.searchTerm,
       collection: null,
       category: null,
       subcategory: null,

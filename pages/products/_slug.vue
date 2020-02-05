@@ -7,6 +7,7 @@
       <ProductSorting
         :hierarchy="hierarchy"
         :groups="groups"
+        :search-term="searchTerm"
         @changeSearch="changeSearch"
         @changeSorting="changeSorting"
         @changeHierarchy="changeHierarchy"
@@ -217,23 +218,53 @@ export default {
         }
       }
     }
+    // Check url query_codes for params
+    if (this.$route.query.filters) {
+      // TODO: serialize activeFilters properly
+      console.log(this.$route.query.filters)
+    }
+    // Check url query_codes for sorting
+    if (this.$route.query.sortBy) {
+      // TODO: serialize activeFilters properly
+      this.sortBy = this.$route.query.sortBy
+    }
+    // check url query_codes for search term
+    if (this.$route.query.s) {
+      // TODO: serialize activeFilters properly
+      this.searchTerm = this.$route.query.s
+    }
   },
   methods: {
     changeSearch(term) {
       this.searchTerm = term
+      const query = { ...this.$route.query, s: term }
+      this.$router.push({ query: query })
+      // this.$router.push({ query: { s: term } })
     },
     changeSorting(method) {
       // Change the method of sorting
       this.sortBy = method
+      const query = { ...this.$route.query, sortBy: method }
+      this.$router.push({ query: query })
       this.filteredProducts = sortProducts(this.filteredProducts, this.sortBy)
     },
     changeFilters(filters) {
       // Change filters
       this.activeFilters = filters
+      // this.$router.replace({ query: { filters: filters } })
       // TODO: add query params for filters
     },
     changeHierarchy(group) {
       // Change collection, category, or subcategory
+      if (group.subcategory !== null) {
+        group = group.subcategory
+      } else if (group.category !== null) {
+        group = group.category
+      } else if (group.collection !== null) {
+        group = group.collection
+      } else {
+        group = null
+      }
       this.$router.push({ params: { slug: group } })
     }
   }
