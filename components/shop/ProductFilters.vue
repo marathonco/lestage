@@ -20,14 +20,14 @@
         >
           <a
             :class="filter.filterStatus"
-            @click="addFilter(filter)"
+            @click="toggleFilter(filter)"
           >
             {{ filter.filterValue }} ( {{ filter.productCount }} )
           </a>
           <a
             v-show="filter.filterStatus === 'active'"
             class="close"
-            @click="removeFilter(filter)"
+            @click="toggleFilter(filter)"
           >
             ×
           </a>
@@ -101,21 +101,10 @@ export default {
   },
   methods: {
     clearFilters() {
-      this.$emit('changeFilters', [])
+      this.$emit('changeFilters', null)
     },
-    addFilter(filter) {
-      this.$emit('changeFilters', [...this.activeFilters, filter])
-    },
-    removeFilter(filter) {
-      this.$emit(
-        'changeFilters',
-        this.activeFilters.filter(activeFilter => {
-          return (
-            activeFilter.filterType !== filter.filterType ||
-            activeFilter.filterValue !== filter.filterValue
-          )
-        })
-      )
+    toggleFilter(filter) {
+      this.$emit('changeFilters', filter.filterValue)
     },
     toggleExpand(groupKey) {
       if (this.expanded.includes(groupKey)) {

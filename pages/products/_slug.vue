@@ -1,5 +1,6 @@
 <template>
   <main id="productsPage">
+    {{ activeFilters }}
     <div id="products">
       <ProductsList :products="filteredProducts" />
     </div>
@@ -130,8 +131,8 @@ export default {
               const activeFilter = this.activeFilters[i]
               const check = product.filters.find(productFilter => {
                 return (
-                  activeFilter.filterType === productFilter.filterType &&
-                  activeFilter.filterValue === productFilter.filterValue
+                  // activeFilter.filterType === productFilter.filterType &&
+                  activeFilter === productFilter.filterValue
                 )
               })
               if (!check) {
@@ -164,10 +165,7 @@ export default {
               match.productCount += 1
             } else {
               let active = this.activeFilters.find(activeFilter => {
-                return (
-                  activeFilter.filterType === productFilter.filterType &&
-                  activeFilter.filterValue === productFilter.filterValue
-                )
+                return activeFilter === productFilter.filterValue
               })
               active = active ? 'active' : 'inactive'
               productFilters.push({
@@ -220,17 +218,14 @@ export default {
     }
     // Check url query_codes for params
     if (this.$route.query.filters) {
-      // TODO: serialize activeFilters properly
-      console.log(this.$route.query.filters)
+      this.activeFilters = JSON.parse(this.$route.query.filters)
     }
     // Check url query_codes for sorting
     if (this.$route.query.sortBy) {
-      // TODO: serialize activeFilters properly
       this.sortBy = this.$route.query.sortBy
     }
     // check url query_codes for search term
     if (this.$route.query.s) {
-      // TODO: serialize activeFilters properly
       this.searchTerm = this.$route.query.s
     }
   },
@@ -239,20 +234,33 @@ export default {
       this.searchTerm = term
       const query = { ...this.$route.query, s: term }
       this.$router.push({ query: query })
-      // this.$router.push({ query: { s: term } })
     },
     changeSorting(method) {
       // Change the method of sorting
       this.sortBy = method
       const query = { ...this.$route.query, sortBy: method }
       this.$router.push({ query: query })
-      this.filteredProducts = sortProducts(this.filteredProducts, this.sortBy)
+      // this.filteredProducts = sortProducts(this.filteredProducts, this.sortBy)
     },
-    changeFilters(filters) {
+    changeFilters(toggleFilter) {
       // Change filters
-      this.activeFilters = filters
-      // this.$router.replace({ query: { filters: filters } })
-      // TODO: add query params for filters
+      let queryFilters = []
+      if (toggleFilter !== null) {
+        const exists = this.activeFilters.includes(toggleFilter)
+        if (exists) {
+          queryFilters = this.activeFilters.filter(activeFilter => {
+            return activeFilter !== toggleFilter
+          })
+        } else {
+          queryFilters = [...this.activeFilters, toggleFilter]
+        }
+      }
+      this.activeFilters = queryFilters
+      const query = {
+        ...this.$route.query,
+        filters: JSON.stringify(queryFilters)
+      }
+      this.$router.push({ query: query })
     },
     changeHierarchy(group) {
       // Change collection, category, or subcategory
