@@ -1,6 +1,5 @@
 <template>
   <main id="productsPage">
-    {{ activeFilters }}
     <div id="products">
       <ProductsList :products="filteredProducts" />
     </div>
