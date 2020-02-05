@@ -114,7 +114,7 @@ export default {
     return {
       swiperOptionCapeCod: {
         autoplay: {
-          delay: 400000,
+          delay: 3000,
           disableOnInteraction: true
         },
         loop: true,
@@ -140,7 +140,7 @@ export default {
       },
       swiperOptionConvertible: {
         autoplay: {
-          delay: 3000,
+          delay: 4500,
           disableOnInteraction: true
         },
         loop: true,
