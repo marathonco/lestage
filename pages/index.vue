@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="collections">
     <section class="collection cape-cod">
       <div class="copy">
         <CapeCodLogo />
@@ -214,20 +214,28 @@ export default {
   }
 }
 @include tablet {
-  .collection {
-    align-items: stretch;
+  .collections {
     display: flex;
-    min-height: 30vw;
-    padding: 0;
-    position: relative;
-    .copy,
-    .product-image {
+    flex-direction: row;
+    align-items: center;
+    .collection {
+      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+      min-height: 30vw;
+      padding: 0;
+      position: relative;
       width: 50vw;
+      .copy,
+      .product-image {
+        width: 50vw;
+      }
     }
   }
-  .collection:nth-child(even) {
-    flex-direction: row-reverse;
-  }
+
+  // .collection:nth-child(even) {
+  //   flex-direction: row-reverse;
+  // }
 }
 .collection .swiper-wrapper,
 .collection .swiper-container {
