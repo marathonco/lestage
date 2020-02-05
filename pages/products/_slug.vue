@@ -183,6 +183,7 @@ export default {
     }
   },
   created() {
+    // TODO: look for query params for filters
     // Get Slug to filter collection or categories
     const route = this.$route.params.slug
     // search hierarchy for slug that matches. then reduce down to a single
@@ -229,6 +230,7 @@ export default {
     changeFilters(filters) {
       // Change filters
       this.activeFilters = filters
+      // TODO: add query params for filters
     },
     changeHierarchy(group) {
       // Change collection, category, or subcategory
