@@ -1,73 +1,83 @@
 <template>
-  <main class="collections">
-    <section class="collection cape-cod">
-      <div class="copy">
-        <CapeCodLogo />
-        <h4>A Legacy in Craftsmanship</h4>
-        <p>
-          Our authentic Cape Cod Jewelry<sup>®</sup> Collection is part of a
-          storied company history focused on quality, design, and craftsmanship
-          using responsibly sourced precious metals backed by a lifetime
-          warranty.
-        </p>
-        <nuxt-link
-          to="products/cape-cod-collection"
-          class="button rounded primary bordered"
-        >
-          View Collection
-        </nuxt-link>
-      </div>
-      <div
-        v-swiper:productSwiperCapeCod="swiperOptionCapeCod"
-        class="product-image background-1"
-      >
-        <div class="swiper-wrapper">
-          <div
-            v-for="(productImage, key) of productImagesCapeCod"
-            :key="key"
-            class="swiper-slide"
+  <main class="main">
+    <section class="collections">
+      <div class="collection cape-cod">
+        <div class="copy">
+          <CapeCodLogo />
+          <h4>A Legacy in Craftsmanship</h4>
+          <p>
+            Our authentic Cape Cod Jewelry<sup>®</sup> Collection is part of a
+            storied company history focused on quality, design, and craftsmanship
+            using responsibly sourced precious metals backed by a lifetime
+            warranty.
+          </p>
+          <p>
+            Our authentic Cape Cod Jewelry<sup>®</sup> Collection is part of a
+            storied company history focused on quality, design, and craftsmanship
+            using responsibly sourced precious metals backed by a lifetime
+            warranty.
+          </p>
+          <nuxt-link
+            to="products/cape-cod-collection"
+            class="button rounded primary bordered"
           >
-            <nuxt-link to="products/cape-cod-collection">
-              <img
-                :src="getProductImage(productImage, 'cape-cod')"
-                class="swiper-slide-image"
-              >
-            </nuxt-link>
+            View Collection
+          </nuxt-link>
+        </div>
+      </div>
+      <div class="collection cape-cod slider">
+        <div
+          v-swiper:productSwiperCapeCod="swiperOptionCapeCod"
+          class="product-image background-1"
+        >
+          <div class="swiper-wrapper">
+            <div
+              v-for="(productImage, key) of productImagesCapeCod"
+              :key="key"
+              class="swiper-slide"
+            >
+              <nuxt-link to="products/cape-cod-collection">
+                <img
+                  :src="getProductImage(productImage, 'cape-cod')"
+                  class="swiper-slide-image"
+                >
+              </nuxt-link>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="collection convertible-collection">
-      <div class="copy">
-        <ConvertibleLogo />
-        <h4>So many options...</h4>
-        <p>The Convertible Collection<sup>®</sup> offers endless style possibilities. Select a bracelet from various designs and then choose from over 300 interchangeable clasps that fit on the bracelet. </p>
-        <nuxt-link
-          to="products/convertible-collection"
-          class="button rounded primary bordered"
-        >
-          View Collection
-        </nuxt-link>
-      </div>
-      <div
-        v-swiper:productSwiperConvertible="swiperOptionConvertible"
-        class="product-image convertible"
-      >
-        <div class="swiper-wrapper">
-          <div
-            v-for="(productImage, key) of productImagesConvertible"
-            :key="key"
-            class="swiper-slide"
+      <div class="collection convertible-collection">
+        <div class="copy">
+          <ConvertibleLogo />
+          <h4>So many options...</h4>
+          <p>The Convertible Collection<sup>®</sup> offers endless style possibilities. Select a bracelet from various designs and then choose from over 300 interchangeable clasps that fit on the bracelet. </p>
+          <nuxt-link
+            to="products/convertible-collection"
+            class="button rounded primary bordered"
           >
-            <nuxt-link to="products/convertible-collection">
-              <img
-                :src="getProductImage(productImage, 'convertibles')"
-                class="swiper-slide"
-              >
-            </nuxt-link>
+            View Collection
+          </nuxt-link>
+        </div>
+      </div>
+      <div class="collection convertible-collection slider">
+        <div
+          v-swiper:productSwiperConvertible="swiperOptionConvertible"
+          class="product-image convertible"
+        >
+          <div class="swiper-wrapper">
+            <div
+              v-for="(productImage, key) of productImagesConvertible"
+              :key="key"
+              class="swiper-slide"
+            >
+              <nuxt-link to="products/convertible-collection">
+                <img
+                  :src="getProductImage(productImage, 'convertibles')"
+                  class="swiper-slide"
+                >
+              </nuxt-link>
+            </div>
           </div>
-          <!-- <div class="swiper-button-prev" />
-          <div class="swiper-button-next" /> -->
         </div>
       </div>
     </section>
@@ -217,21 +227,40 @@ export default {
   .collections {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     .collection {
       align-items: stretch;
       display: flex;
       flex-direction: column;
-      min-height: 30vw;
-      padding: 0;
-      position: relative;
-      width: 50vw;
-      .copy,
-      .product-image {
-        width: 50vw;
-      }
+      justify-content: center;
+      width: 49vw;
+    }
+    .collection.cape-cod.slider {
+      order: 3;
+    }
+    .collection.convertible-collection.slider {
+      order: 5;
     }
   }
+  // .collections {
+  //   display: flex;
+  //   flex-direction: row;
+  //   align-items: center;
+  //   .collection {
+  //     align-items: stretch;
+  //     display: flex;
+  //     flex-direction: column;
+  //     min-height: 30vw;
+  //     padding: 0;
+  //     position: relative;
+  //     width: 50vw;
+  //     .copy,
+  //     .product-image {
+  //       width: 50vw;
+  //     }
+  //   }
+  // }
 
   // .collection:nth-child(even) {
   //   flex-direction: row-reverse;
