@@ -107,12 +107,11 @@ export default {
     return { product }
   },
   head() {
-    // TODO: can't figure out how to get dynamic titles here
     return {
-      title: 'The Convertible Collection',
+      title: this.product.collection + ' | ' + this.product.title,
       meta: [
         {
-          vmid: 'description',
+          hid: 'description',
           name: 'description',
           content: 'Authentic Jewelry in Sterling Silver and 14K Gold.'
         }

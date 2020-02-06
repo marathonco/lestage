@@ -192,6 +192,7 @@ export default {
       })
       if (match) {
         this.groups[match.type] = match.value
+        this.groups[match.type + 'Label'] = match.label
         if (match.parent) {
           const parentMatch = this.hierarchy.find(group => {
             if (group.value === match.parent) {
@@ -200,6 +201,7 @@ export default {
           })
           if (parentMatch) {
             this.groups[parentMatch.type] = parentMatch.value
+            this.groups[parentMatch.type + 'Label'] = parentMatch.label
             if (parentMatch.parent) {
               const grandparentMatch = this.hierarchy.find(group => {
                 if (group.value === parentMatch.parent) {
@@ -208,6 +210,8 @@ export default {
               })
               if (grandparentMatch) {
                 this.groups[grandparentMatch.type] = grandparentMatch.value
+                this.groups[grandparentMatch.type + 'Label'] =
+                  grandparentMatch.label
               }
             }
           }
@@ -272,6 +276,30 @@ export default {
         group = null
       }
       this.$router.push({ params: { slug: group } })
+    }
+  },
+  head() {
+    let title = 'LeStage® Collections'
+    if (this.$route.params.slug) {
+      title = this.groups.collectionLabel
+      title += this.groups.categoryLabel
+        ? ' | ' + this.groups.categoryLabel
+        : ''
+      title += this.groups.subcategoryLabel
+        ? ' | ' + this.groups.subcategoryLabel
+        : ''
+    }
+
+    return {
+      // TODO: get long name from slug
+      title: title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Authentic Jewelry in Sterling Silver and 14K Gold.'
+        }
+      ]
     }
   }
 }

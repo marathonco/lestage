@@ -78,7 +78,7 @@ export default {
       title: 'About LeStage Manufacturing',
       meta: [
         {
-          vmid: 'description',
+          hid: 'description',
           name: 'description',
           content: 'Creating Exceptional Jewelry for Generations.'
         }

@@ -243,28 +243,6 @@ export default {
       order: 5;
     }
   }
-  // .collections {
-  //   display: flex;
-  //   flex-direction: row;
-  //   align-items: center;
-  //   .collection {
-  //     align-items: stretch;
-  //     display: flex;
-  //     flex-direction: column;
-  //     min-height: 30vw;
-  //     padding: 0;
-  //     position: relative;
-  //     width: 50vw;
-  //     .copy,
-  //     .product-image {
-  //       width: 50vw;
-  //     }
-  //   }
-  // }
-
-  // .collection:nth-child(even) {
-  //   flex-direction: row-reverse;
-  // }
 }
 .collection .swiper-wrapper,
 .collection .swiper-container {
