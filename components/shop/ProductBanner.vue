@@ -1,13 +1,15 @@
 <template>
   <header class="brand">
-    <LogoCapeCod v-if="collection === 'cape-cod-collection' && !category" />
-    <LogoConvertibles v-if="collection === 'convertible-collection' && !category" />
-    <img :src="bannerLink" @error="imgError">
+    <LogoCapeCod v-if="groups.collection === 'cape-cod-collection' && groups.category === null" />
+    <LogoConvertibles v-if="groups.collection === 'convertible-collection' && groups.category === null" />
+    <img
+      :src="bannerLink"
+      @error="imgError"
+    >
   </header>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import LogoCapeCod from '~/assets/images/logos/logo-cape-cod.svg?inline'
 import LogoConvertibles from '~/assets/images/logos/logo-convertible.svg?inline'
 
@@ -17,19 +19,15 @@ export default {
     LogoConvertibles
   },
   props: {
-    banner: {
-      type: String,
+    groups: {
+      type: Object,
       default: null
     }
   },
   computed: {
-    ...mapGetters({
-      collection: 'shop/collection',
-      category: 'shop/category'
-    }),
     bannerLink() {
-      if (this.category !== null) {
-        return require(`@/assets/images/headers/banner-${this.category}.png`)
+      if (this.groups.category !== null) {
+        return require(`@/assets/images/headers/banner-${this.groups.category}.png`)
       } else {
         return ''
       }

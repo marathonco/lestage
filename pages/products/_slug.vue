@@ -1,6 +1,7 @@
 <template>
   <main id="productsPage">
     <div id="products">
+      <ProductBanner :groups="groups" />
       <ProductsList :products="filteredProducts" />
     </div>
     <div id="productsDetails">
@@ -21,7 +22,9 @@
 </template>
 
 <script>
+// TODO: we lost our product banners...
 import { mapGetters } from 'vuex'
+import ProductBanner from '~/components/shop/ProductBanner'
 import ProductFilters from '~/components/shop/ProductFilters'
 import ProductSorting from '~/components/shop/ProductSorting'
 import ProductsList from '~/components/shop/ProductsList'
@@ -82,6 +85,7 @@ function sortProducts(products, sortMethod) {
 
 export default {
   components: {
+    ProductBanner,
     ProductFilters,
     ProductSorting,
     ProductsList
@@ -309,6 +313,7 @@ export default {
 #productsPage {
   display: flex;
 }
+
 #productDetails {
   align-self: flex-end;
   display: flex;
