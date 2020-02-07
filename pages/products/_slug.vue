@@ -22,7 +22,8 @@
 </template>
 
 <script>
-// TODO: we lost our product banners...
+// TODO: remove all products when making changes, then add them back.
+// TODO: don't do page transitions... make it clean.
 import { mapGetters } from 'vuex'
 import ProductBanner from '~/components/shop/ProductBanner'
 import ProductFilters from '~/components/shop/ProductFilters'

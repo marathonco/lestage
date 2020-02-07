@@ -18,7 +18,8 @@ module.exports = {
    */
   head: {
     title: pkg.name,
-    meta: [{
+    meta: [
+      {
         charset: 'utf-8'
       },
       {
@@ -35,11 +36,13 @@ module.exports = {
         content: pkg.description
       }
     ],
-    link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }]
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      }
+    ]
   },
 
   /*
@@ -57,13 +60,11 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{
-      src: '~/plugins/aos',
-      mode: 'client'
-    },
+  plugins: [
     {
       src: '~plugins/vee-validate.js'
-    }, {
+    },
+    {
       src: '~/plugins/swiper.js',
       ssr: false
     }
@@ -77,13 +78,26 @@ module.exports = {
     '@nuxtjs/style-resources',
     'nuxt-svg',
     [
+      'nuxt-lazy-load',
+      {
+        // These are the default values
+        images: true,
+        videos: true,
+        audios: true,
+        iframes: true,
+        directiveOnly: false
+      }
+    ],
+    [
       'nuxt-fontawesome',
       {
         component: 'icon',
-        imports: [{
-          set: '@fortawesome/free-brands-svg-icons',
-          icons: ['faTwitter', 'faInstagram', 'faFacebook']
-        }]
+        imports: [
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['faTwitter', 'faInstagram', 'faFacebook']
+          }
+        ]
       }
     ]
   ],

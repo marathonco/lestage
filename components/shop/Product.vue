@@ -1,12 +1,4 @@
 <template>
-  <!-- <li
-    class="product"
-    :class="product.categorySlug + ' ' + product.collectionSlug"
-    :data-aos-delay="200*index"
-    data-aos="flip-left"
-    data-aos-anchor=".productList"
-    data-aos-once="true"
-  > -->
   <li class="product">
     <nuxt-link
       :to="routerLink"
@@ -100,6 +92,11 @@ $thumbSize: 140px;
       background: #ffffff;
       max-width: 100%;
       max-height: 100%;
+      opacity: 0;
+      transition: opacity 1s ease-in;
+      &.isLoaded {
+        opacity: 1;
+      }
     }
 
     .title {

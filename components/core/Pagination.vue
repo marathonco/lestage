@@ -12,6 +12,7 @@
     </button>
     <button
       :disabled="currentPage == 1"
+      :class="currentPage == 1 ? 'is-active': ''"
       @click="pageChange(1)"
     >
       1
@@ -43,6 +44,7 @@
     </button>
     <button
       :disabled="currentPage == totalPages"
+      :class="currentPage == totalPages ? 'is-active': ''"
       class="next"
       @click="pageChange(currentPage + 1)"
     >
