@@ -11,12 +11,6 @@
             using responsibly sourced precious metals backed by a lifetime
             warranty.
           </p>
-          <p>
-            Our authentic Cape Cod Jewelry<sup>®</sup> Collection is part of a
-            storied company history focused on quality, design, and craftsmanship
-            using responsibly sourced precious metals backed by a lifetime
-            warranty.
-          </p>
           <nuxt-link
             to="products/cape-cod-collection"
             class="button rounded primary bordered"
