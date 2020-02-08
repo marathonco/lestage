@@ -52,62 +52,44 @@
         id="step-1"
         class="panel step"
       >
-        <p
-          data-aos="zoom-in-right"
-          data-aos-once="true"
-        >
+        <p>
           <span class="number">1</span>Hold bracelet so threads next to bead are
           on the left side
         </p>
         <img
           src="~/assets/images/fillers/warranty-instructions-01.png"
           alt="Cape Cod Bracelet"
-          data-aos="zoom-in-left"
-          data-aos-once="true"
         >
       </div>
       <div
         id="step-2"
         class="panel step"
       >
-        <p
-          data-aos="zoom-in-right"
-          data-aos-once="true"
-        >
+        <p>
           <span class="number">2</span>Unscrew the bead towards you
         </p>
         <img
           src="~/assets/images/fillers/warranty-instructions-02.png"
           alt="Cape Cod Bracelet"
-          data-aos="zoom-in-left"
-          data-aos-once="true"
         >
       </div>
       <div
         id="step-3"
         class="panel step"
       >
-        <p
-          data-aos="zoom-in-right"
-          data-aos-once="true"
-        >
+        <p>
           <span class="number">3</span>Twist open to side
         </p>
         <img
           src="~/assets/images/fillers/warranty-instructions-03.png"
           alt="Cape Cod Bracelet"
-          data-aos="zoom-in-left"
-          data-aos-once="true"
         >
       </div>
       <div
         id="step-4"
         class="panel step"
       >
-        <p
-          data-aos="zoom-in-bottom"
-          data-aos-once="true"
-        >
+        <p>
           <span class="number">4</span>Slip thinnest part of wrist into opening
           and reverse above process
         </p>

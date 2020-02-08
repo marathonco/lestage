@@ -14,7 +14,6 @@
         <img
           src="~/assets/images/fillers/polishing-animated.gif"
           alt="craftsmanship"
-          data-aos="fade-left"
         >
       </div>
     </section>
@@ -38,7 +37,6 @@
         <img
           src="~/assets/images/fillers/craftsmanship.jpg"
           alt="polishing"
-          data-aos="fade-left"
         >
       </div>
     </section>

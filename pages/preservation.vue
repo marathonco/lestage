@@ -48,7 +48,6 @@
         <img
           src="~/assets/images/fillers/crab.jpg"
           alt="artwork"
-          data-aos="fade-left"
         >
       </div>
       <div>
@@ -73,7 +72,6 @@
         <img
           src="~/assets/images/fillers/cottage.jpg"
           alt="artwork"
-          data-aos="fade-right"
         >
       </div>
       <div>
