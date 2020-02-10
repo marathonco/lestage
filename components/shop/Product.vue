@@ -18,8 +18,6 @@
 </template>
 
 <script>
-// TODO: items not flipping if they start on screen consider using wow.js instead of aos.js
-
 export default {
   props: {
     index: {
@@ -59,21 +57,19 @@ $thumbSize: 140px;
 .productList {
   .product {
     background: #ffffff;
-    height: $thumbSize;
     margin: 10px;
     position: relative;
     width: $thumbSize;
-
     .link {
       align-items: center;
       display: flex;
-      height: $thumbSize;
+      flex-direction: column-reverse;
+      // height: 1.5*$thumbSize;
       justify-content: center;
       overflow: hidden;
       position: relative;
       width: $thumbSize;
     }
-
     &::after {
       // box-shadow
       box-shadow: 0px 15px 15px -15px rgba(0, 0, 0, 0.75);
@@ -87,43 +83,44 @@ $thumbSize: 140px;
       width: 100%;
       z-index: -1;
     }
-
     .thumbnail {
       background: #ffffff;
       max-width: 100%;
       max-height: 100%;
-      opacity: 0;
-      transition: opacity 1s ease-in;
-      &.isLoaded {
-        opacity: 1;
-      }
     }
-
     .title {
       align-content: center;
       align-items: center;
-      background: rgba(255, 255, 255, 0);
-      bottom: -100%;
       display: flex;
       justify-content: center;
-      height: $thumbSize;
-      margin: 0;
+      margin: 0.25rem;
       padding: 0 0.75rem;
-      position: absolute;
-      transition: bottom $transition-duration ease-in-out,
-        background $transition-duration ease-in-out;
-      width: $thumbSize;
-      z-index: 50px;
     }
-    &:hover {
-      &::after {
-        // box-shadow
-        box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.75);
+    @include tablet {
+      height: $thumbSize;
+      .link {
+        height: $thumbSize;
       }
-
       .title {
-        background: rgba(255, 255, 255, 0.75);
-        bottom: 0;
+        background: rgba(255, 255, 255, 0);
+        bottom: -100%;
+        height: $thumbSize;
+        margin: 0;
+        position: absolute;
+        transition: bottom $transition-duration ease-in-out,
+          background $transition-duration ease-in-out;
+        width: $thumbSize;
+        z-index: 50px;
+      }
+      &:hover {
+        &::after {
+          // box-shadow
+          box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.75);
+        }
+        .title {
+          background: rgba(255, 255, 255, 0.75);
+          bottom: 0;
+        }
       }
     }
   }

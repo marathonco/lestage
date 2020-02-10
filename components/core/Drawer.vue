@@ -77,16 +77,20 @@ $drawer-width-large: 500px;
 .nav-drawer {
   background-color: $drawer-bgcolor;
   box-shadow: -0 0 0 rgba(0, 0, 0, 0.5);
-  height: 100%;
-  position: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: absolute;
   right: 0;
   transition-property: transform, box-shadow;
   transition-duration: $menu-animation-duration;
   transition-timing-function: ease-in-out;
   transform: translate3d(100%, 0, 0);
+  top: 0;
   width: $drawer-width-small;
   z-index: 1300;
   @include tablet {
+    position: fixed;
     width: $drawer-width-medium;
   }
   @include desktop {

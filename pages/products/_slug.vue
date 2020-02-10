@@ -4,7 +4,16 @@
       <ProductBanner :groups="groups" />
       <ProductsList :products="filteredProducts" />
     </div>
-    <div id="productsDetails">
+    <button
+      class="toggleDetails button warning filled"
+      @click="isActive = !isActive"
+    >
+      {{ isActive ? 'Done' : 'Refine Search' }}
+    </button>
+    <div
+      id="productsDetails"
+      :class="isActive ? 'is-active': ''"
+    >
       <ProductSorting
         :hierarchy="hierarchy"
         :groups="groups"
@@ -24,6 +33,7 @@
 <script>
 // TODO: remove all products when making changes, then add them back.
 // TODO: don't do page transitions... make it clean.
+// TODO: need mobile layout... remove filters (or add drawer with button)
 import { mapGetters } from 'vuex'
 import ProductBanner from '~/components/shop/ProductBanner'
 import ProductFilters from '~/components/shop/ProductFilters'
@@ -93,6 +103,7 @@ export default {
   },
   data() {
     return {
+      isActive: false,
       groups: { collection: null, category: null, subcategory: null },
       activeFilters: [],
       sortBy: 'collection',
@@ -246,7 +257,7 @@ export default {
       // Change the method of sorting
       this.sortBy = method
       const query = { ...this.$route.query, sortBy: method }
-      this.$router.push({ query: query })
+      this.$router.replace({ query: query })
       // this.filteredProducts = sortProducts(this.filteredProducts, this.sortBy)
     },
     changeFilters(toggleFilter) {
@@ -267,7 +278,7 @@ export default {
         ...this.$route.query,
         filters: JSON.stringify(queryFilters)
       }
-      this.$router.push({ query: query })
+      this.$router.replace({ query: query })
     },
     changeHierarchy(group) {
       // Change collection, category, or subcategory
@@ -296,7 +307,6 @@ export default {
     }
 
     return {
-      // TODO: get long name from slug
       title: title,
       meta: [
         {
@@ -313,17 +323,36 @@ export default {
 <style lang="scss">
 #productsPage {
   display: flex;
+  flex-direction: column;
+  @include tablet {
+    flex-direction: row;
+  }
 }
 
-#productDetails {
-  align-self: flex-end;
-  display: flex;
-  flex-basis: 0;
-  flex-direction: column;
-  flex-shrink: 0;
-  width: 250px;
+.toggleDetails {
+  @include tablet {
+    display: none !important;
+  }
+}
+#productsDetails {
+  flex-basis: 250px;
+  transition-property: max-height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+  &.is-active {
+    max-height: 1000vh;
+  }
+  @include tablet {
+    margin-bottom: 0;
+    max-height: none;
+    transition: none;
+    transform: none;
+  }
 }
 #products {
-  flex-grow: 6;
+  background: getColor(background, body);
+  flex-basis: 75vw;
 }
 </style>

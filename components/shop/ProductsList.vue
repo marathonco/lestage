@@ -3,14 +3,14 @@
     <h3 v-if="products.length === 0">
       No Results found matching that criteria
     </h3>
-    <transition-group name="fade" :duration="10000" tag="ul" class="products">
+    <ul class="products">
       <Product
         v-for="(product, key) of paginatedProducts"
         :key="key"
         :index="key"
         :product="product"
       />
-    </transition-group>
+    </ul>
     <Pagination
       :current-page="currentPage"
       :total-pages="totalPages"
@@ -74,13 +74,5 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-}
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 10s ease-in-out;
-}
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
 }
 </style>

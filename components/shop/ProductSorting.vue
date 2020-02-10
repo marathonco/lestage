@@ -71,7 +71,7 @@
     </select>
     <label for="sorting">Sort by:</label>
     <select
-      id="productSorting"
+      id="productSortBy"
       v-model="sortBy"
       name="sorting"
       @change="changeSorting"

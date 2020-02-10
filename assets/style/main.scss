@@ -16,6 +16,14 @@ body {
   // overflow-x: hidden;
 }
 
+img {
+  transition: opacity 1s ease-in;
+
+  &.isLoaded {
+    opacity: 1;
+  }
+}
+
 #container {
   display: flex;
   flex-direction: column;

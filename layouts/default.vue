@@ -75,7 +75,7 @@ $header-height-large: 30vw;
   & > main,
   #footer {
     transition: all $menu-animation-duration ease-in-out;
-    z-index: 2;
+    // z-index: 2;
   }
 
   &.is-active {

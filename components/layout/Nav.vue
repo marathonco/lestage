@@ -57,8 +57,12 @@ $navbarContrastLinkColorHover: getColor(text, primary);
 
 $menu-transition-duration: 3 * $transition-duration;
 #nav {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  width: 100vw;
+  @include tablet {
+    position: fixed;
+    top: 0;
+  }
   z-index: 1200;
 }
 #navbar {
@@ -71,12 +75,15 @@ $menu-transition-duration: 3 * $transition-duration;
   flex-direction: row;
   font-size: pxToEm(12);
   height: $navbarHeight;
-  position: fixed;
+  position: absolute;
   transition: background $menu-transition-duration linear,
     box-shadow $menu-transition-duration linear;
-  top: 0;
   width: 100%;
   z-index: 1200;
+  @include tablet {
+    position: fixed;
+    top: 0;
+  }
   * {
     transition: color $menu-transition-duration linear;
   }
