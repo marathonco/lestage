@@ -38,7 +38,7 @@
       </div>
       <div class="images">
         <img
-          :src="thumbnail"
+          :src="thumbnail()"
           alt="main product image"
         >
       </div>
@@ -89,15 +89,6 @@ export default {
         }
       })
       return similarProducts
-    },
-    thumbnail() {
-      return (
-        'https://marathon-co.com/media/lestage/' +
-        this.product.collectionSlug +
-        '/' +
-        this.product.slug +
-        '.jpg'
-      )
     }
   },
   asyncData({ params, store }) {
@@ -105,6 +96,11 @@ export default {
       product => product.slug === params.productSlug
     )
     return { product }
+  },
+  methods: {
+    thumbnail() {
+      return require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
+    }
   },
   head() {
     return {

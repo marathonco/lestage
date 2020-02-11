@@ -4,7 +4,9 @@ const dynamicRoutes = () => {
   return new Promise(resolve => {
     const productRoutes = products.map(el => `product/${el.slug}`)
     const collectionRoutes = products.map(el => `products/${el.collectionSlug}`)
-    resolve([...productRoutes, ...new Set(collectionRoutes)])
+    const categoryRoutes = products.map(el => `products/${el.categrySlug}`)
+    const subcategoryRoutes = products.map(el => `products/${el.subcategrySlug}`)
+    resolve([...productRoutes, ...new Set(collectionRoutes), ...new Set(categoryRoutes), ...new Set(subcategoryRoutes)])
   })
 }
 
@@ -18,8 +20,7 @@ module.exports = {
    */
   head: {
     title: pkg.name,
-    meta: [
-      {
+    meta: [{
         charset: 'utf-8'
       },
       {
@@ -36,13 +37,11 @@ module.exports = {
         content: pkg.description
       }
     ],
-    link: [
-      {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
-      }
-    ]
+    link: [{
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
+    }]
   },
 
   /*
@@ -60,8 +59,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    {
+  plugins: [{
       src: '~plugins/vee-validate.js'
     },
     {
@@ -92,12 +90,10 @@ module.exports = {
       'nuxt-fontawesome',
       {
         component: 'icon',
-        imports: [
-          {
-            set: '@fortawesome/free-brands-svg-icons',
-            icons: ['faTwitter', 'faInstagram', 'faFacebook']
-          }
-        ]
+        imports: [{
+          set: '@fortawesome/free-brands-svg-icons',
+          icons: ['faTwitter', 'faInstagram', 'faFacebook']
+        }]
       }
     ]
   ],

@@ -8,7 +8,7 @@
         {{ product.title }}
       </h5>
       <img
-        :src="thumbnail"
+        :src="thumbnail()"
         alt="image thumbnail"
         class="thumbnail"
         @error="fallbackImage"
@@ -33,20 +33,14 @@ export default {
   computed: {
     routerLink() {
       return '/product/' + this.product.slug
-    },
-    thumbnail() {
-      return (
-        'https://marathon-co.com/media/lestage/' +
-        this.product.collectionSlug +
-        '/' +
-        this.product.slug +
-        '.jpg'
-      )
     }
   },
   methods: {
     fallbackImage(event) {
       event.target.src = require('~/assets/images/fallback.svg')
+    },
+    thumbnail() {
+      return require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
     }
   }
 }
