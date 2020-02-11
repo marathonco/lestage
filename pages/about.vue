@@ -14,7 +14,6 @@
         <img
           src="~/assets/images/fillers/polishing-animated.gif"
           alt="craftsmanship"
-          data-aos="fade-left"
         >
       </div>
     </section>
@@ -38,7 +37,6 @@
         <img
           src="~/assets/images/fillers/craftsmanship.jpg"
           alt="polishing"
-          data-aos="fade-left"
         >
       </div>
     </section>
@@ -78,7 +76,7 @@ export default {
       title: 'About LeStage Manufacturing',
       meta: [
         {
-          vmid: 'description',
+          hid: 'description',
           name: 'description',
           content: 'Creating Exceptional Jewelry for Generations.'
         }
@@ -89,9 +87,6 @@ export default {
 </script>
 <style lang="scss">
 .fill {
-  img {
-    max-width: 50%;
-  }
   p {
     line-height: 1.4;
     text-align: center;

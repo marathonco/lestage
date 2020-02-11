@@ -1,35 +1,77 @@
 <template>
-  <main>
-    <section class="collection">
-      <div class="copy">
-        <Logo />
-        <h4>A Legacy in Craftsmanship</h4>
-        <p>
-          Our authentic Cape Cod Jewelry<sup>®</sup> Collection is part of a
-          storied company history focused on quality, design, and craftsmanship
-          using responsibly sourced precious metals backed by a lifetime
-          warranty.
-        </p>
-        <nuxt-link to="/products" class="button rounded primary bordered">
-          View Collection
-        </nuxt-link>
-      </div>
-      <div
-        v-swiper:productSwiper="swiperOption"
-        class="product-image background-1"
-      >
-        <div class="swiper-wrapper">
-          <div
-            v-for="(productImage, key) of productImages"
-            :key="key"
-            class="swiper-slide"
+  <main class="main">
+    <section class="collections">
+      <div class="collection cape-cod">
+        <div class="copy">
+          <CapeCodLogo />
+          <h4>A Legacy in Craftsmanship</h4>
+          <p>
+            Our authentic Cape Cod Jewelry<sup>®</sup> Collection is part of a
+            storied company history focused on quality, design, and craftsmanship
+            using responsibly sourced precious metals backed by a lifetime
+            warranty.
+          </p>
+          <nuxt-link
+            to="products/cape-cod-collection"
+            class="button rounded primary bordered"
           >
-            <nuxt-link to="/products">
-              <img :src="getProductImage(productImage)" class="swiper-slide">
-            </nuxt-link>
+            View Collection
+          </nuxt-link>
+        </div>
+      </div>
+      <div class="collection cape-cod slider">
+        <div
+          v-swiper:productSwiperCapeCod="swiperOptionCapeCod"
+          class="product-image background-1"
+        >
+          <div class="swiper-wrapper">
+            <div
+              v-for="(productImage, key) of productImagesCapeCod"
+              :key="key"
+              class="swiper-slide"
+            >
+              <nuxt-link to="products/cape-cod-collection">
+                <img
+                  :src="getProductImage(productImage, 'cape-cod')"
+                  class="swiper-slide-image"
+                >
+              </nuxt-link>
+            </div>
           </div>
-          <!-- <div class="swiper-button-prev" />
-          <div class="swiper-button-next" /> -->
+        </div>
+      </div>
+      <div class="collection convertible-collection">
+        <div class="copy">
+          <ConvertibleLogo />
+          <h4>So many options...</h4>
+          <p>The Convertible Collection<sup>®</sup> offers endless style possibilities. Select a bracelet from various designs and then choose from over 300 interchangeable clasps that fit on the bracelet. </p>
+          <nuxt-link
+            to="products/convertible-collection"
+            class="button rounded primary bordered"
+          >
+            View Collection
+          </nuxt-link>
+        </div>
+      </div>
+      <div class="collection convertible-collection slider">
+        <div
+          v-swiper:productSwiperConvertible="swiperOptionConvertible"
+          class="product-image convertible"
+        >
+          <div class="swiper-wrapper">
+            <div
+              v-for="(productImage, key) of productImagesConvertible"
+              :key="key"
+              class="swiper-slide"
+            >
+              <nuxt-link to="products/convertible-collection">
+                <img
+                  :src="getProductImage(productImage, 'convertibles')"
+                  class="swiper-slide"
+                >
+              </nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -49,7 +91,10 @@
         Together, we have long established a reputation for integrity,
         reliability, quality and service.
       </p>
-      <nuxt-link to="/about" class="button rounded primary bordered">
+      <nuxt-link
+        to="/about"
+        class="button rounded primary bordered"
+      >
         See the History
       </nuxt-link>
     </section>
@@ -58,20 +103,22 @@
 </template>
 
 <script>
-import Logo from '~/assets/logo-cape-cod-round.svg?inline'
+import CapeCodLogo from '~/assets/images/logos/logo-cape-cod-round.svg?inline'
+import ConvertibleLogo from '~/assets/images/logos/logo-convertible-round.svg?inline'
 import Preservation from '~/components/partials/Preservation'
 
 export default {
   name: 'HomePage',
   components: {
-    Logo,
+    CapeCodLogo,
+    ConvertibleLogo,
     Preservation
   },
   data() {
     return {
-      swiperOption: {
+      swiperOptionCapeCod: {
         autoplay: {
-          delay: 4000,
+          delay: 3000,
           disableOnInteraction: true
         },
         loop: true,
@@ -95,13 +142,23 @@ export default {
           }
         }
       },
-      productImages: [
-        'bracelets1',
-        'anklets1',
-        'earrings1',
-        'necklaces1',
-        'rings1'
-      ]
+      swiperOptionConvertible: {
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: true
+        },
+        loop: true,
+        speed: 1000,
+        effect: 'slide'
+      },
+      productImagesCapeCod: [
+        'cape-cod-bracelets-1',
+        'cape-cod-anklets-1',
+        'cape-cod-earrings-1',
+        'cape-cod-necklaces-1',
+        'cape-cod-rings-1'
+      ],
+      productImagesConvertible: ['convertible-1', 'convertible-2']
     }
   },
   mounted() {
@@ -122,16 +179,30 @@ export default {
     this.$store.dispatch('header/changeHeaders', header)
   },
   methods: {
-    getProductImage(image) {
-      return require('~/assets/images/products/category/' + image + '.png')
+    getProductImage(image, category) {
+      return require('~/assets/images/products/' +
+        category +
+        '/' +
+        image +
+        '.png')
     }
   }
 }
 </script>
 <style lang="scss">
 @import 'swiper/dist/css/swiper.css';
+.collection {
+  &.cape-cod,
+  &.cape-cod div.copy {
+    background: getColor(background, accent);
+  }
+  &.convertible-collection,
+  &.convertible-collection div.copy {
+    background: getColor(background, accent3);
+  }
+}
 .collection div.copy {
-  background: getColor(background, accent);
+  align-self: center;
   padding: 1rem;
   h4 {
     margin-top: 0;
@@ -141,43 +212,68 @@ export default {
   }
   svg {
     min-width: 150px;
-    max-width: 25%;
-    @include tablet-only {
-      max-height: 100px;
-    }
+    margin: 1rem;
+    max-width: 100%;
+    max-height: 150px;
   }
 }
 @include tablet {
-  //TODO: there is a window size where the content is greater than 50vw, and it breaks
-  .collection {
-    background: getColor(background, accent);
-    align-items: center;
+  .collections {
     display: flex;
-    min-height: 50vw;
-    padding: 0;
-    position: relative;
-    .copy,
-    .product-image {
-      width: 50vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .collection {
+      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 49vw;
+    }
+    .collection.cape-cod.slider {
+      order: 3;
+    }
+    .collection.convertible-collection.slider {
+      order: 5;
     }
   }
 }
-
+.collection .swiper-wrapper,
+.collection .swiper-container {
+  height: auto !important;
+}
 .product-image a {
-  background-color: rgba(255, 255, 255, 0);
+  align-items: center;
+  display: flex;
+  max-height: 50vh;
+  position: relative;
+  img {
+    margin: 0 auto;
+    max-height: 40vh;
+    width: auto;
+  }
+}
+.product-image::after {
+  background-color: rgba(255, 255, 255, 1);
+  content: '';
   display: block;
   height: 100%;
-  transition: background-color 1s; // must be less time than the animation speed of the swiper
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 1s linear; // must be less time than the animation speed of the swiper
   width: 100%;
 }
-.product-image.changing a {
-  background-color: rgba(255, 255, 255, 1);
+.product-image.changing::after {
+  opacity: 1;
 }
 
 @mixin product-image-background($angle, $color, $stop) {
   background: linear-gradient($angle, $color $stop, #ffffff $stop);
 }
 .product-image {
+  background: #ffffff;
   &.background-1 {
     @include product-image-background(
       202deg,

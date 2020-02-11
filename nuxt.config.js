@@ -1,3 +1,15 @@
+import products from './data/products'
+
+const dynamicRoutes = () => {
+  return new Promise(resolve => {
+    const productRoutes = products.map(el => `product/${el.slug}`)
+    const collectionRoutes = products.map(el => `products/${el.collectionSlug}`)
+    const categoryRoutes = products.map(el => `products/${el.categrySlug}`)
+    const subcategoryRoutes = products.map(el => `products/${el.subcategrySlug}`)
+    resolve([...productRoutes, ...new Set(collectionRoutes), ...new Set(categoryRoutes), ...new Set(subcategoryRoutes)])
+  })
+}
+
 const pkg = require('./package')
 
 module.exports = {
@@ -9,21 +21,21 @@ module.exports = {
   head: {
     title: pkg.name,
     meta: [{
-      charset: 'utf-8'
-    },
-    {
-      name: 'viewport',
-      content: 'width=device-width, initial-scale=1'
-    },
-    {
-      'http-equiv': 'X-UA-Compatible',
-      content: 'IE=edge,chrome=1'
-    },
-    {
-      hid: 'description',
-      name: 'description',
-      content: pkg.description
-    }
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        'http-equiv': 'X-UA-Compatible',
+        content: 'IE=edge,chrome=1'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: pkg.description
+      }
     ],
     link: [{
       rel: 'icon',
@@ -48,15 +60,12 @@ module.exports = {
    ** Plugins to load before mounting the App
    */
   plugins: [{
-    src: '~/plugins/aos',
-    mode: 'client'
-  },
-  {
-    src: '~plugins/vee-validate.js'
-  }, {
-    src: '~/plugins/swiper.js',
-    ssr: false
-  }
+      src: '~plugins/vee-validate.js'
+    },
+    {
+      src: '~/plugins/swiper.js',
+      ssr: false
+    }
   ],
 
   /*
@@ -66,6 +75,17 @@ module.exports = {
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
     'nuxt-svg',
+    [
+      'nuxt-lazy-load',
+      {
+        // These are the default values
+        images: true,
+        videos: true,
+        audios: true,
+        iframes: true,
+        directiveOnly: false
+      }
+    ],
     [
       'nuxt-fontawesome',
       {
@@ -83,6 +103,13 @@ module.exports = {
    */
   styleResources: {
     scss: ['~/assets/style/main.scss']
+  },
+
+  /*
+   ** Generate Dynamic Routes
+   */
+  generate: {
+    routes: dynamicRoutes
   },
 
   /*

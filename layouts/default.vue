@@ -1,10 +1,17 @@
 <template>
-  <div id="container" :class="menuIsActive">
+  <div
+    id="container"
+    :class="menuIsActive"
+  >
     <Nav />
     <Header />
     <nuxt />
     <Footer />
-    <label :class="menuIsActive" for="menu-toggle" class="nav-overlay" />
+    <label
+      :class="menuIsActive"
+      for="menu-toggle"
+      class="nav-overlay"
+    />
   </div>
 </template>
 
@@ -55,7 +62,8 @@ export default {
 }
 </script>
 <style lang="scss">
-$header-height: 50vw;
+$header-height: 40vw;
+$header-height-large: 30vw;
 
 #container {
   transition: transform $menu-animation-duration ease-in-out;
@@ -67,7 +75,7 @@ $header-height: 50vw;
   & > main,
   #footer {
     transition: all $menu-animation-duration ease-in-out;
-    z-index: 2;
+    // z-index: 2;
   }
 
   &.is-active {
@@ -89,11 +97,13 @@ $header-height: 50vw;
 
   #header {
     height: $header-height;
-    max-height: 90vh;
+    // max-height: 40vh;
     width: 100vw;
-    // max-height: 80vh;
     position: fixed;
     z-index: 1;
+    @include desktop {
+      height: $header-height-large;
+    }
   }
 
   & > main {
@@ -102,6 +112,9 @@ $header-height: 50vw;
 
   #header + main {
     margin-top: $header-height;
+    @include desktop {
+      margin-top: $header-height-large;
+    }
   }
 }
 
@@ -109,123 +122,7 @@ $header-height: 50vw;
   border-top: 60px solid getColor(text, accent);
 }
 
-.products-list {
-  align-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-
-  li {
-    background: #ffffff;
-    height: 140px;
-    margin: 10px;
-    overflow: hidden;
-    position: relative;
-    width: 140px;
-
-    @include tablet {
-      height: 250px;
-      margin: 1rem;
-      width: 250px;
-    }
-  }
-
-  .link {
-    img {
-      transition: opacity $transition-duration linear;
-    }
-
-    .title {
-      align-content: center;
-      align-items: center;
-      display: flex;
-      height: 100%;
-      justify-content: center;
-      padding: 1rem;
-      position: absolute;
-      transition: top $transition-duration ease-in-out,
-        right $transition-duration ease-in-out;
-      width: 100%;
-      z-index: 5;
-
-      &::before {
-        background: rgba(255, 255, 255, 0);
-        content: '';
-        height: 100%;
-        position: absolute;
-        transition: top $transition-duration ease-in-out,
-          right $transition-duration ease-in-out;
-        width: 100%;
-        z-index: -1;
-      }
-    }
-  }
-
-  li .link:hover {
-    img {
-      opacity: 0 !important;
-    }
-
-    .title {
-      right: 0 !important;
-      top: 0 !important;
-
-      &::before {
-        right: 0 !important;
-        top: 0 !important;
-      }
-    }
-  }
-
-  li:nth-child(1) {
-    @include flagBackground(122deg, getColor(background, accent2), 35%);
-  }
-
-  li:nth-child(2) {
-    @include flagBackground(40deg, getColor(background, accent), 40%);
-  }
-
-  li:nth-child(3) {
-    @include flagBackground(218deg, getColor(background, accent3), 50%);
-  }
-
-  li:nth-child(4) {
-    @include flagBackground(188deg, getColor(background, accent4), 44%);
-  }
-
-  li:nth-child(5) {
-    @include flagBackground(217deg, getColor(background, accent2), 22%);
-  }
-
-  li:nth-child(6) {
-    @include flagBackground(33deg, getColor(background, accent), 73%);
-  }
-
-  li:nth-child(7) {
-    @include flagBackground(261deg, getColor(background, accent3), 40%);
-  }
-
-  li:nth-child(8) {
-    @include flagBackground(193deg, getColor(background, accent4), 77%);
-  }
-
-  li:nth-child(9) {
-    @include flagBackground(13deg, getColor(background, accent2), 60%);
-  }
-
-  li:nth-child(10) {
-    @include flagBackground(68deg, getColor(background, accent), 28%);
-  }
-
-  li:nth-child(11) {
-    @include flagBackground(232deg, getColor(background, accent3), 35%);
-  }
-}
-
-body header.brand {
+body .brand {
   display: block;
   margin: 1rem auto;
   max-width: 800px;

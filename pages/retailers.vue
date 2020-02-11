@@ -4,6 +4,24 @@
     <p class="lead-in">
       Enter your zipcode below to find the nearest authorized retailers
     </p>
+    <div class="store-type">
+      <label>
+        <input
+          v-model="filterConvertible"
+          type="checkbox"
+          name="filter-convertible"
+        >
+        Convertible Collection Retailers
+      </label>
+      <label>
+        <input
+          v-model="filterCapeCod"
+          type="checkbox"
+          name="filter-cape-cod"
+        >
+        Cape Cod Retailers
+      </label>
+    </div>
     <div class="search">
       <input
         id="address"
@@ -56,8 +74,12 @@
             class="location"
             v-html="formatAddress(retailer)"
           />
-          <td class="distance">
+          <td class="info">
             <p>{{ retailer.properties.distance.toFixed(2) }} miles away</p>
+            <div class="retailer-type">
+              <CapeCodLogo v-if="retailer.properties.capeCod === true" />
+              <ConvertibleLogo v-if="retailer.properties.convertible === true" />
+            </div>
           </td>
         </tr>
       </table>
@@ -73,8 +95,10 @@
 </template>
 
 <script>
-import retailers from '~/data/retailers'
 import { OpenStreetMapProvider } from 'leaflet-geosearch'
+import retailers from '~/data/retailers'
+import CapeCodLogo from '~/assets/images/logos/logo-cape-cod-icon.svg?inline'
+import ConvertibleLogo from '~/assets/images/logos/logo-convertible-icon.svg?inline'
 
 /**
  * calculateDistance
@@ -126,6 +150,7 @@ function getFeaturesInView(map, center) {
       }
     }
   })
+
   features.sort(function(a, b) {
     return a.properties.distance - b.properties.distance
   })
@@ -133,14 +158,22 @@ function getFeaturesInView(map, center) {
 }
 
 export default {
+  components: {
+    CapeCodLogo,
+    ConvertibleLogo
+  },
   data() {
     return {
       // default to Cape Cod Bay - should be saved as lat/lon
       inputAddress: '',
       center: [41.839598, -70.22163],
       filteredList: [],
+      filterCapeCod: true,
+      filterConvertible: true,
       map: {},
-      markerLayer: {},
+      allLayer: {},
+      capeCodLayer: {},
+      convertibleLayer: {},
       options: [],
       selectedAddress: ''
     }
@@ -162,6 +195,24 @@ export default {
           })
         }
       }
+    },
+    filterCapeCod(next, prev) {
+      if (next) {
+        this.map.addLayer(this.capeCodLayer)
+        this.map.addLayer(this.allLayer)
+      } else {
+        this.map.removeLayer(this.capeCodLayer)
+      }
+      this.filteredList = getFeaturesInView(this.map, this.center)
+    },
+    filterConvertible(next, prev) {
+      if (next) {
+        this.map.addLayer(this.convertibleLayer)
+        this.map.addLayer(this.allLayer)
+      } else {
+        this.map.removeLayer(this.convertibleLayer)
+      }
+      this.filteredList = getFeaturesInView(this.map, this.center)
     }
   },
   mounted() {
@@ -176,7 +227,13 @@ export default {
         }).addTo(this.map)
 
         // add all markers to the map
-        this.markerLayer = L.geoJSON(retailers, {
+        this.allLayer = L.geoJSON(retailers, {
+          filter: function(feature, layer) {
+            return (
+              feature.properties.capeCod === true &&
+              feature.properties.convertible === true
+            )
+          },
           onEachFeature: (feature, layer) => {
             layer.bindPopup(this.formatAddress(feature))
           },
@@ -184,6 +241,56 @@ export default {
             const markerIcon = L.icon({
               iconUrl: require('~/assets/images/markers/marker-icon.png'),
               iconRetinaUrl: require('~/assets/images/markers/marker-icon-2x.png'),
+              shadowUrl: require('~/assets/images/markers/marker-shadow.png'),
+              iconSize: [25, 41], // size of the icon
+              // shadowSize: [50, 64], // size of the shadow
+              iconAnchor: [12, 41], // point of the icon which will correspond to marker's location
+              // shadowAnchor: [4, 62], // the same for the shadow
+              popupAnchor: [0, -41] // point from which the popup should open relative to the iconAnchor
+            })
+            return L.marker(latlng, { icon: markerIcon })
+          }
+        }).addTo(this.map)
+
+        this.capeCodLayer = L.geoJSON(retailers, {
+          filter: function(feature, layer) {
+            return (
+              feature.properties.convertible === false &&
+              feature.properties.capeCod === true
+            )
+          },
+          onEachFeature: (feature, layer) => {
+            layer.bindPopup(this.formatAddress(feature))
+          },
+          pointToLayer: function(feature, latlng) {
+            const markerIcon = L.icon({
+              iconUrl: require('~/assets/images/markers/marker-capeCod.png'),
+              iconRetinaUrl: require('~/assets/images/markers/marker-capeCod-2x.png'),
+              shadowUrl: require('~/assets/images/markers/marker-shadow.png'),
+              iconSize: [25, 41], // size of the icon
+              // shadowSize: [50, 64], // size of the shadow
+              iconAnchor: [12, 41], // point of the icon which will correspond to marker's location
+              // shadowAnchor: [4, 62], // the same for the shadow
+              popupAnchor: [0, -41] // point from which the popup should open relative to the iconAnchor
+            })
+            return L.marker(latlng, { icon: markerIcon })
+          }
+        }).addTo(this.map)
+
+        this.convertibleLayer = L.geoJSON(retailers, {
+          filter: function(feature, layer) {
+            return (
+              feature.properties.convertible === true &&
+              feature.properties.capeCod === false
+            )
+          },
+          onEachFeature: (feature, layer) => {
+            layer.bindPopup(this.formatAddress(feature))
+          },
+          pointToLayer: function(feature, latlng) {
+            const markerIcon = L.icon({
+              iconUrl: require('~/assets/images/markers/marker-convertible.png'),
+              iconRetinaUrl: require('~/assets/images/markers/marker-convertible-2x.png'),
               shadowUrl: require('~/assets/images/markers/marker-shadow.png'),
               iconSize: [25, 41], // size of the icon
               // shadowSize: [50, 64], // size of the shadow
@@ -422,6 +529,17 @@ div#retailerList {
   margin: 1rem auto;
   text-align: center;
 }
+.retailer-type {
+  display: flex;
+  flex-direction: row;
+  min-height: 60px;
+  svg {
+    display: inline-block;
+    margin: 5px;
+    min-height: 40px;
+    min-width: 40px;
+  }
+}
 @include tablet {
   #results {
     align-items: flex-start;
@@ -487,8 +605,11 @@ table#retailerList {
   p {
     font-size: pxToEm(12);
   }
-  .distance {
-    text-align: right;
+  .info {
+    p {
+      margin-bottom: 0;
+      text-align: right;
+    }
   }
 }
 @keyframes bounce {

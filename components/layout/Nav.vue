@@ -6,7 +6,7 @@
     <div id="navbar">
       <div class="navbar-left">
         <nuxt-link
-          to="retailers"
+          to="/retailers"
           class="navbar-item"
         >Find A Retailer</nuxt-link>
       </div>
@@ -26,7 +26,7 @@
 
 <script>
 import Drawer from '~/components/core/Drawer'
-import Logo from '~/assets/logo-lestage.svg?inline'
+import Logo from '~/assets/images/logos/logo-lestage.svg?inline'
 
 // add `.scrolled` to `body` if page has been scrolled
 if (process.browser) {
@@ -46,6 +46,7 @@ export default {
 </script>
 
 <style lang="scss">
+$navbarHeight: 60px;
 $navbarColor: getColor(text, contrast);
 $navbarLinkColor: getColor(text, contrast);
 $navbarLinkColorHover: getColor(text, contrast);
@@ -56,8 +57,12 @@ $navbarContrastLinkColorHover: getColor(text, primary);
 
 $menu-transition-duration: 3 * $transition-duration;
 #nav {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  width: 100vw;
+  @include tablet {
+    position: fixed;
+    top: 0;
+  }
   z-index: 1200;
 }
 #navbar {
@@ -69,13 +74,16 @@ $menu-transition-duration: 3 * $transition-duration;
   display: flex;
   flex-direction: row;
   font-size: pxToEm(12);
-  height: 60px;
-  position: fixed;
+  height: $navbarHeight;
+  position: absolute;
   transition: background $menu-transition-duration linear,
     box-shadow $menu-transition-duration linear;
-  top: 0;
   width: 100%;
   z-index: 1200;
+  @include tablet {
+    position: fixed;
+    top: 0;
+  }
   * {
     transition: color $menu-transition-duration linear;
   }
@@ -84,8 +92,6 @@ $menu-transition-duration: 3 * $transition-duration;
 .navbar-center,
 .navbar-right {
   flex: 1;
-  // height: 100%;
-  // padding: 1rem;
 }
 
 .navbar-left {
@@ -94,7 +100,7 @@ $menu-transition-duration: 3 * $transition-duration;
   text-align: left;
 }
 .navbar-center {
-  padding: 10px 60px 0;
+  padding: 5px 60px;
 }
 .navbar-right {
   display: none;
@@ -110,7 +116,12 @@ $menu-transition-duration: 3 * $transition-duration;
 .logo {
   display: block;
   height: 100%;
-  margin: auto;
+  // margin: auto;
+  // padding: 1rem;
+  svg {
+    max-height: 100%;
+    max-width: 100%;
+  }
   path {
     fill: getColor(background, light);
     transition: fill $menu-transition-duration linear;

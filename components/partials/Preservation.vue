@@ -17,7 +17,7 @@ export default {}
 
 <style lang="scss" scoped>
 .fill {
-  background-image: url('~assets/images/preservation.jpg');
+  background-image: url('~assets/images/fillers/preservation.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

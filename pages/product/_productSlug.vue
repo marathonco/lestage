@@ -1,12 +1,11 @@
 <template>
   <main>
     <header class="brand">
-      <Logo />
+      <Logo :collection="product.collection" />
     </header>
-    <section class="product">
+    <section id="product">
       <div class="info">
         <h3>
-          Cape Cod
           <br>
           {{ product.title }}
         </h3>
@@ -39,43 +38,20 @@
       </div>
       <div class="images">
         <img
-          :src="getThumbnail(product.slug)"
+          :src="thumbnail()"
           alt="main product image"
         >
       </div>
     </section>
-    <aside class="other">
+    <aside
+      v-if="similarProducts.length > 0"
+      class="other"
+    >
       <h4>Other Styles:</h4>
-      <ul
-        id="products-list"
-        class="products-list"
-      >
-        <li
-          v-for="(crossProduct, key) of filteredProducts"
-          :key="key"
-          :data-aos-delay="200 * key"
-          data-aos="flip-left"
-          data-aos-anchor="#productsList"
-          data-aos-once="true"
-        >
-          <nuxt-link
-            :to="'/product/' + crossProduct.slug"
-            class="link"
-          >
-            <div class="title">
-              {{ crossProduct.title }}
-            </div>
-
-            <img
-              :src="getThumbnail(crossProduct.slug)"
-              alt="image thumbnail"
-            >
-          </nuxt-link>
-        </li>
-      </ul>
+      <ProductsList :products="similarProducts" />
     </aside>
     <nuxt-link
-      to="/products"
+      :to="'products/' + product.collectionSlug"
       class="button rounded bordered primary back-link"
     >
       View the rest of the collection
@@ -84,48 +60,56 @@
 </template>
 
 <script>
-import products from '~/data/products'
-import Logo from '~/assets/logo-cape-cod.svg?inline'
+import { mapGetters } from 'vuex'
+import ProductsList from '~/components/shop/ProductsList'
+import Logo from '~/components/core/Logo'
 
 export default {
   name: 'Products',
   components: {
-    Logo
+    Logo,
+    ProductsList
   },
-  validate({ params }) {
-    const product = products.filter(function(dat) {
-      return dat.slug === params.productSlug
-    })
-    return product.length !== 0
+  computed: {
+    ...mapGetters({
+      allProducts: 'shop/getProducts'
+    }),
+    similarProducts() {
+      const similarProducts = this.allProducts.filter(dat => {
+        if (this.product.slug === dat.slug) {
+          return false
+        } else if (this.product.subcategorySlug) {
+          if (this.product.subcategorySlug === dat.subcategorySlug) {
+            return true
+          }
+        } else if (this.product.categorySlug) {
+          if (this.product.categorySlug === dat.categorySlug) {
+            return true
+          }
+        }
+      })
+      return similarProducts
+    }
   },
-  asyncData({ params }) {
-    const product = products.filter(function(dat) {
-      return dat.slug === params.productSlug
-    })[0]
-    const filteredProducts = products.filter(function(dat) {
-      // skip current product
-      if (dat.slug === params.productSlug) {
-        return false
-      }
-      return dat.categorySlug === product.categorySlug
-    })
-
-    return { product, filteredProducts }
+  asyncData({ params, store }) {
+    const product = store.state.shop.allProducts.find(
+      product => product.slug === params.productSlug
+    )
+    return { product }
   },
   methods: {
-    getThumbnail(thumbnail) {
-      return require('~/assets/images/products/' + thumbnail + '.jpg')
+    thumbnail() {
+      return require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
     }
   },
   head() {
-    // TODO: can't figure out how to get dynamic titles here
     return {
-      title: 'Cape Cod Jewelry',
+      title: this.product.collection + ' | ' + this.product.title,
       meta: [
         {
-          vmid: 'description',
+          hid: 'description',
           name: 'description',
-          content: 'Authentic Cape Cod Jewelry in Sterling Silver and 14K Gold.'
+          content: 'Authentic Jewelry in Sterling Silver and 14K Gold.'
         }
       ]
     }
@@ -133,8 +117,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.product {
+<style lang="scss" scoped>
+#product {
   background: #ffffff;
   .info,
   .images {
@@ -159,7 +143,7 @@ export default {
   }
 }
 @include tablet {
-  .product {
+  #product {
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
