@@ -31,9 +31,7 @@
 </template>
 
 <script>
-// TODO: remove all products when making changes, then add them back.
 // TODO: don't do page transitions... make it clean.
-// TODO: need mobile layout... remove filters (or add drawer with button)
 import { mapGetters } from 'vuex'
 import ProductBanner from '~/components/shop/ProductBanner'
 import ProductFilters from '~/components/shop/ProductFilters'
