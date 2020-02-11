@@ -2,7 +2,6 @@
   <header
     v-if="headers.length > 0"
     id="header"
-    class="fixed"
   >
     <div
       ref="headerSwiper"
@@ -93,7 +92,7 @@ export default {
 <style lang="scss">
 @import 'swiper/dist/css/swiper.css';
 
-#header.fixed {
+#header {
   align-items: flex-start;
   overflow: hidden;
   width: 100%;

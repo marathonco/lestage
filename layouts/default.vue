@@ -100,7 +100,7 @@ $header-height-large: 30vw;
     // max-height: 40vh;
     width: 100vw;
     position: fixed;
-    z-index: 1;
+    z-index: 2 !important;
     @include desktop {
       height: $header-height-large;
     }
@@ -108,6 +108,7 @@ $header-height-large: 30vw;
 
   & > main {
     background-color: getColor(background, body);
+    z-index: 3;
   }
 
   #header + main {
