@@ -4,8 +4,8 @@ const dynamicRoutes = () => {
   return new Promise(resolve => {
     const productRoutes = products.map(el => `product/${el.slug}`)
     const collectionRoutes = products.map(el => `products/${el.collectionSlug}`)
-    const categoryRoutes = products.map(el => `products/${el.categrySlug}`)
-    const subcategoryRoutes = products.map(el => `products/${el.subcategrySlug}`)
+    const categoryRoutes = products.map(el => `products/${el.categorySlug}`)
+    const subcategoryRoutes = products.map(el => `products/${el.subcategorySlug}`)
     resolve([...productRoutes, ...new Set(collectionRoutes), ...new Set(categoryRoutes), ...new Set(subcategoryRoutes)])
   })
 }
