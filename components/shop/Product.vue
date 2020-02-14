@@ -51,6 +51,7 @@ $thumbSize: 140px;
 .productList {
   .product {
     background: #ffffff;
+    height: $thumbSize;
     margin: 10px;
     position: relative;
     width: $thumbSize;
@@ -58,7 +59,7 @@ $thumbSize: 140px;
       align-items: center;
       display: flex;
       flex-direction: column-reverse;
-      // height: 1.5*$thumbSize;
+      height: $thumbSize;
       justify-content: center;
       overflow: hidden;
       position: relative;
@@ -83,38 +84,29 @@ $thumbSize: 140px;
       max-height: 100%;
     }
     .title {
+      background: rgba(255, 255, 255, 0);
+      bottom: -100%;
       align-content: center;
       align-items: center;
       display: flex;
-      justify-content: center;
-      margin: 0.25rem;
-      padding: 0 0.75rem;
-    }
-    @include tablet {
       height: $thumbSize;
-      .link {
-        height: $thumbSize;
+      justify-content: center;
+      margin: 0;
+      padding: 0 0.75rem;
+      position: absolute;
+      transition: bottom $transition-duration ease-in-out,
+        background $transition-duration ease-in-out;
+      width: $thumbSize;
+      z-index: 50px;
+    }
+    &:hover {
+      &::after {
+        // box-shadow
+        box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.75);
       }
       .title {
-        background: rgba(255, 255, 255, 0);
-        bottom: -100%;
-        height: $thumbSize;
-        margin: 0;
-        position: absolute;
-        transition: bottom $transition-duration ease-in-out,
-          background $transition-duration ease-in-out;
-        width: $thumbSize;
-        z-index: 50px;
-      }
-      &:hover {
-        &::after {
-          // box-shadow
-          box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.75);
-        }
-        .title {
-          background: rgba(255, 255, 255, 0.75);
-          bottom: 0;
-        }
+        background: rgba(255, 255, 255, 0.75);
+        bottom: 0;
       }
     }
   }
