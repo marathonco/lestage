@@ -6,9 +6,11 @@
     <section id="product">
       <div class="info">
         <h3>
-          <br>
           {{ product.title }}
         </h3>
+        <h5 class="sku">
+          {{ product.slug }}
+        </h5>
         <h6 class="msrp">
           MSRP: {{ product.price }}
         </h6>
@@ -126,6 +128,7 @@ export default {
     width: 100%;
   }
 
+  h5,
   h6 {
     @include font-accent;
     color: getColor(text, accent);
