@@ -333,16 +333,17 @@ export default {
   }
 }
 #productsDetails {
-  flex-basis: 250px;
   transition-property: max-height;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
+  margin-bottom: 1rem;
   max-height: 0;
   overflow: hidden;
   &.is-active {
     max-height: 1000vh;
   }
   @include tablet {
+    flex-basis: 250px;
     margin-bottom: 0;
     max-height: none;
     transition: none;
