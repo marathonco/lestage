@@ -53,7 +53,7 @@
       <ProductsList :products="similarProducts" />
     </aside>
     <nuxt-link
-      :to="'products/' + product.collectionSlug"
+      :to="'/products/' + product.collectionSlug"
       class="button rounded bordered primary back-link"
     >
       View the rest of the collection
