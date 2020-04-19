@@ -21,21 +21,21 @@ module.exports = {
   head: {
     title: pkg.name,
     meta: [{
-        charset: 'utf-8'
-      },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
-      {
-        'http-equiv': 'X-UA-Compatible',
-        content: 'IE=edge,chrome=1'
-      },
-      {
-        hid: 'description',
-        name: 'description',
-        content: pkg.description
-      }
+      charset: 'utf-8'
+    },
+    {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1'
+    },
+    {
+      'http-equiv': 'X-UA-Compatible',
+      content: 'IE=edge,chrome=1'
+    },
+    {
+      hid: 'description',
+      name: 'description',
+      content: pkg.description
+    }
     ],
     link: [{
       rel: 'icon',
@@ -59,9 +59,8 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{
-      src: '~plugins/vee-validate.js'
-    },
+  plugins: [
+    { src: '~plugins/vee-validate.js' },
     {
       src: '~/plugins/swiper.js',
       ssr: false

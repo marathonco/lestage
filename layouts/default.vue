@@ -1,13 +1,14 @@
 <template>
   <div
     id="container"
-    :class="menuIsActive"
+    :class="embed ? 'embedded-iframe': menuIsActive"
   >
-    <Nav />
-    <Header />
+    <Nav v-if="!embed" />
+    <Header v-if="!embed" />
     <nuxt />
-    <Footer />
+    <Footer v-if="!embed" />
     <label
+      v-if="!embed"
       :class="menuIsActive"
       for="menu-toggle"
       class="nav-overlay"
@@ -27,19 +28,37 @@ export default {
     Footer
   },
   computed: {
+    embed() {
+      return this.$store.state.embed.embed
+    },
     menuIsActive() {
       return this.$store.state.menu.menuIsActive ? 'is-active' : ''
     }
-  },
-  transition: {
-    appear: true,
-    name: 'fade'
   },
   watch: {
     $route() {
       this.$store.dispatch('header/changeHeaders', [])
       this.$store.dispatch('menu/closeMenu')
     }
+  },
+  mounted() {
+    if (this.$route.query.embed) {
+      this.$store.dispatch('embed/setEmbed')
+    }
+    this.$store.dispatch('embed/postResize')
+  },
+  // methods: {
+  //   onResize() {
+  //     const height = document.getElementById('container').offsetHeight
+  //     console.log(height)
+  //     window.parent.postMessage({
+  //       frameHeight: height
+  //     }, '*')
+  //   }
+  // },
+  transition: {
+    appear: true,
+    name: 'fade'
   },
   head() {
     return {
