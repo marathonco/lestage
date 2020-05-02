@@ -17,9 +17,6 @@
 </template>
 
 <script>
-// TODO: Just make separate entry point for embedded pages. Means duplication but right now
-// there is a problem with links opening in new window and showing retailer info.
-// This way it can all be sized and accounted for specifically for embedded pages.
 import { mapGetters } from 'vuex'
 import Header from '~/components/layout/Header'
 import Nav from '~/components/layout/Nav'
@@ -46,17 +43,23 @@ export default {
     }
   },
   beforeCreate() {
+    console.log('beforeCreate')
     if (this.$route.query.embed) {
+      console.log('query var found in beforeCreate')
       this.$store.dispatch('iFrame/setIFrame')
     }
   },
   created() {
+    console.log('created')
     if (this.$route.query.embed) {
+      console.log('query var found in created')
       this.$store.dispatch('iFrame/setIFrame')
     }
   },
   mounted() {
+    console.log('mounted')
     if (this.$route.query.embed) {
+      console.log('query var found in mounted')
       this.$store.dispatch('iFrame/setIFrame')
       if (process.client) {
         window.addEventListener('resize', () => {
@@ -70,7 +73,6 @@ export default {
     appear: true,
     name: 'fade',
     afterEnter(el) {
-      console.log('caught transition enter')
       this.$store.dispatch('iFrame/postResize')
     }
   },

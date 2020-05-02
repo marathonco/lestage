@@ -111,7 +111,6 @@ export default {
     appear: true,
     name: 'fade',
     afterEnter(el) {
-      console.log('caught transition enter')
       this.$store.dispatch('iFrame/postResize')
     }
   },
