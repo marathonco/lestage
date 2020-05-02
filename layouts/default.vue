@@ -3,12 +3,12 @@
     id="container"
     :class="embedded ? 'embedded ' + menuIsActive : menuIsActive"
   >
-    <Nav v-if="embedded !== true" />
-    <Header v-if="embedded !== true" />
+    <Nav v-if="true !== embedded" />
+    <Header v-if="true !== embedded" />
     <nuxt />
-    <Footer v-if="embedded !== true" />
+    <Footer v-if="true !== embedded" />
     <label
-      v-if="embedded !== true"
+      v-if="true !== embedded"
       :class="menuIsActive"
       for="menu-toggle"
       class="nav-overlay"
@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import Header from '~/components/layout/Header'
 import Nav from '~/components/layout/Nav'
 import Footer from '~/components/layout/Footer'
@@ -29,9 +28,9 @@ export default {
     Footer
   },
   computed: {
-    ...mapGetters({
-      embedded: 'embed/isEmbedded'
-    }),
+    embedded() {
+      return this.$store.state.embed.embedded
+    },
     menuIsActive() {
       return this.$store.state.menu.menuIsActive ? 'is-active' : ''
     }

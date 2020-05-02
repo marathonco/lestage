@@ -5,7 +5,7 @@
       <ProductsList :products="filteredProducts" />
     </div>
     <button
-      v-if="embedded !== true"
+      v-if="true !== embedded"
       class="toggleDetails button warning filled"
       @click="isActive = !isActive"
     >
@@ -24,7 +24,7 @@
         @changeHierarchy="changeHierarchy"
       />
       <ProductFilters
-        v-if="embedded !== true"
+        v-if="true !== embedded"
         :filters="filters"
         @changeFilters="changeFilters"
       />

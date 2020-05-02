@@ -26,14 +26,14 @@
           <p>{{ property.value }}</p>
         </div>
         <nuxt-link
-          v-if="embedded !== true"
+          v-if="true !== embedded"
           to="/retailers"
           class="button rounded primary bordered"
         >
           Find a retailer
         </nuxt-link>
         <nuxt-link
-          v-if="embedded !== true"
+          v-if="true !== embedded"
           to="/warranty"
           class="button rounded primary bordered"
         >
