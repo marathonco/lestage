@@ -3,12 +3,12 @@
     id="container"
     :class="true === embedded ? 'embedded ' + menuIsActive : menuIsActive"
   >
-    <Nav v-if="true !== embedded" />
-    <Header v-if="true !== embedded" />
+    <Nav v-show="true !== embedded" />
+    <Header v-show="true !== embedded" />
     <nuxt />
-    <Footer v-if="true !== embedded" />
+    <Footer v-show="true !== embedded" />
     <label
-      v-if="true !== embedded"
+      v-show="true !== embedded"
       :class="menuIsActive"
       for="menu-toggle"
       class="nav-overlay"
