@@ -1,7 +1,7 @@
 <template>
   <div
     id="container"
-    :class="embedded ? 'embedded ' + menuIsActive : menuIsActive"
+    :class="true === embedded ? 'embedded ' + menuIsActive : menuIsActive"
   >
     <Nav v-if="true !== embedded" />
     <Header v-if="true !== embedded" />
@@ -29,6 +29,7 @@ export default {
   },
   computed: {
     embedded() {
+      console.log('embed === ' + this.$store.state.embed.embedded)
       return this.$store.state.embed.embedded
     },
     menuIsActive() {
@@ -43,6 +44,7 @@ export default {
   },
   beforeCreate() {
     if (this.$route.query.embed) {
+      console.log('Query Var for Embed Found')
       this.$store.dispatch('embed/setEmbedded')
     }
   },
