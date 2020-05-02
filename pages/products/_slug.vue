@@ -5,6 +5,7 @@
       <ProductsList :products="filteredProducts" />
     </div>
     <button
+      v-if="!iFrame"
       class="toggleDetails button warning filled"
       @click="isActive = !isActive"
     >
@@ -23,6 +24,7 @@
         @changeHierarchy="changeHierarchy"
       />
       <ProductFilters
+        v-if="!iFrame"
         :filters="filters"
         @changeFilters="changeFilters"
       />
@@ -111,7 +113,8 @@ export default {
   computed: {
     ...mapGetters({
       allProducts: 'shop/getProducts',
-      hierarchy: 'shop/getHierarchy'
+      hierarchy: 'shop/getHierarchy',
+      iFrame: 'iFrame/isIFrame'
     }),
     filteredProducts() {
       const products = this.allProducts.filter(product => {
@@ -159,6 +162,8 @@ export default {
         }
         return true
       })
+      // TODO: this is firing too late.
+      this.$store.dispatch('iFrame/postResize')
       return sortProducts(products, this.sortBy)
     },
     filters() {
@@ -243,6 +248,13 @@ export default {
     // check url query_codes for search term
     if (this.$route.query.s) {
       this.searchTerm = this.$route.query.s
+    }
+  },
+  transition: {
+    appear: true,
+    name: 'fade',
+    afterEnter(el) {
+      this.$store.dispatch('iFrame/postResize')
     }
   },
   methods: {
@@ -351,7 +363,7 @@ export default {
   }
 }
 #products {
-  background: getColor(background, body);
+  // background: getColor(background, body);
   flex-basis: 75vw;
 }
 </style>

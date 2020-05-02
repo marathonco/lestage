@@ -1,0 +1,29 @@
+
+#container.embedded-iframe {
+  min-height: 0;
+  padding: 1rem .25rem;
+  #products {
+    flex-basis: auto;
+  }
+  #productsPage {
+    flex-direction: column;
+  }
+  #productsDetails {
+    flex-basis: auto;
+    max-height: none;
+    @include tablet {
+      order: -1;
+    }
+  }
+  #productSorting {
+    // TODO: remove button and do not restyle...
+    @include tablet {
+      flex-direction: row;
+      justify-content: center;
+      input, select {
+        margin-right: .5rem;
+      }
+    }
+  }
+}
+

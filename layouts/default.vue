@@ -1,14 +1,14 @@
 <template>
   <div
     id="container"
-    :class="embed ? 'embedded-iframe': menuIsActive"
+    :class="iFrame ? 'embedded-iframe': menuIsActive"
   >
-    <Nav v-if="!embed" />
-    <Header v-if="!embed" />
+    <Nav v-if="!iFrame" />
+    <Header v-if="!iFrame" />
     <nuxt />
-    <Footer v-if="!embed" />
+    <Footer v-if="!iFrame" />
     <label
-      v-if="!embed"
+      v-if="!iFrame"
       :class="menuIsActive"
       for="menu-toggle"
       class="nav-overlay"
@@ -17,6 +17,10 @@
 </template>
 
 <script>
+// TODO: Just make separate entry point for embedded pages. Means duplication but right now
+// there is a problem with links opening in new window and showing retailer info.
+// This way it can all be sized and accounted for specifically for embedded pages.
+import { mapGetters } from 'vuex'
 import Header from '~/components/layout/Header'
 import Nav from '~/components/layout/Nav'
 import Footer from '~/components/layout/Footer'
@@ -28,9 +32,9 @@ export default {
     Footer
   },
   computed: {
-    embed() {
-      return this.$store.state.embed.embed
-    },
+    ...mapGetters({
+      iFrame: 'iFrame/isIFrame'
+    }),
     menuIsActive() {
       return this.$store.state.menu.menuIsActive ? 'is-active' : ''
     }
@@ -43,31 +47,34 @@ export default {
   },
   mounted() {
     if (this.$route.query.embed) {
-      this.$store.dispatch('embed/setEmbed')
+      this.$store.dispatch('iFrame/setIFrame')
+      if (process.client) {
+        window.addEventListener('resize', () => {
+          this.$store.dispatch('iFrame/postResize')
+        })
+      }
     }
-    this.$store.dispatch('embed/postResize')
+    this.$store.dispatch('iFrame/postResize')
   },
-  // methods: {
-  //   onResize() {
-  //     const height = document.getElementById('container').offsetHeight
-  //     console.log(height)
-  //     window.parent.postMessage({
-  //       frameHeight: height
-  //     }, '*')
-  //   }
-  // },
   transition: {
     appear: true,
-    name: 'fade'
+    name: 'fade',
+    afterEnter(el) {
+      console.log('caught transition enter')
+      this.$store.dispatch('iFrame/postResize')
+    }
   },
   head() {
     return {
+      bodyAttrs: {
+        class: (this.iFrame) ? 'embedded' : ''
+      },
       title: 'LeStage Manufacturing',
       meta: [
         {
           vmid: 'description',
           name: 'description',
-          content: 'Cape Cod Jewelry.'
+          content: 'LeStage Manufacturing.'
         },
         {
           vmid: 'keywords',

@@ -55,7 +55,7 @@ export default {
   data() {
     return {
       expanded: [],
-      filterLimit: 3
+      filterLimit: 5
     }
   },
   computed: {

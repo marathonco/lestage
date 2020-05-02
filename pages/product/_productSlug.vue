@@ -26,12 +26,14 @@
           <p>{{ property.value }}</p>
         </div>
         <nuxt-link
+          v-if="!iFrame"
           to="/retailers"
           class="button rounded primary bordered"
         >
           Find a retailer
         </nuxt-link>
         <nuxt-link
+          v-if="!iFrame"
           to="/warranty"
           class="button rounded primary bordered"
         >
@@ -74,7 +76,8 @@ export default {
   },
   computed: {
     ...mapGetters({
-      allProducts: 'shop/getProducts'
+      allProducts: 'shop/getProducts',
+      iFrame: 'iFrame/isIFrame'
     }),
     similarProducts() {
       const similarProducts = this.allProducts.filter(dat => {
@@ -102,6 +105,14 @@ export default {
   methods: {
     thumbnail() {
       return require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
+    }
+  },
+  transition: {
+    appear: true,
+    name: 'fade',
+    afterEnter(el) {
+      console.log('caught transition enter')
+      this.$store.dispatch('iFrame/postResize')
     }
   },
   head() {
