@@ -4,27 +4,27 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = () => ({
-  iFrame: false
+  embedded: false
 })
 
 const getters = {
-  isIFrame(state) {
-    return state.iFrame
+  isEmbedded(state) {
+    return state.embedded
   }
 }
 
 const mutations = {
-  SET_IFRAME(state) {
-    state.iFrame = true
+  SET_EMBEDDED(state) {
+    state.embedded = true
   }
 }
 
 const actions = {
-  setIFrame({ commit }) {
-    commit('SET_IFRAME')
+  setEmbedded({ commit }) {
+    commit('SET_EMBEDDED')
   },
   postResize({ state }) {
-    if (state.iFrame) {
+    if (state.embedded) {
       if (process.client) {
         const height = document.getElementById('container').scrollHeight
         // const body = document.body

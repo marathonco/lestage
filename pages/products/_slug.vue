@@ -5,7 +5,7 @@
       <ProductsList :products="filteredProducts" />
     </div>
     <button
-      v-if="!iFrame"
+      v-if="!embedded"
       class="toggleDetails button warning filled"
       @click="isActive = !isActive"
     >
@@ -24,7 +24,7 @@
         @changeHierarchy="changeHierarchy"
       />
       <ProductFilters
-        v-if="!iFrame"
+        v-if="!embedded"
         :filters="filters"
         @changeFilters="changeFilters"
       />
@@ -114,7 +114,7 @@ export default {
     ...mapGetters({
       allProducts: 'shop/getProducts',
       hierarchy: 'shop/getHierarchy',
-      iFrame: 'iFrame/isIFrame'
+      embedded: 'embed/isEmbedded'
     }),
     filteredProducts() {
       const products = this.allProducts.filter(product => {
@@ -163,7 +163,7 @@ export default {
         return true
       })
       // TODO: this is firing too late.
-      this.$store.dispatch('iFrame/postResize')
+      this.$store.dispatch('embed/postResize')
       return sortProducts(products, this.sortBy)
     },
     filters() {
@@ -254,7 +254,7 @@ export default {
     appear: true,
     name: 'fade',
     afterEnter(el) {
-      this.$store.dispatch('iFrame/postResize')
+      this.$store.dispatch('embed/postResize')
     }
   },
   methods: {

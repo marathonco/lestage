@@ -1,14 +1,14 @@
 <template>
   <div
     id="container"
-    :class="iFrame ? 'embedded-iframe': menuIsActive"
+    :class="embedded ? 'embedded ' + menuIsActive : menuIsActive"
   >
-    <Nav v-if="!iFrame" />
-    <Header v-if="!iFrame" />
+    <Nav v-if="!embedded" />
+    <Header v-if="!embedded" />
     <nuxt />
-    <Footer v-if="!iFrame" />
+    <Footer v-if="!embedded" />
     <label
-      v-if="!iFrame"
+      v-if="!embedded"
       :class="menuIsActive"
       for="menu-toggle"
       class="nav-overlay"
@@ -30,7 +30,7 @@ export default {
   },
   computed: {
     ...mapGetters({
-      iFrame: 'iFrame/isIFrame'
+      embedded: 'embed/isEmbedded'
     }),
     menuIsActive() {
       return this.$store.state.menu.menuIsActive ? 'is-active' : ''
@@ -43,44 +43,30 @@ export default {
     }
   },
   beforeCreate() {
-    console.log('beforeCreate')
     if (this.$route.query.embed) {
-      console.log('query var found in beforeCreate')
-      this.$store.dispatch('iFrame/setIFrame')
-    }
-  },
-  created() {
-    console.log('created')
-    if (this.$route.query.embed) {
-      console.log('query var found in created')
-      this.$store.dispatch('iFrame/setIFrame')
+      this.$store.dispatch('embed/setEmbedded')
     }
   },
   mounted() {
-    console.log('mounted')
     if (this.$route.query.embed) {
-      console.log('query var found in mounted')
-      this.$store.dispatch('iFrame/setIFrame')
+      this.$store.dispatch('embed/setEmbedded')
       if (process.client) {
         window.addEventListener('resize', () => {
-          this.$store.dispatch('iFrame/postResize')
+          this.$store.dispatch('embed/postResize')
         })
       }
     }
-    this.$store.dispatch('iFrame/postResize')
+    this.$store.dispatch('embed/postResize')
   },
   transition: {
     appear: true,
     name: 'fade',
     afterEnter(el) {
-      this.$store.dispatch('iFrame/postResize')
+      this.$store.dispatch('embed/postResize')
     }
   },
   head() {
     return {
-      bodyAttrs: {
-        class: (this.iFrame) ? 'embedded' : ''
-      },
       title: 'LeStage Manufacturing',
       meta: [
         {

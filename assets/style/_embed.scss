@@ -1,5 +1,5 @@
 
-#container.embedded-iframe {
+#container.embedded {
   min-height: 0;
   padding: 1rem .25rem;
   #products {
@@ -16,7 +16,6 @@
     }
   }
   #productSorting {
-    // TODO: remove button and do not restyle...
     @include tablet {
       flex-direction: row;
       justify-content: center;
