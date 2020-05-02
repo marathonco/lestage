@@ -45,13 +45,18 @@ export default {
       this.$store.dispatch('menu/closeMenu')
     }
   },
+  beforeCreate() {
+    if (this.$route.query.embed) {
+      this.$store.dispatch('iFrame/setIFrame')
+    }
+  },
   created() {
     if (this.$route.query.embed) {
       this.$store.dispatch('iFrame/setIFrame')
     }
   },
   mounted() {
-    if (this.iFrame) {
+    if (this.$route.query.embed) {
       this.$store.dispatch('iFrame/setIFrame')
       if (process.client) {
         window.addEventListener('resize', () => {
