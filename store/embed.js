@@ -7,11 +7,7 @@ const state = () => ({
   embedded: false
 })
 
-const getters = {
-  isEmbedded(state) {
-    return state.embedded
-  }
-}
+const getters = {}
 
 const mutations = {
   SET_EMBEDDED(state) {

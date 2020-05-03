@@ -1,7 +1,7 @@
 <template>
   <div
     id="container"
-    :class="true === embedded ? 'embedded' : menuIsActive"
+    :class="embedded ? 'embedded' : menuIsActive"
   >
     <Nav v-if="true !== embedded" />
     <Header v-if="true !== embedded" />
@@ -39,9 +39,13 @@ export default {
     $route() {
       this.$store.dispatch('header/changeHeaders', [])
       this.$store.dispatch('menu/closeMenu')
+      this.$store.dispatch('embed/postResize')
+      if (this.$route.query.embed) {
+        this.$store.dispatch('embed/setEmbedded')
+      }
     }
   },
-  created() {
+  beforeCreate() {
     if (this.$route.query.embed) {
       this.$store.dispatch('embed/setEmbedded')
     }
