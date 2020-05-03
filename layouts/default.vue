@@ -17,6 +17,7 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 import Header from '~/components/layout/Header'
 import Nav from '~/components/layout/Nav'
 import Footer from '~/components/layout/Footer'
@@ -28,9 +29,7 @@ export default {
     Footer
   },
   computed: {
-    embedded() {
-      return this.$store.state.embed.embedded
-    },
+    ...mapGetters({ embedded: 'embed/isEmbedded' }),
     menuIsActive() {
       return this.$store.state.menu.menuIsActive ? 'is-active' : ''
     }
@@ -45,16 +44,11 @@ export default {
       }
     }
   },
-  created() {
-    if (this.$route.query.embed === 'true') {
-      this.$store.dispatch('embed/setEmbedded')
-    }
+  beforeCreate() {
+    this.$store.dispatch('embed/checkEmbed', this.$route.query.embed)
   },
   mounted() {
-    if (this.$route.query.embed === 'true') {
-      this.$store.dispatch('embed/setEmbedded')
-    }
-    if (this.$route.query.embed || this.embedded) {
+    if (this.embedded) {
       if (process.client) {
         window.addEventListener('resize', () => {
           this.$store.dispatch('embed/postResize')

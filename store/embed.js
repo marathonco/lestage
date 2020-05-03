@@ -7,7 +7,11 @@ const state = () => ({
   embedded: false
 })
 
-const getters = {}
+const getters = {
+  isEmbedded(state) {
+    return state.embedded
+  }
+}
 
 const mutations = {
   SET_EMBEDDED(state) {
@@ -17,7 +21,11 @@ const mutations = {
 
 const actions = {
   setEmbedded({ commit }) {
-    commit('SET_EMBEDDED')
+  },
+  checkEmbed({ commit }, payload) {
+    if (payload === 'true') {
+      commit('SET_EMBEDDED')
+    }
   },
   postResize({ state }) {
     if (state.embedded) {
