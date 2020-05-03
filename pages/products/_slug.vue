@@ -113,9 +113,11 @@ export default {
   computed: {
     ...mapGetters({
       allProducts: 'shop/getProducts',
-      hierarchy: 'shop/getHierarchy',
-      embedded: 'embed/isEmbedded'
+      hierarchy: 'shop/getHierarchy'
     }),
+    embedded() {
+      return this.$store.state.embed.embedded
+    },
     filteredProducts() {
       const products = this.allProducts.filter(product => {
         // match collection, category, subcategory

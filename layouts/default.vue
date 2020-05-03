@@ -1,14 +1,14 @@
 <template>
   <div
     id="container"
-    :class="true === embedded ? 'embedded ' + menuIsActive : menuIsActive"
+    :class="true === embedded ? 'embedded' : menuIsActive"
   >
-    <Nav v-show="true !== embedded" />
-    <Header v-show="true !== embedded" />
+    <Nav v-hide="true === embedded" />
+    <Header v-hide="true === embedded" />
     <nuxt />
-    <Footer v-show="true !== embedded" />
+    <Footer v-shhideow="true === embedded" />
     <label
-      v-show="true !== embedded"
+      v-hide="true === embedded"
       :class="menuIsActive"
       for="menu-toggle"
       class="nav-overlay"
@@ -29,7 +29,6 @@ export default {
   },
   computed: {
     embedded() {
-      console.log('embed === ' + this.$store.state.embed.embedded)
       return this.$store.state.embed.embedded
     },
     menuIsActive() {
@@ -44,7 +43,6 @@ export default {
   },
   beforeCreate() {
     if (this.$route.query.embed) {
-      console.log('Query Var for Embed Found')
       this.$store.dispatch('embed/setEmbedded')
     }
   },

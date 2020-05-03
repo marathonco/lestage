@@ -76,9 +76,11 @@ export default {
   },
   computed: {
     ...mapGetters({
-      allProducts: 'shop/getProducts',
-      embedded: 'embed/isEmbedded'
+      allProducts: 'shop/getProducts'
     }),
+    embedded() {
+      return this.$store.state.embed.embedded
+    },
     similarProducts() {
       const similarProducts = this.allProducts.filter(dat => {
         if (this.product.slug === dat.slug) {
