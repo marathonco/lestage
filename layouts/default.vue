@@ -45,12 +45,15 @@ export default {
       }
     }
   },
-  beforeCreate() {
-    if (this.$route.query.embed) {
+  created() {
+    if (this.$route.query.embed === 'true') {
       this.$store.dispatch('embed/setEmbedded')
     }
   },
   mounted() {
+    if (this.$route.query.embed === 'true') {
+      this.$store.dispatch('embed/setEmbedded')
+    }
     if (this.$route.query.embed || this.embedded) {
       if (process.client) {
         window.addEventListener('resize', () => {
