@@ -41,7 +41,7 @@ export default {
       this.$store.dispatch('menu/closeMenu')
     }
   },
-  beforeCreate() {
+  created() {
     if (this.$route.query.embed) {
       this.$store.dispatch('embed/setEmbedded')
     }
