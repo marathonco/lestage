@@ -40,7 +40,7 @@ export default {
       this.$store.dispatch('menu/closeMenu')
       this.$store.dispatch('embed/postResize')
       if (this.$route.query.embed) {
-        this.$store.dispatch('embed/setEmbedded')
+        this.$store.dispatch('embed/checkEmbed', this.$route.query.embed)
       }
     }
   },
