@@ -3,12 +3,12 @@
     id="container"
     :class="true === embedded ? 'embedded' : menuIsActive"
   >
-    <Nav v-hide="true === embedded" />
-    <Header v-hide="true === embedded" />
+    <Nav v-if="true !== embedded" />
+    <Header v-if="true !== embedded" />
     <nuxt />
-    <Footer v-shhideow="true === embedded" />
+    <Footer v-if="true !== embedded" />
     <label
-      v-hide="true === embedded"
+      v-if="true !== embedded"
       :class="menuIsActive"
       for="menu-toggle"
       class="nav-overlay"
@@ -47,8 +47,7 @@ export default {
     }
   },
   mounted() {
-    if (this.$route.query.embed) {
-      this.$store.dispatch('embed/setEmbedded')
+    if (this.$route.query.embed || this.embedded) {
       if (process.client) {
         window.addEventListener('resize', () => {
           this.$store.dispatch('embed/postResize')
