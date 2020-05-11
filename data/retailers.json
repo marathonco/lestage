@@ -9927,6 +9927,23 @@
         "capeCod": false,
         "convertible": true
       }
+    },
+	{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.617580, 41.552650]
+      },
+      "properties": {
+        "name": "The Gilded Oyster",
+        "address1": "155 Main Street",
+        "address2": "",
+        "city": "Falmouth",
+        "state": "MA",
+        "zip": "02540",
+        "capeCod": true,
+        "convertible": false
+      }
     }
   ]
 }
