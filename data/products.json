@@ -357,6 +357,72 @@
      ]
   },
   {
+     "title": "14K Gold Double Bead Bracelet",
+     "slug": "ccb5411g",
+     "price": "$2040-$2540",
+     "category": "Cape Cod Bracelets",
+     "categorySlug": "cape-cod-bracelets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic style with a double ball design. Crafted in elegant 14k yellow gold.  A great addition to your collection.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in 14K Yellow Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Triple Bead Bracelet",
+     "slug": "ccb5420",
+     "price": "$155-$445",
+     "category": "Cape Cod Bracelets",
+     "categorySlug": "cape-cod-bracelets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic style with a triple ball design. In all sterling silver or sterling silver with a yellow or rose gold accent. A great addition to your collection.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with a Sterling Silver triple Ball, Sterling Silver with a 14K Yellow Gold triple Ball, and Sterling Silver with a 14K Rose Gold triple Ball."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Rose Gold"
+         }
+     ]
+  },
+  {
      "title": "Single Swirl Ball Bracelet",
      "slug": "ccb5460",
      "price": "$120-$210",
@@ -460,6 +526,39 @@
      ]
   },
   {
+     "title": "Patterned Cubic Zirconia Bracelet",
+     "slug": "ccb5464",
+     "price": "$155-$160",
+     "category": "Cape Cod Bracelets",
+     "categorySlug": "cape-cod-bracelets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Sterling silver patterned bracelet with a Swarovski cubic zirconia ball. Simple, but elegant, the CZ ball glistens like the crashing waves off of Cape Cod.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
+     ]
+  },
+  {
      "title": "Single Ball Diamond and Gold Bracelet",
      "slug": "ccb5634",
      "price": "$930-$935",
@@ -489,6 +588,39 @@
          {
           "filterType": "Metal",
           "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Diamond"
+          }
+     ]
+  },
+  {
+     "title": "14k Gold Diamond Bracelet",
+     "slug": "ccb5634g",
+     "price": "$2100-$2585",
+     "category": "Cape Cod Bracelets",
+     "categorySlug": "cape-cod-bracelets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "A striking 14k gold bracelet with a 14k yellow gold ball set with .33 TCW genuine diamonds. Simply stunning, this exquisite bracelet defines elegance.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD, and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in 14K Yellow Gold with a channel-set diamond Ball.  0.33 tcw diamond."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
           },
           {
           "filterType": "Precious Stones",
@@ -790,6 +922,142 @@
           "filterType": "Metal",
           "filterValue": "14KT Rose Gold"
          }
+     ]
+  },
+  {
+     "title": "Cubic Zirconia Necklace",
+     "slug": "ccn5462",
+     "price": "$130-$135",
+     "category": "Cape Cod Necklaces",
+     "categorySlug": "cape-cod-necklaces",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic style and sophistication with a touch of sparkle.  A single ball with channel set Swarovski cubic zirconia suspended from a trendy snake chain with a lobster claw clasp. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in 16 inch chain or 18 inch chain."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
+     ]
+  },
+  {
+     "title": "Cubic Zirconia Necklace - Omega",
+     "slug": "ccn5462o",
+     "price": "$155",
+     "category": "Cape Cod Necklaces",
+     "categorySlug": "cape-cod-necklaces",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic style and sophistication with a touch of sparkle.  A single ball with channel set Swarovski cubic zirconia suspended from a trendy snake chain with a lobster claw clasp. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with an adjustable 16 inch to 18 inch Omega Chain."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
+     ]
+  },
+  {
+     "title": "14K Gold and Diamond Necklace",
+     "slug": "ccn5634",
+     "price": "$1050-$1055",
+     "category": "Cape Cod Necklaces",
+     "categorySlug": "cape-cod-necklaces",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "Cape Cod Necklaces",
+     "subcategorySlug": "cape-cod-necklaces",
+     "description": "A single 14k gold ball with channel set diamonds suspended from a trendy snake chain with a lobster claw clasp.  Simply stunning, this necklace defines elegance.  14k yellow gold ball set with .33 TCW genuine diamonds.  ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in 16 inch chain or 18 inch chain."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with 14K Yellow Gold and channel-set diamond Ball.  0.33 tcw diamond."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "14K Gold and Diamond Necklace",
+     "slug": "ccn5634o",
+     "price": "$1075",
+     "category": "Cape Cod Necklaces",
+     "categorySlug": "cape-cod-necklaces",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "A single 14k gold ball with channel set diamonds suspended from an elegant omega chain with a lobster claw clasp.  Simply stunning, this necklace defines elegance.  14k yellow gold ball set with .33 TCW genuine diamonds",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with an adjustable 16 inch to 18 inch Omega Chain."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with 14K Yellow Gold and channel-set diamond Ball.  0.33 tcw diamond."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Diamond"
+          }
      ]
   },
   {
