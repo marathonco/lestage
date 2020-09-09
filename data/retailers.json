@@ -9932,6 +9932,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [-70.398490, 41.728160]
+      },
+      "properties": {
+        "name": "Painted Daisies",
+        "address1": "679 Route 6a",
+        "address2": "",
+        "city": "East Sandwich",
+        "state": "MA",
+        "zip": "02537",
+        "capeCod": true,
+        "convertible": false
+      }
+    },
+	{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [-70.617580, 41.552650]
       },
       "properties": {
