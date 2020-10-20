@@ -703,6 +703,72 @@
      ]
   },
   {
+     "title": "Earrings",
+     "slug": "cce5411",
+     "price": "$115-$270",
+     "category": "Cape Cod Earrings",
+     "categorySlug": "cape-cod-earrings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic Style and sophistication in a 21mm hoop earring. In all sterling or with a gold accent.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "21mm"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with Sterling Silver Beads and Sterling Silver with 14K Yellow Gold Beads"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Earrings",
+     "slug": "cce5411-j",
+     "price": "$0",
+     "category": "Cape Cod Earrings",
+     "categorySlug": "cape-cod-earrings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic Style and sophistication in a 26mm hoop earring. In all sterling or with a gold accent.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "26mm"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with Sterling Silver Beads and Sterling Silver with 14K Yellow Gold Beads"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Earrings - Smaller Size",
      "slug": "cce5414",
      "price": "$60-$305",
@@ -742,7 +808,7 @@
   {
      "title": "Swirl Ball Earring",
      "slug": "cce5460",
-     "price": "$75-$280",
+     "price": "$80-$280",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -4931,7 +4997,11 @@
           "filterType": "Metal",
           "filterValue": "Sterling Silver"
           },
-          {
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Birthstone"
+         },
+         {
           "filterType": "Precious Stones",
           "filterValue": "Synthetic"
           }
@@ -7581,9 +7651,13 @@
           "filterType": "Metal",
           "filterValue": "Sterling Silver"
           },
-          {
+         {
           "filterType": "Precious Stones",
           "filterValue": "Crystal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Smokey Quartz"
           }
      ]
   },
@@ -8443,9 +8517,29 @@
           "filterType": "Metal",
           "filterValue": "Sterling Silver"
           },
-          {
+         {
           "filterType": "Precious Stones",
-          "filterValue": "Crystal"
+          "filterValue": "Amethyst"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Citrine"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Garnet"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Peridot"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Sky Blue Topaz"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Pink Amethyst"
           }
      ]
   },
@@ -11273,6 +11367,105 @@
      ]
   },
   {
+     "title": "Constellation Clasp",
+     "slug": "sb5971",
+     "price": "$130",
+     "category": "Infinite Style",
+     "categorySlug": "infinite-style",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Refined Clasps",
+     "subcategorySlug": "refined-clasps",
+     "description": "This sterling silver constellation clasp with genunie semi-precious stones fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver with genuine amethyst, citrine, garnet, peridot, and sky blue topaz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Amethyst"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Citrine"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Garnet"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Peridot"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Sky Blue Topaz"
+          }
+     ]
+  },
+  {
+     "title": "Orbit Clasp",
+     "slug": "sb5972",
+     "price": "$135",
+     "category": "Infinite Style",
+     "categorySlug": "infinite-style",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Refined Clasps",
+     "subcategorySlug": "refined-clasps",
+     "description": "This sterling silver wavy orbit clasp with genuine sky blue topaz fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling wilver with genuine sky blue topaz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Sky Blue Topaz"
+          }
+     ]
+  },
+  {
+     "title": "Sealife Clasp",
+     "slug": "sb5973",
+     "price": "$85",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Shells",
+     "subcategorySlug": "shells",
+     "description": "This sterling silver sealife clasp fits any size Convertible bracelet.  Beau",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Wide Sterling Silver & 14K Gold Bracelet",
      "slug": "zb5421p",
      "price": "$225",
@@ -11961,6 +12154,35 @@
           "filterType": "Precious Stones",
           "filterValue": "Swiss Blue Topaz"
           }
+     ]
+  },
+  {
+     "title": "Two-tone Sealife Clasp",
+     "slug": "zb5973",
+     "price": "$205",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Shells",
+     "subcategorySlug": "shells",
+     "description": "This sterling silver and 14k yellow gold sealife clasp looks beautiful with our 14K gold rope accent bracelet and also fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and 14K yellow gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
      ]
   }
 ]
