@@ -6,7 +6,7 @@ const dynamicRoutes = () => {
     const collectionRoutes = products.map(el => `products/${el.collectionSlug}`)
     const categoryRoutes = products.map(el => `products/${el.categorySlug}`)
     const subcategoryRoutes = products.map(el => `products/${el.subcategorySlug}`)
-    resolve([...productRoutes, ...new Set(collectionRoutes), ...new Set(categoryRoutes), ...new Set(subcategoryRoutes)])
+    resolve(['products/', ...new Set(collectionRoutes), ...new Set(categoryRoutes), ...new Set(subcategoryRoutes), ...productRoutes])
   })
 }
 
