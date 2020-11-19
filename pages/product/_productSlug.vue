@@ -104,7 +104,13 @@ export default {
   },
   methods: {
     thumbnail() {
-      return require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
+      let thumb = null
+      try {
+        thumb = require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
+      } catch (error) {
+        thumb = require('~/assets/images/fallback.svg')
+      }
+      return thumb
     }
   },
   transition: {

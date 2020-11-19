@@ -11,7 +11,6 @@
         :src="thumbnail()"
         alt="image thumbnail"
         class="thumbnail"
-        @error="fallbackImage"
       >
     </nuxt-link>
   </li>
@@ -36,11 +35,14 @@ export default {
     }
   },
   methods: {
-    fallbackImage(event) {
-      event.target.src = require('~/assets/images/fallback.svg')
-    },
     thumbnail() {
-      return require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
+      let thumb = null
+      try {
+        thumb = require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
+      } catch (error) {
+        thumb = require('~/assets/images/fallback.svg')
+      }
+      return thumb
     }
   }
 }
