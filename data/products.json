@@ -2967,6 +2967,180 @@
      ]
   },
   {
+     "title": "Calming Ocean Blue Clasp",
+     "slug": "sb5603blc",
+     "price": "$105",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This stunning sterling silver bezel set cabachon stone clasp with cushion blue chalcedony fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Blue Chalcedony"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Blue Chalcedony"
+          }
+     ]
+  },
+  {
+     "title": "Tranquility Lavender Quartz Clasp",
+     "slug": "sb5603lvq",
+     "price": "$105",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This stunning sterling silver bezel set cabachon stone clasp with cushion lavender quartz fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Lavender Quartz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Lavender Quartz"
+          }
+     ]
+  },
+  {
+     "title": "Sea of Green Clasp",
+     "slug": "sb5604grc",
+     "price": "$105",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This stunning sterling silver bezel set cabachon stone clasp with oval green chalcedony fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Green Chalcedony"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Green Chalcedony"
+          }
+     ]
+  },
+  {
+     "title": "Calming Rose Quartz Clasp",
+     "slug": "sb5604rqz",
+     "price": "$105",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This stunning sterling silver bezel set cabachon stone clasp with oval rose quartz fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Rose Quartz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Rose Quartz"
+          }
+     ]
+  },
+  {
+     "title": "Calming Adventurine Clasp",
+     "slug": "sb5605adv",
+     "price": "$105",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This stunning sterling silver bezel set cabachon stone clasp with round adventurine fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Adventurine"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Adventurine"
+          }
+     ]
+  },
+  {
+     "title": "Blue Lagoon Clasp",
+     "slug": "sb5605blc",
+     "price": "$105",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This stunning sterling silver bezel set cabachon stone clasp with round blue chalcedony fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Blue Chalcedony"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Blue Chalcedony"
+          }
+     ]
+  },
+  {
      "title": "Boy's Head Clasp",
      "slug": "sb5610",
      "price": "$70",
@@ -6545,6 +6719,31 @@
      ]
   },
   {
+     "title": "Letter X Clasp",
+     "slug": "sb5769-x",
+     "price": "$75",
+     "category": "Individuality",
+     "categorySlug": "individuality",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Initials",
+     "subcategorySlug": "initials",
+     "description": "This sterling silver letter X clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Letter Y Clasp",
      "slug": "sb5769-y",
      "price": "$75",
@@ -6555,6 +6754,31 @@
      "subcategory": "Initials",
      "subcategorySlug": "initials",
      "description": "This sterling silver letter Y clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Letter Z Clasp",
+     "slug": "sb5769-z",
+     "price": "$75",
+     "category": "Individuality",
+     "categorySlug": "individuality",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Initials",
+     "subcategorySlug": "initials",
+     "description": "This sterling silver letter Z clasp fits any size Convertible bracelet.",
      "properties": {
        "materials": {
           "name": "Materials",
@@ -10547,7 +10771,7 @@
      ]
   },
   {
-     "title": "PInk Eternal Love Clasp",
+     "title": "Pink Eternal Love Clasp",
      "slug": "sb5945",
      "price": "$85",
      "category": "Glamour & Color",
@@ -11450,7 +11674,7 @@
      "collectionSlug": "convertible-collection",
      "subcategory": "Shells",
      "subcategorySlug": "shells",
-     "description": "This sterling silver sealife clasp fits any size Convertible bracelet.  Beau",
+     "description": "This sterling silver sealife clasp fits any size Convertible bracelet.",
      "properties": {
        "materials": {
           "name": "Materials",
@@ -11882,7 +12106,7 @@
   {
      "title": "Wreath with Bow Clasp",
      "slug": "zb5727",
-     "price": "$150",
+     "price": "$135",
      "category": "Happiness",
      "categorySlug": "happiness",
      "collection": "Convertible Collection",
