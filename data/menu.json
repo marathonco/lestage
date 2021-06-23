@@ -20,6 +20,14 @@
     }
   }
 }, {
+  "title": "The Evening Tide Collection",
+  "to": {
+    "name": "products-slug",
+    "params": {
+      "slug": "evening-tide-collection"
+    }
+  }
+}, {
   "title": "Warranty",
   "to": {
     "name": "warranty"

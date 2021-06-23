@@ -74,6 +74,40 @@
           </div>
         </div>
       </div>
+      <div class="collection evening-tide">
+        <div class="copy">
+          <EveningTideLogo />
+          <h4>Everyday elegance</h4>
+          <p>The Evening Tide Collection encompasses a large assortment of jewelry highlighting the relaxed, yet refined lifestyle of the beach. The Collection is the perfect complement to Cape Cod Jewelry and the Convertible Collection.</p>
+          <nuxt-link
+            to="products/evening-tide-collection"
+            class="button rounded primary bordered"
+          >
+            View Collection
+          </nuxt-link>
+        </div>
+      </div>
+      <div class="collection evening-tide slider">
+        <div
+          v-swiper:productSwiperEveningTide="swiperOptionEveningTide"
+          class="product-image evening-tide"
+        >
+          <div class="swiper-wrapper">
+            <div
+              v-for="(productImage, key) of productImagesEveneningTide"
+              :key="key"
+              class="swiper-slide"
+            >
+              <nuxt-link to="products/evening-tide">
+                <img
+                  :src="getProductImage(productImage, 'evening-tide')"
+                  class="swiper-slide"
+                >
+              </nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="fill">
       <h3>The History</h3>
@@ -105,6 +139,7 @@
 <script>
 import CapeCodLogo from '~/assets/images/logos/logo-cape-cod-round.svg?inline'
 import ConvertibleLogo from '~/assets/images/logos/logo-convertible-round.svg?inline'
+import EveningTideLogo from '~/assets/images/logos/logo-evening-tide-round.svg?inline'
 import Preservation from '~/components/partials/Preservation'
 
 export default {
@@ -112,6 +147,7 @@ export default {
   components: {
     CapeCodLogo,
     ConvertibleLogo,
+    EveningTideLogo,
     Preservation
   },
   data() {
@@ -151,6 +187,15 @@ export default {
         speed: 1000,
         effect: 'slide'
       },
+      swiperOptionEveningTide: {
+        autoplay: {
+          delay: 7500,
+          disableOnInteraction: true
+        },
+        loop: true,
+        speed: 1000,
+        effect: 'slide'
+      },
       productImagesCapeCod: [
         'cape-cod-bracelets-1',
         'cape-cod-anklets-1',
@@ -158,7 +203,8 @@ export default {
         'cape-cod-necklaces-1',
         'cape-cod-rings-1'
       ],
-      productImagesConvertible: ['convertible-1', 'convertible-2']
+      productImagesConvertible: ['convertible-1', 'convertible-2'],
+      productImagesEveneningTide: ['evening-tide-bracelet', 'evening-tide-ring']
     }
   },
   mounted() {
@@ -200,9 +246,17 @@ export default {
   &.convertible-collection div.copy {
     background: getColor(background, accent3);
   }
+  &.evening-tide,
+  &.evening-tide div.copy {
+    background: #ffe6a1;
+  }
 }
 .collection div.copy {
-  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
   padding: 1rem;
   h4 {
     margin-top: 0;
@@ -219,22 +273,22 @@ export default {
 }
 @include tablet {
   .collections {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+    grid-auto-flow: row;
     justify-content: center;
-    .collection {
-      align-items: stretch;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 49vw;
+    .collection.slider {
+      grid-row-start: 2;
     }
-    .collection.cape-cod.slider {
-      order: 3;
+    .collection.cape-cod {
+      grid-column-start: 1;
     }
-    .collection.convertible-collection.slider {
-      order: 5;
+    .collection.convertible-collection {
+      grid-column-start: 2;
+    }
+    .collection.evening-tide {
+      grid-column-start: 3;
     }
   }
 }

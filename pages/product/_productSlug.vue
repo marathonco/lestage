@@ -42,8 +42,9 @@
       </div>
       <div class="images">
         <img
-          :src="thumbnail()"
+          :src="thumbnail"
           alt="main product image"
+          @error="thumbnail='/fallback.svg'"
         >
       </div>
     </section>
@@ -100,18 +101,8 @@ export default {
     const product = store.state.shop.allProducts.find(
       product => product.slug === params.productSlug
     )
-    return { product }
-  },
-  methods: {
-    thumbnail() {
-      let thumb = null
-      try {
-        thumb = require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
-      } catch (error) {
-        thumb = require('~/assets/images/fallback.svg')
-      }
-      return thumb
-    }
+    const thumbnail = `/products/${product.slug}.jpg`
+    return { product, thumbnail }
   },
   transition: {
     appear: true,

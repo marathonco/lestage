@@ -152,6 +152,7 @@ body .brand {
   display: block;
   margin: 1rem auto;
   max-width: 800px;
+  padding: 1rem;
   width: 100%;
   svg {
     margin: 0 auto;

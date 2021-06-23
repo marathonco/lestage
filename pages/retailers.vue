@@ -21,6 +21,14 @@
         >
         Cape Cod Retailers
       </label>
+      <label>
+        <input
+          v-model="filterEveningTide"
+          type="checkbox"
+          name="filter-evening-tide"
+        >
+        Evening Tide Retailers
+      </label>
     </div>
     <div class="search">
       <input
@@ -79,6 +87,7 @@
             <div class="retailer-type">
               <CapeCodLogo v-if="retailer.properties.capeCod === true" />
               <ConvertibleLogo v-if="retailer.properties.convertible === true" />
+              <EveningTideLogo v-if="retailer.properties.eveningTide === true" />
             </div>
           </td>
         </tr>
@@ -99,6 +108,7 @@ import { OpenStreetMapProvider } from 'leaflet-geosearch'
 import retailers from '~/data/retailers'
 import CapeCodLogo from '~/assets/images/logos/logo-cape-cod-icon.svg?inline'
 import ConvertibleLogo from '~/assets/images/logos/logo-convertible-icon.svg?inline'
+import EveningTideLogo from '~/assets/images/logos/logo-evening-tide-icon.svg?inline'
 
 /**
  * calculateDistance
@@ -160,7 +170,8 @@ function getFeaturesInView(map, center) {
 export default {
   components: {
     CapeCodLogo,
-    ConvertibleLogo
+    ConvertibleLogo,
+    EveningTideLogo
   },
   data() {
     return {
@@ -170,10 +181,12 @@ export default {
       filteredList: [],
       filterCapeCod: true,
       filterConvertible: true,
+      filterEveningTide: true,
       map: {},
       allLayer: {},
       capeCodLayer: {},
       convertibleLayer: {},
+      eveningTideLayer: {},
       options: [],
       selectedAddress: ''
     }
@@ -213,6 +226,15 @@ export default {
         this.map.removeLayer(this.convertibleLayer)
       }
       this.filteredList = getFeaturesInView(this.map, this.center)
+    },
+    filterEveningTide(next, prev) {
+      if (next) {
+        this.map.addLayer(this.eveningTideLayer)
+        this.map.addLayer(this.allLayer)
+      } else {
+        this.map.removeLayer(this.eveningTideLayer)
+      }
+      this.filteredList = getFeaturesInView(this.map, this.center)
     }
   },
   mounted() {
@@ -230,8 +252,12 @@ export default {
         this.allLayer = L.geoJSON(retailers, {
           filter: function(feature, layer) {
             return (
-              feature.properties.capeCod === true &&
-              feature.properties.convertible === true
+              (feature.properties.capeCod === true &&
+                feature.properties.convertible === true) ||
+              (feature.properties.capeCod === true &&
+                feature.properties.eveningtide) ||
+              (feature.properties.convertible === true &&
+                feature.properties.eveningtide)
             )
           },
           onEachFeature: (feature, layer) => {
@@ -255,8 +281,9 @@ export default {
         this.capeCodLayer = L.geoJSON(retailers, {
           filter: function(feature, layer) {
             return (
-              feature.properties.convertible === false &&
-              feature.properties.capeCod === true
+              feature.properties.convertible !== true &&
+              feature.properties.capeCod === true &&
+              feature.properties.eveningTide !== true
             )
           },
           onEachFeature: (feature, layer) => {
@@ -291,6 +318,32 @@ export default {
             const markerIcon = L.icon({
               iconUrl: require('~/assets/images/markers/marker-convertible.png'),
               iconRetinaUrl: require('~/assets/images/markers/marker-convertible-2x.png'),
+              shadowUrl: require('~/assets/images/markers/marker-shadow.png'),
+              iconSize: [25, 41], // size of the icon
+              // shadowSize: [50, 64], // size of the shadow
+              iconAnchor: [12, 41], // point of the icon which will correspond to marker's location
+              // shadowAnchor: [4, 62], // the same for the shadow
+              popupAnchor: [0, -41] // point from which the popup should open relative to the iconAnchor
+            })
+            return L.marker(latlng, { icon: markerIcon })
+          }
+        }).addTo(this.map)
+
+        this.eveningTideLayer = L.geoJSON(retailers, {
+          filter: function(feature, layer) {
+            return (
+              feature.properties.convertible !== true &&
+              feature.properties.capeCod !== true &&
+              feature.properties.eveningTide === true
+            )
+          },
+          onEachFeature: (feature, layer) => {
+            layer.bindPopup(this.formatAddress(feature))
+          },
+          pointToLayer: function(feature, latlng) {
+            const markerIcon = L.icon({
+              iconUrl: require('~/assets/images/markers/marker-eveningTide.png'),
+              iconRetinaUrl: require('~/assets/images/markers/marker-eveningTide-2x.png'),
               shadowUrl: require('~/assets/images/markers/marker-shadow.png'),
               iconSize: [25, 41], // size of the icon
               // shadowSize: [50, 64], // size of the shadow

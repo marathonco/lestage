@@ -8,9 +8,10 @@
         {{ product.title }}
       </h5>
       <img
-        :src="thumbnail()"
+        :src="thumbnail"
         alt="image thumbnail"
         class="thumbnail"
+        @error="thumbnail='/fallback.svg'"
       >
     </nuxt-link>
   </li>
@@ -29,20 +30,19 @@ export default {
       required: true
     }
   },
-  computed: {
-    routerLink() {
-      return '/product/' + this.product.slug
+  data() {
+    return {
+      thumbnail: `/products/${this.product.slug}.jpg`
     }
   },
-  methods: {
-    thumbnail() {
-      let thumb = null
-      try {
-        thumb = require(`~/assets/images/products/thumb/${this.product.slug}.jpg`)
-      } catch (error) {
-        thumb = require('~/assets/images/fallback.svg')
-      }
-      return thumb
+  computed: {
+    routerLink() {
+      return `/product/${this.product.slug}`
+    }
+  },
+  watch: {
+    product: function(newValue, oldValue) {
+      this.thumbnail = `/products/${newValue.slug}.jpg`
     }
   }
 }
