@@ -1,18 +1,19 @@
-import products from './data/products'
+// import products from './data/products'
 
-const dynamicRoutes = () => {
-  return new Promise(resolve => {
-    const productRoutes = products.map(el => `product/${el.slug}`)
-    const collectionRoutes = products.map(el => `products/${el.collectionSlug}`)
-    const categoryRoutes = products.map(el => `products/${el.categorySlug}`)
-    const subcategoryRoutes = products.map(el => `products/${el.subcategorySlug}`)
-    resolve(['products/', ...new Set(collectionRoutes), ...new Set(categoryRoutes), ...new Set(subcategoryRoutes), ...productRoutes])
-  })
-}
+// const dynamicRoutes = () => {
+//   return new Promise(resolve => {
+//     const productRoutes = products.map(el => `product/${el.slug}`)
+//     const collectionRoutes = products.map(el => `products/${el.collectionSlug}`)
+//     const categoryRoutes = products.map(el => `products/${el.categorySlug}`)
+//     const subcategoryRoutes = products.map(el => `products/${el.subcategorySlug}`)
+//     resolve(['products/', ...new Set(collectionRoutes), ...new Set(categoryRoutes), ...new Set(subcategoryRoutes), ...productRoutes])
+//   })
+// }
 
 const pkg = require('./package')
 
-module.exports = {
+export default {
+  target: 'static',
   mode: 'universal',
 
   /*
@@ -108,7 +109,7 @@ module.exports = {
    ** Generate Dynamic Routes
    */
   generate: {
-    routes: dynamicRoutes
+    // routes: dynamicRoutes
   },
 
   /*
@@ -118,7 +119,20 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
+    html: {
+      minify: {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: false,
+        minifyJS: false,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true
+      }
+    },
+    extend (config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
