@@ -87,7 +87,7 @@
             <div class="retailer-type">
               <CapeCodLogo v-if="retailer.properties.capeCod === true" />
               <ConvertibleLogo v-if="retailer.properties.convertible === true" />
-              <EveningTideLogo v-if="retailer.properties.eveningTide === true" />
+              <EveningTideLogo v-if="retailer.properties.eveningtide === true" />
             </div>
           </td>
         </tr>
@@ -283,7 +283,7 @@ export default {
             return (
               feature.properties.convertible !== true &&
               feature.properties.capeCod === true &&
-              feature.properties.eveningTide !== true
+              feature.properties.eveningtide !== true
             )
           },
           onEachFeature: (feature, layer) => {
@@ -334,7 +334,7 @@ export default {
             return (
               feature.properties.convertible !== true &&
               feature.properties.capeCod !== true &&
-              feature.properties.eveningTide === true
+              feature.properties.eveningtide === true
             )
           },
           onEachFeature: (feature, layer) => {
