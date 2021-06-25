@@ -43,13 +43,12 @@ import ProductsList from '~/components/shop/ProductsList'
 // convert price String from "$85-120" into just 85
 function convertPriceString(price, direction = 'low') {
   // remove everything after hyphen or before hyphen depending on direction
-  // if (price.indexOf('-') > 0) {
-  //   direction = direction === 'low' ? 0 : 1
-  //   price = price.split('-')[direction]
-  // }
-  // // Remove all non-digits
-  // return Number(price.replace(/[^0-9.-]+/g, ''))
-  return 65
+  if (price.indexOf('-') > 0) {
+    direction = direction === 'low' ? 0 : 1
+    price = price.split('-')[direction]
+  }
+  // Remove all non-digits
+  return Number(price.replace(/[^0-9.-]+/g, ''))
 }
 
 function sortProducts(products, sortMethod) {
