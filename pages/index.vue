@@ -98,7 +98,7 @@
               :key="key"
               class="swiper-slide"
             >
-              <nuxt-link to="products/evening-tide">
+              <nuxt-link to="products/evening-tide-collection">
                 <img
                   :src="getProductImage(productImage, 'evening-tide')"
                   class="swiper-slide"
