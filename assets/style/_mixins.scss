@@ -5,6 +5,8 @@
 // and right floats.
 //
 
+@use "sass:math";
+
 @mixin clearfix() {
   & {
 
@@ -257,7 +259,7 @@
 //
 
 @function pxToEm($px, $base: $font-base-size) {
-  @return ($px / $base)+em;
+  @return math.div($px, $base)+em;
 }
 
 // set default color for all content contained in parent
