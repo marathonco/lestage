@@ -224,6 +224,7 @@ export default {
           attribution:
             '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(this.map)
+        this.featureLayer = new L.LayerGroup()
         this.filterChange()
       }
     })
@@ -244,7 +245,10 @@ export default {
     filterChange() {
       if (process.browser) {
         const L = require('leaflet')
-        this.featurelayer = L.geoJSON(retailers, {
+        if (this.featureLayer !== {}) {
+          this.featureLayer.clearLayers()
+        }
+        const features = L.geoJSON(retailers, {
           filter: (feature, layer) => {
             const check =
               (feature.properties.capeCod === true &&
@@ -293,7 +297,9 @@ export default {
             })
             return L.marker(latlng, { icon: markerIcon })
           }
-        }).addTo(this.map)
+        })
+        features.addTo(this.featureLayer)
+        this.featureLayer.addTo(this.map)
 
         const markerCenterIcon = L.icon({
           iconUrl: require('~/assets/images/markers/marker-center-icon.png'),
