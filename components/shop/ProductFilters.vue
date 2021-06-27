@@ -75,12 +75,17 @@ export default {
         }
       })
       groups.forEach(group => {
+        /** Sort by productCount */
+        // group.filters.sort((a, b) => {
+        //   if (a.filterStatus === b.filterStatus) {
+        //     return a.productCount < b.productCount ? 1 : -1
+        //   } else {
+        //     return a.filterStatus === 'inactive' ? 1 : -1
+        //   }
+        // })
+        /** Sort alphabetically */
         group.filters.sort((a, b) => {
-          if (a.filterStatus === b.filterStatus) {
-            return a.productCount < b.productCount ? 1 : -1
-          } else {
-            return a.filterStatus === 'inactive' ? 1 : -1
-          }
+          return a.filterValue > b.filterValue ? 1 : -1
         })
       })
       return groups
