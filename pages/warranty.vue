@@ -3,7 +3,7 @@
     <section class="fill">
       <h2>Product Care</h2>
       <p>
-        All of LeStage® by Marathon products are made form the highest quality
+        All of LeStage® by Marathon products are made from the highest quality
         natural silver which will patina with age. To remove tarnish from your
         item, please follow instructions from an appropriate jewelry cleaner.
       </p>
