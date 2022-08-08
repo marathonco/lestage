@@ -13814,4 +13814,23 @@
       }
     }
   ]
+,
+  {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.470060,35.195130]
+      },
+      "properties": {
+        "name": "GEMMA GALLERY",
+        "address1": "48 CHINQUAPIN ROAD",
+        "address2": "",
+        "city": "PINEHURST",
+        "state": "NC",
+        "zip": "28374",
+        "capeCod": false,
+        "convertible": true,
+        "eveningtide":false
+      }
+    } 
 }
