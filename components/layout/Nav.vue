@@ -151,7 +151,7 @@ $menu-transition-duration: 3 * $transition-duration;
   height: 0;
   opacity: 0;
   transition: opacity $menu-animation-duration ease-out;
-  transition-delay: $menu-animation-duration / 2;
+  transition-delay: (0.5 * $menu-animation-duration);
   z-index: 1;
 
   &.is-active {

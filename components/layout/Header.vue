@@ -130,7 +130,8 @@ export default {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 $navbar-height/2 $navbar-height -$navbar-height/4 rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 (0.5 * $navbar-height) $navbar-height
+    (-0.25 * $navbar-height) rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   height: 100%;
