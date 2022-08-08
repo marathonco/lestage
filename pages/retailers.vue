@@ -517,6 +517,7 @@ div#retailerList {
 .retailer-type {
   display: flex;
   flex-direction: row;
+  max-height: 60px;
   min-height: 60px;
   svg {
     display: inline-block;
