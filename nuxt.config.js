@@ -5,12 +5,22 @@ const dynamicRoutes = () => {
     const productRoutes = products.map(el => `product/${el.slug}`)
     const collectionRoutes = products.map(el => `products/${el.collectionSlug}`)
     const categoryRoutes = products.map(el => `products/${el.categorySlug}`)
-    const subcategoryRoutes = products.map(el => `products/${el.subcategorySlug}`)
-    resolve(['products/', ...new Set(collectionRoutes), ...new Set(categoryRoutes), ...new Set(subcategoryRoutes), ...productRoutes])
+    const subcategoryRoutes = products.map(
+      el => `products/${el.subcategorySlug}`
+    )
+    resolve([
+      'products/',
+      ...new Set(collectionRoutes),
+      ...new Set(categoryRoutes),
+      ...new Set(subcategoryRoutes),
+      ...productRoutes
+    ])
   })
 }
 
 const pkg = require('./package')
+
+const ESLintPlugin = require('eslint-webpack-plugin')
 
 export default {
   target: 'static',
@@ -21,28 +31,31 @@ export default {
    */
   head: {
     title: pkg.name,
-    meta: [{
-      charset: 'utf-8'
-    },
-    {
-      name: 'viewport',
-      content: 'width=device-width, initial-scale=1'
-    },
-    {
-      'http-equiv': 'X-UA-Compatible',
-      content: 'IE=edge,chrome=1'
-    },
-    {
-      hid: 'description',
-      name: 'description',
-      content: pkg.description
-    }
+    meta: [
+      {
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        'http-equiv': 'X-UA-Compatible',
+        content: 'IE=edge,chrome=1'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: pkg.description
+      }
     ],
-    link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }]
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      }
+    ]
   },
 
   /*
@@ -74,7 +87,7 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
-    'nuxt-svg',
+    '@nuxtjs/svg',
     [
       'nuxt-lazy-load',
       {
@@ -90,10 +103,12 @@ export default {
       'nuxt-fontawesome',
       {
         component: 'icon',
-        imports: [{
-          set: '@fortawesome/free-brands-svg-icons',
-          icons: ['faTwitter', 'faInstagram', 'faFacebook']
-        }]
+        imports: [
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['faTwitter', 'faInstagram', 'faFacebook']
+          }
+        ]
       }
     ]
   ],
@@ -115,6 +130,10 @@ export default {
   /*
    ** Build configuration
    */
+  buildModules: [
+    // Simple usage
+    '@nuxtjs/eslint-module'
+  ],
   build: {
     /*
      ** You can extend webpack config here
@@ -131,17 +150,23 @@ export default {
         trimCustomFragments: true,
         useShortDoctype: true
       }
-    },
-    extend (config, ctx) {
-      // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
     }
+    // extend(config, ctx) {
+    //   // Run ESLint on save
+    //   if (ctx.isDev && ctx.isClient) {
+    //     config.module.rules.push({
+    //       enforce: 'pre',
+    //       test: /\.(js|vue)$/,
+    //       loader: 'eslint-loader',
+    //       options: {
+    //         fix: true,
+    //         eslintPath: 'eslint',
+    //         emitError: true,
+    //         emitWarning: true
+    //       },
+    //       exclude: /(node_modules)/
+    //     })
+    //   }
+    // }
   }
 }
