@@ -1,7 +1,7 @@
 [  {
      "title": "Snake Chain Anklet",
      "slug": "cca5405",
-     "price": "$70-$195",
+     "price": "$80-$185",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
@@ -38,14 +38,14 @@
   {
      "title": "Single Ball Anklet w/ Omega chain",
      "slug": "cca5405o",
-     "price": "$70-$195",
+     "price": "$95-$195",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
      "collectionSlug": "cape-cod-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "Summer=Sandals=Anklets! What could be more fun? A smooth polished ball in all sterling silver or with a gold accent. Available on a trendy snake chain.",
+     "description": "Summer=Sandals=Anklets! What could be more fun? A smooth polished ball in all sterling silver or with a gold accent. Available on a trendy adjustable Omega chain.",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -75,7 +75,7 @@
   {
      "title": "Swirl Ball Anklet on Snake Chain",
      "slug": "cca5460",
-     "price": "$70-$195",
+     "price": "$80-$195",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
@@ -112,14 +112,14 @@
   {
      "title": "Swirl Ball Anklet w/ Omega Chain",
      "slug": "cca5460o",
-     "price": "$70-$195",
+     "price": "$95-$205",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
      "collectionSlug": "cape-cod-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "Summer=Sandals=Anklets! What could be more fun? A lovely swirl ball in all sterling silver or with gold accent on a trendy snake chain with lobster claw clasp.",
+     "description": "Summer=Sandals=Anklets! What could be more fun? A lovely swirl ball in all sterling silver or with gold accent on a trendy adjustable Omega chain with lobster claw clasp.",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -144,6 +144,39 @@
           "filterType": "Metal",
           "filterValue": "14KT Rose Gold"
          }
+     ]
+  },
+  {
+     "title": "Cubic Zirconia Bead Snake Chain Anklet",
+     "slug": "cca5462",
+     "price": "$135",
+     "category": "Cape Cod Anklets",
+     "categorySlug": "cape-cod-anklets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Summer=Sandals=Anklets! What could be more fun? A smooth Swarovski CZ ball in all sterling silver. Available on a trendy snake chain.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in a 9 inch or 10 inch snake chain with a lobster claw clasp."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
      ]
   },
   {
@@ -186,7 +219,7 @@
   {
      "title": "14K Yellow Gold Bracelet",
      "slug": "ccb5405g",
-     "price": "$1755-$2280",
+     "price": "$1875-$2400",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -246,9 +279,9 @@
      ]
   },
   {
-     "title": "Patterned Single Ball Bracelet",
-     "slug": "ccb5407",
-     "price": "$135-$215",
+     "title": "Twisted Single Ball Bracelet",
+     "slug": "ccb5408",
+     "price": "$140-$220",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -285,7 +318,7 @@
   {
      "title": "Double Ball Cuff Bracelet",
      "slug": "ccb5410",
-     "price": "$145-$320",
+     "price": "$135-$330",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -322,7 +355,7 @@
   {
      "title": "Double Bead Bracelet",
      "slug": "ccb5411",
-     "price": "$165-$320",
+     "price": "$135-$330",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -359,7 +392,7 @@
   {
      "title": "14K Gold Double Bead Bracelet",
      "slug": "ccb5411g",
-     "price": "$2100-$2620",
+     "price": "$2100-$2625",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -388,7 +421,7 @@
   {
      "title": "Triple Bead Bracelet",
      "slug": "ccb5420",
-     "price": "$175-$450",
+     "price": "$145-$455",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -425,7 +458,7 @@
   {
      "title": "Single Swirl Ball Bracelet",
      "slug": "ccb5460",
-     "price": "$135-$215",
+     "price": "$135-$230",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -462,7 +495,7 @@
   {
      "title": "Single Ball CZ Bracelet",
      "slug": "ccb5462",
-     "price": "$170-$175",
+     "price": "$185-$190",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -491,7 +524,7 @@
   {
      "title": "Single Ball Cuff Bracelet",
      "slug": "ccb5463",
-     "price": "$160-$255",
+     "price": "$150-$245",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -526,49 +559,16 @@
      ]
   },
   {
-     "title": "Patterned Cubic Zirconia Bracelet",
-     "slug": "ccb5464",
-     "price": "$170-$175",
-     "category": "Cape Cod Bracelets",
-     "categorySlug": "cape-cod-bracelets",
-     "collection": "Cape Cod Collection",
-     "collectionSlug": "cape-cod-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Sterling silver patterned bracelet with a Swarovski cubic zirconia ball. Simple, but elegant, the CZ ball glistens like the crashing waves off of Cape Cod.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD and 8 inch circumference."
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Cubic Zirconia"
-          }
-     ]
-  },
-  {
      "title": "Single Ball Diamond and Gold Bracelet",
      "slug": "ccb5634",
-     "price": "$865",
+     "price": "$865-$870",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
      "collectionSlug": "cape-cod-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "The classic sterling silver bracelet with a 14k yellow gold ball set with .33 TCW genuine diamonds. Simply stunning, this bracelet defines elegance.",
+     "description": "The classic sterling silver bracelet with a 14k yellow gold or rose gold ball set with .33 TCW genuine diamonds. Simply stunning, this bracelet defines elegance.",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -576,7 +576,7 @@
        },
        "materials": {
           "name": "Materials",
-          "value": "Available in Sterling Silver with 14K Yellow Gold and channel-set diamond Ball.  0.33 tcw diamond."
+          "value": "Available in Sterling Silver with 14K Yellow Gold or Rose Gold Ball and channel-set diamond Ball.  0.33 tcw diamond."
        }
       }
       ,
@@ -598,7 +598,7 @@
   {
      "title": "14k Gold Diamond Bracelet",
      "slug": "ccb5634g",
-     "price": "$2355-$2875",
+     "price": "$2370-$2890",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -631,7 +631,7 @@
   {
      "title": "Earrings",
      "slug": "cce5405",
-     "price": "$85-$235",
+     "price": "$95-$275",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -668,7 +668,7 @@
   {
      "title": "Earrings - Larger Size",
      "slug": "cce5405j",
-     "price": "$85-$235",
+     "price": "$95-$275",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -705,18 +705,18 @@
   {
      "title": "Earrings",
      "slug": "cce5411",
-     "price": "$130-$290",
+     "price": "$135-$290",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
      "collectionSlug": "cape-cod-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "Classic Style and sophistication in a 21mm hoop earring. In all sterling or with a gold accent.",
+     "description": "Classic Style and sophistication in a 20mm hoop earring. In all sterling or with a gold accent.",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "21mm"
+          "value": "20mm"
        },
        "materials": {
           "name": "Materials",
@@ -771,7 +771,7 @@
   {
      "title": "Earrings - Smaller Size",
      "slug": "cce5414",
-     "price": "$60-$340",
+     "price": "$70-$165",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -808,7 +808,7 @@
   {
      "title": "Swirl Ball Earring",
      "slug": "cce5460",
-     "price": "$85-$265",
+     "price": "$95-$290",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -845,7 +845,7 @@
   {
      "title": "Snake Chain Necklace",
      "slug": "ccn5405",
-     "price": "$85-$200",
+     "price": "$95-$205",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -856,7 +856,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in 16 inch chain ,18 inch chain, or omega chain."
+          "value": "Available in 16, 18, or 20 inch chain."
        },
        "materials": {
           "name": "Materials",
@@ -882,7 +882,7 @@
   {
      "title": "Omega Chain Necklace",
      "slug": "ccn5405o",
-     "price": "$120-$225",
+     "price": "$130-$225",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -919,7 +919,7 @@
   {
      "title": "Swirl Bead Snake Chain Necklace",
      "slug": "ccn5460",
-     "price": "$85-$200",
+     "price": "$100-$215",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -930,7 +930,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available with a 16 inch chain,18 inch chain, or omega chain."
+          "value": "Available with a 16, 18, or 20 inch chain."
        },
        "materials": {
           "name": "Materials",
@@ -956,7 +956,7 @@
   {
      "title": "Swirl Ball Omega Chain Necklace",
      "slug": "ccn5460o",
-     "price": "$120-$225",
+     "price": "$135-$235",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -993,7 +993,7 @@
   {
      "title": "Cubic Zirconia Necklace",
      "slug": "ccn5462",
-     "price": "$135-$140",
+     "price": "$150-$155",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -1026,7 +1026,7 @@
   {
      "title": "Cubic Zirconia Necklace - Omega",
      "slug": "ccn5462o",
-     "price": "$170",
+     "price": "$185",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -1059,22 +1059,22 @@
   {
      "title": "14K Gold and Diamond Necklace",
      "slug": "ccn5634",
-     "price": "$1015-$1020",
+     "price": "$1030-$1040",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
      "collectionSlug": "cape-cod-collection",
      "subcategory": "Cape Cod Necklaces",
      "subcategorySlug": "cape-cod-necklaces",
-     "description": "A single 14k gold ball with channel set diamonds suspended from a trendy snake chain or omega chain with a lobster claw clasp.  Simply stunning, this necklace defines elegance.  14k yellow gold ball set with .33 TCW genuine diamonds.  ",
+     "description": "A single 14k yellow or rose gold ball with channel set diamonds suspended from a trendy snake chain or omega chain with a lobster claw clasp.  Simply stunning, this necklace defines elegance.  14k yellow or rose gold ball set with .33 TCW genuine diamonds.  ",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in 16 inch chain 18 inch chain or Omega chain."
+          "value": "Available in 16, 18, or 20 inch snake chain "
        },
        "materials": {
           "name": "Materials",
-          "value": "Available in Sterling Silver with 14K Yellow Gold and channel-set diamond Ball.  0.33 tcw diamond."
+          "value": "Available in Sterling Silver with 14K Yellow Gold or Rose Gold and channel-set diamond Ball.  0.33 tcw diamond."
        }
       }
       ,
@@ -1092,14 +1092,14 @@
   {
      "title": "14K Gold and Diamond Necklace",
      "slug": "ccn5634o",
-     "price": "$1045",
+     "price": "$1060",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
      "collectionSlug": "cape-cod-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "A single 14k gold ball with channel set diamonds suspended from an elegant omega chain with a lobster claw clasp.  Simply stunning, this necklace defines elegance.  14k yellow gold ball set with .33 TCW genuine diamonds",
+     "description": "A single 14k yellow or rose gold ball with channel set diamonds suspended from an elegant omega chain with a lobster claw clasp.  Simply stunning, this necklace defines elegance.  14k yellow or rose gold ball set with .33 TCW genuine diamonds",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -1107,7 +1107,7 @@
        },
        "materials": {
           "name": "Materials",
-          "value": "Available in Sterling Silver with 14K Yellow Gold and channel-set diamond Ball.  0.33 tcw diamond."
+          "value": "Available in Sterling Silver with 14K Yellow or Rose Gold and channel-set diamond Ball.  0.33 tcw diamond."
        }
       }
       ,
@@ -1127,9 +1127,9 @@
      ]
   },
   {
-     "title": "Ring",
+     "title": "Classic Cape Cod Ring",
      "slug": "ccr5405",
-     "price": "$85-$220",
+     "price": "$95-$220",
      "category": "Cape Cod Rings",
      "categorySlug": "cape-cod-rings",
      "collection": "Cape Cod Collection",
@@ -1161,6 +1161,84 @@
           "filterType": "Metal",
           "filterValue": "14KT Rose Gold"
          }
+     ]
+  },
+  {
+     "title": "Twist Band Cape Cod Ring",
+     "slug": "ccr5501",
+     "price": "$95-$220",
+     "category": "Cape Cod Rings",
+     "categorySlug": "cape-cod-rings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Modern yet classic and a stylish addition to your Collection.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5,6,7,8, and 9."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with a Sterling Silver Ball, Sterling Silver with a 14k Yellow Gold Ball and Sterling Silver with a 14K Rose Gold Ball."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Rose Gold"
+         }
+     ]
+  },
+  {
+     "title": "14K Gold and Diamond Ring",
+     "slug": "ccr5634",
+     "price": "$425",
+     "category": "Cape Cod Rings",
+     "categorySlug": "cape-cod-rings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "A single 14k yellow or rose gold ball with channel set diamonds on a classic band. Simply stunning, this ring defines elegance.  14k yellow gold ball set with .14 TCW genuine diamonds.  ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5,6,7,8, and 9."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with a 14k Yellow Gold Ball and Sterling Silver with a 14K Rose Gold Ball.  0.14 tcw diamond."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Rose Gold"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Diamond"
+          }
      ]
   },
   {
@@ -1228,7 +1306,7 @@
   {
      "title": "Thin Wave and Wire Cuff Bracelet",
      "slug": "enb3004p",
-     "price": "$95",
+     "price": "$95-$100",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1257,7 +1335,7 @@
   {
      "title": "Double Wave Cuff Bracelet",
      "slug": "enb3005p",
-     "price": "$150-$160",
+     "price": "$165-$170",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1344,7 +1422,7 @@
   {
      "title": "Multi Wave Cuff Bracelet",
      "slug": "enb3008p",
-     "price": "$145",
+     "price": "$145-$150",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1402,7 +1480,7 @@
   {
      "title": "Nantucket Basket and Blue Topaz Bracelet",
      "slug": "enb3010",
-     "price": "$195",
+     "price": "$215",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1435,7 +1513,7 @@
   {
      "title": "Mini Nantucket Basket and Blue Topaz Bracelet",
      "slug": "enb3012",
-     "price": "$210",
+     "price": "$195",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1468,7 +1546,7 @@
   {
      "title": "Scallop Shell and Blue Topaz Bracelet",
      "slug": "enb3013",
-     "price": "$210",
+     "price": "$215",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1675,7 +1753,7 @@
   {
      "title": "Whale Cuff Bracelet",
      "slug": "enb3022p",
-     "price": "$205-$225",
+     "price": "$210-$225",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1849,7 +1927,7 @@
   {
      "title": "Square Knot and Loop Bracelet",
      "slug": "enb3031p",
-     "price": "$165-$175",
+     "price": "$160-$185",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1860,7 +1938,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
+          "value": "Available in sizes 6, 6 \u00bD, 7 and 7 \u00bD inch circumference"
        },
        "materials": {
           "name": "Materials",
@@ -1871,7 +1949,7 @@
   {
      "title": "Open Loop Bracelet",
      "slug": "enb3032p",
-     "price": "$155-$160",
+     "price": "$155-$165",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1882,7 +1960,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
+          "value": "Available in sizes 6, 6 \u00bD, 7 and 7 \u00bD inch circumference"
        },
        "materials": {
           "name": "Materials",
@@ -1911,7 +1989,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
+          "value": "Available in sizes 6, 6 \u00bD, 7 and 7 \u00bD inch circumference"
        },
        "materials": {
           "name": "Materials",
@@ -1929,7 +2007,7 @@
   {
      "title": "Flip Flops Bracelet",
      "slug": "enb3100p",
-     "price": "$170-$175",
+     "price": "$175",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1958,7 +2036,7 @@
   {
      "title": "Starfish Bracelet",
      "slug": "enb3102p",
-     "price": "$190",
+     "price": "$190-$195",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2045,7 +2123,7 @@
   {
      "title": "Anchor Bracelet",
      "slug": "enb3105p",
-     "price": "$185-$190",
+     "price": "$190",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2074,7 +2152,7 @@
   {
      "title": "Clam Shell Bracelet",
      "slug": "enb3106p",
-     "price": "$185-$190",
+     "price": "$190",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2103,7 +2181,7 @@
   {
      "title": "Clam Shell and Starfish Bracelet",
      "slug": "enb3107p",
-     "price": "$185-$190",
+     "price": "$190",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2132,7 +2210,7 @@
   {
      "title": "Ship's Wheel Bracelet",
      "slug": "enb3108p",
-     "price": "$170-$175",
+     "price": "$175-$180",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2161,7 +2239,7 @@
   {
      "title": "Lighthouse Bracelet",
      "slug": "enb3133p",
-     "price": "$185-$190",
+     "price": "$190",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2252,7 +2330,7 @@
   {
      "title": "Thin Wave Bracelet",
      "slug": "enb32053",
-     "price": "$100",
+     "price": "$115",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2261,6 +2339,10 @@
      "subcategorySlug": "",
      "description": "Make a statement with this abstract and elegant wave cuff bracelet.  Finely crafted of sterling silver.",
      "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "7"
+       },
        "materials": {
           "name": "Materials",
           "value": "Sterling Silver"
@@ -2277,7 +2359,7 @@
   {
      "title": "Medium Wave Bracelet",
      "slug": "enb32054",
-     "price": "$130",
+     "price": "$135",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2302,7 +2384,7 @@
   {
      "title": "Blue Topaz Compass Rose Bracelet",
      "slug": "enb328bp",
-     "price": "$205-$210",
+     "price": "$210",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2335,7 +2417,7 @@
   {
      "title": "Sapphire Compass Rose Bracelet",
      "slug": "enb328sp",
-     "price": "$245-$250",
+     "price": "$250",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2368,7 +2450,7 @@
   {
      "title": "Blue Topaz North Star Bracelet",
      "slug": "enb329bp",
-     "price": "$195",
+     "price": "$195-$200",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2401,7 +2483,7 @@
   {
      "title": "Sapphire North Star Bracelet",
      "slug": "enb329sp",
-     "price": "$205",
+     "price": "$205-$210",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2500,7 +2582,7 @@
   {
      "title": "Fish Cuff Bracelet",
      "slug": "enb34025p",
-     "price": "$185-$220",
+     "price": "$190-$220",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2552,9 +2634,38 @@
      ]
   },
   {
+     "title": "Thin Wave Bracelet",
+     "slug": "enb42053",
+     "price": "$1545",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Make a statement with this abstract and elegant wave cuff bracelet.  Finely crafted of 14k gold.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "7"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
      "title": "Scallop Shell with Rope Bracelet",
      "slug": "enbt023p",
-     "price": "$465-$470",
+     "price": "$485-$490",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2587,7 +2698,7 @@
   {
      "title": "Sailboat with Rope Bracelet",
      "slug": "enbt024p",
-     "price": "$465-$470",
+     "price": "$485-$490",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2620,7 +2731,7 @@
   {
      "title": "Sand Dollar with Rope Bracelet",
      "slug": "enbt025p",
-     "price": "$465-$470",
+     "price": "$485-$540",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2653,7 +2764,7 @@
   {
      "title": "Starfish with Rope Bracelet",
      "slug": "enbt026p",
-     "price": "$465-$470",
+     "price": "$485-$490",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2686,7 +2797,7 @@
   {
      "title": "Whale's Tail with Rope Bracelet",
      "slug": "enbt027p",
-     "price": "$465-$470",
+     "price": "$485-$490",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2719,7 +2830,7 @@
   {
      "title": "Square Knot and Loop Bracelet",
      "slug": "enbt031p",
-     "price": "$235-$240",
+     "price": "$235-$250",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2730,7 +2841,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
+          "value": "Available in sizes 6, 6 \u00bD, 7 and 7 \u00bD inch circumference"
        },
        "materials": {
           "name": "Materials",
@@ -2752,7 +2863,7 @@
   {
      "title": "Open Loop Bracelet",
      "slug": "enbt032p",
-     "price": "$230",
+     "price": "$225-$235",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2763,7 +2874,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
+          "value": "Available in sizes 6, 6 \u00bD, 7 and 7 \u00bD inch circumference"
        },
        "materials": {
           "name": "Materials",
@@ -2785,7 +2896,7 @@
   {
      "title": "Loop and Twist Bracelet",
      "slug": "enbt033p",
-     "price": "$235-$240",
+     "price": "$225-$250",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2796,7 +2907,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
+          "value": "Available in sizes 6, 6 \u00bD, 7 and 7 \u00bD inch circumference"
        },
        "materials": {
           "name": "Materials",
@@ -2816,9 +2927,38 @@
      ]
   },
   {
+     "title": "Pink Flip Flops Drop Earrings",
+     "slug": "ene3001",
+     "price": "$100",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "These elegant sterling silver flip flop drop earrings with pink cubic zirconia add a whimsical touch to any look. ",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and pink cubic zirconia"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
+     ]
+  },
+  {
      "title": "Anchor Stud Earrings",
      "slug": "ene3013",
-     "price": "$35",
+     "price": "$37.50",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -2843,7 +2983,7 @@
   {
      "title": "Anchor Drop Earrings",
      "slug": "ene3014",
-     "price": "$40",
+     "price": "$42.50",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -2868,7 +3008,7 @@
   {
      "title": "Ship's Wheel Stud Earrings",
      "slug": "ene3015",
-     "price": "$40",
+     "price": "$42.50",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -2893,7 +3033,7 @@
   {
      "title": "Ship's Wheel Drop Earrings",
      "slug": "ene3016",
-     "price": "$42.50",
+     "price": "$45",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -2943,7 +3083,7 @@
   {
      "title": "Whale's Tail Earrings",
      "slug": "ene3019",
-     "price": "$95",
+     "price": "$100",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -2968,7 +3108,7 @@
   {
      "title": "Seahorse Drop Earrings",
      "slug": "ene3021",
-     "price": "$95",
+     "price": "$75",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -2993,7 +3133,7 @@
   {
      "title": "Sea Turtle Drop Earrings",
      "slug": "ene3022",
-     "price": "$115",
+     "price": "$95",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3018,7 +3158,7 @@
   {
      "title": "Nantucket Basket Drop Earrings",
      "slug": "ene3023",
-     "price": "$70",
+     "price": "$75",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3043,7 +3183,7 @@
   {
      "title": "Starfish and Blue Topaz Earrings",
      "slug": "ene3024",
-     "price": "$80",
+     "price": "$85",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3151,7 +3291,7 @@
   {
      "title": "Sand Dollar Drop Earrings",
      "slug": "ene3028",
-     "price": "$75",
+     "price": "$95",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3176,7 +3316,7 @@
   {
      "title": "Sand Dollar Stud Earrings",
      "slug": "ene3029",
-     "price": "$65",
+     "price": "$80",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3201,7 +3341,7 @@
   {
      "title": "Sand Dollar Stud Earrings",
      "slug": "ene3030",
-     "price": "$55",
+     "price": "$75",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3251,7 +3391,7 @@
   {
      "title": "Sand Dollar Drop Earrings",
      "slug": "ene3032",
-     "price": "$70",
+     "price": "$85",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3276,7 +3416,7 @@
   {
      "title": "Flip Flops Drop Earrings",
      "slug": "ene3033",
-     "price": "$100",
+     "price": "$90",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3330,7 +3470,7 @@
   {
      "title": "Ship's Wheel Drop Earrings",
      "slug": "ene3035",
-     "price": "$80",
+     "price": "$65",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3353,9 +3493,67 @@
      ]
   },
   {
+     "title": "Round Wave Earrings",
+     "slug": "ene3042",
+     "price": "$95",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Round wave drop earrings crafted in sterling silver.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Opal Wave Earrings",
+     "slug": "ene3087",
+     "price": "$130",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Striking synthetic opal wave drop earrings set in high polished sterling silver.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and synthetic Opal "
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
+          }
+     ]
+  },
+  {
      "title": "Ship's Wheel Drop Earrings",
      "slug": "ene3088",
-     "price": "$95",
+     "price": "$90",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3434,7 +3632,7 @@
   {
      "title": "Starfish Stud Earrings",
      "slug": "ene3297",
-     "price": "$47.50",
+     "price": "$50",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3486,9 +3684,138 @@
      ]
   },
   {
+     "title": "Whale's Tail Earrings",
+     "slug": "ene4019",
+     "price": "$475",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Fun dangly Whale's Tail drop earrings crafted in 14k gold add an elegant nautical touch to any look.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Scallop Shell and Pearl Earrings",
+     "slug": "ene4025",
+     "price": "$640",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "These dreamy scallop shell dangly earrings with pearls are truly a treasure. Finely crafted of 14k gold.  ",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Sealife Drop Earrings",
+     "slug": "ene4027",
+     "price": "$950",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Add a touch of nautical elegance to any look with these beautiful 14k gold swirl earrings with whimsical seashell accents",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Sand Dollar Stud Earrings",
+     "slug": "ene4029",
+     "price": "$750",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Everyday sand dollar earrings in high polished 14k gold. These earrings add a touch of nautical elegance to any look. ",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Sand Dollar Stud Earrings",
+     "slug": "ene4030",
+     "price": "$565",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Everyday sand dollar earrings in high polished 14k gold. These earrings add a touch of nautical elegance to any look",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
      "title": "14K Gold Compass Rose Drop Earrings",
      "slug": "ene4031",
-     "price": "$450",
+     "price": "$455",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3496,6 +3823,31 @@
      "subcategory": "",
      "subcategorySlug": "",
      "description": "Dream of navigating the seas with these 14K gold compass rose drop earrings for a sophisticated and nautical look.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Starfish Stud Earrings",
+     "slug": "ene4297",
+     "price": "$485",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Everyday starfish earrings in high polished 14k gold. These earrings add a touch of nautical elegance to any look. ",
      "properties": {
        "materials": {
           "name": "Materials",
@@ -3542,7 +3894,7 @@
   {
      "title": "Five Bead Strand Necklace",
      "slug": "enn3001",
-     "price": "$55",
+     "price": "$60",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -3629,7 +3981,7 @@
   {
      "title": "Whale's Tail Necklace",
      "slug": "enp3002",
-     "price": "$85",
+     "price": "$90",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -3687,7 +4039,7 @@
   {
      "title": "Ship's Wheel with Blue CZ Necklace",
      "slug": "enp3004",
-     "price": "$115",
+     "price": "$120",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -3720,7 +4072,7 @@
   {
      "title": "Compass Rose with Blue CZ Necklace",
      "slug": "enp3005",
-     "price": "$115",
+     "price": "$120",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -3753,7 +4105,7 @@
   {
      "title": "Ship's Wheel Necklace",
      "slug": "enp3006",
-     "price": "$120",
+     "price": "$125",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -3782,7 +4134,7 @@
   {
      "title": "Anchor with Blue CZ Necklace",
      "slug": "enp3007",
-     "price": "$115",
+     "price": "$120",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -3815,7 +4167,7 @@
   {
      "title": "Anchor with Ship's Wheel Necklace",
      "slug": "enp3008",
-     "price": "$70",
+     "price": "$75",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -3844,7 +4196,7 @@
   {
      "title": "Double Anchor Necklace",
      "slug": "enp3009",
-     "price": "$70",
+     "price": "$75",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -3902,7 +4254,7 @@
   {
      "title": "Ship's Wheel with Compass Necklace",
      "slug": "enp3011",
-     "price": "$125",
+     "price": "$130",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -3931,7 +4283,7 @@
   {
      "title": "Anchor with Compass Necklace",
      "slug": "enp3012",
-     "price": "$125",
+     "price": "$130",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4022,7 +4374,7 @@
   {
      "title": "Wave and Mother of Pearl Necklace",
      "slug": "enp3015",
-     "price": "$90",
+     "price": "$95",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4055,7 +4407,7 @@
   {
      "title": "Waves and White Topaz Necklace",
      "slug": "enp3016w",
-     "price": "$100",
+     "price": "$105",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4088,7 +4440,7 @@
   {
      "title": "Nantucket Basket Necklace",
      "slug": "enp3017",
-     "price": "$160",
+     "price": "$165",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4117,7 +4469,7 @@
   {
      "title": "Cape Cod Necklace",
      "slug": "enp3018",
-     "price": "$105",
+     "price": "$110",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4204,7 +4556,7 @@
   {
      "title": "Ship's Wheel Necklace",
      "slug": "enp3021",
-     "price": "$100",
+     "price": "$75",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4262,7 +4614,7 @@
   {
      "title": "Compass Rose Pendant",
      "slug": "enp3024",
-     "price": "$110",
+     "price": "$115",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4440,7 +4792,7 @@
   {
      "title": "Scallop Shell with Pearl Necklace",
      "slug": "enp3030",
-     "price": "$65",
+     "price": "$70",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4531,7 +4883,7 @@
   {
      "title": "Lighthouse Necklace",
      "slug": "enp3033",
-     "price": "$100",
+     "price": "$105",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4560,7 +4912,7 @@
   {
      "title": "Starfish Necklace",
      "slug": "enp3034",
-     "price": "$50",
+     "price": "$55",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4580,7 +4932,7 @@
       }
   },
   {
-     "title": "Flip Flops Necklace",
+     "title": "Pink Flip Flops Necklace",
      "slug": "enp3035",
      "price": "$125",
      "category": "Evening Tide Pendants",
@@ -4589,7 +4941,7 @@
      "collectionSlug": "evening-tide-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "This elegant sterling silver flip flop pendant adds a whimsical touch to any look. ",
+     "description": "This elegant sterling silver flip flop pendant with pink cubic zirconia adds a whimsical touch to any look. ",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -4597,7 +4949,7 @@
        },
        "materials": {
           "name": "Materials",
-          "value": "Sterling Silver"
+          "value": "Sterling Silver and pink cubic zirconia"
        }
       }
       ,
@@ -4611,7 +4963,7 @@
   {
      "title": "Scallop Shell Necklace",
      "slug": "enp3036",
-     "price": "$105",
+     "price": "$110",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4640,7 +4992,7 @@
   {
      "title": "Starfish Necklace",
      "slug": "enp3037",
-     "price": "$60",
+     "price": "$65",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4791,9 +5143,38 @@
      ]
   },
   {
+     "title": "Cape Cod Outline Necklace",
+     "slug": "enp3045",
+     "price": "$85",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This iconic Cape Cod pendant necklace is the perfect way to remember that special vacation.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "18"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Blue Topaz Compass Rose Necklace",
      "slug": "enp328b",
-     "price": "$115",
+     "price": "$155",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4826,7 +5207,7 @@
   {
      "title": "Sapphire Compass Rose Necklace",
      "slug": "enp328s",
-     "price": "$155",
+     "price": "$160",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4859,7 +5240,7 @@
   {
      "title": "Blue Topaz North Star Necklace",
      "slug": "enp329b",
-     "price": "$105",
+     "price": "$140",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4892,7 +5273,7 @@
   {
      "title": "Sapphire North Star Necklace",
      "slug": "enp329s",
-     "price": "$145",
+     "price": "$150",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4925,7 +5306,7 @@
   {
      "title": "Blue Topaz Star in Ring Necklace",
      "slug": "enp330b",
-     "price": "$145",
+     "price": "$150",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4958,7 +5339,7 @@
   {
      "title": "Sapphire Star in Ring Necklace",
      "slug": "enp330s",
-     "price": "$150",
+     "price": "$155",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -4991,7 +5372,7 @@
   {
      "title": "Scallop Shell Necklace",
      "slug": "enp3438",
-     "price": "$85",
+     "price": "$90",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5020,7 +5401,7 @@
   {
      "title": "Pierced Cape Cod Disc Necklace",
      "slug": "enp3598l",
-     "price": "$60",
+     "price": "$65",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5049,7 +5430,7 @@
   {
      "title": "Pierced Cape Cod Disc Necklace",
      "slug": "enp3598m",
-     "price": "$55",
+     "price": "$60",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5078,7 +5459,7 @@
   {
      "title": "Pierced Cape Cod Disc Necklace",
      "slug": "enp3598s",
-     "price": "$50",
+     "price": "$55",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5194,7 +5575,7 @@
   {
      "title": "14K Gold Starfish Necklace",
      "slug": "enp4000",
-     "price": "$390",
+     "price": "$395",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5223,7 +5604,7 @@
   {
      "title": "Sterling Silver & 14K Gold Sailboat Necklace",
      "slug": "enp4001",
-     "price": "$205",
+     "price": "$185",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5285,7 +5666,7 @@
   {
      "title": "Sterling Silver & 14K Gold Round Anchor Necklace",
      "slug": "enp4003",
-     "price": "$155",
+     "price": "$135",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5318,7 +5699,7 @@
   {
      "title": "14K Gold Compass Rose Necklace",
      "slug": "enp4004",
-     "price": "$495",
+     "price": "$585",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5376,7 +5757,7 @@
   {
      "title": "14K Gold Anchor with Winds Necklace",
      "slug": "enp4006",
-     "price": "$485",
+     "price": "$490",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5490,6 +5871,64 @@
      ]
   },
   {
+     "title": "Triple Wave Necklace",
+     "slug": "enp4013",
+     "price": "$635",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Subtle and sophisticated, this 14k gold wave necklace captures the simplistic beauty of the ocean. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rope chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Cape Cod Necklace",
+     "slug": "enp4018",
+     "price": "$550",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Keep the memories from your summer in Cape Cod close to your heart with this elegant pendant. Finely crafted of high polished 14K gold. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rope chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
      "title": "14K Gold Whale's Tail Necklace",
      "slug": "enp4019",
      "price": "$555",
@@ -5579,7 +6018,7 @@
   {
      "title": "14K Gold Compass Rose Necklace",
      "slug": "enp4023",
-     "price": "$565",
+     "price": "$570",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5606,9 +6045,245 @@
      ]
   },
   {
+     "title": "14K Gold Sealife Necklace",
+     "slug": "enp4025",
+     "price": "$945",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This stunning 14K gold sealife pendant encompasses the essence of the ocean.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rope chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Sand Dollar Pendant",
+     "slug": "enp4027",
+     "price": "$620",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Reminisce about finding tide-pool treasures with this elegant sand dollar pendant. Finely crafted of 14k gold. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rope chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Sand Dollar Pendant",
+     "slug": "enp4028",
+     "price": "$895",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Reminisce about finding tide-pool treasures with this elegant sand dollar pendant. Finely crafted of 14k gold. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rope chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Scallop Shell with Pearl Necklace",
+     "slug": "enp4030",
+     "price": "$910",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This 14K gold scallop shell pendant with pearl accents will always make you feel like you are wearing a little piece of treasure. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rope chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Cape Cod Outline Necklace",
+     "slug": "enp4045",
+     "price": "$490",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This iconic Cape Cod pendant necklace is the perfect way to remember that special vacation.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "18 "
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14k gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Pierced Cape Cod Disc Necklace",
+     "slug": "enp4598m",
+     "price": "$780",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Keep the memories from your summer in Cape Cod close to your heart with this elegant pierced Cape Cod pendant. Finely crafted of high polished 14K gold. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rope chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Pierced Cape Cod Disc Necklace",
+     "slug": "enp4598s",
+     "price": "$585",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Keep the memories from your summer in Cape Cod close to your heart with this elegant pierced Cape Cod pendant. Finely crafted of high polished 14K gold. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rope chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "Pierced Cape Cod Disc Necklace",
+     "slug": "enp4598t",
+     "price": "$420",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Keep the memories from your summer in Cape Cod close to your heart with this elegant pierced Cape Cod pendant. Finely crafted of high polished 14K gold. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rolo chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
      "title": "Sterling Silver & 14K Gold Compass Rose Necklace",
      "slug": "enpt010",
-     "price": "$240",
+     "price": "$220",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5641,7 +6316,7 @@
   {
      "title": "Sterling Silver & 14K Gold Sand Dollar Necklace",
      "slug": "enpt011",
-     "price": "$355",
+     "price": "$330",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5707,7 +6382,7 @@
   {
      "title": "14K Two-tone Gold Compass Rose Necklace",
      "slug": "enpt023",
-     "price": "$575",
+     "price": "$580",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5740,7 +6415,7 @@
   {
      "title": "Sterling Silver & 14K Gold Sealife Necklace",
      "slug": "enpt025",
-     "price": "$235",
+     "price": "$215",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5773,7 +6448,7 @@
   {
      "title": "Sterling Silver & 14K Gold Lighthouse Necklace",
      "slug": "enpt033",
-     "price": "$320",
+     "price": "$275",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -5806,7 +6481,7 @@
   {
      "title": "Multi Wave Ring",
      "slug": "enr3001p",
-     "price": "$70",
+     "price": "$70-$75",
      "category": "Evening Tide Rings",
      "categorySlug": "evening-tide-rings",
      "collection": "Evening Tide Collection",
@@ -5817,7 +6492,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6, 7, and 8"
+          "value": "Available in sizes 5, 6, 7, 8 and 9"
        },
        "materials": {
           "name": "Materials",
@@ -5835,7 +6510,7 @@
   {
      "title": "Fish Ring",
      "slug": "enr3026p",
-     "price": "$60",
+     "price": "$60-$65",
      "category": "Evening Tide Rings",
      "categorySlug": "evening-tide-rings",
      "collection": "Evening Tide Collection",
@@ -5846,7 +6521,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6, 7, and 8"
+          "value": "Available in sizes 5, 6, 7, 8 and 9"
        },
        "materials": {
           "name": "Materials",
@@ -5864,7 +6539,7 @@
   {
      "title": "Double Scallop Shell Ring",
      "slug": "enr33980p",
-     "price": "$60",
+     "price": "$60-$65",
      "category": "Evening Tide Rings",
      "categorySlug": "evening-tide-rings",
      "collection": "Evening Tide Collection",
@@ -5875,7 +6550,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6, 7, and 8"
+          "value": "Available in sizes 5, 6, 7, 8 and 9"
        },
        "materials": {
           "name": "Materials",
@@ -5893,7 +6568,7 @@
   {
      "title": "Anchor with Rope Ring",
      "slug": "enr33986p",
-     "price": "$55-$60",
+     "price": "$60",
      "category": "Evening Tide Rings",
      "categorySlug": "evening-tide-rings",
      "collection": "Evening Tide Collection",
@@ -5904,7 +6579,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6, 7, and 8"
+          "value": "Available in sizes 5, 6, 7, 8 and 9"
        },
        "materials": {
           "name": "Materials",
@@ -5922,7 +6597,7 @@
   {
      "title": "Rope Ring with Anchor",
      "slug": "enr33987p",
-     "price": "$55-$60",
+     "price": "$60-$65",
      "category": "Evening Tide Rings",
      "categorySlug": "evening-tide-rings",
      "collection": "Evening Tide Collection",
@@ -5933,7 +6608,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6, 7, and 8"
+          "value": "Available in sizes 5, 6, 7,8 and 9"
        },
        "materials": {
           "name": "Materials",
@@ -5951,7 +6626,7 @@
   {
      "title": "Wave Ring",
      "slug": "enr35310p",
-     "price": "$65",
+     "price": "$65-$70",
      "category": "Evening Tide Rings",
      "categorySlug": "evening-tide-rings",
      "collection": "Evening Tide Collection",
@@ -5962,7 +6637,7 @@
      "properties": {
        "sizes": {
           "name": "Available Sizes",
-          "value": "Available in sizes 6, 7, and 8"
+          "value": "Available in sizes 5, 6, 7, 8 and 9"
        },
        "materials": {
           "name": "Materials",
@@ -6061,9 +6736,125 @@
      ]
   },
   {
+     "title": "14K Gold Earrings",
+     "slug": "ke5405",
+     "price": "$450",
+     "category": "Cape Cod Earrings",
+     "categorySlug": "cape-cod-earrings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic Style and sophistication in a 20mm hoop earring. Finely crafted in 14K gold.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "20mm"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in 14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "14K Gold Earrings - Larger Size",
+     "slug": "ke5405-j",
+     "price": "$585",
+     "category": "Cape Cod Earrings",
+     "categorySlug": "cape-cod-earrings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic Style and sophistication in a 26mm hoop earring. Finely crafted in 14K gold.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "26mm"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in 14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "14K Gold Earrings - Smaller Size",
+     "slug": "ke5414",
+     "price": "$350",
+     "category": "Cape Cod Earrings",
+     "categorySlug": "cape-cod-earrings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic Style and sophistication in a 15mm hoop earring. Finely crafted in 14K gold.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "15mm"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in 14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
+     "title": "14K Gold Swirl Ball Earring",
+     "slug": "ke5460",
+     "price": "$450",
+     "category": "Cape Cod Earrings",
+     "categorySlug": "cape-cod-earrings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic Style and sophistication with a twist in a 20mm hoop earring. Finely crafted in 14K gold.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "20mm"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in 14K Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         }
+     ]
+  },
+  {
      "title": "Wide Sterling Silver & 14K Rose Gold Bracelet",
      "slug": "rb5421p",
-     "price": "$210-$220",
+     "price": "$205-$215",
      "category": "Convertible Bracelets",
      "categorySlug": "convertible-bracelets",
      "collection": "Convertible Collection",
@@ -6327,6 +7118,39 @@
           "filterType": "Metal",
           "filterValue": "14KT Rose Gold"
          }
+     ]
+  },
+  {
+     "title": "Cubic Zirconia Bead Omega Chain Anklet",
+     "slug": "sa5462-o",
+     "price": "$150",
+     "category": "Cape Cod Anklets",
+     "categorySlug": "cape-cod-anklets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Summer=Sandals=Anklets! What could be more fun? A smooth Swarovski CZ ball in all sterling silver. Available on a trendy adjustable Omega chain.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with adjustable 9 \u00bD inch - 10 \u00bD inch Omega chain."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
      ]
   },
   {
@@ -7341,6 +8165,39 @@
           "filterType": "Metal",
           "filterValue": "Sterling Silver"
          }
+     ]
+  },
+  {
+     "title": "Twisted Cubic Zirconia Bracelet",
+     "slug": "sb5466p",
+     "price": "$190-$195",
+     "category": "Cape Cod Bracelets",
+     "categorySlug": "cape-cod-bracelets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Sterling silver twisted bracelet with a Swarovski cubic zirconia ball. Simple, but elegant, the CZ ball glistens like the crashing waves off of Cape Cod.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
      ]
   },
   {
@@ -16501,6 +17358,105 @@
           "filterType": "Metal",
           "filterValue": "Sterling Silver"
          }
+     ]
+  },
+  {
+     "title": "Cubic Zirconia Hoop Earrings",
+     "slug": "se5462",
+     "price": "$130",
+     "category": "Cape Cod Earrings",
+     "categorySlug": "cape-cod-earrings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Sterling silver and Swarovski cubic zirconia hoop earrings. Simple, but elegant, the CZ ball glistens like the crashing waves off of Cape Cod.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "20mm"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
+     ]
+  },
+  {
+     "title": "Cubic Zirconia Hoop Earrings",
+     "slug": "se5462-j",
+     "price": "$140",
+     "category": "Cape Cod Earrings",
+     "categorySlug": "cape-cod-earrings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Sterling silver and Swarovski cubic zirconia hoop earrings. Simple, but elegant, the CZ ball glistens like the crashing waves off of Cape Cod.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "26mm"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
+     ]
+  },
+  {
+     "title": "Cubic Zirconia Stud Earrings",
+     "slug": "se5463",
+     "price": "$80",
+     "category": "Cape Cod Earrings",
+     "categorySlug": "cape-cod-earrings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Sterling silver and Swarovski cubic zirconia stud earrings. Simple, but elegant, the CZ ball glistens like the crashing waves off of Cape Cod.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "8mm"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with channel-set round Swarovski cubic zirconia stones."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
      ]
   },
   {
