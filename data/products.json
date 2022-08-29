@@ -703,7 +703,7 @@
      ]
   },
   {
-     "title": "Earrings",
+     "title": "Double Bead Earrings",
      "slug": "cce5411",
      "price": "$135-$290",
      "category": "Cape Cod Earrings",
@@ -736,7 +736,7 @@
      ]
   },
   {
-     "title": "Earrings",
+     "title": "Double Bead Earrings - Larger Size",
      "slug": "cce5411-j",
      "price": "$0",
      "category": "Cape Cod Earrings",
@@ -8812,56 +8812,6 @@
      ]
   },
   {
-     "title": "Boy's Head Clasp",
-     "slug": "sb5610",
-     "price": "$70",
-     "category": "Happiness",
-     "categorySlug": "happiness",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Engraveables",
-     "subcategorySlug": "engraveables",
-     "description": "This sterling silver boy's head clasp is perfect for engraving and fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Girl's Head Clasp",
-     "slug": "sb5611",
-     "price": "$70",
-     "category": "Happiness",
-     "categorySlug": "happiness",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Engraveables",
-     "subcategorySlug": "engraveables",
-     "description": "This sterling silver girl's head clasp is perfect for engraving and fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
      "title": "Sunflower clasp",
      "slug": "sb5614",
      "price": "$85",
@@ -9578,31 +9528,6 @@
      ]
   },
   {
-     "title": "Yin and Yang Clasp",
-     "slug": "sb5651",
-     "price": "$95",
-     "category": "Life Adventures",
-     "categorySlug": "life-adventures",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Colorful Styles",
-     "subcategorySlug": "colorful-styles",
-     "description": "This sterling silver black and white yin yang clasp fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and epoxy"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
      "title": "Hummingbird Clasp",
      "slug": "sb5654",
      "price": "$70",
@@ -9936,354 +9861,6 @@
           {
           "filterType": "Precious Stones",
           "filterValue": "Rose Quartz"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - January",
-     "slug": "sb569801",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a synthetic garnet fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and synthetic garnet "
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - February ",
-     "slug": "sb569802",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a synthetic amethyst fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and synthetic amethyst"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - March",
-     "slug": "sb569803",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a synthetic aquamarine fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and synthetic aquamarine"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - April ",
-     "slug": "sb569804",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a white cubic zirconia fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and white cubic zirconia "
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - May",
-     "slug": "sb569805",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a synthetic emerald fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and synthetic emerald"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - June",
-     "slug": "sb569806",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a synthetic alexandrite fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver with synthetic alexandrite"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - July ",
-     "slug": "sb569807",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a synthetic ruby fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and synthetic ruby "
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - August ",
-     "slug": "sb569808",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a synthetic peridot fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver with synthetic peridot "
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - September ",
-     "slug": "sb569809",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a synthetic sapphire fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and synthetic sapphire "
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps- October ",
-     "slug": "sb569810",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a pink cubic zirconia fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and pink cubic zirconia "
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - November ",
-     "slug": "sb569811",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a yellow cubic zirconia fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and yellow cubic zirconia "
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
-          }
-     ]
-  },
-  {
-     "title": "Heart Birthstone Clasps - December ",
-     "slug": "sb569812",
-     "price": "$90",
-     "category": "Individuality",
-     "categorySlug": "individuality",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Birthstones",
-     "subcategorySlug": "birthstones",
-     "description": "This sterling silver heart birthstone clasp with a synthetic blue zircon fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and synthetic blue zircon "
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Synthetic"
           }
      ]
   },
@@ -13292,238 +12869,6 @@
      ]
   },
   {
-     "title": "Alexandra Amethyst Clasp",
-     "slug": "sb5818amy",
-     "price": "$105",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This round sterling silver pierced filigree clasp with square amethyst center fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and amethyst"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Amethyst"
-          }
-     ]
-  },
-  {
-     "title": "Alexandra Peridot Clasp",
-     "slug": "sb5818per",
-     "price": "$105",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This round sterling silver pierced filigree clasp with square peridot center fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and peridot"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Peridot"
-          }
-     ]
-  },
-  {
-     "title": "Alexandra Sky Blue Topaz Clasp",
-     "slug": "sb5818sbt",
-     "price": "$105",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This round sterling silver pierced filigree clasp with square sky blue topaz center fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and sky blue topaz clasp"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Sky Blue Topaz"
-          }
-     ]
-  },
-  {
-     "title": "Black Athena Clasp",
-     "slug": "sb5821hem",
-     "price": "$120",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This round sterling silver and hematite clasp fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and hematite"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Hermatite"
-          }
-     ]
-  },
-  {
-     "title": "White Athena Clasp",
-     "slug": "sb5821wag",
-     "price": "$120",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This round sterling silver and white agate clasp fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and white agate"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Agate-White"
-          }
-     ]
-  },
-  {
-     "title": "Wallis Amethyst Clasp",
-     "slug": "sb5822amy",
-     "price": "$145",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This round sterling silver embossed clasp with round amethyst center fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and amethyst"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Amethyst"
-          }
-     ]
-  },
-  {
-     "title": "Wallis Peridot Clasp",
-     "slug": "sb5822per",
-     "price": "$145",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This round sterling silver embossed clasp with round peridot center fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and peridot"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Peridot"
-          }
-     ]
-  },
-  {
-     "title": "Wallis Sky Blue Topaz Clasp",
-     "slug": "sb5822sbt",
-     "price": "$145",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This round sterling silver embossed clasp with round sky blue topaz center fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and sky blue topaz "
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Sky Blue Topaz"
-          }
-     ]
-  },
-  {
      "title": "Good Fortune Clasp",
      "slug": "sb5824",
      "price": "$125",
@@ -13699,31 +13044,6 @@
           "filterType": "Precious Stones",
           "filterValue": "Crystal"
           }
-     ]
-  },
-  {
-     "title": "Pressed Flowers Clasp",
-     "slug": "sb5832",
-     "price": "$95",
-     "category": "Happiness",
-     "categorySlug": "happiness",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Unique Styles",
-     "subcategorySlug": "unique-styles",
-     "description": "This round sterling silver and antique finish clasp with floral design fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver and antique finish"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
      ]
   },
   {
@@ -14563,35 +13883,6 @@
      ]
   },
   {
-     "title": "Earthtone Hopscotch Clasp",
-     "slug": "sb5884top",
-     "price": "$125",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Swarovski",
-     "subcategorySlug": "swarovski",
-     "description": "This sterling silver hopscotch clasp with Swarovksi topaz crystals fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver with Swarovski topaz crystals"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Topaz"
-          }
-     ]
-  },
-  {
      "title": "White Hopscotch Clasp",
      "slug": "sb5884whi",
      "price": "$125",
@@ -14762,72 +14053,6 @@
          {
           "filterType": "Precious Stones",
           "filterValue": "Pearl"
-          }
-     ]
-  },
-  {
-     "title": "Purple Petal Pusher Clasp",
-     "slug": "sb5890bag",
-     "price": "$210",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This sterling silver flower clasp features blue lace agate and amethyst.  This clasp fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver with blue lace agate and amethyst"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-         {
-          "filterType": "Precious Stones",
-          "filterValue": "Agate"
-         },
-         {
-          "filterType": "Precious Stones",
-          "filterValue": "Amethyst"
-          }
-     ]
-  },
-  {
-     "title": "Pink Petal Pusher Clasp",
-     "slug": "sb5890rqz",
-     "price": "$210",
-     "category": "Glamour & Color",
-     "categorySlug": "glamour-and-color",
-     "collection": "Convertible Collection",
-     "collectionSlug": "convertible-collection",
-     "subcategory": "Semi-Precious",
-     "subcategorySlug": "semi-precious",
-     "description": "This sterling silver flower clasp features rose quartz and tourmaline.  This clasp fits any size Convertible bracelet.",
-     "properties": {
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling silver with rose quartz and tourmaline"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-         {
-          "filterType": "Precious Stones",
-          "filterValue": "Tourmaline"
-         },
-         {
-          "filterType": "Precious Stones",
-          "filterValue": "Rose Quartz"
           }
      ]
   },
@@ -17262,6 +16487,35 @@
      ]
   },
   {
+     "title": "Geranium Pearl Clasp",
+     "slug": "sb5968",
+     "price": "$115",
+     "category": "Organic Beauty",
+     "categorySlug": "organic-beauty",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Flowers",
+     "subcategorySlug": "flowers",
+     "description": "This sterling silver geranium clasp with white pearl fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine white pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Pearl"
+          }
+     ]
+  },
+  {
      "title": "Constellation Clasp",
      "slug": "sb5971",
      "price": "$140",
@@ -17361,6 +16615,130 @@
      ]
   },
   {
+     "title": "Fish Hook Clasp",
+     "slug": "sb5974",
+     "price": "$60",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Nautical",
+     "subcategorySlug": "nautical",
+     "description": "This sterling silver fish hook clasp looks beautiful with our rope accent bracelets and also fits any size Convertible bracelet",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Black Pearl and White Topaz Clasp",
+     "slug": "sb5976",
+     "price": "$105",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This sterling silver self-hooking clasp with genuine black pearl and white topaz fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver with Freshwater Black Pearl and genuine White Topaz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "White Topaz"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Black Tahitian Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Wave with Peacock Blue Pearl Clasp",
+     "slug": "sb5978",
+     "price": "$95",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This sterling silver Wave clasp with genuine freshwater blue peacock pearl fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver with Freshwater Peacock Blue Pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Peacock Tahitian Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Bamboo Flower Clasp",
+     "slug": "sb5979",
+     "price": "$135",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This sterling silver bamboo clasp with mother-of-pearl, abalone, and white topaz flowers fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver with Mother-of-Pearl and genuine Abalone and White Topaz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "White Topaz"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Abalone"
+          }
+     ]
+  },
+  {
      "title": "Cubic Zirconia Hoop Earrings",
      "slug": "se5462",
      "price": "$130",
@@ -17394,7 +16772,7 @@
      ]
   },
   {
-     "title": "Cubic Zirconia Hoop Earrings",
+     "title": "Cubic Zirconia Hoop Earrings - Larger Size",
      "slug": "se5462-j",
      "price": "$140",
      "category": "Cape Cod Earrings",
@@ -18000,6 +17378,35 @@
      "subcategory": "Flowers",
      "subcategorySlug": "flowers",
      "description": "This sterling silver and 14k yellow gold triple daffodil clasp looks beautiful with our 14K gold rope accent bracelet and also fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and 14k gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Gold"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Two-tone Wavy Sun and Crescent Moon Clasp",
+     "slug": "zb5961",
+     "price": "$175",
+     "category": "Happiness",
+     "categorySlug": "happiness",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Unique Styles",
+     "subcategorySlug": "unique-styles",
+     "description": "This sterling silver wavy sun clasp with 14k yellow gold crescent moon center looks beautiful with our 14K gold rope accent bracelet and also fits any size Convertible bracelet.",
      "properties": {
        "materials": {
           "name": "Materials",
