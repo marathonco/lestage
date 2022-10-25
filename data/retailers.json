@@ -13104,6 +13104,42 @@
         "convertible": true,
         "eveningtide": false
       }
+    },
+	{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.932640, 42.869090]
+      },
+      "properties": {
+        "name": "MAYFAIR JEWELERS",
+        "address1": "7 GLENRIDGE ROAD",
+        "address2": "",
+        "city": "SCOTIA",
+        "state": "NY",
+        "zip": "12302",
+        "capeCod": true,
+        "convertible": true,
+        "eveningtide": false
+      }
+    },
+		{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.764090, 42.751090]
+      },
+      "properties": {
+        "name": "MAYFAIR JEWELERS",
+        "address1": "549 TROY SCHENECTADY ROAD",
+        "address2": "",
+        "city": "LATHAM",
+        "state": "NY",
+        "zip": "12110",
+        "capeCod": true,
+        "convertible": false,
+        "eveningtide": false
+      }
     }
   ]
 }
