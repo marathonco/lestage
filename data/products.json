@@ -738,7 +738,7 @@
   {
      "title": "Double Bead Earrings - Larger Size",
      "slug": "cce5411-j",
-     "price": "$0",
+     "price": "$140-$305",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -1066,7 +1066,7 @@
      "collectionSlug": "cape-cod-collection",
      "subcategory": "Cape Cod Necklaces",
      "subcategorySlug": "cape-cod-necklaces",
-     "description": "A single 14k yellow or rose gold ball with channel set diamonds suspended from a trendy snake chain or omega chain with a lobster claw clasp.  Simply stunning, this necklace defines elegance.  14k yellow or rose gold ball set with .33 TCW genuine diamonds.  ",
+     "description": "A single 14k yellow or rose gold ball with channel set diamonds suspended from a trendy snake chain with a lobster claw clasp.  Simply stunning, this necklace defines elegance.  14k yellow or rose gold ball set with .33 TCW genuine diamonds.  ",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -2609,6 +2609,35 @@
      ]
   },
   {
+     "title": "Denim Shackle Bracelet",
+     "slug": "enb3502p",
+     "price": "$145",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "High polished sterling silver shackle and denim leather bracelet. Anchor shackles symbolize security and stability as well as trust and confidence.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "8, 8 \u00bD, and 9 inch circumference"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Italian leather"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Wide Wave Bracelet",
      "slug": "enb35756",
      "price": "$170",
@@ -2623,6 +2652,35 @@
        "materials": {
           "name": "Materials",
           "value": "Sterling Silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Denim Shackle Bracelet",
+     "slug": "enb3602p",
+     "price": "$155",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Antiqued sterling silver shackle and denim leather bracelet. Anchor shackles symbolize security and stability as well as trust and confidence.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "8, 8 \u00bD, and 9 inch circumference"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Italian leather"
        }
       }
       ,
@@ -3686,7 +3744,7 @@
   {
      "title": "Whale's Tail Earrings",
      "slug": "ene4019",
-     "price": "$475",
+     "price": "$500",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3711,7 +3769,7 @@
   {
      "title": "Scallop Shell and Pearl Earrings",
      "slug": "ene4025",
-     "price": "$640",
+     "price": "$660",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3740,7 +3798,7 @@
   {
      "title": "Sealife Drop Earrings",
      "slug": "ene4027",
-     "price": "$950",
+     "price": "$970",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3815,7 +3873,7 @@
   {
      "title": "14K Gold Compass Rose Drop Earrings",
      "slug": "ene4031",
-     "price": "$455",
+     "price": "$485",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -3865,7 +3923,7 @@
   {
      "title": "14K Two-tone Gold Compass Rose Drop Earrings",
      "slug": "enet031",
-     "price": "$465",
+     "price": "$495",
      "category": "Evening Tide Earrings",
      "categorySlug": "evening-tide-earrings",
      "collection": "Evening Tide Collection",
@@ -8201,6 +8259,35 @@
      ]
   },
   {
+     "title": "Twisted Sterling Silver Bracelet",
+     "slug": "sb5468p",
+     "price": "$140-$180",
+     "category": "Convertible Bracelets",
+     "categorySlug": "convertible-bracelets",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "A playful twist on a classic favorite.  High polished sterling silver.  All Convertible clasps will fit on this new bracelet.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 6, 6 ½, 7, 7 ½, and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Mustard Seed Clasp",
      "slug": "sb5470",
      "price": "$100",
@@ -12151,7 +12238,7 @@
      "collectionSlug": "convertible-collection",
      "subcategory": "Colorful Styles",
      "subcategorySlug": "colorful-styles",
-     "description": "This sterling silver adn enamel yellow ribbon clasp fits any size Convertible bracelet.",
+     "description": "This sterling silver and enamel yellow ribbon clasp fits any size Convertible bracelet.",
      "properties": {
        "materials": {
           "name": "Materials",
@@ -13147,7 +13234,7 @@
      "properties": {
        "materials": {
           "name": "Materials",
-          "value": "Sterling silver and Sraovski crystals"
+          "value": "Sterling silver and Swarovski crystals"
        }
       }
       ,
@@ -16673,6 +16760,31 @@
      ]
   },
   {
+     "title": "Double Fern Clasp",
+     "slug": "sb5977",
+     "price": "$80",
+     "category": "Organic Beauty",
+     "categorySlug": "organic-beauty",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Flowers",
+     "subcategorySlug": "flowers",
+     "description": "This sterling silver high polished and matte fern clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Wave with Peacock Blue Pearl Clasp",
      "slug": "sb5978",
      "price": "$95",
@@ -16735,6 +16847,130 @@
          {
           "filterType": "Precious Stones",
           "filterValue": "Abalone"
+          }
+     ]
+  },
+  {
+     "title": "Petals Clasp with Mother-of-Pearl & Abalone",
+     "slug": "sb5980",
+     "price": "$125",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Semi-Precious",
+     "subcategorySlug": "semi-precious",
+     "description": "This sterling silver clasp with mother-of-pearl and abalone petals fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver with Mother-of-Pearl and genuine Abalone "
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Abalone"
+          }
+     ]
+  },
+  {
+     "title": "Malachite Sea Turtle Clasp",
+     "slug": "sb5983-mal",
+     "price": "$150",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Sea-Life",
+     "subcategorySlug": "sea-life",
+     "description": "This sterling silver sea turtle with genuine malachite clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Malachite"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Malachite"
+          }
+     ]
+  },
+  {
+     "title": "Mother-of-Pearl Sea Turtle Clasp",
+     "slug": "sb5983-mop",
+     "price": "$135",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Sea-Life",
+     "subcategorySlug": "sea-life",
+     "description": "This sterling silver sea turtle with genuine mother-of-pearl clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Mother-of-Pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Opal Sea Turtle Clasp",
+     "slug": "sb5983-opl",
+     "price": "$145",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Sea-Life",
+     "subcategorySlug": "sea-life",
+     "description": "This sterling silver sea turtle with synthetic opal clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and synthetic opal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
           }
      ]
   },
