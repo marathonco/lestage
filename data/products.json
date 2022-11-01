@@ -2841,6 +2841,64 @@
      ]
   },
   {
+     "title": "Black Braided Shackle Bracelet",
+     "slug": "enb3512p",
+     "price": "$160",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "High polished sterling silver shackle and black braided leather bracelet. Anchor shackles symbolize security and stability as well as trust and confidence.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "8, 8 \u00bD, and 9 inch circumference"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Italian leather"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Reversible Black & Black Shackle Bracelet",
+     "slug": "enb3513p",
+     "price": "$155",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "High polished sterling silver shackle bracelet. Can be worn two ways: classic black leather side or black grosgrain ribbon side. Anchor shackles symbolize security and stability as well as trust and confidence.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "8, 8 \u00bD, and 9 inch circumference"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Italian leather and grosgrain ribbon."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Wide Wave Bracelet",
      "slug": "enb35756",
      "price": "$170",
@@ -3040,6 +3098,35 @@
      ]
   },
   {
+     "title": "Stitched Blue Shackle Bracelet",
+     "slug": "enb3609p",
+     "price": "$155",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "High polished sterling silver shackle and stitched blue leather bracelet. Anchor shackles symbolize security and stability as well as trust and confidence.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "8, 8 \u00bD, and 9 inch circumference"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Italian leather"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Reversible Red Shackle Bracelet",
      "slug": "enb3611p",
      "price": "$155",
@@ -3050,6 +3137,35 @@
      "subcategory": "",
      "subcategorySlug": "",
      "description": "Antiqued sterling silver shackle and reversible leather bracelet. One side is classic red leather and the other side is striped. Anchor shackles symbolize security and stability as well as trust and confidence.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "8, 8 \u00bD, and 9 inch circumference"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Italian leather"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Black Braided Shackle Bracelet",
+     "slug": "enb3612p",
+     "price": "$165-$170",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Antiqued sterling silver shackle and black braided leather bracelet. Anchor shackles symbolize security and stability as well as trust and confidence.",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
