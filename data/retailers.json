@@ -13140,6 +13140,24 @@
         "convertible": false,
         "eveningtide": false
       }
+    },
+			{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.576640, 33.891160]
+      },
+      "properties": {
+        "name": "DIAMOND WORKS",
+        "address1": "10164 BEACH DRIVE",
+        "address2": "SUITE 4",
+        "city": "CALABASH",
+        "state": "NC",
+        "zip": "28467",
+        "capeCod": false,
+        "convertible": true,
+        "eveningtide": false
+      }
     }
   ]
 }
