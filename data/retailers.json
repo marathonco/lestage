@@ -13158,6 +13158,24 @@
         "convertible": true,
         "eveningtide": false
       }
+    },
+				{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.607680, 41.984960]
+      },
+      "properties": {
+        "name": "WRIGHT'S GIFT SHOP",
+        "address1": "84 INMAN ROAD",
+        "address2": "",
+        "city": "HARRISVILLE",
+        "state": "RI",
+        "zip": "02830",
+        "capeCod": true,
+        "convertible": false,
+        "eveningtide": false
+      }
     }
   ]
 }
