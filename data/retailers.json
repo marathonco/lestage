@@ -13185,7 +13185,7 @@
       },
       "properties": {
         "name": "PENNY AND A SIXPENCE",
-        "address1": "438 W DUKE OF GLOUCESTER ST.,
+        "address1": "438 W DUKE OF GLOUCESTER ST.",
         "address2": "",
         "city": "WILLIAMSBURG",
         "state": "VA",
@@ -13194,7 +13194,6 @@
         "convertible": true,
         "eveningtide": false
       }
-    },
-	
+    }
   ]
 }
