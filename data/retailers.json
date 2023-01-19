@@ -13176,6 +13176,25 @@
         "convertible": false,
         "eveningtide": false
       }
-    }
+    },
+	{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.707240, 37.270880]
+      },
+      "properties": {
+        "name": "PENNY AND A SIXPENCE",
+        "address1": "438 W DUKE OF GLOUCESTER ST.,
+        "address2": "",
+        "city": "WILLIAMSBURG",
+        "state": "VA",
+        "zip": "23185",
+        "capeCod": false,
+        "convertible": true,
+        "eveningtide": false
+      }
+    },
+	
   ]
 }
