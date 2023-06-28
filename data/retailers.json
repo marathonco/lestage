@@ -13194,6 +13194,24 @@
         "convertible": true,
         "eveningtide": false
       }
+    },
+		{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.506000, 41.766830]
+      },
+      "properties": {
+        "name": "ORIANNA ARNOLD JEWELRY",
+        "address1": "8 MERCHANTS ROAD",
+        "address2": "",
+        "city": "SANDWICH",
+        "state": "MA",
+        "zip": "02563",
+        "capeCod": true,
+        "convertible": true,
+        "eveningtide": true
+      }
     }
   ]
 }
