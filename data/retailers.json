@@ -11093,24 +11093,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-70.1879668, 42.0499836]
-      },
-      "properties": {
-        "name": "SOFT AS A GRAPE",
-        "address1": "229 COMMERCIAL STREET",
-        "address2": "",
-        "city": "PROVINCETOWN",
-        "state": "MA",
-        "zip": "02657",
-        "capeCod": true,
-        "convertible": false,
-        "eveningtide": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [-70.6151933, 41.5520491]
       },
       "properties": {
