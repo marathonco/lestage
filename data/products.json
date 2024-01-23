@@ -1,7 +1,7 @@
 [  {
      "title": "Snake Chain Anklet",
      "slug": "cca5405",
-     "price": "$85-$190",
+     "price": "$95-$215",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
@@ -38,7 +38,7 @@
   {
      "title": "Single Ball Anklet w/ Omega chain",
      "slug": "cca5405o",
-     "price": "$100-$205",
+     "price": "$110-$225",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
@@ -75,7 +75,7 @@
   {
      "title": "Swirl Ball Anklet on Snake Chain",
      "slug": "cca5460",
-     "price": "$85-$200",
+     "price": "$95-$225",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
@@ -112,7 +112,7 @@
   {
      "title": "Swirl Ball Anklet w/ Omega Chain",
      "slug": "cca5460o",
-     "price": "$100-$215",
+     "price": "$110-$235",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
@@ -149,7 +149,7 @@
   {
      "title": "Cubic Zirconia Bead Snake Chain Anklet",
      "slug": "cca5462",
-     "price": "$140",
+     "price": "$150",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
@@ -182,7 +182,7 @@
   {
      "title": "The Classic Single Ball Bracelet",
      "slug": "ccb5405",
-     "price": "$140-$225",
+     "price": "$145-$235",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -219,7 +219,7 @@
   {
      "title": "14K Yellow Gold Bracelet",
      "slug": "ccb5405g",
-     "price": "$1965-$2515",
+     "price": "$1945-$2495",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -248,7 +248,7 @@
   {
      "title": "Sterling & 14K Gold Filled Bracelet",
      "slug": "ccb5405gf",
-     "price": "$180-$185",
+     "price": "$185",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -279,9 +279,38 @@
      ]
   },
   {
+     "title": "14K Rose Gold Bracelet",
+     "slug": "ccb5405r",
+     "price": "$1945-$2495",
+     "category": "Cape Cod Bracelets",
+     "categorySlug": "cape-cod-bracelets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Classic style and sophistication single ball style crafted in stunning 14k Rose Gold.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD, and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in 14K Rose Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Rose Gold"
+         }
+     ]
+  },
+  {
      "title": "Twisted Single Ball Bracelet",
      "slug": "ccb5408",
-     "price": "$145-$230",
+     "price": "$150-$240",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -316,9 +345,46 @@
      ]
   },
   {
+     "title": "Twisted Double Ball Bracelet",
+     "slug": "ccb5409",
+     "price": "$170-$355",
+     "category": "Cape Cod Bracelets",
+     "categorySlug": "cape-cod-bracelets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "The high polish balls make the texture of the twisted wire pop. Looks great layered with the Single Ball bracelet. Available in all sterling silver, or sterling silver with a yellow or rose gold accent.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with Sterling Silver Balls, Sterling Silver with 14K Yellow Gold Balls, and Sterling Silver with 14K Rose Gold Balls."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver-14KT"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver - 14KT Rose"
+         }
+     ]
+  },
+  {
      "title": "Double Ball Cuff Bracelet",
      "slug": "ccb5410",
-     "price": "$140-$405",
+     "price": "$155-$335",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -355,7 +421,7 @@
   {
      "title": "Double Bead Bracelet",
      "slug": "ccb5411",
-     "price": "$140-$345",
+     "price": "$170-$355",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -392,7 +458,7 @@
   {
      "title": "14K Gold Double Bead Bracelet",
      "slug": "ccb5411g",
-     "price": "$2200-$2750",
+     "price": "$2240-$2790",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -419,9 +485,46 @@
      ]
   },
   {
+     "title": "Twisted Double Ball Cuff Bracelet",
+     "slug": "ccb5412",
+     "price": "$160-$335",
+     "category": "Cape Cod Bracelets",
+     "categorySlug": "cape-cod-bracelets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "The high polish balls make the texture of the twisted wire pop. Looks great layered with the Single Ball bracelet. Available in all sterling silver, or sterling silver with a yellow or rose gold accent.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with Sterling Silver Balls, Sterling Silver with 14K Yellow Gold Balls, and Sterling Silver with 14K Rose Gold Balls."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver-14KT"
+         },
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver - 14KT Rose"
+         }
+     ]
+  },
+  {
      "title": "Triple Bead Bracelet",
      "slug": "ccb5420",
-     "price": "$155-$475",
+     "price": "$190-$465",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -458,7 +561,7 @@
   {
      "title": "Single Swirl Ball Bracelet",
      "slug": "ccb5460",
-     "price": "$140-$235",
+     "price": "$145-$245",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -495,7 +598,7 @@
   {
      "title": "Single Ball CZ Bracelet",
      "slug": "ccb5462",
-     "price": "$190-$195",
+     "price": "$200-$205",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -524,7 +627,7 @@
   {
      "title": "Single Ball Cuff Bracelet",
      "slug": "ccb5463",
-     "price": "$150-$250",
+     "price": "$160-$250",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -561,7 +664,7 @@
   {
      "title": "Single Ball Diamond and Gold Bracelet",
      "slug": "ccb5634",
-     "price": "$890",
+     "price": "$1030-$1035",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -598,7 +701,7 @@
   {
      "title": "14k Gold Diamond Bracelet",
      "slug": "ccb5634g",
-     "price": "$2465-$3015",
+     "price": "$2715-$3265",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -621,6 +724,39 @@
          {
           "filterType": "Metal",
           "filterValue": "14KT Gold"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Diamond"
+          }
+     ]
+  },
+  {
+     "title": "14k Rose Gold Diamond Bracelet",
+     "slug": "ccb5634r",
+     "price": "$2715-$3265",
+     "category": "Cape Cod Bracelets",
+     "categorySlug": "cape-cod-bracelets",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "A striking 14k rose gold bracelet with a 14k rose gold ball set with .33 TCW genuine diamonds. Simply stunning, this exquisite bracelet defines elegance.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5 \u00bD, 6, 6 \u00bD, 7, 7 \u00bD, and 8 inch circumference."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in 14K Rose Gold with a channel-set diamond Ball.  0.33 tcw diamond."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "14KT Rose Gold"
           },
           {
           "filterType": "Precious Stones",
@@ -705,7 +841,7 @@
   {
      "title": "Double Bead Earrings",
      "slug": "cce5411",
-     "price": "$135-$300",
+     "price": "$145-$300",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -738,7 +874,7 @@
   {
      "title": "Double Bead Earrings - Larger Size",
      "slug": "cce5411-j",
-     "price": "$140-$315",
+     "price": "$150-$315",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -845,7 +981,7 @@
   {
      "title": "Snake Chain Necklace",
      "slug": "ccn5405",
-     "price": "$100-$215",
+     "price": "$100-$220",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -882,7 +1018,7 @@
   {
      "title": "Omega Chain Necklace",
      "slug": "ccn5405o",
-     "price": "$135-$235",
+     "price": "$130-$235",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -919,7 +1055,7 @@
   {
      "title": "Swirl Bead Snake Chain Necklace",
      "slug": "ccn5460",
-     "price": "$105-$225",
+     "price": "$100-$230",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -956,7 +1092,7 @@
   {
      "title": "Swirl Ball Omega Chain Necklace",
      "slug": "ccn5460o",
-     "price": "$140-$245",
+     "price": "$135-$245",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -993,7 +1129,7 @@
   {
      "title": "Cubic Zirconia Necklace",
      "slug": "ccn5462",
-     "price": "$155-$160",
+     "price": "$150-$160",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -1026,7 +1162,7 @@
   {
      "title": "Cubic Zirconia Necklace - Omega",
      "slug": "ccn5462o",
-     "price": "$190",
+     "price": "$185",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -1059,7 +1195,7 @@
   {
      "title": "14K Gold and Diamond Necklace",
      "slug": "ccn5634",
-     "price": "$1065-$1075",
+     "price": "$1010-$1025",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -1092,7 +1228,7 @@
   {
      "title": "14K Gold and Diamond Necklace",
      "slug": "ccn5634o",
-     "price": "$1095",
+     "price": "$1040",
      "category": "Cape Cod Necklaces",
      "categorySlug": "cape-cod-necklaces",
      "collection": "Cape Cod Collection",
@@ -1129,7 +1265,7 @@
   {
      "title": "Classic Cape Cod Ring",
      "slug": "ccr5405",
-     "price": "$100-$230",
+     "price": "$100-$225",
      "category": "Cape Cod Rings",
      "categorySlug": "cape-cod-rings",
      "collection": "Cape Cod Collection",
@@ -1164,9 +1300,38 @@
      ]
   },
   {
+     "title": "Cape Cod Swirl Bead Ring",
+     "slug": "ccr5460",
+     "price": "$100",
+     "category": "Cape Cod Rings",
+     "categorySlug": "cape-cod-rings",
+     "collection": "Cape Cod Collection",
+     "collectionSlug": "cape-cod-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Modern yet classic and a stylish addition to your Collection.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 5,6,7,8, and 9."
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Available in Sterling Silver with a Sterling Silver Ball."
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Twist Band Cape Cod Ring",
      "slug": "ccr5501",
-     "price": "$100-$230",
+     "price": "$100-$225",
      "category": "Cape Cod Rings",
      "categorySlug": "cape-cod-rings",
      "collection": "Cape Cod Collection",
@@ -1203,7 +1368,7 @@
   {
      "title": "14K Gold and Diamond Ring",
      "slug": "ccr5634",
-     "price": "$435-$440",
+     "price": "$475-$480",
      "category": "Cape Cod Rings",
      "categorySlug": "cape-cod-rings",
      "collection": "Cape Cod Collection",
@@ -1277,7 +1442,7 @@
   {
      "title": "Triple Strand Bead Bracelet",
      "slug": "enb3003",
-     "price": "$90",
+     "price": "$105",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -1347,64 +1512,6 @@
        "sizes": {
           "name": "Available Sizes",
           "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Anchor Bracelet",
-     "slug": "enb3006",
-     "price": "$125",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Summer elegance is easy to obtain with this adjustable anchor bracelet. High polished sterling silver and satin finish on the tips of the anchor.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Adjustable 7 1/4 to 8 1/4 inches"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Sailboat Bracelet",
-     "slug": "enb3007",
-     "price": "$135",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Summer elegance is easy to obtain with this adjustable sailboat bracelet. High polished and satin finish sterling silver.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Adjustable 7 1/4 to 8 1/4 inches"
        },
        "materials": {
           "name": "Materials",
@@ -2007,7 +2114,7 @@
   {
      "title": "Flip Flops Bracelet",
      "slug": "enb3100p",
-     "price": "$180",
+     "price": "$0",
      "category": "Evening Tide Bracelets",
      "categorySlug": "evening-tide-bracelets",
      "collection": "Evening Tide Collection",
@@ -2015,35 +2122,6 @@
      "subcategory": "",
      "subcategorySlug": "",
      "description": "This sterling silver bracelet with flip flops is sure to elevate any look with a touch of whimsical charm. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Starfish Bracelet",
-     "slug": "enb3102p",
-     "price": "$195-$200",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "This sophisticated sterling silver bracelet with a starfish is reminiscent of summer days at the beach. ",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -2089,213 +2167,6 @@
           "filterType": "Metal",
           "filterValue": "Sterling Silver"
          }
-     ]
-  },
-  {
-     "title": "Scallop Shell Bracelet",
-     "slug": "enb3104p",
-     "price": "$190-$195",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "This sophisticated sterling silver bracelet with a scallop shell is reminiscent of summer days at the beach. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Anchor Bracelet",
-     "slug": "enb3105p",
-     "price": "$195",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Daydream of sailing the high seas with this beautiful anchor bracelet with intricate rope detailing. Finely crafted from sterling silver and sure to add a splash of nautical charm to any look.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Clam Shell Bracelet",
-     "slug": "enb3106p",
-     "price": "$195",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "This sophisticated sterling silver bracelet with a clam shell is reminiscent of summer days at the beach. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Clam Shell and Starfish Bracelet",
-     "slug": "enb3107p",
-     "price": "$195",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "This sophisticated sterling silver bracelet with a clam shell and starfish detailing is reminiscent of summer days at the beach. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Ship's Wheel Bracelet",
-     "slug": "enb3108p",
-     "price": "$180-$185",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Add an element of nautical charm to your look with this elegant ship's wheel bracelet. Finely crafted of sterling silver.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Lighthouse Bracelet",
-     "slug": "enb3133p",
-     "price": "$195",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Add an element of nautical charm to your look with this elegant lighthouse bracelet. Finely crafted of sterling silver.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Pink Flip Flops Bracelet",
-     "slug": "enb3135p",
-     "price": "$200-$205",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "This sterling silver bracelet with flip flops and subtly elegant pink stones is sure to elevate any look with a touch of whimsical charm. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Cubic Zirconia"
-          }
      ]
   },
   {
@@ -2379,204 +2250,6 @@
           "filterType": "Metal",
           "filterValue": "Sterling Silver"
          }
-     ]
-  },
-  {
-     "title": "Blue Topaz Compass Rose Bracelet",
-     "slug": "enb328bp",
-     "price": "$215",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "You will never feel lost with this sophisticated compass rose bracelet. Finely crafted sterling silver and Swiss blue topaz are reminiscent of the sea. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Swiss Blue Topaz"
-          }
-     ]
-  },
-  {
-     "title": "Sapphire Compass Rose Bracelet",
-     "slug": "enb328sp",
-     "price": "$255",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "You will never feel lost with this sophisticated compass rose bracelet. Finely crafted sterling silver and deep sapphire are reminiscent of the sea. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Sapphire"
-          }
-     ]
-  },
-  {
-     "title": "Blue Topaz North Star Bracelet",
-     "slug": "enb329bp",
-     "price": "$200-$205",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Shine bright wearing this sterling silver north star bracelet. Swiss blue topaz adds elegance and sparkle to this beautiful piece.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Swiss Blue Topaz"
-          }
-     ]
-  },
-  {
-     "title": "Sapphire North Star Bracelet",
-     "slug": "enb329sp",
-     "price": "$210-$215",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Shine bright wearing this sterling silver north star bracelet. Sapphire adds elegance and sparkle to this beautiful piece.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Sapphire"
-          }
-     ]
-  },
-  {
-     "title": "Blue Topaz Star in Ring Bracelet",
-     "slug": "enb330bp",
-     "price": "$240-$245",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Sparkle like the stars above the sea with this elegant sterling silver star bracelet with Swis blue topaz. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Swiss Blue Topaz"
-          }
-     ]
-  },
-  {
-     "title": "Sapphire Star in Ring Bracelet",
-     "slug": "enb330sp",
-     "price": "$280-$285",
-     "category": "Evening Tide Bracelets",
-     "categorySlug": "evening-tide-bracelets",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Sparkle like the stars above the sea with this elegant sterling silver star bracelet with a deep sapphire stone.  ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available in sizes 6 \u00bD and 7 inch circumference"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Sapphire"
-          }
      ]
   },
   {
@@ -3214,6 +2887,93 @@
      ]
   },
   {
+     "title": "Square Knot and Loop Bracelet",
+     "slug": "enbr031p",
+     "price": "$245-$260",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Simple, yet elegant, this sterling silver square knot bracelet with a 14K rose gold ball adds an element of sophisticated charm to any look. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 6, 6 \u00bD, 7 and 7 \u00bD inch circumference"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and 14K Rose Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver - 14KT Rose"
+         }
+     ]
+  },
+  {
+     "title": "Open Loop Bracelet",
+     "slug": "enbr032p",
+     "price": "$240-$250",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Simple, yet elegant, this sterling silver open loop bracelet with a 14K rose gold ball adds an element of sophisticated charm to any look. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 6, 6 \u00bD, 7 and 7 \u00bD inch circumference"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and 14K Rose Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver - 14KT Rose"
+         }
+     ]
+  },
+  {
+     "title": "Loop and Twist Bracelet",
+     "slug": "enbr033p",
+     "price": "$245-$260",
+     "category": "Evening Tide Bracelets",
+     "categorySlug": "evening-tide-bracelets",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Simple, yet elegant, this sterling silver open loop bracelet with twisted details and a 14K rose gold ball adds an element of sophisticated charm to any look. ",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available in sizes 6, 6 \u00bD, 7 and 7 \u00bD inch circumference"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and 14K Rose Gold"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver - 14KT Rose"
+         }
+     ]
+  },
+  {
      "title": "Scallop Shell with Rope Bracelet",
      "slug": "enbt023p",
      "price": "$505-$510",
@@ -3454,7 +3214,7 @@
      "collectionSlug": "evening-tide-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "Simple, yet elegant, this sterling silver open loop bracelet with twisted details and a 14K gold ball  adds an element of sophisticated charm to any look. ",
+     "description": "Simple, yet elegant, this sterling silver open loop bracelet with twisted details and a 14K gold ball adds an element of sophisticated charm to any look. ",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -4069,6 +3829,68 @@
      ]
   },
   {
+     "title": "Starfish Earrings",
+     "slug": "ene3046-mop",
+     "price": "$170",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "These stunning sterling silver starfish earrings with genuine mother-of-pearl bring the beach to you.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and Mother-of-Pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Starfish Earrings",
+     "slug": "ene3046-opl",
+     "price": "$165",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "These stunning sterling silver starfish earrings with vibrant synthetic opal bring the beach to you.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and synthetic opal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
+          }
+     ]
+  },
+  {
      "title": "Opal Wave Earrings",
      "slug": "ene3087",
      "price": "$135",
@@ -4231,6 +4053,43 @@
           {
           "filterType": "Precious Stones",
           "filterValue": "Cubic Zirconia"
+          }
+     ]
+  },
+  {
+     "title": "Compass Rose Earrings",
+     "slug": "ene3590",
+     "price": "$120",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Feel safe and protected with these sterling silver compass rose earrings.  Finely crafted with genuine semi-precious stones.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver, Mother-of-Pearl, Swiss Blue Topaz and White Topaz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "White Topaz"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Swiss Blue Topaz"
           }
      ]
   },
@@ -4414,6 +4273,97 @@
      ]
   },
   {
+     "title": "Sea Turtle Earrings",
+     "slug": "ene5983-mal",
+     "price": "$185",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "These stunning sterling silver sea turtle earrings with genuine malachite symbolize a long life and represents longevity.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Malachite"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Malachite"
+          }
+     ]
+  },
+  {
+     "title": "Sea Turtle Earrings",
+     "slug": "ene5983-mop",
+     "price": "$165",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "These stunning sterling silver sea turtle earrings with genuine mother-of-pearl symbolize a long life and represents longevity.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and Mother-of-Pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Sea Turtle Earrings",
+     "slug": "ene5983-opl",
+     "price": "$175",
+     "category": "Evening Tide Earrings",
+     "categorySlug": "evening-tide-earrings",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "These stunning sterling silver sea turtle earrings with synthetic opal symbolize a long life and represents longevity.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and synthetic opal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
+          }
+     ]
+  },
+  {
      "title": "14K Two-tone Gold Compass Rose Drop Earrings",
      "slug": "enet031",
      "price": "$515",
@@ -4423,7 +4373,7 @@
      "collectionSlug": "evening-tide-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "Dream of navigating the seas with these two-toned sterling silver and 14K gold compass rose drop earrings for a sophisticated and nautical look.",
+     "description": "Dream of navigating the seas with these two-toned 14K gold compass rose drop earrings for a sophisticated and nautical look.",
      "properties": {
        "materials": {
           "name": "Materials",
@@ -4588,72 +4538,6 @@
      ]
   },
   {
-     "title": "Ship's Wheel with Blue CZ Necklace",
-     "slug": "enp3004",
-     "price": "$120",
-     "category": "Evening Tide Pendants",
-     "categorySlug": "evening-tide-pendants",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "You will never feel lost with this beautiful ship's wheel and compass pendant. Finely crafted sterling silver and cubic zirconia will make you sparkle like the sea.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available with 18 inch rolo chain"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Cubic Zirconia"
-          }
-     ]
-  },
-  {
-     "title": "Compass Rose with Blue CZ Necklace",
-     "slug": "enp3005",
-     "price": "$120",
-     "category": "Evening Tide Pendants",
-     "categorySlug": "evening-tide-pendants",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "You will never feel lost with this beautiful compass rose pendant. Finely crafted sterling silver and cubic zirconia will make you sparkle like the sea.",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available with 18 inch rolo chain"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Cubic Zirconia"
-          }
-     ]
-  },
-  {
      "title": "Ship's Wheel Necklace",
      "slug": "enp3006",
      "price": "$125",
@@ -4683,97 +4567,6 @@
      ]
   },
   {
-     "title": "Anchor with Blue CZ Necklace",
-     "slug": "enp3007",
-     "price": "$120",
-     "category": "Evening Tide Pendants",
-     "categorySlug": "evening-tide-pendants",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "Add nautical elegance to your look with this round anchor pendant with compass rose detailing. Finely crafted of sterling silver with a blue cubic zirconia. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available with 18 inch rolo chain"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-          },
-          {
-          "filterType": "Precious Stones",
-          "filterValue": "Cubic Zirconia"
-          }
-     ]
-  },
-  {
-     "title": "Anchor with Ship's Wheel Necklace",
-     "slug": "enp3008",
-     "price": "$75",
-     "category": "Evening Tide Pendants",
-     "categorySlug": "evening-tide-pendants",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "This simple and elegant anchor pendant has a ship's wheel detailing. Finely crafted of sterling silver. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available with 18 inch rolo chain"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Double Anchor Necklace",
-     "slug": "enp3009",
-     "price": "$75",
-     "category": "Evening Tide Pendants",
-     "categorySlug": "evening-tide-pendants",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "This simple double anchor pendant adds sophisticated nautical charm to any look. Finely crafted of sterling silver. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available with 18 inch rolo chain"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
      "title": "Compass Rose Necklace",
      "slug": "enp3010",
      "price": "$80",
@@ -4784,64 +4577,6 @@
      "subcategory": "",
      "subcategorySlug": "",
      "description": "You will never feel lost wearing this sterling silver compass rose pendant. Carefully crafted details add elegance and charm. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available with 18 inch rolo chain"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Ship's Wheel with Compass Necklace",
-     "slug": "enp3011",
-     "price": "$130",
-     "category": "Evening Tide Pendants",
-     "categorySlug": "evening-tide-pendants",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "This simple and sophisticated ship's wheel and compass rose pendant is sure to be a summer staple. Finely crafted of sterling silver. ",
-     "properties": {
-       "sizes": {
-          "name": "Available Sizes",
-          "value": "Available with 18 inch rolo chain"
-       },
-       "materials": {
-          "name": "Materials",
-          "value": "Sterling Silver"
-       }
-      }
-      ,
-     "filters": [
-         {
-          "filterType": "Metal",
-          "filterValue": "Sterling Silver"
-         }
-     ]
-  },
-  {
-     "title": "Anchor with Compass Necklace",
-     "slug": "enp3012",
-     "price": "$130",
-     "category": "Evening Tide Pendants",
-     "categorySlug": "evening-tide-pendants",
-     "collection": "Evening Tide Collection",
-     "collectionSlug": "evening-tide-collection",
-     "subcategory": "",
-     "subcategorySlug": "",
-     "description": "This simple and sophisticated anchor and compass rose pendant is sure to be a summer staple. Finely crafted of sterling silver. ",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -5723,6 +5458,146 @@
      ]
   },
   {
+     "title": "Starfish Pendant Necklace",
+     "slug": "enp3046-mop",
+     "price": "$125",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This stunning sterling silver starfish pendant with genuine mother-of-pearl brings the beach to you.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rolo chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and Mother-of-Pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Starfish Pendant Necklace",
+     "slug": "enp3046-opl",
+     "price": "$125",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This stunning sterling silver starfish pendant with synthetic opal brings the beach to you.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rolo chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and synthetic opal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
+          }
+     ]
+  },
+  {
+     "title": "Fish Pendant",
+     "slug": "enp3047-mop",
+     "price": "$135",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This stunning sterling silver fish pendant with genuine mother-of-pearl and swiss blue topaz looks great on it's own or layered with another necklace.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Mother-of-Pearl and Swiss Blue Topaz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Swiss Blue Topaz"
+          }
+     ]
+  },
+  {
+     "title": "Fish Pendant",
+     "slug": "enp3047-opl",
+     "price": "$140",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This stunning sterling silver fish pendant with genuine white topaz and synthetic opal looks great on it's own or layered with another necklace.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine white topaz and synthetic Opal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "White Topaz"
+          }
+     ]
+  },
+  {
      "title": "Blue Topaz Compass Rose Necklace",
      "slug": "enp328b",
      "price": "$155",
@@ -5947,6 +5822,47 @@
           "filterType": "Metal",
           "filterValue": "Sterling Silver"
          }
+     ]
+  },
+  {
+     "title": "Compass Rose Pendant",
+     "slug": "enp3590",
+     "price": "$110",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Feel safe and protected with these sterling silver compass rose Pendant.  Finely crafted with genuine semi-precious stones.  Looks great layered with other Evening Tide or Cape Cod necklaces.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "18 "
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver, Mother-of-Pearl, Swiss Blue Topaz and White Topaz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "White Topaz"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Swiss Blue Topaz"
+          }
      ]
   },
   {
@@ -6747,7 +6663,7 @@
   {
      "title": "Cape Cod Outline Necklace",
      "slug": "enp4045",
-     "price": "$510",
+     "price": "$575",
      "category": "Evening Tide Pendants",
      "categorySlug": "evening-tide-pendants",
      "collection": "Evening Tide Collection",
@@ -6960,6 +6876,76 @@
      ]
   },
   {
+     "title": "Starfish Pendant Necklace",
+     "slug": "enp5988-mop",
+     "price": "$180",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This stunning sterling silver starfish pendant with genuine mother-of-pearl brings the beach to you.  Exquisite beaded edge detail.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rolo chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and Mother-of-Pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Starfish Pendant Necklace",
+     "slug": "enp5988-opl",
+     "price": "$165",
+     "category": "Evening Tide Pendants",
+     "categorySlug": "evening-tide-pendants",
+     "collection": "Evening Tide Collection",
+     "collectionSlug": "evening-tide-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This stunning sterling silver starfish pendant with synthetic opal brings the beach to you.  Exquisite beaded edge detail.",
+     "properties": {
+       "sizes": {
+          "name": "Available Sizes",
+          "value": "Available with 18 inch rolo chain"
+       },
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver and synthetic opal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
+          }
+     ]
+  },
+  {
      "title": "Sterling Silver & 14K Gold Compass Rose Necklace",
      "slug": "enpt010",
      "price": "$230",
@@ -7035,7 +7021,7 @@
      "collectionSlug": "evening-tide-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "This elegant two-tone compass rose pendant provides protection and inspiration for all of your summer adventures. Finely crafted of 14K gold and sterling silver.  ",
+     "description": "This elegant two-tone compass rose pendant provides protection and inspiration for all of your summer adventures. Finely crafted of 14K gold.  ",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -7068,7 +7054,7 @@
      "collectionSlug": "evening-tide-collection",
      "subcategory": "",
      "subcategorySlug": "",
-     "description": "This elegant two-tone compass rose pendant provides protection and inspiration for all of your summer adventures. Finely crafted of 14K gold and sterling silver.  ",
+     "description": "This elegant two-tone compass rose pendant provides protection and inspiration for all of your summer adventures. Finely crafted of 14K gold.  ",
      "properties": {
        "sizes": {
           "name": "Available Sizes",
@@ -7504,7 +7490,7 @@
   {
      "title": "14K Gold Swirl Ball Earring",
      "slug": "ke5460",
-     "price": "$470",
+     "price": "$500",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -7802,7 +7788,7 @@
   {
      "title": "Cubic Zirconia Bead Omega Chain Anklet",
      "slug": "sa5462-o",
-     "price": "$155",
+     "price": "$165",
      "category": "Cape Cod Anklets",
      "categorySlug": "cape-cod-anklets",
      "collection": "Cape Cod Collection",
@@ -8849,7 +8835,7 @@
   {
      "title": "Twisted Cubic Zirconia Bracelet",
      "slug": "sb5466p",
-     "price": "$195-$200",
+     "price": "$205",
      "category": "Cape Cod Bracelets",
      "categorySlug": "cape-cod-bracelets",
      "collection": "Cape Cod Collection",
@@ -9198,6 +9184,31 @@
        "materials": {
           "name": "Materials",
           "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Medic Clasp",
+     "slug": "sb5495",
+     "price": "$100",
+     "category": "Individuality",
+     "categorySlug": "individuality",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This Medic clasp can be engraved upon with important information.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver"
        }
       }
       ,
@@ -9853,6 +9864,31 @@
      ]
   },
   {
+     "title": "Anchor Clasp",
+     "slug": "sb5632",
+     "price": "$80",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Nautical",
+     "subcategorySlug": "nautical",
+     "description": "Sterling silver anchor with twisted rope clasp.  The rope detail on this clasp looks beautiful paired with the rope accent bracelets.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Apple Clasp",
      "slug": "sb5633",
      "price": "$80",
@@ -10221,6 +10257,31 @@
      "subcategory": "Autumn",
      "subcategorySlug": "autumn",
      "description": "This sterling silver oak leaf clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Tennis Clasp",
+     "slug": "sb5652",
+     "price": "$90",
+     "category": "Life Adventures",
+     "categorySlug": "life-adventures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "This sterling silver tennis racquets and balls clasp fits any size Convertible bracelet.",
      "properties": {
        "materials": {
           "name": "Materials",
@@ -12475,6 +12536,31 @@
      ]
   },
   {
+     "title": "Letter N Clasp",
+     "slug": "sb5769-n",
+     "price": "$80",
+     "category": "Individuality",
+     "categorySlug": "individuality",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Initials",
+     "subcategorySlug": "initials",
+     "description": "This sterling silver letter N clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
      "title": "Letter O Clasp",
      "slug": "sb5769-o",
      "price": "$80",
@@ -12635,6 +12721,31 @@
      "subcategory": "Initials",
      "subcategorySlug": "initials",
      "description": "This sterling silver letter U clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Letter V Clasp",
+     "slug": "sb5769-v",
+     "price": "$80",
+     "category": "Individuality",
+     "categorySlug": "individuality",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Initials",
+     "subcategorySlug": "initials",
+     "description": "This sterling silver letter V clasp fits any size Convertible bracelet.",
      "properties": {
        "materials": {
           "name": "Materials",
@@ -12889,6 +13000,35 @@
        "materials": {
           "name": "Materials",
           "value": "Sterling silver and swarovski crystal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Crystal"
+          }
+     ]
+  },
+  {
+     "title": "Sparkly Infinity Clasp",
+     "slug": "sb5781",
+     "price": "$120",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Swarovski",
+     "subcategorySlug": "swarovski",
+     "description": "This sterling silver infinity clasp with Swarovksi cubic zirconia fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Swarovski cubic zirconia"
        }
       }
       ,
@@ -13524,6 +13664,31 @@
           "filterType": "Precious Stones",
           "filterValue": "Crystal"
           }
+     ]
+  },
+  {
+     "title": "Teapot Clasp",
+     "slug": "sb5813",
+     "price": "$95",
+     "category": "Individuality",
+     "categorySlug": "individuality",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
      ]
   },
   {
@@ -15490,6 +15655,60 @@
      ]
   },
   {
+     "title": "Shell Flower Clasp",
+     "slug": "sb5912",
+     "price": "$100",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Shells",
+     "subcategorySlug": "shells",
+     "description": "This sterling silver shell flower clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+         }
+     ]
+  },
+  {
+     "title": "Rain Drops Clasp",
+     "slug": "sb5913",
+     "price": "$130",
+     "category": "Glamour & Color",
+     "categorySlug": "glamour-and-color",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Swarovski",
+     "subcategorySlug": "swarovski",
+     "description": "This sterling silver clasp with multi pear shaped bezel set Swarovksi blue crystals fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Swarovski blue crystals"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Crystal"
+          }
+     ]
+  },
+  {
      "title": "Beach Comber Clasp",
      "slug": "sb5914",
      "price": "$130",
@@ -16612,6 +16831,35 @@
        "materials": {
           "name": "Materials",
           "value": "Sterling silver and Swarovski cubic zirconia"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Cubic Zirconia"
+          }
+     ]
+  },
+  {
+     "title": "Brilliant Butterflies Clasp",
+     "slug": "sb5952",
+     "price": "$125",
+     "category": "Organic Beauty",
+     "categorySlug": "organic-beauty",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Wildlife",
+     "subcategorySlug": "wildlife",
+     "description": "This sterling silver and Swarovski blue and white cubic zirconia double butterfly clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and Swarovski blue and white cubic zirconia stones"
        }
       }
       ,
@@ -17753,9 +18001,240 @@
      ]
   },
   {
+     "title": "Mother-of-Pearl Starfish Clasp",
+     "slug": "sb5986-mop",
+     "price": "$120",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Sea-Life",
+     "subcategorySlug": "sea-life",
+     "description": "This sterling silver sleek starfish with genuine mother-of-pearl clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Mother-of-Pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Opal Starfish Clasp",
+     "slug": "sb5986-opl",
+     "price": "$110",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Sea-Life",
+     "subcategorySlug": "sea-life",
+     "description": "This sterling silver sleek starfish with synthetic opal clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and synthetic opal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
+          }
+     ]
+  },
+  {
+     "title": "Mother-of-Pearl Fish Clasp",
+     "slug": "sb5987-mop",
+     "price": "$130",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Sea-Life",
+     "subcategorySlug": "sea-life",
+     "description": "This sterling silver fish with genuine mother-of-pearl clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Mother-of-Pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Swiss Blue Topaz"
+          }
+     ]
+  },
+  {
+     "title": "Opal Fish Clasp",
+     "slug": "sb5987-opl",
+     "price": "$120",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Sea-Life",
+     "subcategorySlug": "sea-life",
+     "description": "This sterling silver Fish with synthetic opal clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and synthetic opal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "White Topaz"
+          }
+     ]
+  },
+  {
+     "title": "Mother-of-Pearl Starfish Clasp",
+     "slug": "sb5988-mop",
+     "price": "$150",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Sea-Life",
+     "subcategorySlug": "sea-life",
+     "description": "This sterling silver starfish with genuine mother-of-pearl clasp fits any size Convertible bracelet.   The beaded edge adds a beautiful design detail.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and genuine Mother-of-Pearl"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+          {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+          }
+     ]
+  },
+  {
+     "title": "Opal Starfish Clasp",
+     "slug": "sb5988-opl",
+     "price": "$135",
+     "category": "Oceans Treasures",
+     "categorySlug": "oceans-treasures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "Sea-Life",
+     "subcategorySlug": "sea-life",
+     "description": "This sterling silver starfish with synthetic opal clasp fits any size Convertible bracelet.  The beaded edge adds a beautiful design detail.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling silver and synthetic opal"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Opal"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Synthetic"
+          }
+     ]
+  },
+  {
+     "title": "Compass Rose Clasp",
+     "slug": "sb5990",
+     "price": "$105",
+     "category": "Life Adventures",
+     "categorySlug": "life-adventures",
+     "collection": "Convertible Collection",
+     "collectionSlug": "convertible-collection",
+     "subcategory": "",
+     "subcategorySlug": "",
+     "description": "Feel safe and protected with this sterling silver compass rose clasp.  Finely crafted with genuine semi-precious stones. This clasp fits any size Convertible bracelet.",
+     "properties": {
+       "materials": {
+          "name": "Materials",
+          "value": "Sterling Silver, Mother-of-Pearl, Swiss Blue Topaz and White Topaz"
+       }
+      }
+      ,
+     "filters": [
+         {
+          "filterType": "Metal",
+          "filterValue": "Sterling Silver"
+          },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Mother Of Pearl"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "White Topaz"
+         },
+         {
+          "filterType": "Precious Stones",
+          "filterValue": "Swiss Blue Topaz"
+          }
+     ]
+  },
+  {
      "title": "Cubic Zirconia Hoop Earrings",
      "slug": "se5462",
-     "price": "$130",
+     "price": "$135",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -17788,7 +18267,7 @@
   {
      "title": "Cubic Zirconia Hoop Earrings - Larger Size",
      "slug": "se5462-j",
-     "price": "$145",
+     "price": "$150",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
@@ -17821,7 +18300,7 @@
   {
      "title": "Cubic Zirconia Stud Earrings",
      "slug": "se5463",
-     "price": "$80",
+     "price": "$85",
      "category": "Cape Cod Earrings",
      "categorySlug": "cape-cod-earrings",
      "collection": "Cape Cod Collection",
